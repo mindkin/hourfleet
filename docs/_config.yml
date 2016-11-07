@@ -1,0 +1,4 @@
+name: Hourfleet
+markdown: kramdown
+gems:
+  - jekyll-sitemap
