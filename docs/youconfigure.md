@@ -26,16 +26,19 @@ As a Network Operator, we need to know the following information about your busi
       "Guidance":"If there is an issue with a car during your booking we  recommend first contacting the owner. You can find their contact information under the owner section of your booking",
       "Social":{  
          "Facebook":{  
-            "Url":"https://www.facebook.com/Acmeride/"
+            "Url":"https://www.facebook.com/acmeride/"
          },
          "Twitter":{  
-            "Url":"https://twitter.com/Acmeride"
+            "Url":"https://twitter.com/acmeride"
          },
          "LinkedIn":{  
-            "Url":"https://www.linkedin.com/company/acmeriide"
+            "Url":"https://www.linkedin.com/company/acmeride"
+         },
+         "Instagram":{  
+            "Url":"https://www.instagram.com/acmeride"
          },
          "Blog":{  
-            "Url":"https://Acmeride.wordpress.com"
+            "Url":"https://acmeride.wordpress.com"
          },
          "Other":{  
             "Url":""
@@ -89,16 +92,19 @@ As a Network Operator, we need to know the following information about your busi
       },
       "Social":{  
          "Facebook":{  
-            "Url":"https://www.facebook.com/Acmeride/"
+            "Url":"https://www.facebook.com/acmeride/"
          },
          "Twitter":{  
-            "Url":"https://twitter.com/Acmeride"
+            "Url":"https://twitter.com/acmeride"
          },
          "LinkedIn":{  
-            "Url":"https://www.linkedin.com/company/acmeriide"
+            "Url":"https://www.linkedin.com/company/acmeride"
+         },
+         "Instagram":{  
+            "Url":"https://www.instagram.com/acmeride"
          },
          "Blog":{  
-            "Url":"https://Acmeride.wordpress.com"
+            "Url":"https://acmeride.wordpress.com"
          },
          "Other":{  
             "Url":""
