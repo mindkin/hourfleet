@@ -1,29 +1,64 @@
 <!DOCTYPE html>
-	<html>
+	<html lang="en">
 		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<meta http-equiv="x-ua-compatible" content="ie=edge">
+			<meta name="description" content="Hourfleet Documentation">
+			<meta name="author" content="Mindkin Limited">
 			<title>{{ page.title }}</title>
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+			<link href="/css/sticky-footer-navbar.css" rel="stylesheet">
 		</head>
 		<body>
-			<nav>
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/inthebox.html">In The Box</a></li>
-					<li><a href="/youprovide.html">You Provide</a></li>
-					<li><a href="/youconfigure.html">You Configure</a></li>
-					<li><a href="/howitworks.html">How It Works</a></li>
-				</ul>
-			</nav>
+			<div class="pos-f-t">
+				<div class="collapse" id="navbar-header">
+					<div class="container bg-inverse p-1">
+					  <h3>Collapsed content</h3>
+					  <p>Toggleable via the navbar brand.</p>
+					</div>
+				</div>
+				<nav class="navbar navbar-light navbar-static-top bg-faded">
+					<div class="container">
+						<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-expanded="false" aria-controls="exCollapsingNavbar2" aria-label="Toggle navigation"></button>
+						<div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+							<a class="navbar-brand" href="#">Hourfleet</a>
+							<ul class="nav navbar-nav">
+								<li class="nav-item active">
+									<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="/inthebox.html">In The Box</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="/youprovide.html">You Provide</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="/youconfigure.html">You Configure</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="/howitworks.html">How It Works</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
 			<div class="container">
 			
 			{{ content }}
 			
 			</div>
-			<footer>
-    		            <ul>
-        		        <li><a href="mailto:info@hourfleet.com">help</a></li>
-        		        <li>Did you know that you can <a href="https://github.com/mindkin/hourfleet/blob/master/docs/index.md">edit this page on GitHub</a> and send us a Pull Request?</li>
-			    </ul>
+			<footer class="footer">
+				<div class="container">
+					<span class="text-muted">Did you know that you can <a href="https://github.com/mindkin/hourfleet/blob/master/docs/index.md">edit this page on GitHub</a> and send us a Pull Request?</span>
+				</div>
 			</footer>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+			<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+			<script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 		</body>
 	</html>
