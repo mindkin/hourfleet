@@ -2,3 +2,6 @@ name: Hourfleet
 markdown: kramdown
 gems:
   - jekyll-sitemap
+
+# custom variables
+github_repo_root:    https://github.com/mindkin/hourfleet/tree/master/docs
