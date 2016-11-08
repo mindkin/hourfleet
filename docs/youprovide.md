@@ -37,7 +37,7 @@ Hourfleet does not capture nor store credit card information. Instead, Hourfleet
 
 PCI-DSS (Payment Card Industry Data Security Standard) is the set of rules that govern how businesses should handle customer credit card information, and Paystation is fully PCI compliant.
 
-Once you have created your Paystation account, Hourfleet requires that you provide the following information:
+Once you have created your Paystation account, Hourfleet requires that you provide the following information for your tenancy:
 
 * GatewayId
 * ApiKey
@@ -54,7 +54,7 @@ When a payment fails, Hourfleet will know about it, but Paystation will also sen
 
 Once that is all setup, Paystation requires that you go through their "Go-Live" proceedure before your customers can start being billed. That process is outlined here: [Go Live Proceedure](http://www.paystation.co.nz/Go-Live-Procedure)
 
-Note: In addition to making payments to your customers through the Hourfleet web site, Paystation provides you the ability to manually charge yoru customers using their website. This can be handy for resolving customer issues outside the scope of what Hourfleet can do for you.
+Note: In addition to making payments to your customers through the Hourfleet web site, Paystation provides you the ability to manually charge your customers using their website. This can be handy for resolving customer issues outside the scope of what Hourfleet can do for you.
 
 # RunTheRed Account
 *[New Zealand Network Operators Only]*
@@ -64,7 +64,7 @@ Hourfleet integrates with [www.RunTheRed.co.nz](www.runthered.co.nz) as a text m
 You need to create your own account with RunTheRed and obtain a shortcode so that Hourfleet can use this service.
 The service you are creating needs to support: Text Messaging and Delivery Receipts (DLR), but *not* Mobile Origination (MO). 
 
-Once you have created you RunTheRed account, Hourfleet requires that you provide the following information:
+Once you have created you RunTheRed account, Hourfleet requires that you provide the following information for your tenancy:
 
 * GatewayKey
 * ShortCode
