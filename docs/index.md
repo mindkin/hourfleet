@@ -6,7 +6,7 @@ title: Getting Started
 
 Welcome to Hourfleet!
 
-This documentation is for existing Hourfleet customers, and discusses setting up and customizing of your own Hourfleet app.
+This documentation is for existing Hourfleet customers, and discusses setting up and customizing of your own Hourfleet app (tenancy).
 
 Let's get you up and running, and start reaping the benefits of doing your car sharing online with Hourfleet.
 
