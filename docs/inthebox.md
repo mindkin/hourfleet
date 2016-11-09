@@ -18,4 +18,10 @@ Your tenancy includes the following pieces:
 
 # What it Looks Like
 
-< a description/screenshots of existing tenancies> 
+You get a responsive web app that looks and works great on any device.
+You can see an example of what that looks like at [roamride.hourfleet.com](https://roamride.hourfleet.com/signin) 
+
+  <screenie of mobile app> <screenie of table app> <screenie of desktop app>
+
+Want to try it out? Just [Join](https://roamride.hourfleet.com/invite) the roamride network and explore the app yourself. You don't need to do much to join, just your email, name and a password.
+
