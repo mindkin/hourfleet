@@ -19,4 +19,4 @@ There is a lot to learn, so lets dive in:
 
 
 
-If you want to see what's been happening recently, see the * [Release Notes](releasenotes.html)
+If you want to see what's been happening recently, see the: [Release Notes](releasenotes.html)
