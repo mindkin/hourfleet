@@ -119,16 +119,16 @@ As a Network Operator, we need to know the following information about your busi
          "BusyButtonUrl":"http://www.acmerides.com/Images/loader_button.gif"
       },
       "Mobile": {
-			"Ios": {
-				"IconUrl": "http://www.acmerides.com/Images/apple-icon.jpg",
-				"Icon72Url": "http://www.acmerides.com/Images/apple-icon.jpg",
-				"Icon114Url": "http://www.acmerides.com/Images/apple-icon.jpg",
-			},
-			"Android": {
-				"Icon72Url": "http://www.acmerides.com/Images/android-icon.jpg",
-				"Icon192Url": "http://www.acmerides.com/Images/android-icon.jpg",
-			}
-		}
+	"Ios": {
+	  "IconUrl": "http://www.acmerides.com/Images/apple-icon.jpg",
+	  "Icon72Url": "http://www.acmerides.com/Images/apple-icon.jpg",
+	  "Icon114Url": "http://www.acmerides.com/Images/apple-icon.jpg",
+	},
+	"Android": {
+	  "Icon72Url": "http://www.acmerides.com/Images/android-icon.jpg",
+	  "Icon192Url": "http://www.acmerides.com/Images/android-icon.jpg",
+	}
+     }
    },
    "Navigation":{  
       "HomeUrl":"http://www.acmerides.com",
