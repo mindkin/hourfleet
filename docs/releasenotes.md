@@ -1,0 +1,161 @@
+## 1.17 (25/10/2016)
+### Improvements
+* The platform has been split to separate the 'Marketing' portal of the network operator from the 'Operational' site. Network operator 'Operational' sites are now deployed to dedicated cloud services and data repositories, and custom domains: `{netop}.hourfleet.com`
+* The 'Operational' site has been whitelabelled for each Network Operator.
+* Email templates have been whitelabelled for each Network operator.
+* Network Operator customization has been factored into static (Cloud) configuration (one per deployment)
+* Numerous customizations are available for a network operator including:
+    * Site branding
+    * SEO data, icons and images
+    * Navigation between sites
+    * Support information (Company, Insurer, emergency contact etc.)
+    * Culture and Timezone
+    * Social media links
+
+## 1.12 (8/10/2016)
+### Improvements
+* Viewing a users public profile can be done without signing in
+* Mapping of car transmission type on search page (auto -> Automatic)
+
+### Fixes
+* Translation error in footer link
+
+## 1.10.3 (9/10/2016)
+### Fixes
+* Fixed the web app remapping 401 to 500
+
+## 1.10.2 (8/10/2016)
+### Fixes
+* Bug preventing changing password
+
+## 1.10.1 (6/10/206)
+### Improvements
+* Changed Hourfleet data storage scheme
+
+## 1.9.0 (6/10/2016)
+### Improvements
+* Improved Display of car details/rating on Rides/History
+* Rating and Feedback to public car profile, plus style changes
+* Added new Authorization scheme to Hourfleet
+* Added 503 page
+
+### Fixes
+* Request public feedback no longer requires being signed in.
+* Fixed issue where verified badges on user profile would not show unless you were recognized as a borrower or car owner
+* Fixed bad 503 handling of the Application Caching in browser
+* Custom web server errors no longer apply to the web api
+
+## 1.8.3 (25/09/2016)
+### Improvements
+* Added license plate details for each car on My Listings page
+* Added the rating badge to profile-image directive
+* Added car rating, year and transmission type to search page results
+* Added 'request now' link to search page results which opens car profile modal. Creates fallback if google maps doesn't load.
+* Added User ratings to Car, Bookings and Request pages.
+* Recently Changed users now appear at the top of the ops verification list
+
+### Fixes
+* Changed getrating spinner text on Users public page to say getting rating instead of getting feedback
+
+## 1.8.2 (17/09/2016)
+### Improvements
+* Home page can now be translated into French
+* Created a page to show users public information
+
+### Fixes
+* Changes mapping issue that prevented the saving of feedback.
+
+## 1.8.1 (25/08/2016)
+### Improvements
+* Separated Booking content into different tabs for clearer reading
+* Roamm is now Hourfleet.api!
+
+## 1.6.1 (15/08/2016)
+### Improvements
+* Created owner view and controls on the stand alone Booking Request page
+* Added leaving and reply to messages when taking an action on a request
+* Updated Scout Serialisation to support Gen4 instructions
+
+### Fixes
+* Deserialisation methods for ScoutSerializer
+* Bug that allowed an owner to fetch a canceled or expired pending request
+
+## 1.5.5 (27/07/2016)
+### Improvements
+* Added live Freshdesk chat support
+* Now using new queue buffering of logs
+
+### Fixes
+* Spell check across the site!
+
+
+## 1.5.4 (23/07/2016)
+### Improvements
+* Created a standalone booking request page for borrowers.
+* Added default sorting for all searches
+* Integrate new IRecorder performance improvements
+
+### Fixes
+* Replaced the ability to leave a message when returning a booking.
+* Fixed issue with missing fonts in cache
+
+## 1.5.1 (12/07/2016)
+### Improvements
+* Header menu items are now grouped in a drop-down to allow for more items.
+* The 'Bill User' button is now disabled when billing someone to prevent multiple billings.
+* It is now possible to settle a booking without billing a user.
+
+### Fixes
+* Fixed horizontal scrolling issue with mobile menu when used in mobile browsers
+* Updated Google Maps configuration to meet new API requirements and reduce load.
+
+## 1.5.0 (7/07/2016)
+### Improvements
+* Menu items when on tablet/mobile resolutions are now displayed similar to mobile apps and transition in from the left rather than from the top of the screen. Mobile menu can now accommodate more menu items.
+* Manual billing becomes a lot easier. Ops selects a booking to bill and how much, the system then takes care of the rest.
+* Ops can now see if a cars bookings still needs billing and by what amount or if a booking's bill has been settled.
+* Updated Cloud diagnostics
+* The 'lock car' step that would make borrowers think they had finished their booking has been removed. Roam now locks the car before finishing the booking.
+
+### Fixes
+* Fixed typo that prevented users uploading back image of driver's license
+
+## 1.4.6 (28/06/2016)
+### Improvements
+* Refactored the WorkerRole design pattern to handle forced stops more gracefully, and avoid ThreadAbortExceptions, and improve parallel processing utilization.
+
+## 1.4.5 (26/06/2016)
+### Improvements
+* Added Roam Borrower video to home page
+* Added 2016 Gold Awards Finalist badge to home page
+
+### Fixes
+* Creative Commons label on register page no longer sits over top of register button on certain screen sizes
+  
+## 1.4.4 (24/06/2016)
+### Fixes
+* HTML5 caching, so that new versions of the app are reloaded when browsing to the site
+
+## 1.4.3 (21/06/2016)
+### Improvements
+* Improved performance (caching and speed) of the signin process
+* Added flare to the signin and signup process
+
+### Fixes
+* Fixed more neglected UI tests
+* Fixed missing substitutions in borrower emails
+* Fixed editing of Criminal Conviction in Profile page
+  
+## 1.4.2 (22/06/2016)
+### Improvements:
+* Added docs page: https://www.roamride.co.nz/docs
+* Combined Signin and Signup pages into single page (removing modals, and associated problems)
+* Changed the car registration process to remove Key Compatibility as a prerequisite for car registration
+
+### Fixes:
+* Fixed the comparison of variable pricing in UI tests
+* Fixed/removed neglected UI tests that have started filing in recent releases
+* Fixed display in in CurrencyFilter
+  
+
+(release notes began 22 June 2016 at version 1.4.2)
