@@ -1,3 +1,40 @@
+---
+layout: default
+title: Release Notes
+---
+## 1.17.3 (18/11/2016)
+### Improvements
+* Added Instagram to social configuration
+* Added trip summary to Reserve-Use-return flow of TakeNow
+* Added Reserve-Use-Reject and Reserve-Reject and reserve-Use-ForceReturn flows to the app
+* Added auto-Expiry of expired reservations in TakeNow
+* Merged TakeNow reservations with BookLater requests and bookings into one consolidated list on 'My Bookings' page
+* Added TakeNow uses to car owners summary page
+* Added Rating fallback upon return in Reserver-Use-Return flow
+* Added TakeNow completed reservations to OPeration dashboard for billing.
+* Updated car search UI to differentiate cars that are 'BookLater' from cars that are 'TakeNow'
+* Removed the Browser warning for Safari browsers
+* Added car owner's view of a TakeNow reservation
+
+## 1.17.2 (6/11/2016)
+### Improvements
+* Created the TakeNow usage flow, including the Reserve-Use-return and Reserve-Cancel/Expire flows.
+* Added the costing and usage models for TakeNow 
+* Updated car profile UI to differentiate cars that are 'BookLater' from cars that are 'TakeNow'
+* A car can now be designated with a usage type (Immediate/Scheduled) and edit settings for each usage type. A car can be switched between the two usage models at any time (given certain constraints).
+* Redirect users to either their current Taking or Booking if they have one on the go at that time.
+### Fixes
+* Flicking spinner
+* Some minor email formatting changes
+* moved (Acme) test site in production
+
+## 1.17.1 (26/10/2016)
+### Improvements
+* Tailored emails for each newtwork operator
+* Minor changes to network operator theming
+### Fixes
+* 'Start Booking' button put back in place
+
 ## 1.17 (25/10/2016)
 ### Improvements
 * The platform has been split to separate the 'Marketing' portal of the network operator from the 'Operational' site. Network operator 'Operational' sites are now deployed to dedicated cloud services and data repositories, and custom domains: `{netop}.hourfleet.com`
