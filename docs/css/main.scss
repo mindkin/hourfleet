@@ -1,0 +1,46 @@
+---
+---
+
+.page-content {
+    margin: 0 auto;
+    max-width: 50rem;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    color: #555;
+
+    p {
+
+    }
+    
+    a {
+        color: #ff8e43;
+    }
+
+    h1, h2, strong, b {
+        color: #333;
+    }
+}
+
+.release-notes {
+    h2 {
+        margin: 2rem 0 1rem 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #333;
+    }
+    
+    h3, ul, p {
+        margin-left: 2rem;
+    }
+    
+    h3 {
+        margin-top: 2rem;
+    }
+    
+    ul {
+        padding-left: 1.5rem;
+        
+        li {
+            margin-bottom: 0.25rem;
+        }
+    }
+}
