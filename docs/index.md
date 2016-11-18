@@ -16,3 +16,7 @@ There is a lot to learn, so lets dive in:
 * [What You Need To Sort Out](youprovide.html)
 * [What You Can Configure](youconfigure.html)
 * [How Things Work](howitworks.html)
+
+
+
+If you want to see what's been happening recently, see the * [Release Notes](releasenotes.html)
