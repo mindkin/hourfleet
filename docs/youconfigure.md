@@ -21,202 +21,204 @@ But first we need to know some stuff about your business.
 As a Network Operator, we need to know the following information about your business:
 
 ~~~
-{  
-   "Support":{  
-      "Guidance":"If there is an issue with a car during your booking we  recommend first contacting the owner. You can find their contact information under the owner section of your booking",
-      "Social":{  
-         "Facebook":{  
-            "Url":"https://www.facebook.com/acmeride/"
-         },
-         "Twitter":{  
-            "Url":"https://twitter.com/acmeride"
-         },
-         "LinkedIn":{  
-            "Url":"https://www.linkedin.com/company/acmeride"
-         },
-         "Instagram":{  
-            "Url":"https://www.instagram.com/acmeride"
-         },
-         "Blog":{  
-            "Url":"https://acmeride.wordpress.com"
-         },
-         "Other":{  
-            "Url":""
-         }
-      },
-      "Company":{  
-         "Name":"Acmeride Limited",
-         "PhoneNumber":"0800-555-1212",
-         "Email":"support@acmeride.co.nz",
-         "Address":{  
-            "Street1":"99 One Acmeride Way",
-            "Street2":"",
-            "Town":"Acmeville",
-            "Jurisdiction":"New Zealand"
-         }
-      },
-      "Insurer":{  
-         "Guidance":"To lodge a claim please contact our insurer directly. You will need to provide them with a completed insurance claim form.",
-         "Name":"Acme Insurance",
-         "ClaimForm":{  
-            "Title":"",
-            "Url":"http://www.acmerides.com/Docs/insurance_claim_form.pdf"
-         },
-         "PhoneNumber":"0800-555-1212",
-         "Email":"claims@acmeinsurance.co.nz"
-      }
-   },
-   "Branding":{  
-      "Name":{  
-         "Singular":"Acme",
-         "Plural":"Acme",
-         "Possessive":"Acme's"
-      },
-      "Seo":{  
-         "Title":"Acme",
-         "ImageUrl":"http://www.acmerides.com/Images/logo.jpeg",
-         "Description":"Acme connects people who need a car with people who have a car that's sometimes idle.",
-         "SiteName":"Acme Car Sharing",
-         "Url":"http://www.acmerides.com"
-      },
-      "Styles":{  
-         "PrimaryColor":"#03e4ac",
-         "LinkColor":"#17c197",
-         "TextColor":"#232c33",
-         "BkColor":"#ecf0f1",
-         "FooterBkColor":"#ecf0f1",
-         "Navigation":{  
-            "HoverColor":"#03e4ac",
-            "BkColor":"#324359"
-         }
-      },
-      "Social":{  
-         "Facebook":{  
-            "Url":"https://www.facebook.com/acmeride/"
-         },
-         "Twitter":{  
-            "Url":"https://twitter.com/acmeride"
-         },
-         "LinkedIn":{  
-            "Url":"https://www.linkedin.com/company/acmeride"
-         },
-         "Instagram":{  
-            "Url":"https://www.instagram.com/acmeride"
-         },
-         "Blog":{  
-            "Url":"https://acmeride.wordpress.com"
-         },
-         "Other":{  
-            "Url":""
-         }
-      },
-      "Images":{  
-         "DesktopImageUrl":"http://www.acmerides.com/Images/logo_navbar.png",
-         "MobileImageUrl":"http://www.acmerides.com/Images/logo_navbar_mobile.png",
-         "FavIconUrl":"http://www.acmerides.com/Images/favicon.ico",
-         "BusyInlineUrl":"http://www.acmerides.com/Images/loader_inline.gif",
-         "BusyPageUrl":"http://www.acmerides.com/Images/loader_page.gif",
-         "BusyButtonUrl":"http://www.acmerides.com/Images/loader_button.gif"
-      },
-      "Mobile": {
-	"Ios": {
-	  "IconUrl": "http://www.acmerides.com/Images/apple-icon.jpg",
-	  "Icon72Url": "http://www.acmerides.com/Images/apple-icon.jpg",
-	  "Icon114Url": "http://www.acmerides.com/Images/apple-icon.jpg",
+{
+	"Support": {
+		"Guidance": "If there is an issue with a car during your booking we  recommend first contacting the owner. You can find their contact information under the owner section of your booking",
+		"Social": {
+			"Facebook": {
+				"Url": "https://www.facebook.com/acmeride/"
+			},
+			"Twitter": {
+				"Url": "https://twitter.com/acmeride"
+			},
+			"LinkedIn": {
+				"Url": "https://www.linkedin.com/company/acmeride"
+			},
+			"Instagram": {
+				"Url": "https://www.instagram.com/acmeride"
+			},
+			"Blog": {
+				"Url": "https://acmeride.wordpress.com"
+			},
+			"Other": {
+				"Url": ""
+			}
+		},
+		"Company": {
+			"Name": "Acmeride Limited",
+			"PhoneNumber": "0800-555-1212",
+			"Email": "support@acmeride.co.nz",
+			"Address": {
+				"Street1": "99 One Acmeride Way",
+				"Street2": "",
+				"Town": "Acmeville",
+				"Jurisdiction": "New Zealand"
+			}
+		},
+		"Insurer": {
+			"Guidance": "To lodge a claim please contact our insurer directly. You will need to provide them with a completed insurance claim form.",
+			"Name": "Acme Insurance",
+			"ClaimForm": {
+				"Title": "",
+				"Url": "http://www.acmerides.com/Docs/insurance_claim_form.pdf"
+			},
+			"PhoneNumber": "0800-555-1212",
+			"Email": "claims@acmeinsurance.co.nz"
+		}
 	},
-	"Android": {
-	  "Icon72Url": "http://www.acmerides.com/Images/android-icon.jpg",
-	  "Icon192Url": "http://www.acmerides.com/Images/android-icon.jpg",
+	"Branding": {
+		"Name": {
+			"Singular": "Acme",
+			"Plural": "Acme",
+			"Possessive": "Acme's"
+		},
+		"Seo": {
+			"Title": "Acme",
+			"ImageUrl": "http://www.acmerides.com/Images/logo.jpeg",
+			"Description": "Acme connects people who need a car with people who have a car that's sometimes idle.",
+			"SiteName": "Acme Car Sharing",
+			"Url": "http://www.acmerides.com"
+		},
+		"Styles": {
+			"PrimaryColor": "#03e4ac",
+			"LinkColor": "#17c197",
+			"TextColor": "#232c33",
+			"BkColor": "#ecf0f1",
+			"FooterBkColor": "#ecf0f1",
+			"Navigation": {
+				"HoverColor": "#03e4ac",
+				"BkColor": "#324359"
+			}
+		},
+		"Social": {
+			"Facebook": {
+				"Url": "https://www.facebook.com/acmeride/"
+			},
+			"Twitter": {
+				"Url": "https://twitter.com/acmeride"
+			},
+			"LinkedIn": {
+				"Url": "https://www.linkedin.com/company/acmeride"
+			},
+			"Instagram": {
+				"Url": "https://www.instagram.com/acmeride"
+			},
+			"Blog": {
+				"Url": "https://acmeride.wordpress.com"
+			},
+			"Other": {
+				"Url": ""
+			}
+		},
+		"Images": {
+			"DesktopImageUrl": "http://www.acmerides.com/Images/logo_navbar.png",
+			"MobileImageUrl": "http://www.acmerides.com/Images/logo_navbar_mobile.png",
+			"FavIconUrl": "http://www.acmerides.com/Images/favicon.ico",
+			"BusyInlineUrl": "http://www.acmerides.com/Images/loader_inline.gif",
+			"BusyPageUrl": "http://www.acmerides.com/Images/loader_page.gif",
+			"BusyButtonUrl": "http://www.acmerides.com/Images/loader_button.gif"
+		},
+		"Mobile": {
+			"Ios": {
+				"IconUrl": "http://www.acmerides.com/Images/apple-icon.jpg",
+				"Icon72Url": "http://www.acmerides.com/Images/apple-icon.jpg",
+				"Icon114Url": "http://www.acmerides.com/Images/apple-icon.jpg",
+				
+			},
+			"Android": {
+				"Icon72Url": "http://www.acmerides.com/Images/android-icon.jpg",
+				"Icon192Url": "http://www.acmerides.com/Images/android-icon.jpg",
+				
+			}
+		}
+	},
+	"Navigation": {
+		"HomeUrl": "http://www.acmerides.com",
+		"AboutUrl": "http://www.acmerides.com/about",
+		"ContactUrl": "http://www.acmerides.com/contact",
+		"DocsUrl": "http://www.acmerides.com/docs",
+		"TermsOfServiceUrl": "http://www.acmerides.com/terms",
+		"PrivacyUrl": "http://www.acmerides.com/privacy",
+		"FeesUrl": "http://www.acmerides.com/fees",
+		"FaqUrl": "http://www.acmerides.com/faq",
+		"ReturnUrl": "http://www.acmerides.com"
+	},
+	"BusinessModel": {
+		"Ownership": {
+			"P2P": {
+				"IsSupported": true,
+				"Revenue": {
+					"OperatorShareRate": 0.20,
+					"Insurer": {
+						"ShareRate": 0.2,
+						"MinDailyInsurancePremium": 7.20,
+						"MinHourlyInsurancePremium": 1.60,
+						"MinInsurancePremium": 1.60,
+						"MinWeeklyInsurancePremium": 36.0
+					}
+				}
+			},
+			"B2C": {
+				"IsSupported": false,
+				"Revenue": {
+					"OperatorShareRate": 0,
+					"Insurer": {
+						"ShareRate": 0,
+						"MinDailyInsurancePremium": 0,
+						"MinHourlyInsurancePremium": 0,
+						"MinInsurancePremium": 0,
+						"MinWeeklyInsurancePremium": 0
+					}
+				}
+			}
+		},
+		"Usage": {
+			"Scheduled": {
+				"Pricing": {
+					"ReservationFee": 3,
+					"LateFees": {
+						"MaxLateFeeCap": 500,
+						"PerInstance": 50,
+						"PerMinute": 1
+					}
+				},
+				"Timing": {
+					"FlagFallPeriodMinutes": 15,
+					"MinimumActionBeforeStartPeriodMinutes": 15,
+					"MinimumRequestPeriodMinutes": 30,
+					"UseBeforeStartPeriodMinutes": 15,
+					"AutoCompleteAfterNoCompletionPeriodMinutes": 4320,
+					"AutoCompleteAfterNoUsePeriodMinutes": 15,
+					"LateFees": {
+						"GracePeriodMinutes": 15
+					}
+				}
+			},
+			"Immediate": {
+				"Pricing": {
+					"ReservationFee": 0,
+					"LateFees": {
+						"MaxLateFeeCap": 500,
+						"PerInstance": 50,
+						"PerMinute": 1
+					}
+				},
+				"Timing": {
+					"FlagFallPeriodMinutes": 15,
+					"ReservationPeriodMinutes": 15,
+					"RejectionPeriodMinutes": 15,
+					"LateFees": {
+						"GracePeriodMinutes": 15
+					}
+				}
+			}
+		}
+	},
+	"Settings": {
+		"SiteUrl": "https://acmeride.hourfleet.com",
+		"TimeZone": "New Zealand Standard Time",
+		"Locale": "en-NZ"
 	}
-     }
-   },
-   "Navigation":{  
-      "HomeUrl":"http://www.acmerides.com",
-      "AboutUrl":"http://www.acmerides.com/about",
-      "ContactUrl":"http://www.acmerides.com/contact",
-      "DocsUrl":"http://www.acmerides.com/docs",
-      "TermsOfServiceUrl":"http://www.acmerides.com/terms",
-      "PrivacyUrl":"http://www.acmerides.com/privacy",
-      "FeesUrl":"http://www.acmerides.com/fees",
-      "FaqUrl":"http://www.acmerides.com/faq",
-      "ReturnUrl":"http://www.acmerides.com"
-   },
-   "BusinessModel":{  
-      "Ownership":{  
-         "P2P":{  
-            "IsSupported":true,
-            "Revenue":{  
-               "OperatorShareRate":0.20,
-               "Insurer":{  
-                  "ShareRate":0.2,
-                  "MinDailyInsurancePremium":7.20,
-                  "MinHourlyInsurancePremium":1.60,
-                  "MinInsurancePremium":1.60,
-                  "MinWeeklyInsurancePremium":36.0
-               }
-            }
-         },
-         "B2C":{  
-            "IsSupported":false,
-            "Revenue":{  
-               "OperatorShareRate":0,
-               "Insurer":{  
-                  "ShareRate":0,
-                  "MinDailyInsurancePremium":0,
-                  "MinHourlyInsurancePremium":0,
-                  "MinInsurancePremium":0,
-                  "MinWeeklyInsurancePremium":0
-               }
-            }
-         }
-      },
-      "Usage":{  
-         "Scheduled":{  
-            "Pricing":{  
-               "ReservationFee":3,
-               "LateFees":{  
-                  "MaxLateFeeCap":500,
-                  "PerInstance":50,
-                  "PerMinute":1
-               }
-            },
-            "Timing":{  
-               "FlagFallPeriodMinutes":15,
-               "MinimumActionBeforeStartPeriodMinutes":15,
-               "MinimumRequestPeriodMinutes":30,
-               "UseBeforeStartPeriodMinutes":15,
-               "AutoCompleteAfterNoCompletionPeriodMinutes":4320,
-               "AutoCompleteAfterNoUsePeriodMinutes":15,
-               "LateFees":{  
-                  "GracePeriodMinutes":15
-               }
-            }
-         },
-         "Immediate":{  
-            "Pricing":{  
-               "ReservationFee":0,
-               "LateFees":{  
-                  "MaxLateFeeCap":500,
-                  "PerInstance":50,
-                  "PerMinute":1
-               }
-            },
-            "Timing":{  
-               "FlagFallPeriodMinutes":15,
-               "ReservationPeriodMinutes":15,
-               "RejectionPeriodMinutes":15,
-               "LateFees":{  
-                  "GracePeriodMinutes":15
-               }
-            }
-         }
-      }
-   },
-   "Settings":{  
-      "SiteUrl":"https://acmeride.hourfleet.com",
-      "TimeZone":"New Zealand Standard Time",
-      "Locale":"en-NZ"
-   }
 }
 ~~~
 
