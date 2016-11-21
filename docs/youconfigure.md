@@ -64,6 +64,15 @@ As a Network Operator, we need to know the following information about your busi
 			},
 			"PhoneNumber": "0800-555-1212",
 			"Email": "claims@acmeinsurance.co.nz"
+		},
+		"LiveChat": {
+			"FreshDesk": {
+				"ApiKey": "xxxxx",
+				"Settings": "BASE64ENCODEDSTRING"
+			},
+			"Intercom": {
+				"ApiKey": "xxxxx",
+			},
 		}
 	},
 	"Branding": {
@@ -221,6 +230,39 @@ As a Network Operator, we need to know the following information about your busi
 	}
 }
 ~~~
+
+### Support
+As a car sharing business, you will need to provide your customers with various support channels. This section defines those channels.
+
+#### LiveChat
+This section defines the LiveChat widgets that Hourfleet supports. Currently, FreshDesk or Intercom.
+You will need to signup for an account with either of these providers. You cannot use both.
+
+##### FreshDesk.com
+Once you have signed up and selected a plan that includes LiveChat, you will need to provide your: 'ApiKey' and 'Settings', which can be obtained from the 'Admin' console of your freshdesk subscription.
+
+* Login to your freshdesk site: https://yourname.freshdesk.com
+* Click on the 'LiveChat' icon
+
+image
+
+* Make sure Live Chat is 'enabled'
+* Make sure your app is enabled.
+* Click on the 'Edit' button to the right of your app
+* Click on the 'Widget Code' tab
+* In the javascript they provide, you need to find and extract the value of the URL that looks like this: 'https://xxxxxxxxxxx.cloudfront.net'. The xxxxxxxx part is your 'ApiKey'
+* Now, find the value of the 'window.livechat_setting='xxxxxxxxxxxxxxxxxxxxxxxxx....'. The large blob of text between the quotations marks is the value of your 'Settings' (not including the quotation marks).
+
+###### Intercom.io
+Once you have signed up and selected a plan that includes Intercom 'Acquire', you need toprovide your 'ApiKey', which can be obtained form the 'App Settings' console of your Intercom subscription.
+
+* Login to Intercom at: https://app.intercom.io
+* Click on your avatar (bottom left-hand corner of page) and click 'App Settings'
+
+image
+
+* Click on the 'API Keys' menu (to the left)
+* The 'APP ID" is the value of your 'ApiKey'
 
 ### Business Models
 As a car sharing business, you may support conventional car sharing (B2C) and "Peer-to-Peer" car sharing (P2P). 
