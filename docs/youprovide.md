@@ -31,7 +31,7 @@ To get started you need to follow the [Getting Started](http://www.paystation.co
 
 As part of that process you will need to fill out the onboarding form. On that form you will see a section called: "Software Integrator". You will need to put the following Details:
 
-![](images/Paystation-Onboarding-Form-SoftwareIntegrator.png)
+![Paystation Application Form](images/Paystation-Onboarding-Form-SoftwareIntegrator.png)
 
 Hourfleet does not capture nor store credit card information. Instead, Hourfleet hosts (in a web page iframe) a Paystation credit card form that Paystation provides, and all credit card details from your customers are handled directly by Paystation. Hourfleet then stores a token which is then used to charge your customers credit card, when you bill them. 
 
