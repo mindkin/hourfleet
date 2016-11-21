@@ -244,7 +244,7 @@ Once you have signed up and selected a plan that includes LiveChat, you will nee
 * Login to your freshdesk site: https://yourname.freshdesk.com
 * Click on the 'LiveChat' icon
 
-image
+![](images/FreshDesk-Console-LiveChat.png)
 
 * Make sure Live Chat is 'enabled'
 * Make sure your app is enabled.
@@ -259,7 +259,7 @@ Once you have signed up and selected a plan that includes Intercom 'Acquire', yo
 * Login to Intercom at: https://app.intercom.io
 * Click on your avatar (bottom left-hand corner of page) and click 'App Settings'
 
-image
+![](images/Intercom-Console-AppSettings.png)
 
 * Click on the 'API Keys' menu (to the left)
 * The 'APP ID" is the value of your 'ApiKey'
