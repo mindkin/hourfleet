@@ -270,6 +270,18 @@ Once you have signed up and selected a plan that includes Intercom 'Acquire', yo
 * Click on the 'API Keys' menu (to the left)
 * The 'APP ID" is the value of your 'ApiKey'
 
+### Branding
+This section provides the basic look and feel of your Hourfleet operational site, so that it looks and feels like a natural extension of your main website.
+
+#### SEO
+All web applications need to provide sufficient metadata for Search Engine Optimization (SEO) for web crawlers such as google to help get your business found. Also, your Hourfleet operational website needs to provide the right metadata so that and when people share their experience with social media applications (like facebook and twitter), the right information is displayed in their post by default.
+
+### Navigation
+This section determines how the user navigates between your website and your Hourfleet operational website.
+
+There are many links on the operational site to pages that you need to provide for users of your business, that cannot be provided by the operational site generically. Such as: Terms Of Service, Company information, and legal documentation.
+
+
 ### Business Models
 As a car sharing business, you may support conventional car sharing (B2C) and "Peer-to-Peer" car sharing (P2P). 
 
