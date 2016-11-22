@@ -155,12 +155,12 @@ As a Network Operator, we need to know the following information about your busi
 	"BusinessModel": {
 		"Ownership": {
 			"P2P": {
-				"IsSupported": true,
+				"IsSupported": true, // Will you support your customers registering their own cars on your network?
 				"Revenue": {
-					"OperatorShareRate": 0.20,
+					"OperatorShareRate": 0.20, // Percentage of revenue your business takes from a P2P rental
 					"Insurer": {
-						"ShareRate": 0.2,
-						"MinDailyInsurancePremium": 7.20,
+						"ShareRate": 0.20, // Percentage of revenue your insurer takes from a P2P rental
+						"MinDailyInsurancePremium": 7.20, // Minimums your insurer might define
 						"MinHourlyInsurancePremium": 1.60,
 						"MinInsurancePremium": 1.60,
 						"MinWeeklyInsurancePremium": 36.0
@@ -168,12 +168,12 @@ As a Network Operator, we need to know the following information about your busi
 				}
 			},
 			"B2C": {
-				"IsSupported": false,
+				"IsSupported": false, // Will you provide your own cars on your network?
 				"Revenue": {
-					"OperatorShareRate": 0,
+					"OperatorShareRate": 1.0, // Percentage of revenue your business takes from a B2C rental
 					"Insurer": {
-						"ShareRate": 0,
-						"MinDailyInsurancePremium": 0,
+						"ShareRate": 0, // Percentage of revenue your insurer takes from a B2C rental
+						"MinDailyInsurancePremium": 0, // Minimums your insurer might define
 						"MinHourlyInsurancePremium": 0,
 						"MinInsurancePremium": 0,
 						"MinWeeklyInsurancePremium": 0
@@ -182,43 +182,46 @@ As a Network Operator, we need to know the following information about your busi
 			}
 		},
 		"Usage": {
-			"Scheduled": {
+			"Scheduled": { // Cars that can be scheduled for using the 'BookLater' usage model
 				"Pricing": {
-					"ReservationFee": 3,
+					"ReservationFee": 3, // Fee payable once a reservation is approved by the car owner
 					"LateFees": {
-						"MaxLateFeeCap": 500,
-						"PerInstance": 50,
-						"PerMinute": 1
+						"MaxLateFeeCap": 500, // No matter how late, the total late fees cannot exceed this amount
+						"PerInstance": 50, // Once-off flat fee per late return
+						"PerMinute": 1 // Per minute after a late return
 					}
 				},
 				"Timing": {
-					"FlagFallPeriodMinutes": 15,
-					"MinimumActionBeforeStartPeriodMinutes": 15,
-					"MinimumRequestPeriodMinutes": 30,
-					"UseBeforeStartPeriodMinutes": 15,
-					"AutoCompleteAfterNoCompletionPeriodMinutes": 4320,
-					"AutoCompleteAfterNoUsePeriodMinutes": 15,
+					"FlagFallPeriodMinutes": 15, // A rental less than this time, incurs no usage charge
+					"MinimumActionBeforeStartPeriodMinutes": 15, // How soon before the rental starts can it not be approved, declined or extended anymore
+					"MinimumRequestPeriodMinutes": 30, // Minimum size of a reservation
+					"UseBeforeStartPeriodMinutes": 15, //How long before the scheduled time can the next borrower start their reservation if the car is ready and waiting for them
+					"AutoCompleteAfterNoCompletionPeriodMinutes": 4320, // How long after the car is returned by borrower will it be auto-completed by the system on behalf of the owner
+					"AutoCompleteAfterNoUsePeriodMinutes": 15, //How long before the end of the reservation will the rental be auto-completed by the system on behalf of the borrower, if they havent started the rental.
 					"LateFees": {
-						"GracePeriodMinutes": 15
+						"GracePeriodMinutes": 15 // How long after the car is due back are late fees applied
 					}
 				}
 			},
-			"Immediate": {
+			"Immediate": { // Cars that require no booking and use the 'TakeNow' usage model
 				"Pricing": {
-					"ReservationFee": 0,
+					"ReservationFee": 0, // Fee payable once acar is reserved by the borrower
 					"LateFees": {
-						"MaxLateFeeCap": 500,
-						"PerInstance": 50,
-						"PerMinute": 1
+						"MaxLateFeeCap": 500, // No matter how late, the total late fees cannot exceed this amount
+						"PerInstance": 50, // Once-off flat fee per late return
+						"PerMinute": 1 // Per minute after a late return
 					}
 				},
 				"Timing": {
-					"FlagFallPeriodMinutes": 15,
-					"ReservationPeriodMinutes": 15,
-					"RejectionPeriodMinutes": 15,
+					"FlagFallPeriodMinutes": 15, // A rental less than this time, incurs no usage charge
+					"ReservationPeriodMinutes": 15, // How long the car is reserved for the borrower before expiring
+					"RejectionPeriodMinutes": 15, // How long after the car is reserved or used can the borrower reject it and not be charged usage fees
 					"LateFees": {
-						"GracePeriodMinutes": 15
+						"GracePeriodMinutes": 15 // How long after the car is due back are late fees applied
 					}
+				},
+				"Display": {
+					"DisplayDurations": "false" // Whether to display durations of use instead of incurred costs
 				}
 			}
 		}
