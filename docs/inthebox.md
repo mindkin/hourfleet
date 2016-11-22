@@ -11,9 +11,9 @@ You get a tenancy on the Hourfleet platform. Your tenancy can be used to run a c
 
 Your tenancy includes the following pieces:
 
-* A customizable, responsive web app that your customers use to find, and use cars.
-* Keyless access technology, devices that are fitted into the cars on your network that let borrowers have keyless access to the cars. No keys, smartphone access.
-* A customizable, responsive web app that you use to monitor and manage your car sharing network.
+* A customizable, responsive web app that your customers use to find, and use cars. (see https://roamride.hourfleet.com/signin as an example)
+* Keyless access technology. Devices that are fitted into the cars on your network that let borrowers have keyless access to the cars. No keys, just secure smartphone access.
+* A customizable, responsive web app that you (the operator) will use to monitor and manage your car sharing network.
 * 2nd Tier support by hourfleet support staff.
 
 # What it Looks Like
