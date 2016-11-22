@@ -22,7 +22,7 @@ As a Network Operator, we need to know the following information about your busi
 
 ~~~
 {
-	"Support": {
+	"Support": { // Displayed on the support page of your operational site, and various places that reference support/assistance
 		"Guidance": "If there is an issue with a car during your booking we  recommend first contacting the owner. You can find their contact information under the owner section of your booking",
 		"Social": {
 			"Facebook": {
@@ -77,18 +77,18 @@ As a Network Operator, we need to know the following information about your busi
 	},
 	"Branding": {
 		"Name": {
-			"Singular": "Acme",
+			"Singular": "Acme", // The name used all over the App
 			"Plural": "Acme",
 			"Possessive": "Acme's"
 		},
-		"Seo": {
+		"Seo": { // used primarily in SEO attributes, and for open graph information (http://ogp.me/)
 			"Title": "Acme",
 			"ImageUrl": "http://www.acmerides.com/Images/logo.jpeg",
 			"Description": "Acme connects people who need a car with people who have a car that's sometimes idle.",
 			"SiteName": "Acme Car Sharing",
 			"Url": "http://www.acmerides.com"
 		},
-		"Styles": {
+		"Styles": { // The colors used to brand your operational site
 			"PrimaryColor": "#03e4ac",
 			"LinkColor": "#17c197",
 			"TextColor": "#232c33",
@@ -99,7 +99,7 @@ As a Network Operator, we need to know the following information about your busi
 				"BkColor": "#324359"
 			}
 		},
-		"Social": {
+		"Social": { // Links to your social apps
 			"Facebook": {
 				"Url": "https://www.facebook.com/acmeride/"
 			},
@@ -120,28 +120,28 @@ As a Network Operator, we need to know the following information about your busi
 			}
 		},
 		"Images": {
-			"DesktopImageUrl": "http://www.acmerides.com/Images/logo_navbar.png",
-			"MobileImageUrl": "http://www.acmerides.com/Images/logo_navbar_mobile.png",
+			"DesktopImageUrl": "http://www.acmerides.com/Images/logo_navbar.png", // Image at top of every page in desktop sizes
+			"MobileImageUrl": "http://www.acmerides.com/Images/logo_navbar_mobile.png", // Image at top of every page in mobile sizes
 			"FavIconUrl": "http://www.acmerides.com/Images/favicon.ico",
-			"BusyInlineUrl": "http://www.acmerides.com/Images/loader_inline.gif",
-			"BusyPageUrl": "http://www.acmerides.com/Images/loader_page.gif",
-			"BusyButtonUrl": "http://www.acmerides.com/Images/loader_button.gif"
+			"BusyInlineUrl": "http://www.acmerides.com/Images/loader_inline.gif", // Used to display progress for individual actions
+			"BusyPageUrl": "http://www.acmerides.com/Images/loader_page.gif", // Used to display progress for whole pages
+			"BusyButtonUrl": "http://www.acmerides.com/Images/loader_button.gif" // Used to display progress on certain buttons
 		},
 		"Mobile": {
-			"Ios": {
+			"Ios": { // Images used to create a native app on your iPhone home screen
 				"IconUrl": "http://www.acmerides.com/Images/apple-icon.jpg",
 				"Icon72Url": "http://www.acmerides.com/Images/apple-icon.jpg",
 				"Icon114Url": "http://www.acmerides.com/Images/apple-icon.jpg",
 				
 			},
-			"Android": {
+			"Android": { // Images used to create a native app on your Android home screen
 				"Icon72Url": "http://www.acmerides.com/Images/android-icon.jpg",
 				"Icon192Url": "http://www.acmerides.com/Images/android-icon.jpg",
 				
 			}
 		}
 	},
-	"Navigation": {
+	"Navigation": { // URL's that are linked to from your operational site to your own website 
 		"HomeUrl": "http://www.acmerides.com",
 		"AboutUrl": "http://www.acmerides.com/about",
 		"ContactUrl": "http://www.acmerides.com/contact",
@@ -187,49 +187,49 @@ As a Network Operator, we need to know the following information about your busi
 					"ReservationFee": 3, // Fee payable once a reservation is approved by the car owner
 					"LateFees": {
 						"MaxLateFeeCap": 500, // No matter how late, the total late fees cannot exceed this amount
-						"PerInstance": 50, // Once-off flat fee per late return
+						"PerInstance": 50, // One-off flat fee per late return
 						"PerMinute": 1 // Per minute after a late return
 					}
 				},
 				"Timing": {
-					"FlagFallPeriodMinutes": 15, // A rental less than this time, incurs no usage charge
+					"FlagFallPeriodMinutes": 15, // A rental completed in less than this time, incurs no usage charge
 					"MinimumActionBeforeStartPeriodMinutes": 15, // How soon before the rental starts can it not be approved, declined or extended anymore
 					"MinimumRequestPeriodMinutes": 30, // Minimum size of a reservation
 					"UseBeforeStartPeriodMinutes": 15, //How long before the scheduled time can the next borrower start their reservation if the car is ready and waiting for them
 					"AutoCompleteAfterNoCompletionPeriodMinutes": 4320, // How long after the car is returned by borrower will it be auto-completed by the system on behalf of the owner
 					"AutoCompleteAfterNoUsePeriodMinutes": 15, //How long before the end of the reservation will the rental be auto-completed by the system on behalf of the borrower, if they havent started the rental.
 					"LateFees": {
-						"GracePeriodMinutes": 15 // How long after the car is due back are late fees applied
+						"GracePeriodMinutes": 15 // How long after the car is due back, that late fees start accumulating
 					}
 				}
 			},
-			"Immediate": { // Cars that require no booking and use the 'TakeNow' usage model
+			"Immediate": { // Cars that require no booking ahead of time and use the 'TakeNow' usage model
 				"Pricing": {
-					"ReservationFee": 0, // Fee payable once acar is reserved by the borrower
+					"ReservationFee": 0, // Fee payable once a car is reserved by the borrower
 					"LateFees": {
 						"MaxLateFeeCap": 500, // No matter how late, the total late fees cannot exceed this amount
-						"PerInstance": 50, // Once-off flat fee per late return
+						"PerInstance": 50, // One-off flat fee per late return
 						"PerMinute": 1 // Per minute after a late return
 					}
 				},
 				"Timing": {
-					"FlagFallPeriodMinutes": 15, // A rental less than this time, incurs no usage charge
-					"ReservationPeriodMinutes": 15, // How long the car is reserved for the borrower before expiring
-					"RejectionPeriodMinutes": 15, // How long after the car is reserved or used can the borrower reject it and not be charged usage fees
+					"FlagFallPeriodMinutes": 15, // A rental completed in less than this time, incurs no usage charge
+					"ReservationPeriodMinutes": 15, // How long the car is reserved for the borrower to use before it expires and becomes available for others to reserve
+					"RejectionPeriodMinutes": 15, // How long after the car is reserved (or after it is used) can the borrower reject it and not be charged usage fees
 					"LateFees": {
-						"GracePeriodMinutes": 15 // How long after the car is due back are late fees applied
+						"GracePeriodMinutes": 15 // How long after the maximum usage, that late fees start accumulating
 					}
 				},
 				"Display": {
-					"DisplayDurations": "false" // Whether to display durations of use instead of incurred costs
+					"DisplayDurations": "false" // Whether to display the duration of use instead of the costs of use
 				}
 			}
 		}
 	},
 	"Settings": {
-		"SiteUrl": "https://acmeride.hourfleet.com",
-		"TimeZone": "New Zealand Standard Time",
-		"Locale": "en-NZ"
+		"SiteUrl": "https://acmeride.hourfleet.com", // URL of your operational site
+		"TimeZone": "New Zealand Standard Time", // Timezone of your users
+		"Locale": "en-NZ" // Locale of your users
 	}
 }
 ~~~
