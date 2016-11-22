@@ -238,8 +238,10 @@ As a Network Operator, we need to know the following information about your busi
 As a car sharing business, you will need to provide your customers with various support channels. This section defines those channels.
 
 #### LiveChat
-This section defines the LiveChat widgets that Hourfleet supports. Currently, FreshDesk or Intercom.
-You will need to signup for an account with either of these providers. You cannot use both.
+This section defines the LiveChat widgets that Hourfleet supports. Currently, FreshDesk.com or Intercom.io.
+You will need to signup for an account with either of these providers. 
+
+You cannot configure to have LiveChat for both, chose one or the other or neither.
 
 ##### FreshDesk.com
 Once you have signed up and selected a plan that includes LiveChat, you will need to provide your: 'ApiKey' and 'Settings', which can be obtained from the 'Admin' console of your freshdesk subscription.
@@ -256,7 +258,8 @@ Once you have signed up and selected a plan that includes LiveChat, you will nee
 * In the javascript they provide, you need to find and extract the value of the URL that looks like this: 'https://xxxxxxxxxxx.cloudfront.net'. The xxxxxxxx part is your 'ApiKey'
 * Now, find the value of the 'window.livechat_setting='xxxxxxxxxxxxxxxxxxxxxxxxx....'. The large blob of text between the quotations marks is the value of your 'Settings' (not including the quotation marks).
 
-###### Intercom.io
+##### Intercom.io
+
 Once you have signed up and selected a plan that includes Intercom 'Acquire', you need toprovide your 'ApiKey', which can be obtained form the 'App Settings' console of your Intercom subscription.
 
 * Login to Intercom at: https://app.intercom.io
