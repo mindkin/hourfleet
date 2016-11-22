@@ -2,6 +2,17 @@
 layout: default
 title: Release Notes
 ---
+## 1.17.4 (22/11/2016)
+
+### Improvements
+
+* Added visual improvements in diplay of IOS and Android apps, when creating icons from web app.
+* Hidden various pages and UI elements from user (i.e. car ratings) when the car is owned by NetworkOperator (B2C)
+* Added all lifecycle notifications for a TakeNow rental
+* Added notification reminder to borrower if TakeNow rental is nearing max duration
+* Added NetworkOperator configuration for Freshdesk.com or Intercom.io LiveChat
+* Added NetworkOperator configuration to control whether to display costs or durations for TakeNow rentals 
+
 ## 1.17.3 (18/11/2016)
 
 ### Improvements
