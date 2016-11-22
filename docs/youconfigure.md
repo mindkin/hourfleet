@@ -282,24 +282,27 @@ There are many links on the operational site to pages that you need to provide f
 
 
 ### Business Models
+
+#### Ownership Models
 As a car sharing business, you may support conventional car sharing (B2C) and "Peer-to-Peer" car sharing (P2P). 
 
-Essentially, in a B2C model, the cars are owned by the Network Operator, and typically there is no revenue sharing.
+Essentially, in a B2C model, the cars are owned by you the Network Operator, and typically there is no revenue sharing. That means that you get 100% of the revenue from your customers using your cars, less any revenue sharing you might have arranged with your insurer.
 
-In a P2P model, the cars are owned by users on the network, and revenue is typically shared between the operator and the car owner.
+In a P2P model, the cars are owned by users on your network. Your customers own and manage andd price their own cars. The revenue from  the rental is typically split between you and the car owner, and your insurer.
 
-In either model, you may have to revenue share with your insurance company.
+You will need to support either B2C or P2P or both. You do that by opting into the: `IsSupported` option for the ownership model you will support for your customers.
 
-You will need to support either B2C or P2P or both. You do that by setting the: `IsSupported` option for the model you will support for your customers.
-
-### Usage Models
+#### Usage Models
 Cars on your network can be rented using either the 'Scheduled' or 'Immediate' usage models. 
-Each one has its unique flow and rules. See more about usage models in [How It Works](howitworks.html).
+Each one has its unique experience and rules. See more about usage models in [How It Works](howitworks.html).
 
-'Scheduled' is where cars are booked ahead of time by a borrower, and the car owner (either B2C or P2P) has the option to approve and decline bookings depending on how they rate and trust the requesting borrower.
+In essence:
 
-'Immediate' is where borrowers walk up to cars on the street and 'take' them straight away. There is no pre-approval step.
-In either case, borrowers must be pre-verified before being able to borrower cars.
+* 'Scheduled' is where cars are requested and booked ahead of time by a borrower, and the car owner (either B2C or P2P) has the option to approve and decline bookings depending on how they rate and trust the requesting borrower. Car owners declare when the car is available, the approve who can use it and when, and control how long the car is used for.
+
+* 'Immediate' is where borrowers can walk up to car on the street and use it right away. There is no approval step required by the owner (either B2C or P2P). If the car is physically available it can be used. Borrowers can take the car for as long as they need it, the owner only becomes involved in the process if the car is rejected by the borrower (usually becuase the car is not in a acceptable condition to be used).
+
+In either case, borrowers will be fully verified by you before being able to borrower any cars.
 
 As a Network Operator, you are able to customize the timing parameters for these usage models, and determine their pricing models.
 See more details about the Usage Models [How It Works](howitworks.html)
