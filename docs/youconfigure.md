@@ -4,21 +4,20 @@ title: What You Can Configure
 ---
 # What You Can Configure
 
-When you join Hourfleet, you are going to get your own hosted "Operational" car sharing web site at an address like: *https://acmerides.hourfleet.com*.
+When you join Hourfleet, you are going to get your own hosted "Operational" car sharing web site at an address like: *https://yourcompany.hourfleet.com*.
 
-That site will be customized for your customers to look like your business. But there are a few things you need to tell us so that it looks and works like your business.
+That site will be customized for your customers to look and feel like your business. But there are a few things you need to tell us so that it works like your business.
 You can see this "Operational Site" and the other things you are going to get at [What Is In The Box](inthebox.html)
 
 # What Is A Network Operator?
-To Hourfleet you (and your business) are known as a "Network Operator", since you operate a car sharing network on Hourfleet. 
-As a Network Operator you are likely to have many things unique to your business, such as: your own brand, your own social media presense, and different rules about how your charge your customers for sharing cars on your network
+To Hourfleet you (and your business) are known as a "Network Operator", since you operate a car sharing network on the Hourfleet platform. 
 
-You probably already have a website for your business that is focused upon capturing new customers and providing front door to your business. You'll want to keep that website, so Hourfleet will extend your website to provide all the tools you and your customers need to run your car sharing business.
+As a Network Operator you are likely to have many things unique to your business, such as: your own brand, your own social media presense, and different rules about how your price and charge your customers for sharing cars on your network. 
 
-But first we need to know some stuff about your business.
+You probably already have your own website for your business that is focused upon capturing new customers and providing that all important front door to your business, to turn interested brwosers into paying customers. You'll want to keep that website, so Hourfleet will extend your website to provide all the tools you and your customers need to run your car sharing business.
 
 ## Your Configuration
-As a Network Operator, we need to know the following information about your business:
+But first we need to know some stuff about how you want Hourfleet to run your business for you.
 
 ~~~
 {
