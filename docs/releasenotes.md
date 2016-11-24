@@ -5,12 +5,14 @@ title: Release Notes
 ## 1.17.5 (24/11/2016)
 
 ### Improvements
+
 * Integrated Intercom and Freshdesk LiveChat widget (configurable by NetworkOperator)
 * Updated web site navigation between Marketing site and Operational site
 * Support displaying duration instead of cost/pricing (configurable by NetworkOperator)
 * Added control for changing car's Offline/Online status
 
-## Fixes
+### Fixes
+
 * Fixed bug with expiring authentication tokens too soon
 
 ## 1.17.4 (22/11/2016)
