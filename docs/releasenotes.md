@@ -9,10 +9,15 @@ title: Release Notes
 * Invite (Join) page can be prepopulated with URL Query parameters as an extension of onboarding process
 * Removed 'Remember Me' checkbox from long (redundant). All logins are remembered, and expire after 14 days regardless.
 * NetworkOperator configuration API added.
+* Increased hourly/daily/weekly pricing choices (to support B2C cars)
+* Added pricing guidance (ThirdParty cars)
+* Added insurance valuation limits to operator configuration
 
 ### Fixes
 
-* Fixed Offline/Online text
+* Fixed reversed Offline/Online text
+* Fixed button/link color in email templates
+* Fixed render bug in 4000 (invite) template 
 
 ## 1.17.5 (24/11/2016)
 
