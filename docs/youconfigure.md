@@ -287,6 +287,11 @@ There are many links on the operational site to pages that you need to provide f
 
 ### Business Models
 
+#### Insurance
+As a car sharing business, whether your business owns the cars (B2C) or whether you allow your users to own cars (P2P) you are likely to have an insurer cover the cars when in use. If you work with an insurer and the conditions of insurance involve an insured value of the cars in your network, you will need to collect the insured value for each registered car.
+
+In the registration of a car you can declare the Insure value of the car, and you can control the range of that declared value in the configuration. You do this by specifying the `MaxValuedAt` and `MinValuedAt` values.
+
 #### Ownership Models
 As a car sharing business, you may support conventional car sharing (B2C) and "Peer-to-Peer" car sharing (P2P). 
 
