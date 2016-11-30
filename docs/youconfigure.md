@@ -152,6 +152,10 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 		"ReturnUrl": "http://www.acmerides.com"
 	},
 	"BusinessModel": {
+	        "Insurance": {
+		    "MaxValuedAt": 50000,
+		    "MinValuedAt": 1000,
+		},
 		"Ownership": {
 			"P2P": {
 				"IsSupported": true, // Will you support your customers registering their own cars on your network?
