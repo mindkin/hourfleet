@@ -37,6 +37,10 @@ Hourfleet does not capture nor store credit card information. Instead, Hourfleet
 
 PCI-DSS (Payment Card Industry Data Security Standard) is the set of rules that govern how businesses should handle customer credit card information, and Paystation is fully PCI compliant.
 
+In addition to filling out the paper form, by either phone or email, you will need to request from Paystation that they turn ON the "Hosted Responsive Format". This is Paystation's version of the credit card entry form that scales well for the web app when viewed on a mobile phone. Without it, the Paystation form is hard for mobile users to enter their credit card information. It looks like this:
+
+![Paystation Responsive Form](images/Paystation-ResponsiveForm.png)
+
 Once you have created your Paystation account, Hourfleet requires that you provide the following information for your tenancy:
 
 * GatewayId
