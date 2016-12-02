@@ -41,6 +41,12 @@ In addition to filling out the paper form, by either phone or email, you will ne
 
 ![Paystation Responsive Form](images/Paystation-ResponsiveForm.png)
 
+You also need to tell Paystation to configure the following URL's for them to send payment confirmations to your hourfleet tenancy:
+These are:
+
+* Return URL: https://yourtenancy.hourfleet.com:4431/api/payments/gateway/cards/confirmation
+* POST URL: https://yourtenancy.hourfleet.com:4432/api/payments/gateway/cards
+
 Once you have created your Paystation account, Hourfleet requires that you provide the following information for your tenancy:
 
 * GatewayId
@@ -48,15 +54,9 @@ Once you have created your Paystation account, Hourfleet requires that you provi
 
 These details are provided to you by Paystation after creating your account.
 
-You also need to tell Paystation the URL's for them to send payment confirmations to your tenancy:
-These are:
-
-* Return URL: https://yourtenancy.hourfleet.com:4431/api/payments/gateway/cards/confirmation
-* POST URL: https://yourtenancy.hourfleet.com:4432/api/payments/gateway/cards
-
 When a payment fails, Hourfleet will know about it, but Paystation will also send an email to a registered email address, which you will need to provide them: for example, support@yourcompany.com
 
-Once that is all setup, Paystation requires that you go through their "Go-Live" proceedure before your customers can start being billed. That process is outlined here: [Go Live Proceedure](http://www.paystation.co.nz/Go-Live-Procedure)
+Once that is all setup, Paystation requires that you go through their "Go-Live" proceedure before your customers can start being billed. That process is outlined here: [Go Live Proceedure](http://www.paystation.co.nz/Go-Live-Procedure). For that you will need to publish your 'Refund Policy' online in your website (usually stated somewhere in your Terms of Service). And then notify Hourfleet support that you are ready to start processing payments.
 
 Note: In addition to making payments to your customers through the Hourfleet web site, Paystation provides you the ability to manually charge your customers using their website. This can be handy for resolving customer issues outside the scope of what Hourfleet can do for you.
 
