@@ -41,13 +41,14 @@ In addition to filling out the paper form, by either phone or email, you will ne
 
 ![Paystation Responsive Form](images/Paystation-ResponsiveForm.png)
 
-You also need to tell Paystation to configure the following URL's for them to send payment confirmations to your hourfleet tenancy:
-These are:
+You also need to tell Paystation to configure the following URL's in order for Hourfleet to be able to collect credit cards from your customer and for you to bill your customers.
+
+They are:
 
 * Return URL: https://yourtenancy.hourfleet.com:4431/api/payments/gateway/cards/confirmation
-* POST URL: https://yourtenancy.hourfleet.com:4432/api/payments/gateway/cards
+* POST URL: https://yourtenancy.hourfleet.com:4431/api/payments/gateway/cards
 
-Once you have created your Paystation account, Hourfleet requires that you provide the following information for your tenancy:
+Once Paystation have setup your account, Hourfleet requires that you provide the following information for your tenancy:
 
 * GatewayId
 * ApiKey
