@@ -4,10 +4,17 @@ title: Release Notes
 ---
 ## 1.17.8 (6/12/2016)
 
+
+### Fixes
+
+* Async buffered recording (logging/auditing/tracing/diagnostics) replaced with background sync version
+
+## 1.17.6 (30/11/2016) (Deployment rolled back)
+
 ### Improvements
 
 * Invite (Join) page can be prepopulated with URL Query parameters as an extension of onboarding process
-* Removed 'Remember Me' checkbox from long (redundant). All logins are remembered, and expire after 14 days regardless.
+* Removed 'Remember Me' checkbox from login (as redundant). All logins are remembered, and expire after 14 days regardless.
 * NetworkOperator configuration API added.
 * Increased hourly/daily/weekly pricing choices (to support B2C cars)
 * Added pricing guidance (ThirdParty cars)
