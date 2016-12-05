@@ -37,11 +37,11 @@ Hourfleet does not capture nor store credit card information. Instead, Hourfleet
 
 PCI-DSS (Payment Card Industry Data Security Standard) is the set of rules that govern how businesses should handle customer credit card information, and Paystation is fully PCI compliant.
 
-In addition to filling out the paper form, by either phone or email, you will need to request from Paystation that they turn ON the "Hosted Responsive Format". This is Paystation's version of the credit card entry form that scales well for the web app when viewed on a mobile phone. Without it, the Paystation form is hard for mobile users to enter their credit card information. It looks like this:
+## Technical Setup
 
-![Paystation Responsive Form](images/Paystation-ResponsiveForm.png)
+In addition to filling out the paper form, you need to work with paystation to configure a few things so Hourfleet can integrate with Paystation, so that you cann bill your customers.
 
-You also need to tell Paystation to configure the following URL's in order for Hourfleet to be able to collect credit cards from your customer and for you to bill your customers.
+First, you will need to tell Paystation to configure the following URL's in order for Hourfleet to be able to collect credit card information from your customers, and for you to bill your customers.
 
 They are:
 
@@ -51,15 +51,25 @@ They are:
 Once Paystation have setup your account, Hourfleet requires that you provide the following information for your tenancy:
 
 * GatewayId
-* ApiKey
+* PaystationId
 
 These details are provided to you by Paystation after creating your account.
 
-When a payment fails, Hourfleet will know about it, but Paystation will also send an email to a registered email address, which you will need to provide them: for example, support@yourcompany.com
+In addition to filling out the paper form, by either phone or email, you will need to request from Paystation that they turn ON the "Hosted Responsive Format". This is Paystation's version of the credit card entry form that scales well for your web app when viewed on a mobile phone. Without it, the Paystation form is hard for mobile users to enter their credit card information. It looks something like this:
 
-Once that is all setup, Paystation requires that you go through their "Go-Live" proceedure before your customers can start being billed. That process is outlined here: [Go Live Proceedure](http://www.paystation.co.nz/Go-Live-Procedure). For that you will need to publish your 'Refund Policy' online in your website (usually stated somewhere in your Terms of Service). And then notify Hourfleet support that you are ready to start processing payments.
+![Paystation Responsive Form](images/Paystation-ResponsiveForm.png)
 
-Note: In addition to making payments to your customers through the Hourfleet web site, Paystation provides you the ability to manually charge your customers using their website. This can be handy for resolving customer issues outside the scope of what Hourfleet can do for you.
+## Incomplete Transaction Notifications
+
+When a user tries to register their credit card in your website and it fails (i.e. wrong card number, or insufficient funds, etc) the user will be notified then and there in the app. However, if they go to register their card, and they do not complete the process fully (i.e. they abandon it, or put in wrong details and then abandon, or get an error and abandon) then Paystation will send you a notification email called a 'Incomplete Transaction Notification'. You will need to provide an email addres to Paystation for those notifications, for example: support@yourcompany.com
+
+## Go-Live
+
+Once that is all setup, Paystation requires that you go through their "Go-Live" procedure before your customers can start being billed. That process is outlined here: [Go Live Procedure](http://www.paystation.co.nz/Go-Live-Procedure). For that you will need to publish your 'Refund Policy' online in your website (usually stated somewhere in your Terms of Service). And then notify Hourfleet support that you are ready to start processing payments.
+
+## Additional Payment Tools
+
+Note: In addition to making payments to your customers through the Hourfleet web site, Paystation provides you the ability to manually charge your customers using their website. This can be handy for resolving customer issues outside the scope of what Hourfleet can do for you. On their site, Paystation  provides you with a full suite of manual payments products, i.e. PayMe invoicing.
 
 # RunTheRed Account
 *[New Zealand Network Operators Only]*
