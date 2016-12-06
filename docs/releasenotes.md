@@ -2,8 +2,13 @@
 layout: default
 title: Release Notes
 ---
-## 1.17.8 (6/12/2016)
+## 1.18.0 (6/12/2016)
 
+### Fixes
+
+* Car Offline warning message during a 'Take Now' booking only displays if the booking is currently in use.
+
+## 1.17.8 (1/12/2016)
 
 ### Fixes
 
