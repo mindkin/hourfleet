@@ -2,6 +2,20 @@
 layout: default
 title: Release Notes
 ---
+## 1.18.2 (8/12/2016)
+
+### Improvements
+
+* A Car Owners historical Requests, Scheduled Bookings and Take Now Bookings are condensed into a single list.
+* Added a 'Back to My Listings' on a car's edit details page.
+* Added spinner and failure message on the Manage Request page for cancelling a request.
+
+### Fixes
+
+* Spacing between search results remain when selecting a result.
+* Fixed javascript error that prevented a 'Take Now' unlock button from sending an unlock command.
+* Fixed text for car seats and booster seats on a car's profile page
+
 ## 1.18.1 (6/12/2016)
 
 ### Improvements
