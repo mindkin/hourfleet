@@ -20,7 +20,7 @@ title: Release Notes
 
 ### Improvements
 
-* Removed 'danger' actions from car requests page, instead request and booking actions can be done on their standalone pages.
+* Removed 'dangerous' actions from car requests page, instead request and booking actions can be done on their standalone pages.
 * 'Take Now' booking actions and car lock/unlock buttons are moved into a tab menu.
 * Footer now sticks to bottom of the page when there is not a lot of content.
 
