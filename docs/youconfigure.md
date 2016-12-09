@@ -149,7 +149,13 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 		"PrivacyUrl": "http://www.acmerides.com/privacy",
 		"FeesUrl": "http://www.acmerides.com/fees",
 		"FaqUrl": "http://www.acmerides.com/faq",
-		"ReturnUrl": "http://www.acmerides.com"
+		"ReturnUrl": "http://www.acmerides.com",
+		"UIElements": {
+			"Invitation": { // Privacy statement about collecting their invitation data on the invitation page
+				"Statement": "Acmerides values your privacy so we do not share this information with anyone else.",
+				"DisplayStatement": true
+			}
+		}
 	},
 	"BusinessModel": {
 	        "Insurance": {
