@@ -2,6 +2,23 @@
 layout: default
 title: Release Notes
 ---
+## 1.18.3 (11/12/2016)
+
+### Improvements
+
+* Privacy statement on invite page now configurable by operator
+* Car history items now ordered by their Start Date
+* Added a returned message to Car History items
+* Add the rating and feedback message to a 'Take Now' history item
+* Added check for iphone web app to hide the unsupported browser message
+
+### Fixes
+
+* Navigation Links no longer appear if operator doesn't supply a url for them.
+* Validation error for email field on login changed to 'email' instead of 'user name'
+* 'Take Now' emails are now populated with a url to the trip.
+* Removed ui-state option from Tabbed Directive which was causing browser console errors.
+
 ## 1.18.2 (8/12/2016)
 
 ### Improvements
