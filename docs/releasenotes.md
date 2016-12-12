@@ -2,7 +2,7 @@
 layout: default
 title: Release Notes
 ---
-## 1.18.4 (12/12/2016)
+## 1.18.4/1.18.5 (12/12/2016)
 
 ### Improvements
 
@@ -13,6 +13,7 @@ title: Release Notes
 
 * Fixed bug in email that replaces dollar values with partial costs
 * Cached operator data is refreshed frequently
+* Broadend input validation to accomadate common punctuation, and shorter/longer names
 
 ## 1.18.3 (11/12/2016)
 
