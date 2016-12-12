@@ -2,6 +2,18 @@
 layout: default
 title: Release Notes
 ---
+## 1.18.4 (12/12/2016)
+
+### Improvements
+
+* Search results now ommits 'Immediate' usage cars that are reserved or in-use
+* Email notifications to borrowers for operators that dont support diplaying costs, no longer show costs 
+
+### Fixes
+
+* Fixed bug in email that replaces dollar values with partial costs
+* Cached operator data is refreshed frequently
+
 ## 1.18.3 (11/12/2016)
 
 ### Improvements
