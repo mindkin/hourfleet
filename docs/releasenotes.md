@@ -2,12 +2,21 @@
 layout: default
 title: Release Notes
 ---
+## 1.18.6 (13/12/2016)
+
+### Improvements
+
+* Removed the User Notification Settings page
+* Added loading icon on search page when fetching all cars
+* Reduced caching times for VeryShort, and updated caching for Requests/Bookings/Taking to VeryShort
+
 ## 1.18.4/1.18.5 (12/12/2016)
 
 ### Improvements
 
 * Search results now ommits 'Immediate' usage cars that are reserved or in-use
-* Email notifications to borrowers for operators that dont support diplaying costs, no longer show costs 
+* Email notifications to borrowers for operators that dont support diplaying costs, no longer show costs
+* The order 'Take Now', 'Book Later' and requests are now propperly order in the car owner history and ops bookings
 
 ### Fixes
 
