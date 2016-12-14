@@ -59,7 +59,9 @@ These details are provided to you by Paystation after creating your account.
 Paystation has IP security to ensure that credit card details and charging only occurs from trusted servers, such as the servers in your tenancy.
 
 Paystation requires that once your tenancy is created they configure IP protection with the IP address of your tenancy'.
-You will need to get this IP addrss from us. Is the public IP address of your cloud servers, which can also be found by doing a:
+You will need to set that up with them directly.
+
+You can ask us for this IP address, or you can also find it our yourself by doing a:
 
 ```
 ping yourtenancy.hourfleet.com
