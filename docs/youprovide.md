@@ -9,7 +9,7 @@ You are going to need to run a legitimate company in your geography, and worry a
 
 One of the things you are going to get (see [What Is In The Box](inthebox.html)) is a cloud tenancy on the Hourfleet platform with your own app for your customers. While the Hourfleet platform provides many of the online tools to help manage your customers and operate your car sharing, you are still going to need to sort out some commericial relationships with supporting businesses so that the platform automate most of the work for you.
 
-These are some of the things that you need to do:
+These are broadly some of the things that you need to do:
 
 * Create a Merchant Account with your Bank
 * *[New Zealand Network Operators]* - Create a PayStation account that can charge your customers credit card and remit to your merchant bank account
@@ -54,6 +54,18 @@ Once Paystation have setup your account, Hourfleet requires that you provide the
 * PaystationId
 
 These details are provided to you by Paystation after creating your account.
+
+## IP Protection
+Paystation has IP security to ensure that credit card details and charging only occurs from trusted servers, such as the servers in your tenancy.
+
+Paystation requires that once your tenancy is created they configure IP protection with the IP address of your tenancy'.
+You will need to get this IP addrss from us. Is the public IP address of your cloud servers, which can also be found by doing a:
+
+```
+ping yourtenancy.hourfleet.com
+```
+
+## Responsive UI
 
 In addition to filling out the paper form, by either phone or email, you will need to request from Paystation that they turn ON the "Hosted Responsive Format". This is Paystation's version of the credit card entry form that scales well for your web app when viewed on a mobile phone. Without it, the Paystation form is hard for mobile users to enter their credit card information. It looks something like this:
 
