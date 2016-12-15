@@ -2,6 +2,19 @@
 layout: default
 title: Release Notes
 ---
+## 1.18.7 (15/12/2016)
+
+### Improvements
+
+* Click on a search pin doesn't change the map zoom level
+* The 'Book Now' button for 'Take Now' cars has been renamed to 'Reserved'
+
+### Fixes
+
+* Remaining verification count doesn't include car owner details when Network doesn't support P2P
+* Pend request link on rides/bookings has been fixed
+* The 'Reserved' button for a search result is hidden when the car is unavailable
+
 ## 1.18.6 (13/12/2016)
 
 ### Improvements
