@@ -8,6 +8,7 @@ title: Release Notes
 
 * Added url for creating a web app which will redirect if it is already a web app
 * The car owner verification badge on the user profile is hidden if network doesn't support P2P
+* Added meta tag for iOS apps to share the same name as the Network provider by default
 
 ### Fixes
 
