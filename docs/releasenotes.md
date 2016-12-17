@@ -2,6 +2,17 @@
 layout: default
 title: Release Notes
 ---
+## 1.18.8 (17/12/2016)
+
+### Improvements
+
+* Added url for creating a web app which will redirect if it is already a web app
+* The car owner verification badge on the user profile is hidden if network doesn't support P2P
+
+### Fixes
+
+* Google maps no longer requires user location information before initialisation 
+
 ## 1.18.7 (15/12/2016)
 
 ### Improvements
