@@ -2,7 +2,7 @@
 layout: default
 title: Release Notes
 ---
-## 1.18.9 (19/12/2016)
+## 1.18.9/1.18.10 (19/12/2016)
 
 ### Improvements
 
@@ -10,7 +10,8 @@ title: Release Notes
 
 ### Fixes
 
-* Added fix for the Intercom Chat window to reboot it after a shutdown 
+* Added fix for the Intercom Chat window to reboot it after a shutdown
+* Added fix for spaces and other punctuation characters in first and last names
 
 
 ## 1.18.8 (17/12/2016)
