@@ -2,6 +2,17 @@
 layout: default
 title: Release Notes
 ---
+## 1.18.9 (19/12/2016)
+
+### Improvements
+
+* Improved URL formatting on wrapped apps
+
+### Fixes
+
+* Added fix for the Intercom Chat window to reboot it after a shutdown 
+
+
 ## 1.18.8 (17/12/2016)
 
 ### Improvements
