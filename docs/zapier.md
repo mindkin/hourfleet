@@ -29,8 +29,8 @@ Now, we are going to create a new Zap that connects Hourfleet to send user's not
 
 ## Step 2: Select the Hourfleet App
 
-You will need to search for the "hourfleet" app to find it.
-(Hourfleet is a private application and you will not find it listed in the Zapier directory without a search for it.
+** NOTE: You will need to search for the "hourfleet" app to find it.**
+(Hourfleet is a private and privileged application and you will not find it listed in the Zapier directory without a search for it, and not without getting permission to use it.)
 
 ![Select the Hourfleet App](images/Zapier_2.PNG)
 
