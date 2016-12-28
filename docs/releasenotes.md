@@ -2,6 +2,13 @@
 layout: default
 title: Release Notes
 ---
+## 1.20.0 (28/12/2016)
+
+### Improvements
+
+* Added "Authorization Flow" for OAuth authorization
+* Increased upload size of photos to 5000pixels in either width or height to support Iphone 7 devices.
+
 ## 1.18.9/1.18.10 (19/12/2016)
 
 ### Improvements
