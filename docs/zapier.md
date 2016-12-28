@@ -4,17 +4,21 @@ title: Zapier Integration
 ---
 # What is Zapier?
 
-Zapier.com is really powerful, online platform for integrating web apps with each other. For example, you can use Zapier to have your emails sent to a Slack channel or to your Facebook account.
+Zapier.com is really powerful, online platform for integrating web apps with each other. 
+
+For example, you can use Zapier to have your emails forwarded to a Slack channel or to your Facebook account.
 But that is not all. There are 100's of apps that you can connect together! 
 
-Hourfleet supports Zapier, so that means you can get information about your car sharing network by connecting Hourfleet to your favourtie apps using Zapier as well!
+Hourfleet supports Zapier, so that means you can now get information about your car sharing network by connecting Hourfleet to your favourtie apps using Zapier!
 
 **NOTE: At the moment, you can only get notified when the users of your network are notified of key events in the system, like when they join your network, or when they reserve or book a car.**
 
-This is how you can set Zapier.com up to notify you thoruhg one of your favourite apps, like Slack, etc.
+This is how you can set Zapier.com up to notify you through one of your favourite apps, like Slack, etc.
 
-We are going to show you how you can get notified of all your user's Notifications in a Slack channel of your choice. 
-But don't worry, even if you don't use Slack as your messaging app, and you use another app like Intercom or just Email, you can also get notified in the same way (as long as Zapier supports your app). Just follow the following steps and select the app of your choice, the rest is very similar, and within no time youwill be up and running.
+NOTE: We are going to show you how you can get notified of all your user's Notifications in a Slack channel of your choice. 
+But don't worry, even if you don't use Slack as your messaging app, and you use another app like Intercom or just Email, you can also get notified in the same way (as long as Zapier supports your app). 
+
+Just follow the steps below, and select the app of your choice, the rest is very similar, and within no time you will be up and running.
 
 # Creating a Zap
 
@@ -22,15 +26,20 @@ But don't worry, even if you don't use Slack as your messaging app, and you use 
 
 The first thing you need to do is create an account at [zapier.com](www.zapier.com), if you already have one, then just login.
 
-Now, we are going to create a new Zap that connects Hourfleet to send user's notifications to your favorite messaging app. In this case we are going to show you connecting Hourfleet to Slack, and send all user's notifications to a specific Slack channel.
+Now, we are going to create a new Zap that connects Hourfleet to send user's notifications to your favorite messaging app. 
+
+In this case we are going to show you connecting Hourfleet to Slack, and send all user's notifications to a specific Slack channel.
 
 ![Create a New Zap](images/Zapier_1.PNG)
 
-
 ## Step 2: Select the Hourfleet App
 
-** NOTE: You will need to search for the "hourfleet" app to find it.**
-(Hourfleet is a private and privileged application and you will not find it listed in the Zapier directory without a search for it, and not without getting permission to use it.)
+Before you can select the Hourfleet app, you will need to click on this link, and complete the invitation: [Inviation to Hourfleet](https://zapier.com/developer/invite/51326/fccef634d394c7efcb8248feb6ddb64c/)
+
+You need to complete the invitation, because the Hourfleet app is not publically available to anyone.
+
+** NOTE: Once you have been invited, you will need to search for the "hourfleet" app to find it.**
+(Hourfleet is a private and privileged application and you will not find it listed in the Zapier directory without a search for it, and not without completing the invitation to use it.)
 
 ![Select the Hourfleet App](images/Zapier_2.PNG)
 
