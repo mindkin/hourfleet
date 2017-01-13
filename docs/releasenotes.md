@@ -2,6 +2,20 @@
 layout: default
 title: Release Notes
 ---
+## 1.22.0 (14/01/2017 - roamride only)
+
+### Fixes
+
+* Fixed 401 race condition (in webapp) when cached tokens are lost
+* Fixed presentation format of durations (Usage/Overdue) in Takings/Bookings
+
+## 1.21.0 (10/01/2017 - withheld)
+
+### Fixes
+
+* Fixed 401 race condition (in webapp) when cached tokens are lost
+* Removed duplicate bookings when a booking is billed in OPS dashboard
+
 ## 1.20.0 (28/12/2016)
 
 ### Improvements
