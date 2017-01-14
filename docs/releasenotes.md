@@ -2,6 +2,12 @@
 layout: default
 title: Release Notes
 ---
+## 1.23.0 (15/01/2017)
+
+### Fixes
+
+* Fixed problem with secured pages not redirecting to signin page
+
 ## 1.22.0 (14/01/2017 - roamride only)
 
 ### Fixes
