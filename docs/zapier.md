@@ -9,7 +9,9 @@ Zapier.com is really powerful, online platform for integrating web apps with eac
 For example, you can use Zapier to have your emails forwarded to a Slack channel or to your Facebook account.
 But that is not all. There are 100's of apps that you can connect together! 
 
-Hourfleet supports Zapier, so that means you can now get information about your car sharing network by connecting Hourfleet to your favourtie apps using Zapier!
+## Hourfleet and Zapier
+
+Hourfleet supports Zapier! so that means you can now get information about your car sharing network by connecting Hourfleet to your favourtie apps using Zapier zaps of your own!
 
 **NOTE: At the moment, you can only get notified when the users of your network are notified of key events in the system, like when they join your network, or when they reserve or book a car.**
 
