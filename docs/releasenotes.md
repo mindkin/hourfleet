@@ -2,6 +2,17 @@
 layout: default
 title: Release Notes
 ---
+## 1.24.0 (17/01/2017)
+
+### Improvements
+
+* Added new 'Access Car' tab to BookLater pages.
+
+### Fixes
+
+* Fixed HTML5 caching issues
+* When a user account is verified, the missing verification messges are removed from profile page.
+
 ## 1.23.0 (15/01/2017)
 
 ### Fixes
