@@ -122,22 +122,53 @@ This is the list of notification Event Id's and the associated 'Context' fields 
 
 Event Id | Context Fields
 --- | ---
-4000 | User has invited themselves
-4000 | invitation.fullname, invitation.url
-4001 | <obsolete>
-4002 | User Account is created
-4002 | user.fullname, user.url
-101 - 109 | Book Later request
-101 - 109 | borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url
-201 - 216 | Book Later bookings
-201 - 216 | borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, booking.startdate, booking.enddate, booking.cancelleddate, booking.returneddate, booking.useddate, booking.completeddate, booking.cost.usage, booking.cost.estimated, booking.url, bookings.url, booking.comments.borrowercancellation, booking.comments.borrowerreturned, booking.comments.carownercancellation, booking.comments.carownercompletion
-221 - 234 | Take Now takings
-221 - 234 | borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, taking.reserveddate, taking.nouseexpireson, taking.noreturnexpireson, taking.cancelleddate, taking.useddate, taking.returneddate, taking.rejecteddate, taking.cost.usage, taking.url, takings.url
-302 - 304 | User verifications
+4000 | User has invited themselves: invitation.fullname, invitation.url
+4002 | User Account has been created: user.fullname, user.url
+101 | (Borrower) Request has been drafted
+102 | (Borrower) Request has been cancelled
+103 | (Car Owner) Request has ben cancelled
+104 | (Borrower) Request is now pending approval
+105 | (Car Owner) Request is pending approval
+106 | (Borrower) Request has been declined
+107 | (Car Owner) Request has been declined
+108 | (Borrower) Request has been approved
+109 | (Car Owner) Request has been approved
+101 - 109 | Book Later requests: borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url
+201 | (Borrower) 
+202 | (Car Owner)  
+203 | (Borrower) 
+204 | (Car Owner) 
+205 | (Borrower) 
+206 | (Car Owner) 
+207 | (Borrower) 
+208 | (Car Owner) 
+209 | (Borrower) 
+210 | (Car Owner) 
+211 | (Borrower) 
+212 | (Car Owner) 
+213 | (Borrower) 
+214 | (Car Owner) 
+215 | (Borrower) 
+216 | (Car Owner) 
+201 - 216 | Book Later bookings: borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, booking.startdate, booking.enddate, booking.cancelleddate, booking.returneddate, booking.useddate, booking.completeddate, booking.cost.usage, booking.cost.estimated, booking.url, bookings.url, booking.comments.borrowercancellation, booking.comments.borrowerreturned, booking.comments.carownercancellation, booking.comments.carownercompletion
+221 | (Borrower) 
+222 | (Car Owner)  
+223 | (Borrower) 
+224 | (Car Owner) 
+225 | (Borrower) 
+226 | (Car Owner) 
+227 | (Borrower) 
+228 | (Car Owner) 
+229 | (Borrower) 
+230 | (Car Owner) 
+231 | (Borrower) 
+232 | (Car Owner) 
+233 | (Borrower) 
+234 | (Car Owner) 
+221 - 234 | Take Now takings: borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, taking.reserveddate, taking.nouseexpireson, taking.noreturnexpireson, taking.cancelleddate, taking.useddate, taking.returneddate, taking.rejecteddate, taking.cost.usage, taking.url, takings.url
 302 | User has become verified as a borrower
 303 | User has become unverified as a borrower
 304 | User has become verified as a carowner
 305 | User has become unverified as a carowner
-302 - 304 | user.name
-306 | User's email address has changed
-306 | user.name, verification.url
+302 - 304 | User verifications: user.name
+306 | User's email address has changed: user.name, verification.url
