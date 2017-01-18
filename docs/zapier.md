@@ -111,9 +111,15 @@ For a slack notification, you need to tell Zapier which channel to use, and who 
 
 Then, probably the most important part is to define the "Message Text" that is going to be posted to your slack channel.
 
-In this section, you cn create a message and substitute any of the fields that are included in a user's notification into the message. Simply select them formt eh dropdown on the right side of the "Message Text" field.
+In this section, you can create a message and substitute any of the fields that are included in a user's notification into the message. Simply select them from the dropdown on the right side of the "Message Text" field.
 
 Finally save your changes. And Zapier will send a test notification to your slack channel so that you can see the result.
 You can always come back and change the settings to get what you need.
 
+# Notifications
 
+This is the list of notification Event Id's and the associated 'Context' fields available for those notifications:
+
+Event Id | Context Fields
+--- | ---
+208 | borrower.name, carowner.name, car.plate, car.name, car.homelocation.description, car.homelocation.address, booking.startdate, booking.enddate, booking.cancelleddate, booking.returneddate, booking.useddate, booking.completeddate, booking.cost.usage, booking.cost.estimated, booking.url, bookings.urls
