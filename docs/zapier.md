@@ -122,4 +122,22 @@ This is the list of notification Event Id's and the associated 'Context' fields 
 
 Event Id | Context Fields
 --- | ---
-208 | borrower.name, carowner.name, car.plate, car.name, car.homelocation.description, car.homelocation.address, booking.startdate, booking.enddate, booking.cancelleddate, booking.returneddate, booking.useddate, booking.completeddate, booking.cost.usage, booking.cost.estimated, booking.url, bookings.urls
+4000 | User has invited themselves
+4000 | invitation.fullname, invitation.url
+4001 | <obsolete>
+4002 | User Account is created
+4002 | user.fullname, user.url
+101 - 109 | Book Later request
+101 - 109 | borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url
+201 - 216 | Book Later bookings
+201 - 216 | borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, booking.startdate, booking.enddate, booking.cancelleddate, booking.returneddate, booking.useddate, booking.completeddate, booking.cost.usage, booking.cost.estimated, booking.url, bookings.url, booking.comments.borrowercancellation, booking.comments.borrowerreturned, booking.comments.carownercancellation, booking.comments.carownercompletion
+221 - 234 | Take Now takings
+221 - 234 | borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, taking.reserveddate, taking.nouseexpireson, taking.noreturnexpireson, taking.cancelleddate, taking.useddate, taking.returneddate, taking.rejecteddate, taking.cost.usage, taking.url, takings.url
+302 - 304 | User verifications
+302 | User has become verified as a borrower
+303 | User has become unverified as a borrower
+304 | User has become verified as a carowner
+305 | User has become unverified as a carowner
+302 - 304 | user.name
+306 | User's email address has changed
+306 | user.name, verification.url
