@@ -128,7 +128,7 @@ EventId | The identifier of the notification (see table below for meaning)
 EventType | Should always be "UserNotification"
 EventCreatedDateUtc | The time the event was raised (UTC)
 Description | Should always be the same as the EventId
-Context.XXX | where XXX represents one of the field names in the table below, depending on the EventId:
+Context.XXX | where XXX represents one of the *field* names in the table below, depending on the EventId:
 
 Event Id | Context Fields
 --- | ---
