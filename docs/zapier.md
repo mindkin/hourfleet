@@ -111,7 +111,11 @@ For a slack notification, you need to tell Zapier which channel to use, and who 
 
 Then, probably the most important part is to define the "Message Text" that is going to be posted to your slack channel.
 
-In this section, you can create a message and substitute any of the fields that are included in a user's notification into the message. Simply select them from the dropdown on the right side of the "Message Text" field.
+You choose the format and data in the message. You can substitute any of the fields that are included in a user's notification into the message. Simply select them from the dropdown on the right side of the "Message Text" field.
+
+In this case you can see we have chosen the message: `[Resource ID] was notified of [Event ID] at [Event Created Date Utc]`
+
+These are just some of the fields you can select. See the next section below for an explanation of those fields
 
 Finally save your changes. And Zapier will send a test notification to your slack channel so that you can see the result.
 You can always come back and change the settings to get what you need.
