@@ -2,6 +2,18 @@
 layout: default
 title: Release Notes
 ---
+## 1.25.0 (19/01/2017)
+
+### Improvements
+
+* Added current version of app to footer.
+* Added self-update feature to web app, so that when new releases are deployed users will be notified and will be encouraged to upgrade.
+
+### Fixes
+
+* Fixed cache invalidation for some API's related to changing car usage models and online/offline status
+* Fixed bug displaying duration before a booking about to start
+
 ## 1.24.0 (17/01/2017)
 
 ### Improvements
