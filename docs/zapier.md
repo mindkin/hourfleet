@@ -117,12 +117,17 @@ In this case you can see we have chosen the message: `[Resource ID] was notified
 
 These are just some of the fields you can select. See the next section below for an explanation of those fields
 
-Finally save your changes. And Zapier will send a test notification to your slack channel so that you can see the result.
+## Step 12: Test & Save
+
+Finally save your changes.  Zapier will send a test notification to your slack channel so that you can see the result.
+
 You can always come back and change the settings to get what you need.
 
 # Notifications
 
-Notification provide this data:
+Notifications provide this data, which can be selected (from the Message Text dropdown) when you setup your Zap.
+
+## Fields
 
 Field | Meaning
 --- | ---
@@ -133,7 +138,9 @@ EventType | Should always be "UserNotification"
 EventCreatedDateUtc | The time the event was raised (UTC)
 Description | Should always be the same as the EventId
 Context.XXX | where XXX represents one of the *field* names in the table below, depending on the EventId
+--- | ---
 
+## Event Specific Fields
 
 Event Id | Context Fields
 --- | ---
