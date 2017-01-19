@@ -7,7 +7,7 @@ title: Release Notes
 ### Improvements
 
 * Added current version of app to footer.
-* Added self-update feature to web app, so that when new releases are deployed users will be notified and will be encouraged to upgrade.
+* Added self-update feature to web app, so that when new releases are deployed they are downloaded, and users will be auto-magically, notified, and will be encouraged to upgrade.
 
 ### Fixes
 
