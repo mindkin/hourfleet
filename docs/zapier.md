@@ -120,7 +120,7 @@ You can always come back and change the settings to get what you need.
 
 Notification provide this data:
 
-    | Meaning
+Field | Meaning
 --- | ---
 ResourceId | The identifier of the resource [user]
 ResourceType | Should always be "User"
