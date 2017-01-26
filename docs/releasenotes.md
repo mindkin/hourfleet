@@ -2,6 +2,20 @@
 layout: default
 title: Release Notes
 ---
+## 1.26.0 (26/01/2017)
+
+### Improvements
+
+* Added pagination control to Verification page in Operations dashboard to page through unverified users and cars
+* Added product version number to mobile menu (under 'More' option).
+* Added better (human friendly) error pages when connecting Zapier to API
+
+### Fixes
+
+* Fixed google captcha validation bug, preventing new users registering on site
+* Fixed up GettingStarted page and removed all references to 'Roam', and tailored it for a B2C only business model.
+* Fixed cyclic-signin page where after signin the user is redirected back to signin again, appearing like the button click on 'Sign In' had failed first time.
+
 ## 1.25.0 (19/01/2017)
 
 ### Improvements
