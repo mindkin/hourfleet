@@ -2,6 +2,12 @@
 layout: default
 title: Release Notes
 ---
+## 1.27.0 (02/02/2017)
+
+### Fixes
+
+* Fixed intermittent 403- forbbidden exceptions (missing roles), and improved performance of each API call.
+
 ## 1.26.0 (26/01/2017)
 
 ### Improvements
