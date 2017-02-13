@@ -2,6 +2,16 @@
 layout: default
 title: Release Notes
 ---
+## 1.28.0 (13/02/2017)
+
+### Improvements
+
+* Upgraded the OAuth2 dialogs and error messages 
+
+### Fixes
+
+* Fixed Google re-Captcha validation
+
 ## 1.27.0 (02/02/2017)
 
 ### Fixes
