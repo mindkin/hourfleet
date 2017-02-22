@@ -2,6 +2,18 @@
 layout: default
 title: Release Notes
 ---
+## 1.30.0 (23/03/2017)
+
+### Improvements
+
+* All search API's now have metadata attached.
+* Added zoom into dirers license photos (in Ops Dashboard)
+* Improved paging in Ops verifications
+
+### Fixes
+
+* Fixed scaling of profile images in Firefox and IE
+
 ## 1.28.0 (13/02/2017)
 
 ### Improvements
