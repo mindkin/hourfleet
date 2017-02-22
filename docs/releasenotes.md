@@ -2,7 +2,7 @@
 layout: default
 title: Release Notes
 ---
-## 1.30.0 (23/03/2017)
+## 1.30.0 (23/03/2017 - roamride only)
 
 ### Improvements
 
