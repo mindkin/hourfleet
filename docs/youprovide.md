@@ -97,7 +97,7 @@ The service you are creating needs to support the following: Text Messaging, and
 
 ## Technical Setup
 
-Once you have created you RunTheRed account, Hourfleet requires that you provide the following information for your tenancy:
+Once you have created you RunTheRed account and confirmed that it's working using the RuntTheRed management tool, Hourfleet requires that you provide the following information for your tenancy:
 
 * GatewayKey
 * ShortCode
