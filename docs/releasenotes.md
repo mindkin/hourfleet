@@ -2,6 +2,27 @@
 layout: default
 title: Release Notes
 ---
+## 1.32.0 22/07/2017
+
+The new deployment in this release increases Azure VM sizes; from 'Medium' (for web roles) and 'Small' (for Worker roles) to 'Standard_D2' (for web roles) and 'Standard_D1' (for worker roles).
+
+### Improvements
+
+* Replaced SSE with WebHooks for reliability
+* Borrower request history consistent with Borrower booking history
+* Takings history (for borrower)
+* Taking history (for owner)
+* Tidied Operations control of a car
+
+### Fixes
+
+* Search page alignment to compensate for sticky footer
+* Sticky footer in IE
+* removed duplicate in CSS Styles
+* Added magnifying image of drivers license in Operations
+* More emphasis on drivers contact details
+
+
 ## 1.30.0 (23/03/2017 - roamride only)
 
 ### Improvements
