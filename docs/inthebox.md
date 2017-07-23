@@ -1,19 +1,20 @@
 ---
 layout: default
-title: What You Are Gonna Get
+title: What You Are Ging To Get
 ---
-# What You Are Gonna Get
+# What You Are Going To Get
 
-Stuff that comes in the box for an Hourfleet Network Operator.
+When you join Hourfleet, you get your own entire cloud-hosted online car sharing management platform, tailored to your business and your brand.
 
-When you join Hourfleet, you get your own cloud hosted online car sharing platform, tailored to your business.
-You get a tenancy on the Hourfleet platform. Your tenancy can be used to run a car sharing network that supports either P2P car sharing or more conventional B2C car sharing, or both! 
+You will get a 'tenancy' on the Hourfleet platform. 
 
-Your tenancy includes the following pieces:
+Your tenancy can be used to run a car sharing network that supports either P2P car sharing or more conventional B2C car sharing, or both! 
 
-* A customizable, responsive web app that your customers use to find, and use cars. (see https://roamride.hourfleet.com/signin as an example)
+Your tenancy includes the following main pieces:
+
+* A customizable, responsive web app, works on any device, that your customers use to find, and use cars. (see https://roamride.hourfleet.com/signin as an example)
 * Keyless access technology. Devices that are fitted into the cars on your network that let borrowers have keyless access to the cars. No keys, just secure smartphone access.
-* A customizable, responsive web app that you (the operator) will use to monitor and manage your car sharing network.
+* A management web app that you (the operator) will use to monitor and manage your car sharing network and those using it.
 * 2nd Tier support by hourfleet support staff.
 
 # What it Looks Like
