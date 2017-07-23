@@ -12,7 +12,7 @@ Your tenancy can be used to run a car sharing network that supports either P2P c
 
 Your tenancy includes the following main pieces:
 
-* A customizable, responsive web app, works on any device, that your customers use to find, and use cars. (see https://roamride.hourfleet.com/signin as an example)
+* A customizable, responsive web app, works on any device, that your customers use to find, and use cars. (see [The RoamRide car sharing network](https://roamride.hourfleet.com/signin) as an example)
 * Keyless access technology. Devices that are fitted into the cars on your network that let borrowers have keyless access to the cars. No keys, just secure smartphone access.
 * A management web app that you (the operator) will use to monitor and manage your car sharing network and those using it.
 * 2nd Tier support by hourfleet support staff.
