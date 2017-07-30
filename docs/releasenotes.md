@@ -2,6 +2,21 @@
 layout: default
 title: Release Notes
 ---
+## 1.34.0 30/07/2017
+
+### Improvements
+
+* Added Operations Alert for any pages requests that return 404, in a summary for the period
+* Improved alerting to allow significant alerts like 'Security' and 'RequiresAction' to live for longer periods i.e. a week, and require manual dissmissal - coming in future release.
+
+## 1.33.0 28/07/2017
+
+The new deployment in this release decreases Azure VM sizes; from 'Standard_D2' (for web roles) and 'Standard_D1' (for Worker roles) to 'Medium' (for web roles) and 'Small' (for worker roles).
+
+### Improvements
+
+* Removed crash report on web sites for a 404 or any other HTTPException
+
 ## 1.32.0 22/07/2017
 
 The new deployment in this release increases Azure VM sizes; from 'Medium' (for web roles) and 'Small' (for Worker roles) to 'Standard_D2' (for web roles) and 'Standard_D1' (for worker roles).
