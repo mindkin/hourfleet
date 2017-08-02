@@ -2,6 +2,10 @@
 layout: default
 title: Release Notes
 ---
+## 1.35.0 03/08/2017
+
+This was a maintenance fix related to changing only the storage connection configuration for the migrated data of roamride to dedicated store.
+
 ## 1.34.0 30/07/2017
 
 ### Improvements
