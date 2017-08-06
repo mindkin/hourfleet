@@ -2,6 +2,10 @@
 layout: default
 title: Release Notes
 ---
+## 1.35.1 - 1.35.5 03/08/2017 - 06/08/2017
+
+These are a series of releases that refactor the Azure infrastructure, and add additional diagnosis infromation for Alerting issues found in Production.
+
 ## 1.35.0 03/08/2017
 
 This was a maintenance fix related to changing only the storage connection configuration for the migrated data of roamride to dedicated store.
