@@ -2,9 +2,19 @@
 layout: default
 title: Release Notes
 ---
-## 1.35.1 - 1.35.5 03/08/2017 - 06/08/2017
+## 1.35.8 07/08/2017
 
-These are a series of releases that refactor the Azure infrastructure, and add additional diagnosis infromation for Alerting issues found in Production.
+### Fixes
+
+* Fixed bug in the generation of storage identifiers based upon DateTime.UtcNow, and it not creating unique enough ids within short timeframes.
+
+## 1.35.1 - 1.35.7 03/08/2017 - 07/08/2017
+
+These releases are a series that refactor the Azure Infrastructure (i.e resource groups), and add additional diagnosis information for Alerting issues found in Production.
+
+### Improvements
+
+* Minor imporvements in data quality in operational alerts and presentation of them
 
 ## 1.35.0 03/08/2017
 
