@@ -2,6 +2,14 @@
 layout: default
 title: Release Notes
 ---
+## 1.35.10 28/08/2017
+
+### Improvements
+
+* Important/Security OPS Alerts now stay around for a week. With ability for OPS users to mark alerts as 'read' to hide them. 
+* Better reporting of failures and alerts with integrations to Paystation and RunTheRed.
+* OPs Dashboard is opened automatically for any "OPS" role user.
+
 ## 1.35.8 07/08/2017
 
 ### Fixes
