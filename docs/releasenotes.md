@@ -2,6 +2,12 @@
 layout: default
 title: Release Notes
 ---
+## 1.37.0 14/09/2017
+
+### Improvements
+
+* Registered users can now reset their password (with secret questions and answers)
+
 ## 1.35.10 28/08/2017
 
 ### Improvements
