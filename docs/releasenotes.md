@@ -8,6 +8,10 @@ title: Release Notes
 
 * Registered users can now reset their password (with secret questions and answers)
 
+## Fixes
+
+* Operation alerts now are hidden when clicking the trash can
+
 ## 1.35.10 28/08/2017
 
 ### Improvements
