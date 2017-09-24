@@ -146,6 +146,9 @@ Event Id | Context Fields
 --- | ---
 4000 | User has invited themselves: *invitation.fullname, invitation.url*
 4002 | User Account has been created: *user.fullname, user.url*
+4010 | A password reset has been requested for an unknown email address: *email*
+4011 | A password reset has been requested for a registered user: *email, url*
+4012 | A password has been reset for a registered user: *email*
 **101 - 109** | **Book Later requests:** *borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url*
 101 | (Borrower) Request has been drafted
 102 | (Borrower) Request has been cancelled
