@@ -321,3 +321,15 @@ In either case, borrowers will be fully verified by you before being able to bor
 
 As a Network Operator, you are able to customize the timing parameters for these usage models, and determine their pricing models.
 See more details about the Usage Models [How It Works](howitworks.html)
+
+## User Notifications
+
+At various times, the users of your network are going to get notifications sent to them via email or TXT message. 
+
+You can watch these notifications by setting up integration between Hourfleet and many other apps by using Zapier.
+
+## Configuring Zapier
+
+To be alerted when users receive notifications, you can configure Zapier to relay the notifications to one or many apps that you might use to manage your network, such as 'Slack' or 'Intercom' and many others.
+
+See [Zapier Integration](zapier.html) for details of how to configure.
