@@ -328,7 +328,7 @@ At various times, the users of your network are going to get notifications sent 
 
 You can watch these notifications by setting up integration between Hourfleet and many other apps by using Zapier.
 
-## Configuring Zapier
+### Configuring Zapier
 
 To be alerted when users receive notifications, you can configure Zapier to relay the notifications to one or many apps that you might use to manage your network, such as 'Slack' or 'Intercom' and many others.
 
