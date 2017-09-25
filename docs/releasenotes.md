@@ -2,6 +2,14 @@
 layout: default
 title: Release Notes
 ---
+## 1.39.0 26/09/2017
+
+### Improvements
+
+* 'Forget password' now supports adaptive secret questions based on profile information provided by user (e.g. driverslicense, dateofbirth, bankaccount, creditcard numbers, etc).
+* New operational alerts for password reset activity.
+* All operational alerts persist for at least 7 days.
+
 ## 1.38.0 15/09/2017
 
 ### Improvements
