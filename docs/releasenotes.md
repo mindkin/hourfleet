@@ -7,8 +7,9 @@ title: Release Notes
 ### Improvements
 
 * 'Forget password' now supports adaptive secret questions based on profile information provided by user (e.g. driverslicense, dateofbirth, bankaccount, creditcard numbers, etc).
-* New operational alerts for password reset activity.
+* New operational alerts for password reset activity, and account lockout activity.
 * All operational alerts (above 'Noise' level) persist for a minimum of 7 days.
+* A users account will now be locked out for several minutes if they fail authentication more than a few times in a row.
 
 ## 1.38.0 15/09/2017
 
