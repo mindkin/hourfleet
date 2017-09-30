@@ -2,7 +2,7 @@
 layout: default
 title: Release Notes
 ---
-## 1.40.0 (coming soon)
+## 1.40.0 30/09/2017
 
 ### Improvements
 
