@@ -2,6 +2,12 @@
 layout: default
 title: Release Notes
 ---
+## 1.40.1 - 1.40.4 17/10/2017
+
+### Improvements
+
+* Various security updates.
+
 ## 1.40.0 30/09/2017
 
 ### Improvements
