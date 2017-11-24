@@ -280,7 +280,21 @@ Once you have signed up and selected a plan that includes Intercom 'Acquire', yo
 * The 'APP ID" is the value of your 'ApiKey'
 
 ### Branding
-This section provides the basic look and feel of your Hourfleet operational site, so that it looks and feels like a natural extension of your main website.
+This section provides the basic look and feel of your Hourfleet operational site, so that it looks and feels like a natural extension of your main website
+#### Image Sizing
+All images can be provided in higher values as long as their aspect ratios remain the same.
+
+| Image | Size |
+| --- | --- |
+| og_logo.jpg | 200px X 200px |
+| logo_navbar.png | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
+| logo_navbar_mobile.ong | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
+| favicon.ico | 190px X 190px
+| loader_inline.gif | minumum 50px x 50px. Image must be square but if larger will be sized down |
+| loader_page.gif | minumum 100px x 100px. Image must be square but if larger will be sized down |
+| loader_button.gif | minumum 50px x 50px. Image must be square but if larger will be sized down |
+| apple-icon.jpg | 75px X 75px |
+| android-icon.jpg | 75px X 75px |
 
 #### SEO
 All web applications need to provide sufficient metadata for Search Engine Optimization (SEO) for web crawlers such as google to help get your business found. Also, your Hourfleet operational website needs to provide the right metadata so that and when people share their experience with social media applications (like facebook and twitter), the right information is displayed in their post by default.
