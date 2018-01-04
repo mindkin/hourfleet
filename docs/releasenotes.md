@@ -2,6 +2,12 @@
 layout: default
 title: Release Notes
 ---
+## 1.41.0
+
+### Improvements
+
+* The platform has been upgraded to support multiple-tenants, ancrease in capacity and throughput (via load balancing infrastructure).
+
 ## 1.40.1 - 1.40.4 17/10/2017
 
 ### Improvements
