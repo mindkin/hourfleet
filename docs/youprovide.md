@@ -87,27 +87,29 @@ Note: In addition to making payments to your customers through the Hourfleet web
 
 On their site, Paystation  provides you with a full suite of manual payments products, i.e. PayMe invoicing, and payment transaction reporting. [Paystation Admin](https://admin.paystation.co.nz/)
 
-# RunTheRed Account
+# Modica Account
 *[New Zealand Network Operators Only]*
 
-Hourfleet integrates with [www.RunTheRed.co.nz](www.runthered.co.nz) as a text messaging gateway used by HourFleet for sending alerts to your customers, and instructions to the cars in your network.
+Hourfleet integrates with [www.modica.co.nz](www.modica.co.nz) (formerly RunTheRed) as a text messaging gateway used by HourFleet for sending alerts to your customers, and instructions to the cars in your network.
 
-You need to create your own account with RunTheRed and obtain a shortcode so that Hourfleet can use this service.
+You need to create your own account with Modica and obtain a shortcode so that Hourfleet can use this service.
 The service you are creating needs to support the following: Text Messaging, and Delivery Receipts (DLR), but *not* Mobile Origination (MO). 
 
 ## Technical Setup
 
-Once you have created you RunTheRed account and confirmed that it's working using the RuntTheRed management tool, Hourfleet requires that you provide the following information for your tenancy:
+Please contact Modica directly to setup your account.
+
+Once you have created you Modica account and confirmed that it's working using the Modica management tool, Hourfleet requires that you provide the following information for your tenancy:
 
 * GatewayKey
 * ShortCode
 * Username
 * Password
 
-For delivery receipts to work, you need to inform RunTheRed of the we address where they must send DLR's:
+For delivery receipts to work, you need to inform Modica of the we address where they must send DLR's:
 
 * DLR URL: https://yourtenancy.hourfleet.com:4431/api/sms/status/${messageId}/update?dlr=${dlr}
 
 ## Additional Management Tools
 
-RunTheRed will also provide you a login to their site ([manage.runthered.com](https://manage.runthered.com)) so that you can monitor an track all your text messages, and configure your account.
+Modica will also provide you a login to their site ([manage.runthered.com](https://manage.runthered.com)) so that you can monitor an track all your text messages, and configure your account.
