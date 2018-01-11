@@ -13,12 +13,10 @@ These are broadly some of the things that you need to do:
 
 * Create a Merchant Account with your Bank
 * *[New Zealand Network Operators]* - Create a PayStation account that can charge your customers credit card and remit to your merchant bank account
-* *[New Zealand Network Operators]* - Create a RunTheRed account, so that your customers can receive SMS TXT message alerts, and so that your cars can be operated remotely (keyless-access).
+* *[New Zealand Network Operators]* - Create a Modica account, so that your customers can receive SMS TXT message alerts, and so that your cars can be operated remotely (keyless-access).
 * Construct a Terms Of Service agreement with your Lawyers
 * Create a Privacy Policy with your Lawyers
 * Create a 'front door' website to inform and capture your customers, and that can lead your customers to register and use cars in your network.
-
-
 
 # Paystation Account
 *[New Zealand Network Operators Only]*
