@@ -2,11 +2,21 @@
 layout: default
 title: Release Notes
 ---
-## 1.41.0
+## 1.43.0 12/01/2018
 
 ### Improvements
 
-* The platform has been upgraded to support multiple-tenants, ancrease in capacity and throughput (via load balancing infrastructure).
+* Addition of jobs to replay failed logging data
+
+## 1.42.0 10/01/2018
+
+Redeployment of the platform into new Azure infrastructure, including new monitoring and SSL certificates.
+
+## 1.41.0 04/10/2018
+
+### Improvements
+
+* The platform has been upgraded to support multiple-tenants, and increase in capacity and throughput (via load balancing infrastructure).
 
 ## 1.40.1 - 1.40.4 17/10/2017
 
