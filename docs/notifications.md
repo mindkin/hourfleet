@@ -26,6 +26,7 @@ If you would like to be notified of these events at the same time as your custom
 ## Booking Requests
 *borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url*
 ## (Borrower) Draft Request
+------
 This notification is sent when a borrower makes a booking request and is not fully verified.
 ### Email
 Subject
@@ -36,10 +37,11 @@ Header
 > To Continue
 
 Body
->Kia Ora -borrower.name-,  
->Your account must be verified in order for the owner of '-car.name-' to receive your booking request.  
+> Kia Ora -borrower.name-,  
+> Your account must be verified in order for the owner of '-car.name-' to receive your booking request.  
 > `Become Verified`  
->asd
+> Verification can be lost when you change specific information on your account e.g. your driver's license information.  
+> Once you have become verified again your booking requests are automatically sent to the vehicles owners and your approved bookings are restored.
 
 
 ## (Borrower) Cancelled Request
