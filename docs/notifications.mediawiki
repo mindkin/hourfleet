@@ -1,35 +1,14 @@
 __TOC__
 
----
-layout: default
-title: Notifications
----
-==Notifications==
+=Notifications=
 For key events in the system, users will recieve SMS and Email notifications. For example when they join your network, or when they reserve or book a car.
 Here you can see an example of all the sms and email notifications that get sent and at which key events they happen.
 If you would like to be notified of these events at the same time as your customers you can do this with Zapier Integration.
 
-===User Verifications===
-
-302 | User has become verified as a borrower
-303 | User has become unverified as a borrower
-304 | User has become verified as a carowner
-305 | User has become unverified as a carowner
-306 | User's email address has changed: *user.name, verification.url*
-
-4000 | User has invited themselves: *invitation.fullname, invitation.url*
-4002 | User Account has been created: *user.fullname, user.url*
-4010 | A password reset has been requested for an unknown email address: *email*
-4011 | A password reset has been requested for a registered user: *email, url*
-4012 | A password has been reset for a registered user: *email*
-
-## Booking Requests
-*borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url*
-
-===Draft Request (Borrower)===
+==Draft Request (Borrower)==
 ------
 This notification is sent when a borrower makes a booking request and is not fully verified.
-====Email====
+===Email===
 Subject
 <blockquote>
 Get verified to continue! Your Booking request for '-car.name-' for period -request.startdate- to -request.enddate- is waiting.</blockquote>
@@ -46,6 +25,28 @@ Your account must be verified in order for the owner of '-car.name-' to receive 
 Verification can be lost when you change specific information on your account e.g. your driver's license information.
 Once you have become verified again your booking requests are automatically sent to the vehicles owners and your approved bookings are restored.
 </poem></blockquote>
+===Email===
+
+
+
+
+
+==User Verifications==
+
+302 | User has become verified as a borrower
+303 | User has become unverified as a borrower
+304 | User has become verified as a carowner
+305 | User has become unverified as a carowner
+306 | User's email address has changed: *user.name, verification.url*
+
+4000 | User has invited themselves: *invitation.fullname, invitation.url*
+4002 | User Account has been created: *user.fullname, user.url*
+4010 | A password reset has been requested for an unknown email address: *email*
+4011 | A password reset has been requested for a registered user: *email, url*
+4012 | A password has been reset for a registered user: *email*
+
+## Booking Requests
+*borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url*
 
 ## (Borrower) Cancelled Request
 ## (Car Owner) Cancelled Request
