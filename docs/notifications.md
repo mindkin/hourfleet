@@ -9,9 +9,7 @@ Here you can see an example of all the sms and email notifications that get sent
 If you would like to be notified of these events at the same time as your customers you can do this with Zapier Integration.
 
 
-## Events
-
-### User Verifications
+## User Verifications
 
 302 | User has become verified as a borrower
 303 | User has become unverified as a borrower
@@ -25,19 +23,35 @@ If you would like to be notified of these events at the same time as your custom
 4011 | A password reset has been requested for a registered user: *email, url*
 4012 | A password has been reset for a registered user: *email*
 
-### Booking Requests
+## Booking Requests
 *borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url*
-101 | (Borrower) Request has been drafted
-102 | (Borrower) Request has been cancelled
-103 | (Car Owner) Request has ben cancelled
-104 | (Borrower) Request is now pending approval
-105 | (Car Owner) Request is pending approval
-106 | (Borrower) Request has been declined
-107 | (Car Owner) Request has been declined
-108 | (Borrower) Request has been expired (by System)
-109 | (Car Owner) Request has been expired (by System
+## (Borrower) Draft Request
+This notification is sent when a borrower makes a booking request and is not fully verified.
+### Email
+Subject
+> Get verified to continue! Your Booking request for '-car.name-' for period -request.startdate- to -request.enddate- is waiting.
 
-### Book Later Bookings
+Header
+> Get Verified  
+> To Continue
+
+Body
+>Kia Ora -borrower.name-,  
+>Your account must be verified in order for the owner of '-car.name-' to receive your booking request.  
+> `Become Verified`  
+>asd
+
+
+## (Borrower) Cancelled Request
+## (Car Owner) Cancelled Request
+## (Borrower) Pending Approval Request
+## (Car Owner) Pending Approval Reuqest
+## (Borrower) Declined Request
+## (Car Owner) Declined Request
+## (Borrower) Expired Request (by System)
+## (Car Owner) Expired Request (by System)
+
+## Book Later Bookings
 *borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, booking.startdate, booking.enddate, booking.cancelleddate, booking.returneddate, booking.useddate, booking.completeddate, booking.cost.usage, booking.cost.estimated, booking.url, bookings.url, booking.comments.borrowercancellation, booking.comments.borrowerreturned, booking.comments.carownercancellation, booking.comments.carownercompletion*
 201 | (Borrower) Booking has been approved
 202 | (Car Owner) Booking has been approved
@@ -56,7 +70,7 @@ If you would like to be notified of these events at the same time as your custom
 215 | (Borrower) Booking has been extended
 216 | (Car Owner) Booking has been extended
 
-### Take Now Bookings
+## Take Now Bookings
 *borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, taking.reserveddate, taking.nouseexpireson, taking.noreturnexpireson, taking.cancelleddate, taking.useddate, taking.returneddate, taking.rejecteddate, taking.cost.usage, taking.url, takings.url*
 221 | (Borrower) Taking has been reserved
 222 | (Car Owner)  Taking has been reserved
