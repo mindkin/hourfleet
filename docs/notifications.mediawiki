@@ -1,15 +1,15 @@
+__TOC__
+
 ---
 layout: default
 title: Notifications
 ---
-# Notifications
-
+==Notifications==
 For key events in the system, users will recieve SMS and Email notifications. For example when they join your network, or when they reserve or book a car.
 Here you can see an example of all the sms and email notifications that get sent and at which key events they happen.
 If you would like to be notified of these events at the same time as your customers you can do this with Zapier Integration.
 
-
-## User Verifications
+===User Verifications===
 
 302 | User has become verified as a borrower
 303 | User has become unverified as a borrower
@@ -25,24 +25,27 @@ If you would like to be notified of these events at the same time as your custom
 
 ## Booking Requests
 *borrower.name, carowner.name, car.plate, car.name, car.photo, car.url, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url*
-## (Borrower) Draft Request
+
+===Draft Request (Borrower)===
 ------
 This notification is sent when a borrower makes a booking request and is not fully verified.
-### Email
+====Email====
 Subject
-> Get verified to continue! Your Booking request for '-car.name-' for period -request.startdate- to -request.enddate- is waiting.
-
+<blockquote>
+Get verified to continue! Your Booking request for '-car.name-' for period -request.startdate- to -request.enddate- is waiting.</blockquote>
 Header
-> Get Verified  
-> To Continue
-
+<blockquote><poem>
+Get Verified  
+To Continue
+</poem></blockquote>
 Body
-> Kia Ora -borrower.name-,  
-> Your account must be verified in order for the owner of '-car.name-' to receive your booking request.  
-> `Become Verified`  
-> Verification can be lost when you change specific information on your account e.g. your driver's license information.  
-> Once you have become verified again your booking requests are automatically sent to the vehicles owners and your approved bookings are restored.
-
+<blockquote><poem>
+Kia Ora -borrower.name-,
+Your account must be verified in order for the owner of '-car.name-' to receive your booking request.
+<code>Become Verified</code>
+Verification can be lost when you change specific information on your account e.g. your driver's license information.
+Once you have become verified again your booking requests are automatically sent to the vehicles owners and your approved bookings are restored.
+</poem></blockquote>
 
 ## (Borrower) Cancelled Request
 ## (Car Owner) Cancelled Request
