@@ -9,27 +9,13 @@ If you would like to be notified of these events at the same time as your custom
 ------
 This notification is sent when a borrower makes a booking request and is not fully verified.
 ===Email===
-Subject
-<blockquote>
-Get verified to continue! Your Booking request for '-car.name-' for period -request.startdate- to -request.enddate- is waiting.</blockquote>
-Header
-<blockquote><poem>
-Get Verified  
-To Continue
-</poem></blockquote>
-Body
-<blockquote><poem>
-Kia Ora -borrower.name-,
-Your account must be verified in order for the owner of '-car.name-' to receive your booking request.
-<code>Become Verified</code>
-Verification can be lost when you change specific information on your account e.g. your driver's license information.
-Once you have become verified again your booking requests are automatically sent to the vehicles owners and your approved bookings are restored.
-</poem></blockquote>
-===Email===
+<code>IMAGE</code>
+===SMS===
+<code>IMAGE</code>
 
-
-
-
+Substitutions Available
+<code>-car.name-</code>,<code>-request.startdate-</code>,<code>-request.enddate-</code>,<code>-borrower.name-</code>,<code></code>
+<code></code>
 
 ==User Verifications==
 
