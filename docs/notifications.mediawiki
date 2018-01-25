@@ -5,17 +5,30 @@ For key events in the system, users will recieve SMS and Email notifications. Fo
 Here you can see an example of all the sms and email notifications that get sent and at which key events they happen.
 If you would like to be notified of these events at the same time as your customers you can do this with Zapier Integration.
 
-==Draft Request (Borrower)==
-------
+== Requests ==
+Substitutions Available for request emails: 
+<code>borrower.name</code>
+<code>carowner.name</code>
+<code>car.plate</code>
+<code>car.name</code>
+<code>car.photo</code>
+<code>car.url</code>
+<code>request.startdate</code>
+<code>request.enddate</code>
+<code>request.cancelleddate</code>
+<code>request.cost.estimated</code>
+<code>request.url</code>
+<code>requests.url</code>
+
+===Draft Request (Borrower)==
+
 This notification is sent when a borrower makes a booking request and is not fully verified.
-===Email===
+====Email====
 <code>IMAGE</code>
-===SMS===
+====SMS====
 <code>IMAGE</code>
 
-Substitutions Available
-<code>-car.name-</code>,<code>-request.startdate-</code>,<code>-request.enddate-</code>,<code>-borrower.name-</code>,<code></code>
-<code></code>
+
 
 ==User Verifications==
 
