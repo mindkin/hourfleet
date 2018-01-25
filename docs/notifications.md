@@ -2,6 +2,13 @@
 layout: default
 title: Notifications
 ---
+ ### Table of Contents
+- [Email Configuration](#email-configuration)
+- [Accounts](#accounts)
+  - [Invitation](#invitation-user)
+  - [Account Created](#account-created-user)
+  - [Attempted Password Reset](#attempted-password-reset-user)
+  - [](#)
 
 
 
