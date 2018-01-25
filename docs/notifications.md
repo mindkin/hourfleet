@@ -3,14 +3,38 @@ layout: default
 title: Notifications
 ---
 
+
+
 # Notifications
 
 For key events in the system, users will receive SMS and Email notifications. For example when they join your network, or when they book a car.
 Here you can see an example of all the SMS and Email notifications that get sent and at which key events they happen.
 If you would like to be notified of these events at the same time as your customers you can do this through Zapier Integration. To find out how to do this visit the [Zapier Integration](zapier.html) page. 
   
-    
-      
+## Email Configuration
+
+Some email elements are determined by your [Network Operator configuration file](youconfigure.html) and will be the same across all the email notifications that are sent. In the image examples below references to 'Roam' by name, URLs or images will be replaced with your network counterpart.
+
+**Email Headers**
+
+![EmailPreview](images/EmailPreviews/emailHeaderExample.PNG)
+
+The colour of your email header is determined by the `primary color` attribute in the branding section of your configuration file and is used across all emails.
+
+The content in your email headers are separated onto two lines and is configured per email based on the context in which it is being sent.
+
+**Email Footers**
+
+![EmailPreview](images/EmailPreviews/emailFooterExample.PNG)
+
+The configuration of your email footer is determined by values in your configuration file and is used across all emails.
+
+- The *Roam* logo is replaced the image provided for `DesktopImageUrl`
+- The activity URL is replaced with the URL provided for `HomeUrl`
+- The support URL is replaced with the URL provided for `Email` under `Support/Company` section
+- The social media icons link to the URL's provided in the `social` category. 
+  **Note:** If you do not provide a URL for a particular platform e.g. Twitter, the corresponding icon will not be displayed.
+- The address is replaced with the `Address` section under `Support/Company`
         
 ## Accounts
 
