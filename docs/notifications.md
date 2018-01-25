@@ -28,9 +28,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/invitation.PNG)
 
 **SMS**
-~~~
-We've made it super easy for you to join (Your Network Name). Register at: %user.url%
-~~~
+<blockquote>We've made it super easy for you to join (Your Network Name). Register at: %user.url%</blockquote>
 
 ### Account Created (User)
 
@@ -46,9 +44,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/accountCreated.PNG)
 
 **SMS**
-~~~
-Welcome to (Your Network Name). Please get verified at: %user.url%
-~~~
+<blockquote>Welcome to (Your Network Name). Please get verified at: %user.url%</blockquote>
 
 ### Attempted Password Reset (User)
 
@@ -63,9 +59,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/passwordResetAttempt.PNG)
 
 **SMS**
-~~~
-Account Access Attempted. Your number was used to change the password of an (Your Network Name) account.
-~~~
+<blockquote>Account Access Attempted. Your number was used to change the password of an (Your Network Name) account.</blockquote>
 
 ### Password Reset Request (User)
 
@@ -81,9 +75,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/passwordResetRequest.PNG)
 
 **SMS**
-~~~
-Please click on this link to reset your password: %url%
-~~~
+<blockquote>Please click on this link to reset your password: %url%</blockquote>
 
 ### Password Reset (User)
 
@@ -98,7 +90,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/passwordReset.PNG)
 
 **SMS**
-~~~Your account password has just been reset.~~~
+<blockquote>Your account password has just been reset.</blockquote>
 
 ## Verifications
 ----
@@ -115,7 +107,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/verified_borrower.PNG)
 
 **SMS**
-~~~You have just been fully verified as a borrower, you are all set to borrow any car now.~~~
+<blockquote>You have just been fully verified as a borrower, you are all set to borrow any car now.</blockquote>
 
 ### Verified Car Owner (User)
 
@@ -130,7 +122,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/verified_owner.PNG)
 
 **SMS**
-~~~You have just been fully verified as a car owner and you are all set to lend your car when someone needs it.~~~
+<blockquote>You have just been fully verified as a car owner and you are all set to lend your car when someone needs it.</blockquote>
 
 ### Unverified Borrower (User)
 
@@ -145,7 +137,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/unverified_borrower.PNG)
 
 **SMS**
-~~~You have just become un-verified for borrowing any cars. Please review your profile and get verified again.~~~
+<blockquote>You have just become un-verified for borrowing any cars. Please review your profile and get verified again.</blockquote>
 
 ### Unverified Car Owner (User)
 
@@ -160,7 +152,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/unverified_owner.PNG)
 
 **SMS**
-~~~You have just become un-verified, and can no longer rent out your car. Please review your profile and get verified again.~~~
+<blockquote>You have just become un-verified, and can no longer rent out your car. Please review your profile and get verified again.</blockquote>
 
 ### Updated Email (User)
 
@@ -175,7 +167,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/emailChanged_user.PNG)
 
 **SMS**
-~~~Please verify your email address: %verification.url%~~~
+<blockquote>Please verify your email address: %verification.url%</blockquote>
 
 
 ## Booking Requests
@@ -204,7 +196,7 @@ This notification is sent when a borrower makes a booking request and is not ful
 ![EmailPreview](images/EmailPreviews/requestDraft_borrower.PNG)
 
 **SMS**
-~~~Get verified to continue. Your booking of '%car.name%' is waiting. See %request.url%~~~
+<blockquote>Get verified to continue. Your booking of '%car.name%' is waiting. See %request.url%</blockquote>
 
 ### Pending Request (Borrower)
 
@@ -215,7 +207,7 @@ This notification is sent to the *Borrower* when a booking request is pending.
 ![EmailPreview](images/EmailPreviews/requestPending_borrower.PNG)
 
 **SMS**
-~~~Your request for '%car.name%' at %request.startdate% is awaiting the owner's approval. See %request.url%~~~
+<blockquote>Your request for '%car.name%' at %request.startdate% is awaiting the owner's approval. See %request.url%</blockquote>
 
 ### Pending Request (Car Owner)
 
@@ -226,7 +218,7 @@ This notification is sent to the *Car Owner* when a booking request is pending.
 ![EmailPreview](images/EmailPreviews/requestPending_owner.PNG)
 
 **SMS**
-~~~A request for your '%car.name%' by %borrower.name% at %request.startdate% is awaiting your approval. See %request.url%~~~
+<blockquote>A request for your '%car.name%' by %borrower.name% at %request.startdate% is awaiting your approval. See %request.url%</blockquote>
 
 ### Cancelled Request (Borrower)
 
@@ -237,7 +229,7 @@ This notification is sent to the *Borrower* when they cancel a booking request.
 ![EmailPreview](images/EmailPreviews/requestCancelled_borrower.PNG)
 
 **SMS**
-~~~Your request for '%car.name%' at %request.startdate% has been cancelled. See %request.url%~~~
+<blockquote>Your request for '%car.name%' at %request.startdate% has been cancelled. See %request.url%</blockquote>
 
 ### Cancelled Request (Car Owner)
 
@@ -248,7 +240,7 @@ This notification is sent to the *Car Owner* when a *Borrower* cancels a booking
 ![EmailPreview](images/EmailPreviews/requestCancelled_owner.PNG)
 
 **SMS**
-~~~A request for your '%car.name%' by %borrower.name% at %request.startdate% has been cancelled. See %request.url%~~~
+<blockquote>A request for your '%car.name%' by %borrower.name% at %request.startdate% has been cancelled. See %request.url%</blockquote>
 
 ### Declined Request (Borrower)
 
@@ -259,7 +251,7 @@ This notification is sent to the *Borrower* when their booking request has been 
 ![EmailPreview](images/EmailPreviews/requestDeclined_borrower.PNG)
 
 **SMS**
-~~~Your request for '%car.name%' at %request.startdate% has been declined. See %request.url%~~~
+<blockquote>Your request for '%car.name%' at %request.startdate% has been declined. See %request.url%</blockquote>
 
 ### Declined Request (Car Owner)
 
@@ -270,7 +262,7 @@ This notification is sent to the *Car Owner* when they decline a booking request
 ![EmailPreview](images/EmailPreviews/requestDeclined_owner.PNG)
 
 **SMS**
-~~~The request for your '%car.name%' by %borrower.name% at %request.startdate% has been declined. See %request.url%~~~
+<blockquote>The request for your '%car.name%' by %borrower.name% at %request.startdate% has been declined. See %request.url%</blockquote>
 
 ### Expired Request (Borrower)
 
@@ -281,7 +273,7 @@ This notification is sent to the *Borrower* when their booking request has expir
 ![EmailPreview](images/EmailPreviews/requestExpired_borrower.PNG)
 
 **SMS**
-~~~Your request for '%car.name%' at %request.startdate% has now expired without any approval. See %request.url%~~~
+<blockquote>Your request for '%car.name%' at %request.startdate% has now expired without any approval. See %request.url%</blockquote>
 
 ### Expired Request (Car Owner)
 
@@ -292,7 +284,7 @@ This notification is sent to the *Car Owner* when a booking request has expired.
 ![EmailPreview](images/EmailPreviews/requestExpired_owner.PNG)
 
 **SMS**
-~~~The request for your '%car.name%' by %borrower.name% at %request.startdate% has now expired. See %request.url%~~~
+<blockquote>The request for your '%car.name%' by %borrower.name% at %request.startdate% has now expired. See %request.url%</blockquote>
 
 
 ## 'Book Later' Bookings
@@ -333,7 +325,7 @@ This notification is sent to the *Borrower* when their booking request has been 
 ![EmailPreview](images/EmailPreviews/bookingApproved_borrower.PNG)
 
 **SMS**
-~~~Your request for '%car.name%' at %booking.startdate% has been approved by the owner. See %booking.url%~~~
+<blockquote>Your request for '%car.name%' at %booking.startdate% has been approved by the owner. See %booking.url%</blockquote>
 
 ### Approved Request (Car Owner)
 
@@ -344,7 +336,7 @@ This notification is sent to the *Car Owner* when they approve a booking request
 ![EmailPreview](images/EmailPreviews/bookingApproved_owner.PNG)
 
 **SMS**
-~~~You have approved the request for your '%car.name%' by %borrower.name% at %booking.startdate%. See %booking.url%~~~
+<blockquote>You have approved the request for your '%car.name%' by %borrower.name% at %booking.startdate%. See %booking.url%</blockquote>
 
 ### Cancelled Booking (Borrower)
 
@@ -355,7 +347,7 @@ This notification is sent to the *Car Owner* when a booking has been cancelled.
 ![EmailPreview](images/EmailPreviews/bookingCancelled_borrower.PNG)
 
 **SMS**
-~~~Your booking for '%car.name%' at %booking.startdate% has been cancelled. See %booking.url%~~~
+<blockquote>Your booking for '%car.name%' at %booking.startdate% has been cancelled. See %booking.url%</blockquote>
 
 ### Cancelled Booking (Car Owner)
 
@@ -365,7 +357,7 @@ This notification is sent to the *Car Owner* when a booking has been cancelled.
 ![EmailPreview](images/EmailPreviews/bookingCancelled_owner.PNG)
 
 **SMS**
-~~~The booking for your '%car.name%' by %borrower.name% at %booking.startdate% has been cancelled. See %booking.url%~~~
+<blockquote>The booking for your '%car.name%' by %borrower.name% at %booking.startdate% has been cancelled. See %booking.url%</blockquote>
 
 ### Due to Begin Booking (Borrower)
 
@@ -376,7 +368,7 @@ This notification is sent to the *Borrower* about their upcoming booking.
 ![EmailPreview](images/EmailPreviews/bookingBeginning_borrower.PNG)
 
 **SMS**
-~~~Your booking for '%car.name%' at %booking.startdate% is due to begin soon. See %booking.url%~~~
+<blockquote>Your booking for '%car.name%' at %booking.startdate% is due to begin soon. See %booking.url%</blockquote>
 
 ### Due to Begin Booking (Car Owner)
 
@@ -386,7 +378,7 @@ This notification is sent to the *Car Owner* about the upcoming booking of their
 ![EmailPreview](images/EmailPreviews/bookingBeginning_owner.PNG)
 
 **SMS**
-~~~The rental of your '%car.name%' by %borrower.name% at %booking.startdate% is due to begin soon. See %booking.url%~~~
+<blockquote>The rental of your '%car.name%' by %borrower.name% at %booking.startdate% is due to begin soon. See %booking.url%</blockquote>
 
 ### Booking Begun (Borrower)
 
@@ -397,7 +389,7 @@ This notification is sent to the *Borrower* once their booking has been started.
 ![EmailPreview](images/EmailPreviews/bookingStarted_borrower.PNG)
 
 **SMS**
-~~~Lets go!, you have started the rental of '%car.name%' at %booking.useddate%. See %booking.url%~~~
+<blockquote>Lets go!, you have started the rental of '%car.name%' at %booking.useddate%. See %booking.url%</blockquote>
 
 ### Booking Begun (Car Owner)
 
@@ -407,7 +399,7 @@ This notification is sent to the *Car Owner* when the *Borrower* has started the
 ![EmailPreview](images/EmailPreviews/bookingStarted_owner.PNG)
 
 **SMS**
-~~~The rental of your '%car.name%' by %borrower.name% has started at %booking.useddate%. See %booking.url%~~~
+<blockquote>The rental of your '%car.name%' by %borrower.name% has started at %booking.useddate%. See %booking.url%</blockquote>
 
 ### Booking Returned (Borrower)
 
@@ -417,7 +409,7 @@ This notification is sent to the *Borrower* when they have returned the vehicle 
 ![EmailPreview](images/EmailPreviews/bookingReturned_borrower.PNG)
 
 **SMS**
-~~~Thanks, you have ended the rental of the '%car.name%' at %booking.returneddate%. See %booking.url%~~~
+<blockquote>Thanks, you have ended the rental of the '%car.name%' at %booking.returneddate%. See %booking.url%</blockquote>
 
 ### Booking Returned (Car Owner)
 
@@ -427,7 +419,7 @@ This notification is sent to the *Car Owner* when the *Borrower* has returned th
 ![EmailPreview](images/EmailPreviews/bookingReturned_owner.PNG)
 
 **SMS**
-~~~Your '%car.name%' has been returned by %borrower.name% at %booking.returneddate%. See %booking.url%~~~
+<blockquote>Your '%car.name%' has been returned by %borrower.name% at %booking.returneddate%. See %booking.url%</blockquote>
 
 ### Booking Completed (Borrower)
 
@@ -438,7 +430,7 @@ This notification is sent to the *Borrower* when the *Car Owner* completes the b
 ![EmailPreview](images/EmailPreviews/bookingComplete_borrower.PNG)
 
 **SMS**
-~~~The rental of '%car.name%' was completed at %booking.completeddate%. See %booking.url%~~~
+<blockquote>The rental of '%car.name%' was completed at %booking.completeddate%. See %booking.url%</blockquote>
 
 ### Booking Completed (Car Owner)
 
@@ -448,7 +440,7 @@ This notification is sent to the *Car Owner* when they complete a booking or the
 ![EmailPreview](images/EmailPreviews/bookingComplete_owner.PNG)
 
 **SMS**
-~~~The booking of your '%car.name%' by %borrower.name% has now completed~~~
+<blockquote>The booking of your '%car.name%' by %borrower.name% has now completed</blockquote>
 
 ### Booking Due to End (Borrower)
 
@@ -458,7 +450,7 @@ This notification is sent to the *Borrower* when their booking is due to end soo
 ![EmailPreview](images/EmailPreviews/bookingEnding_borrower.PNG)
 
 **SMS**
-~~~Your booking for '%car.name%' at %booking.startdate% is due to end soon at %booking.enddate%. See %booking.url%~~~
+~~~Your booking for '%car.name%' at %booking.startdate% is due to end soon at %booking.enddate%. See %booking.url%</blockquote>
 
 ### Booking Due to End (Car Owner)
 
@@ -468,7 +460,7 @@ This notification is sent to the *Car Owner* when the booking of their vehicle i
 ![EmailPreview](images/EmailPreviews/bookingEnding_owner.PNG)
 
 **SMS**
-~~~The rental of your '%car.name%' by %borrower.name% at %booking.startdate% is due to end soon at %booking.enddate%. See %booking.url%~~~
+<blockquote>The rental of your '%car.name%' by %borrower.name% at %booking.startdate% is due to end soon at %booking.enddate%. See %booking.url%</blockquote>
 
 ### Booking Extended (Borrower)
 
@@ -478,7 +470,7 @@ This notification is sent to the *Borrower* after they have extended their booki
 ![EmailPreview](images/EmailPreviews/bookingExtended_borrower.PNG)
 
 **SMS**
-~~~Your booking for '%car.name%' has been extended to start at %booking.startdate% and end at %booking.enddate%. See %booking.url%~~~
+<blockquote>Your booking for '%car.name%' has been extended to start at %booking.startdate% and end at %booking.enddate%. See %booking.url%</blockquote>
 
 ### Booking Extended (Car Owner)
 
@@ -488,4 +480,4 @@ This notification is sent to the *Car Owner* after the *Borrower* has extended t
 ![EmailPreview](images/EmailPreviews/bookingExtended_owner.PNG)
 
 **SMS**
-~~~The rental of your '%car.name%' by %borrower.name% has been extended to start at %booking.startdate% and end at %booking.enddate%. See %booking.url%~~~
+<blockquote>The rental of your '%car.name%' by %borrower.name% has been extended to start at %booking.startdate% and end at %booking.enddate%. See %booking.url%</blockquote>
