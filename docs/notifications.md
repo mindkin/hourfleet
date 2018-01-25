@@ -3,6 +3,8 @@ layout: default
 title: Notifications
 ---
 
+[TOC]
+
 __TOC__
 
 =Notifications=
