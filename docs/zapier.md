@@ -126,6 +126,7 @@ You can always come back and change the settings to get what you need.
 # Notifications
 
 Notifications provide this data, which can be selected (from the Message Text dropdown) when you setup your Zap.
+For a more detailed explaination of what notifications get sent out and when check out the [Notifications Page](notifications.html)
 
 ## Fields
 
