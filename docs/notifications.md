@@ -28,7 +28,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/invitation.PNG)
 
 **SMS**
-<blockquote></blockquote>
+<blockquote>We've made it super easy for you to join (Your Network Name). Register at: %user.url%</blockquote>
 
 ### Account Created (User)
 
@@ -44,7 +44,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/accountCreated.PNG)
 
 **SMS**
-<blockquote></blockquote>
+<blockquote>Welcome to (Your Network Name). Please get verified at: %user.url%</blockquote>
 
 ### Attempted Password Reset (User)
 
@@ -59,7 +59,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/passwordResetAttempt.PNG)
 
 **SMS**
-<blockquote></blockquote>
+<blockquote>Account Access Attempted. Your number was used to change the password of an (Your Network Name) account.</blockquote>
 
 ### Password Reset Request (User)
 
@@ -75,7 +75,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/passwordResetRequest.PNG)
 
 **SMS**
-<blockquote></blockquote>
+<blockquote>Please click on this link to reset your password: %url%</blockquote>
 
 ### Password Reset (User)
 
@@ -90,7 +90,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/passwordReset.PNG)
 
 **SMS**
-<blockquote></blockquote>
+<blockquote>Your account password has just been reset.</blockquote>
 
 ## Verifications
 ----
@@ -107,7 +107,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/verified_borrower.PNG)
 
 **SMS**
-<blockquote></blockquote>
+<blockquote>You have just been fully verified as a borrower, you are all set to borrow any car now.</blockquote>
 
 ### Verified Car Owner (User)
 
@@ -122,7 +122,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/verified_owner.PNG)
 
 **SMS**
-<blockquote></blockquote>
+<blockquote>You have just been fully verified as a car owner and you are all set to lend your car when someone needs it.</blockquote>
 
 ### Unverified Borrower (User)
 
@@ -137,7 +137,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/unverified_borrower.PNG)
 
 **SMS**
-<blockquote></blockquote>
+<blockquote>You have just become un-verified for borrowing any cars. Please review your profile and get verified again.</blockquote>
 
 ### Unverified Car Owner (User)
 
@@ -152,7 +152,7 @@ Substitutions Available:
 ![EmailPreview](images/EmailPreviews/unverified_owner.PNG)
 
 **SMS**
-<blockquote></blockquote>
+<blockquote>You have just become un-verified, and can no longer rent out your car. Please review your profile and get verified again.</blockquote>
 
 ### Updated Email (User)
 
@@ -164,10 +164,10 @@ Substitutions Available:
 
 **Email**
 
-![EmailPreview](images/EmailPreviews/emailChanged.PNG)
+![EmailPreview](images/EmailPreviews/emailChanged_user.PNG)
 
 **SMS**
-<blockquote></blockquote>
+<blockquote>Please verify your email address: %verification.url%</blockquote>
 
 
 ## Booking Requests
@@ -193,7 +193,7 @@ This notification is sent when a borrower makes a booking request and is not ful
 
 **Email**
 
-![EmailPreview](images/EmailPreviews/requestDraft.PNG)
+![EmailPreview](images/EmailPreviews/requestDraft_borrower.PNG)
 
 **SMS**
 <blockquote>Get verified to continue. Your booking of '%car.name%' is waiting. See %request.url%</blockquote>
@@ -437,7 +437,7 @@ This notification is sent to the *Borrower* when the *Car Owner* completes the b
 This notification is sent to the *Car Owner* when they complete a booking or the system has auto-completed one.
 
 **Email**
-![EmailPreview](images/EmailPreviews/bookingCompleted_owner.PNG)
+![EmailPreview](images/EmailPreviews/bookingComplete_owner.PNG)
 
 **SMS**
 <blockquote>The booking of your '%car.name%' by %borrower.name% has now completed</blockquote>
