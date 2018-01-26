@@ -58,17 +58,18 @@ The content in your email headers are separated onto two lines and is configured
 
 The configuration of your email footer is determined by values in your configuration file and is used across all emails.
 
-- The *Roam* logo is replaced the image provided for `DesktopImageUrl`
+- The *Roam* logo is replaced with the image provided for `DesktopImageUrl`
 - The activity URL is replaced with the URL provided for `HomeUrl`
-- The support URL is replaced with the URL provided for `Email` under `Support/Company` section
-- The social media icons link to the URL's provided in the `social` category. 
-  **Note:** If you do not provide a URL for a particular platform e.g. Twitter, the corresponding icon will not be displayed.
-- The address is replaced with the `Address` section under `Support/Company`
+- The support URL is replaced with the URL provided for `Email` under the `Support/Company` section
+- The social media icons link to the URL's provided under the `social` category. 
+  **Note:** If you do not provide a URL for a particular platform, e.g. Twitter, the corresponding icon will not be displayed.
+- The address is replaced with the `Address` section provided under the `Support/Company` section
         
 ## Accounts
 
 ----
 ### Invitation (User)
+###### ID: 4000 
 
 This notification is sent to the *User* when they request an invitation to create an account on your network.
 
@@ -87,7 +88,8 @@ Substitutions Available:
 
 
 
-### Account Created (User)
+### Account Created (User) 
+###### ID: 4002 
 
 This notification is sent to the *User* when they created an account on your network.
 
@@ -107,6 +109,7 @@ Substitutions Available:
 
 
 ### Attempted Password Reset (User)
+###### ID: 4010 
 
 This notification is sent to the *Email Address* used when a *User* requests a password reset on an email address that is not registered on your network.
 
@@ -125,6 +128,7 @@ Substitutions Available:
 
 
 ### Password Reset Request (User)
+###### ID: 4011 
 
 This notification is sent to the *Email Address* used when a *User* requests a password reset on an email address that is registered on your network.
 
@@ -144,6 +148,7 @@ Substitutions Available:
 
 
 ### Password Reset (User)
+###### ID: 4012 
 
 This notification is sent to the *User* when they successfully reset their account password.
 
@@ -167,6 +172,7 @@ Substitutions Available:
 
 ----
 ### Verified Borrower (User)
+###### ID: 302 
 
 This notification is sent to the *User* when they have been verified for all the requirements needed to borrow a car on your network.
 
@@ -185,7 +191,7 @@ Substitutions Available:
 
 
 ### Verified Car Owner (User)
-
+###### ID: 304
 This notification is sent to the *User* when they have been verified for all the requirements needed to list a car on your network.
 
 Substitutions Available:
@@ -203,7 +209,7 @@ Substitutions Available:
 
 
 ### Unverified Borrower (User)
-
+###### ID: 303
 This notification is sent to the *User* when they have become unverified for any of the requirements needed to borrow a car on your network.
 
 Substitutions Available:
@@ -221,7 +227,7 @@ Substitutions Available:
 
 
 ### Unverified Car Owner (User)
-
+###### ID: 305
 This notification is sent to the *User* when they have become unverified for any of the requirements needed to list a car on your network.
 
 Substitutions Available:
@@ -239,7 +245,7 @@ Substitutions Available:
 
 
 ### Updated Email (User)
-
+###### ID: 306
 This notification is sent to the *User* when they have changed their account email address.
 
 Substitutions Available:
@@ -279,7 +285,7 @@ Substitutions Available:
 
 
 ### Draft Request (Borrower)
-
+###### ID: 101
 This notification is sent when a borrower makes a booking request and is not fully verified.
 
 **Email**
@@ -293,7 +299,7 @@ This notification is sent when a borrower makes a booking request and is not ful
 
 
 ### Pending Request (Borrower)
-
+###### ID: 104
 This notification is sent to the *Borrower* when a booking request is pending.
 
 **Email**
@@ -307,7 +313,7 @@ This notification is sent to the *Borrower* when a booking request is pending.
 
 
 ### Pending Request (Car Owner)
-
+###### ID: 105
 This notification is sent to the *Car Owner* when a booking request is pending.
 
 **Email**
@@ -321,7 +327,7 @@ This notification is sent to the *Car Owner* when a booking request is pending.
 
 
 ### Cancelled Request (Borrower)
-
+###### ID: 102
 This notification is sent to the *Borrower* when they cancel a booking request.
 
 **Email**
@@ -334,7 +340,7 @@ This notification is sent to the *Borrower* when they cancel a booking request.
 
 
 ### Cancelled Request (Car Owner)
-
+###### ID: 103
 This notification is sent to the *Car Owner* when a *Borrower* cancels a booking request.
 
 **Email**
@@ -347,7 +353,7 @@ This notification is sent to the *Car Owner* when a *Borrower* cancels a booking
 
 
 ### Declined Request (Borrower)
-
+###### ID: 106
 This notification is sent to the *Borrower* when their booking request has been declined.
 
 **Email**
@@ -360,7 +366,7 @@ This notification is sent to the *Borrower* when their booking request has been 
 
 
 ### Declined Request (Car Owner)
-
+###### ID: 107
 This notification is sent to the *Car Owner* when they decline a booking request.
 
 **Email**
@@ -373,7 +379,7 @@ This notification is sent to the *Car Owner* when they decline a booking request
 
 
 ### Expired Request (Borrower)
-
+###### ID: 108
 This notification is sent to the *Borrower* when their booking request has expired.
 
 **Email**
@@ -386,7 +392,7 @@ This notification is sent to the *Borrower* when their booking request has expir
 
 
 ### Expired Request (Car Owner)
-
+###### ID: 109
 This notification is sent to the *Car Owner* when a booking request has expired.
 
 **Email**
@@ -432,7 +438,7 @@ Substitutions Available:
 
 
 ### Approved Request (Borrower)
-
+###### ID: 201
 This notification is sent to the *Borrower* when their booking request has been approved and is now a booking.
 
 **Email**
@@ -445,7 +451,7 @@ This notification is sent to the *Borrower* when their booking request has been 
 
 
 ### Approved Request (Car Owner)
-
+###### ID: 202
 This notification is sent to the *Car Owner* when they approve a booking request and is now a booking.
 
 **Email**
@@ -458,7 +464,7 @@ This notification is sent to the *Car Owner* when they approve a booking request
 
 
 ### Cancelled Booking (Borrower)
-
+###### ID: 203
 This notification is sent to the *Car Owner* when a booking has been cancelled.
 
 **Email**
@@ -471,7 +477,7 @@ This notification is sent to the *Car Owner* when a booking has been cancelled.
 
 
 ### Cancelled Booking (Car Owner)
-
+###### ID: 204
 This notification is sent to the *Car Owner* when a booking has been cancelled.
 
 **Email**
@@ -483,7 +489,7 @@ This notification is sent to the *Car Owner* when a booking has been cancelled.
 
 
 ### Due to Begin Booking (Borrower)
-
+###### ID: 211
 This notification is sent to the *Borrower* about their upcoming booking.
 
 **Email**
@@ -496,7 +502,7 @@ This notification is sent to the *Borrower* about their upcoming booking.
 
 
 ### Due to Begin Booking (Car Owner)
-
+###### ID: 212
 This notification is sent to the *Car Owner* about the upcoming booking of their vehicle.
 
 **Email**
@@ -508,7 +514,7 @@ This notification is sent to the *Car Owner* about the upcoming booking of their
 
 
 ### Booking Begun (Borrower)
-
+###### ID: 205
 This notification is sent to the *Borrower* once their booking has been started.
 
 **Email**
@@ -521,7 +527,7 @@ This notification is sent to the *Borrower* once their booking has been started.
 
 
 ### Booking Begun (Car Owner)
-
+###### ID: 206
 This notification is sent to the *Car Owner* when the *Borrower* has started their booking.
 
 **Email**
@@ -533,7 +539,7 @@ This notification is sent to the *Car Owner* when the *Borrower* has started the
 
 
 ### Booking Returned (Borrower)
-
+###### ID: 207
 This notification is sent to the *Borrower* when they have returned the vehicle and finished their booking.
 
 **Email**
@@ -545,7 +551,7 @@ This notification is sent to the *Borrower* when they have returned the vehicle 
 
 
 ### Booking Returned (Car Owner)
-
+###### ID: 208
 This notification is sent to the *Car Owner* when the *Borrower* has returned their vehicle and finished their booking.
 
 **Email**
@@ -557,7 +563,7 @@ This notification is sent to the *Car Owner* when the *Borrower* has returned th
 
 
 ### Booking Completed (Borrower)
-
+###### ID: 209
 This notification is sent to the *Borrower* when the *Car Owner* completes the booking or the system auto-completes it.
 
 **Email**
@@ -570,7 +576,7 @@ This notification is sent to the *Borrower* when the *Car Owner* completes the b
 
 
 ### Booking Completed (Car Owner)
-
+###### ID: 210
 This notification is sent to the *Car Owner* when they complete a booking or the system has auto-completed one.
 
 **Email**
@@ -583,7 +589,7 @@ This notification is sent to the *Car Owner* when they complete a booking or the
 
 
 ### Booking Due to End (Borrower)
-
+###### ID: 213
 This notification is sent to the *Borrower* when their booking is due to end soon.
 
 **Email**
@@ -596,7 +602,7 @@ This notification is sent to the *Borrower* when their booking is due to end soo
 
 
 ### Booking Due to End (Car Owner)
-
+###### ID: 214
 This notification is sent to the *Car Owner* when the booking of their vehicle is due to end soon.
 
 **Email**
@@ -609,7 +615,7 @@ This notification is sent to the *Car Owner* when the booking of their vehicle i
 
 
 ### Booking Extended (Borrower)
-
+###### ID: 215
 This notification is sent to the *Borrower* after they have extended their booking period.
 
 **Email**
@@ -622,7 +628,7 @@ This notification is sent to the *Borrower* after they have extended their booki
 
 
 ### Booking Extended (Car Owner)
-
+###### ID: 216
 This notification is sent to the *Car Owner* after the *Borrower* has extended their booking period.
 
 **Email**
