@@ -2,7 +2,7 @@
 layout: default
 title: Notifications
 ---
- ### Table of Contents
+### Table of Contents
 - [Email Configuration](#email-configuration)
 - [Accounts](#accounts)
   - [Invitation](#invitation-user)
@@ -24,7 +24,7 @@ Some email elements are determined by your [Network Operator configuration file]
 
 **Email Headers**
 
-![EmailPreview](images/EmailPreviews/emailHeaderExample.PNG)
+![EmailPreview](images/EmailPreviews/emailHeaderExample.png)
 
 The colour of your email header is determined by the `primary color` attribute in the branding section of your configuration file and is used across all emails.
 
@@ -32,7 +32,7 @@ The content in your email headers are separated onto two lines and is configured
 
 **Email Footers**
 
-![EmailPreview](images/EmailPreviews/emailFooterExample.PNG)
+![EmailPreview](images/EmailPreviews/emailFooterExample.png)
 
 The configuration of your email footer is determined by values in your configuration file and is used across all emails.
 
