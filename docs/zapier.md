@@ -192,7 +192,7 @@ Event Id | Context Fields
 232 | (Car Owner) Taking will be ending soon
 233 | (Borrower) Taking has been returned
 234 | (Car Owner) Taking has been returned
-**302 - 305** | **User verifications:** *user.name*
+**302 - 306** | **User verifications:** *user.name*
 302 | User has become verified as a borrower
 303 | User has become unverified as a borrower
 304 | User has become verified as a carowner
