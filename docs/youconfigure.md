@@ -12,16 +12,16 @@ You can see this "Operational Site" and the other things you are going to get at
 # What Is A Network Operator?
 To Hourfleet you (and your business) are known as a "Network Operator", since you operate a car sharing network on the Hourfleet platform. 
 
-As a Network Operator you are likely to have many things unique to your business, such as: your own brand, your own social media presense, and different rules about how your price and charge your customers for sharing cars on your network. 
+As a Network Operator you are likely to have many things unique to your business, such as: your own brand, your own social media presence, and different rules about how your price and charge your customers for sharing cars on your network. 
 
-You probably already have your own website for your business that is focused upon capturing new customers and providing that all important front door to your business, to turn interested brwosers into paying customers. You'll want to keep that website, so Hourfleet will extend your website to provide all the tools you and your customers need to run your car sharing business.
+You probably already have your own website for your business that is focused upon capturing new customers and providing that all important front door to your business, to turn interested browsers into paying customers. You'll want to keep that website, so Hourfleet will extend your website to provide all the tools you and your customers need to run your car sharing business.
 
 ## Your Configuration
 But first we need to know some stuff about how you want Hourfleet to run your business for you.
 
 ~~~
 {
-	"Support": { // Displayed on the support page of your operational site, and various places that reference support/assistance
+	"Support": { // Displayed on the support page of your app, and various places that reference support/assistance
 		"Guidance": "If there is an issue with a car during your booking we  recommend first contacting the owner. You can find their contact information under the owner section of your booking",
 		"Social": {
 			"Facebook": {
@@ -72,6 +72,9 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 			"Intercom": {
 				"ApiKey": "xxxxx",
 			},
+		},
+		"GoogleAnalytics": {
+			"TrackingId": "xx-xxxxxxxx-x"
 		}
 	},
 	"Branding": {
@@ -87,7 +90,7 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 			"SiteName": "Acme Car Sharing",
 			"Url": "http://www.acmerides.com"
 		},
-		"Styles": { // The colors used to brand your operational site
+		"Styles": { // The colors used to brand your app
 			"PrimaryColor": "#03e4ac",
 			"LinkColor": "#17c197",
 			"TextColor": "#232c33",
@@ -140,7 +143,7 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 			}
 		}
 	},
-	"Navigation": { // URL's that are linked to from your operational site to your own website 
+	"Navigation": { // URL's that are linked to from your app to your own website 
 		"HomeUrl": "http://www.acmerides.com",
 		"AboutUrl": "http://www.acmerides.com/about",
 		"ContactUrl": "http://www.acmerides.com/contact",
@@ -150,6 +153,7 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 		"FeesUrl": "http://www.acmerides.com/fees",
 		"FaqUrl": "http://www.acmerides.com/faq",
 		"ReturnUrl": "http://www.acmerides.com",
+		"ShowMobileAppLink": true,
 		"UIElements": {
 			"Invitation": { // Privacy statement about collecting their invitation data on the invitation page
 				"Statement": "Acmerides values your privacy so we do not share this information with anyone else.",
@@ -236,7 +240,7 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 		}
 	},
 	"Settings": {
-		"SiteUrl": "https://acmeride.hourfleet.com", // URL of your operational site
+		"SiteUrl": "https://acmeride.hourfleet.com", // URL of your app
 		"TimeZone": "New Zealand Standard Time", // Timezone of your users
 		"Locale": "en-NZ" // Locale of your users
 	}
@@ -248,14 +252,14 @@ As a car sharing business, you will need to provide your customers with various 
 
 #### LiveChat
 This section defines the LiveChat widgets that Hourfleet supports. Currently, FreshDesk.com or Intercom.io.
-You will need to signup for an account with either of these providers. 
+You will need to sign-up for an account with either of these providers. 
 
 You cannot configure to have LiveChat for both, chose one or the other or neither.
 
 ##### FreshDesk.com
-Once you have signed up and selected a plan that includes LiveChat, you will need to provide your: 'ApiKey' and 'Settings', which can be obtained from the 'Admin' console of your freshdesk subscription.
+Once you have signed up and selected a plan that includes LiveChat, you will need to provide your: 'ApiKey' and 'Settings', which can be obtained from the 'Admin' console of your Freshdesk subscription.
 
-* Login to your freshdesk site: https://yourname.freshdesk.com
+* Login to your Freshdesk site: https://yourname.freshdesk.com
 * Click on the 'LiveChat' icon
 
 ![](images/FreshDesk-Console-LiveChat.png)
@@ -269,7 +273,7 @@ Once you have signed up and selected a plan that includes LiveChat, you will nee
 
 ##### Intercom.io
 
-Once you have signed up and selected a plan that includes Intercom 'Acquire', you need toprovide your 'ApiKey', which can be obtained form the 'App Settings' console of your Intercom subscription.
+Once you have signed up and selected a plan that includes Intercom 'Acquire', you need to provide your 'ApiKey', which can be obtained form the 'App Settings' console of your Intercom subscription.
 
 * Login to Intercom at: https://app.intercom.io
 * Click on your avatar (bottom left-hand corner of page) and click 'App Settings'
@@ -279,8 +283,15 @@ Once you have signed up and selected a plan that includes Intercom 'Acquire', yo
 * Click on the 'API Keys' menu (to the left)
 * The 'APP ID" is the value of your 'ApiKey'
 
+#### Google Analytics
+
+If you wish to track site usage using Google Analytics, you can do that by providing your 'Tracking Id' found in the 'Administration -> Property Settings' page of your Google Analytics configuration page, for your Google account.
+
+> Note: Hourfleet will include the standard javascript that Google Analytics provides, configured with your 'TrackingId' into every page of your app.
+
 ### Branding
-This section provides the basic look and feel of your Hourfleet operational site, so that it looks and feels like a natural extension of your main website
+This section provides the basic look and feel of your Hourfleet app, so that it looks and feels like a natural extension of your main website
+
 #### Image Sizing
 All images can be provided in higher values as long as their aspect ratios remain the same.
 
@@ -290,19 +301,23 @@ All images can be provided in higher values as long as their aspect ratios remai
 | logo_navbar.png | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
 | logo_navbar_mobile.ong | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
 | favicon.ico | 190px X 190px
-| loader_inline.gif | minumum 50px x 50px. Image must be square but if larger will be sized down |
-| loader_page.gif | minumum 100px x 100px. Image must be square but if larger will be sized down |
-| loader_button.gif | minumum 50px x 50px. Image must be square but if larger will be sized down |
+| loader_inline.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
+| loader_page.gif | minimum 100px x 100px. Image must be square but if larger will be sized down |
+| loader_button.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
 | apple-icon.jpg | 75px X 75px |
 | android-icon.jpg | 75px X 75px |
 
 #### SEO
-All web applications need to provide sufficient metadata for Search Engine Optimization (SEO) for web crawlers such as google to help get your business found. Also, your Hourfleet operational website needs to provide the right metadata so that and when people share their experience with social media applications (like facebook and twitter), the right information is displayed in their post by default.
+All web applications need to provide sufficient metadata for Search Engine Optimization (SEO) for web crawlers such as Google to help get your business found. Also, your Hourfleet operational website needs to provide the right metadata so that and when people share their experience with social media applications (like facebook and twitter), the right information is displayed in their post by default.
 
 ### Navigation
 This section determines how the user navigates between your website and your Hourfleet operational website.
 
-There are many links on the operational site to pages that you need to provide for users of your business, that cannot be provided by the operational site generically. Such as: Terms Of Service, Company information, and legal documentation.
+There are many links in the app to pages that you will need to provide for users of your business, that cannot be provided by Hourfleet in the app. Such as: Terms Of Service, Company information, and legal documentation. These links are provided for your user's convenience.
+
+These links can be seen at the bottom of page in the footer section.
+
+If you don't want any of these links to be displayed, just leave these values blank.
 
 
 ### Business Models
@@ -317,7 +332,7 @@ As a car sharing business, you may support conventional car sharing (B2C) and "P
 
 Essentially, in a B2C model, the cars are owned by you the Network Operator, and typically there is no revenue sharing. That means that you get 100% of the revenue from your customers using your cars, less any revenue sharing you might have arranged with your insurer.
 
-In a P2P model, the cars are owned by users on your network. Your customers own and manage andd price their own cars. The revenue from  the rental is typically split between you and the car owner, and your insurer.
+In a P2P model, the cars are owned by users on your network. Your customers own and manage and price their own cars. The revenue from  the rental is typically split between you and the car owner, and your insurer.
 
 You will need to support either B2C or P2P or both. You do that by opting into the: `IsSupported` option for the ownership model you will support for your customers.
 
@@ -329,7 +344,7 @@ In essence:
 
 * 'Scheduled' is where cars are requested and booked ahead of time by a borrower, and the car owner (either B2C or P2P) has the option to approve and decline bookings depending on how they rate and trust the requesting borrower. Car owners declare when the car is available, the approve who can use it and when, and control how long the car is used for.
 
-* 'Immediate' is where borrowers can walk up to car on the street and use it right away. There is no approval step required by the owner (either B2C or P2P). If the car is physically available it can be used. Borrowers can take the car for as long as they need it, the owner only becomes involved in the process if the car is rejected by the borrower (usually becuase the car is not in a acceptable condition to be used).
+* 'Immediate' is where borrowers can walk up to car on the street and use it right away. There is no approval step required by the owner (either B2C or P2P). If the car is physically available it can be used. Borrowers can take the car for as long as they need it, the owner only becomes involved in the process if the car is rejected by the borrower (usually because the car is not in a acceptable condition to be used).
 
 In either case, borrowers will be fully verified by you before being able to borrower any cars.
 
@@ -340,7 +355,7 @@ See more details about the Usage Models [How It Works](howitworks.html)
 
 At various times, the users of your network are going to get notifications sent to them via email or TXT message. 
 
-You can watch these notifications by setting up integration between Hourfleet and many other apps by using Zapier.
+You can watch these notifications by setting up integration between Hourfleet and many other apps by using Zapier.com.
 
 ### Configuring Zapier
 
