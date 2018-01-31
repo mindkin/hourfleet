@@ -202,7 +202,8 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 						"MaxLateFeeCap": 500, // No matter how late, the total late fees cannot exceed this amount
 						"PerInstance": 50, // One-off flat fee per late return
 						"PerMinute": 1 // Per minute after a late return
-					}
+					},
+					"UsageFees": "PerCar" | "None" // If "PerCar" then each car defines its own (hourly/daily/weekly) pricing. If "None" then there is no charge to use any car on this network.
 				},
 				"Timing": {
 					"FlagFallPeriodMinutes": 15, // A rental completed in less than this time, incurs no usage charge
@@ -210,7 +211,7 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 					"MinimumRequestPeriodMinutes": 30, // Minimum size of a reservation
 					"UseBeforeStartPeriodMinutes": 15, //How long before the scheduled time can the next borrower start their reservation if the car is ready and waiting for them
 					"AutoCompleteAfterNoCompletionPeriodMinutes": 4320, // How long after the car is returned by borrower will it be auto-completed by the system on behalf of the owner
-					"AutoCompleteAfterNoUsePeriodMinutes": 15, //How long before the end of the reservation will the rental be auto-completed by the system on behalf of the borrower, if they havent started the rental.
+					"AutoCompleteAfterNoUsePeriodMinutes": 15, //How long before the end of the reservation will the rental be auto-completed by the system on behalf of the borrower, if they haven't started the rental.
 					"LateFees": {
 						"GracePeriodMinutes": 15 // How long after the car is due back, that late fees start accumulating
 					}
@@ -223,7 +224,9 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 						"MaxLateFeeCap": 500, // No matter how late, the total late fees cannot exceed this amount
 						"PerInstance": 50, // One-off flat fee per late return
 						"PerMinute": 1 // Per minute after a late return
-					}
+					},
+					"UsageFees": "PerCar" | "None" // If "PerCar" then each car defines its own (hourly/daily/weekly) pricing. If "None" then there is no charge to use any car on this network.
+
 				},
 				"Timing": {
 					"FlagFallPeriodMinutes": 15, // A rental completed in less than this time, incurs no usage charge
@@ -232,9 +235,6 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 					"LateFees": {
 						"GracePeriodMinutes": 15 // How long after the maximum usage, that late fees start accumulating
 					}
-				},
-				"Display": {
-					"DisplayDurations": "false" // Whether to display the duration of use instead of the costs of use
 				}
 			}
 		}
@@ -337,8 +337,10 @@ In a P2P model, the cars are owned by users on your network. Your customers own 
 You will need to support either B2C or P2P or both. You do that by opting into the: `IsSupported` option for the ownership model you will support for your customers.
 
 #### Usage Models
-Cars on your network can be rented using either the 'Scheduled' or 'Immediate' usage models. 
+Cars on your network can be rented using either the 'Scheduled' or 'Immediate' usage models.
 Each one has its unique experience and rules. See more about usage models in [How It Works](howitworks.html).
+
+Each usage model has its own pricing and timing rules. Cars can either be individually priced per hour/day/week or there is no charge for using any car.
 
 In essence:
 
