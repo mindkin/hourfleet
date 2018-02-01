@@ -118,6 +118,7 @@ Please email the following details to: admin@mindkin.co.nz, and state your name 
 * Username
 * Password
 
+The Hourfleet team will then complete the connection between your car sharing network and your Modica account.
 
 ## Additional Management Tools
 
