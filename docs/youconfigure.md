@@ -197,6 +197,7 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 			}
 		},
 		"Usage": {
+			"Pricing": "PerCar" | "None" // If "PerCar" then each car defines its own (hourly/daily/weekly) pricing. If "None" then there is no charge to use any car on this network.
 			"Scheduled": { // Cars that can be scheduled for using the 'BookLater' usage model
 				"Pricing": {
 					"ReservationFee": 3, // Fee payable once a reservation is approved by the car owner
@@ -205,7 +206,6 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 						"PerInstance": 50, // One-off flat fee per late return
 						"PerMinute": 1 // Per minute after a late return
 					},
-					"UsageFees": "PerCar" | "None" // If "PerCar" then each car defines its own (hourly/daily/weekly) pricing. If "None" then there is no charge to use any car on this network.
 				},
 				"Timing": {
 					"FlagFallPeriodMinutes": 15, // A rental completed in less than this time, incurs no usage charge
@@ -227,8 +227,6 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 						"PerInstance": 50, // One-off flat fee per late return
 						"PerMinute": 1 // Per minute after a late return
 					},
-					"UsageFees": "PerCar" | "None" // If "PerCar" then each car defines its own (hourly/daily/weekly) pricing. If "None" then there is no charge to use any car on this network.
-
 				},
 				"Timing": {
 					"FlagFallPeriodMinutes": 15, // A rental completed in less than this time, incurs no usage charge
