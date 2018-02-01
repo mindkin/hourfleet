@@ -168,6 +168,7 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 		    "MaxValuedAt": 50000,
 		    "MinValuedAt": 1000,
 		},
+		"Charges": "PerCar" | "None" // If "PerCar" then each car defines its own (hourly/daily/weekly) pricing. If "None" then there are no charges (booking, usage or overage) to use any car on this network.
 		"Ownership": {
 			"P2P": {
 				"IsSupported": true, // Will you support your customers registering their own cars on your network?
@@ -197,7 +198,6 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 			}
 		},
 		"Usage": {
-			"Pricing": "PerCar" | "None" // If "PerCar" then each car defines its own (hourly/daily/weekly) pricing. If "None" then there is no charge to use any car on this network.
 			"Scheduled": { // Cars that can be scheduled for using the 'BookLater' usage model
 				"Pricing": {
 					"ReservationFee": 3, // Fee payable once a reservation is approved by the car owner
