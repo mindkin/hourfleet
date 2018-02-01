@@ -75,7 +75,7 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 		},
 		"Analytics": {
 			"Google" : {
-				"TrackingId": "xx-xxxxxxxx-x"
+				"TrackingId": "UA-XXXXX-Y"
 			}
 		}
 	},
@@ -289,7 +289,7 @@ Once you have signed up and selected a plan that includes Intercom 'Acquire', yo
 
 If you wish to track site usage using Google Analytics, you can do that by providing your 'Tracking Id' found in the 'Administration -> Property Settings' page of your Google Analytics configuration page, for your Google account.
 
-> Note: Hourfleet will include the standard javascript that Google Analytics provides, configured with your 'TrackingId' into every page of your app.
+> Note: Hourfleet will include the standard javascript that [Google Analytics instructs](https://developers.google.com/analytics/devguides/collection/analyticsjs/) to add to every web page, configured with your 'Tracking Id'.
 
 ### Branding
 This section provides the basic look and feel of your Hourfleet app, so that it looks and feels like a natural extension of your main website
