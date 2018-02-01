@@ -49,10 +49,14 @@ They are:
 
 Once Paystation have setup your account, Hourfleet requires that you provide the following information for your tenancy:
 
+Please email the following details to: admin@mindkin.co.nz, and state your name and the name of your car sharing network.
+
 * GatewayId
 * PaystationId
 
-These details are provided to you by Paystation after creating your account.
+> These details are provided to you by Paystation after creating your account.
+
+The Hourfleet team will then complete the connection between your car sharing network and your Paystation account.
 
 ## IP Protection
 Paystation has IP security to ensure that credit card details and charging only occurs from trusted servers, such as the servers in your tenancy.
@@ -117,6 +121,8 @@ Please email the following details to: admin@mindkin.co.nz, and state your name 
 * ShortCode
 * Username
 * Password
+
+> These details are provided to you by Modica after creating your account.
 
 The Hourfleet team will then complete the connection between your car sharing network and your Modica account.
 
