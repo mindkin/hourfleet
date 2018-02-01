@@ -73,8 +73,10 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 				"ApiKey": "xxxxx",
 			},
 		},
-		"GoogleAnalytics": {
-			"TrackingId": "xx-xxxxxxxx-x"
+		"Analytics": {
+			"Google" : {
+				"TrackingId": "xx-xxxxxxxx-x"
+			}
 		}
 	},
 	"Branding": {
