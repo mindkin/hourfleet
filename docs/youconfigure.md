@@ -4,24 +4,38 @@ title: What You Can Configure
 ---
 # What You Can Configure
 
-When you join Hourfleet, you are going to get your own hosted "Operational" car sharing web site at an address like: *https://yourcompany.hourfleet.com*.
+When you join Hourfleet, you are going to get your own car sharing web app hosted for you at an address like: https://yourcompany.hourfleet.com.
 
-That site will be customized for your customers to look and feel like your business. But there are a few things you need to tell us so that it works like your business.
-You can see this "Operational Site" and the other things you are going to get at [What Is In The Box](inthebox.html)
+Your web app will need to be customized to suit your business model, and tailored to your company brand.
+
+You can see an example of what your web app will look like at [What Is In The Box](inthebox.html)
 
 # What Is A Network Operator?
-To Hourfleet you (and your business) are known as a "Network Operator", since you operate a car sharing network on the Hourfleet platform. 
+From the perspective of Hourfleet, you (and your business) are known as a "Network Operator", since you operate a car sharing network on the Hourfleet platform. 
 
-As a Network Operator you are likely to have many things unique to your business, such as: your own brand, your own social media presence, and different rules about how your price and charge your customers for sharing cars on your network. 
+As a Network Operator you are very likely to have many things unique to your business, such as: your own brand, your own social media presence, and also different rules about how your price and charge your customers for renting and borrowing cars on your network.
 
-You probably already have your own website for your business that is focused upon capturing new customers and providing that all important front door to your business, to turn interested browsers into paying customers. You'll want to keep that website, so Hourfleet will extend your website to provide all the tools you and your customers need to run your car sharing business.
+You are very likely to already have your own website for your business that is focused upon capturing new customers and providing that all important front door to your business, to turn interested browsers into paying customers. 
+
+You'll want to keep that website, and the Hourfleet web app will extend your website to provide all the tools you and your customers need to run your car sharing business.
+
+There is lots to configure for your specific car sharing business and how the Hourfleet web app should look and behave. Let's get started.
 
 ## Your Configuration
-But first we need to know some stuff about how you want Hourfleet to run your business for you.
+You will have your own configuration that you can manage.
+
+There are several areas of the configuration, each with its own purpose.
+
+The example below, gives you an idea of the kinds of things you can customize.
+
+> Note: the file below is in JSON format, which is just how we represent it today. We are working on representing for you in a different format.
+
+### Support
+
+These settings are displayed on the support page of your web app, and in various places around the web app that reference support/assistance for your customers
 
 ~~~
-{
-	"Support": { // Displayed on the support page of your app, and various places that reference support/assistance
+	"Support": { 
 		"Guidance": "If there is an issue with a car during your booking we  recommend first contacting the owner. You can find their contact information under the owner section of your booking",
 		"Social": {
 			"Facebook": {
@@ -79,6 +93,57 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 			}
 		}
 	},
+~~~
+
+
+
+An example of the Support page that is created for you can be seen here:
+
+![Support Page](images/SupportPage.PNG)
+
+#### LiveChat
+
+This section defines the LiveChat widgets that Hourfleet supports. Currently, FreshDesk.com or Intercom.io.
+You will need to sign-up for an account with either of these providers. 
+
+You cannot configure to have LiveChat for both, chose one or the other or neither.
+
+##### FreshDesk.com
+Once you have signed up and selected a plan that includes LiveChat, you will need to provide your: 'ApiKey' and 'Settings', which can be obtained from the 'Admin' console of your Freshdesk subscription.
+
+* Login to your Freshdesk site: https://yourname.freshdesk.com
+* Click on the 'LiveChat' icon
+
+![](images/FreshDesk-Console-LiveChat.png)
+
+* Make sure Live Chat is 'enabled'
+* Make sure your app is enabled.
+* Click on the 'Edit' button to the right of your app
+* Click on the 'Widget Code' tab
+* In the javascript they provide, you need to find and extract the value of the URL that looks like this: 'https://xxxxxxxxxxx.cloudfront.net'. The xxxxxxxx part is your 'ApiKey'
+* Now, find the value of the 'window.livechat_setting='xxxxxxxxxxxxxxxxxxxxxxxxx....'. The large blob of text between the quotations marks is the value of your 'Settings' (not including the quotation marks).
+
+##### Intercom.io
+
+Once you have signed up and selected a plan that includes Intercom 'Acquire', you need to provide your 'ApiKey', which can be obtained form the 'App Settings' console of your Intercom subscription.
+
+* Login to Intercom at: https://app.intercom.io
+* Click on your avatar (bottom left-hand corner of page) and click 'App Settings'
+
+![](images/Intercom-Console-AppSettings.png)
+
+* Click on the 'API Keys' menu (to the left)
+* The 'APP ID" is the value of your 'ApiKey'
+
+#### Google Analytics
+
+If you wish to track site usage using Google Analytics, you can do that by providing your 'Tracking Id' found in the 'Administration -> Property Settings' page of your Google Analytics configuration page, for your Google account.
+
+> Note: Hourfleet will include the standard javascript that [Google Analytics instructs](https://developers.google.com/analytics/devguides/collection/analyticsjs/) to add to every web page, configured with your 'Tracking Id'.
+
+### Branding
+These settings control the look and feel of your web app, and important SEO information for your customers and marketing. 
+~~~	
 	"Branding": {
 		"Name": {
 			"Singular": "Acme", // The name used all over the App
@@ -145,6 +210,37 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 			}
 		}
 	},
+~~~
+
+#### Image Sizes
+All images can be provided in higher values as long as their aspect ratios remain the same.
+
+| Image                  | Size                                     |
+| ---------------------- | ---------------------------------------- |
+| og_logo.jpg            | 200px X 200px                            |
+| logo_navbar.png        | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
+| logo_navbar_mobile.ong | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
+| favicon.ico | 190px X 190px
+| loader_inline.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
+| loader_page.gif | minimum 100px x 100px. Image must be square but if larger will be sized down |
+| loader_button.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
+| apple-icon.jpg | 75px X 75px |
+| android-icon.jpg | 75px X 75px |
+
+#### SEO
+All web applications need to provide sufficient metadata for Search Engine Optimization (SEO) for web crawlers such as Google to help get your business found. Also, your Hourfleet operational website needs to provide the right metadata so that and when people share their experience with social media applications (like facebook and twitter), the right information is displayed in their post by default.
+
+### Navigation
+
+This section determines how the user navigates between your website and your Hourfleet operational website.
+
+There are many links in the app to pages that you will need to provide for users of your business, that cannot be provided by Hourfleet in the app. Such as: Terms Of Service, Company information, and legal documentation. These links are provided for your user's convenience.
+
+These links can be seen at the bottom of page in the footer section.
+
+If you don't want any of these links to be displayed, just leave these values blank.
+
+~~~
 	"Navigation": { // URL's that are linked to from your app to your own website 
 		"HomeUrl": "http://www.acmerides.com",
 		"AboutUrl": "http://www.acmerides.com/about",
@@ -163,6 +259,17 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 			}
 		}
 	},
+~~~
+
+You can see an example of the links in the web app footer section here:
+
+![Page Links](images/Footer.PNG)
+
+### Business Models
+
+These settings decide how your car sharing business will actually function. models, pricing, rules, rates, etc.
+
+~~~
 	"BusinessModel": {
 	        "Insurance": {
 		    "MaxValuedAt": 50000,
@@ -239,88 +346,7 @@ But first we need to know some stuff about how you want Hourfleet to run your bu
 			}
 		}
 	},
-	"Settings": {
-		"SiteUrl": "https://acmeride.hourfleet.com", // URL of your app
-		"TimeZone": "New Zealand Standard Time", // Timezone of your users
-		"Locale": "en-NZ" // Locale of your users
-	}
-}
 ~~~
-
-### Support
-As a car sharing business, you will need to provide your customers with various support channels. This section defines those channels.
-
-#### LiveChat
-This section defines the LiveChat widgets that Hourfleet supports. Currently, FreshDesk.com or Intercom.io.
-You will need to sign-up for an account with either of these providers. 
-
-You cannot configure to have LiveChat for both, chose one or the other or neither.
-
-##### FreshDesk.com
-Once you have signed up and selected a plan that includes LiveChat, you will need to provide your: 'ApiKey' and 'Settings', which can be obtained from the 'Admin' console of your Freshdesk subscription.
-
-* Login to your Freshdesk site: https://yourname.freshdesk.com
-* Click on the 'LiveChat' icon
-
-![](images/FreshDesk-Console-LiveChat.png)
-
-* Make sure Live Chat is 'enabled'
-* Make sure your app is enabled.
-* Click on the 'Edit' button to the right of your app
-* Click on the 'Widget Code' tab
-* In the javascript they provide, you need to find and extract the value of the URL that looks like this: 'https://xxxxxxxxxxx.cloudfront.net'. The xxxxxxxx part is your 'ApiKey'
-* Now, find the value of the 'window.livechat_setting='xxxxxxxxxxxxxxxxxxxxxxxxx....'. The large blob of text between the quotations marks is the value of your 'Settings' (not including the quotation marks).
-
-##### Intercom.io
-
-Once you have signed up and selected a plan that includes Intercom 'Acquire', you need to provide your 'ApiKey', which can be obtained form the 'App Settings' console of your Intercom subscription.
-
-* Login to Intercom at: https://app.intercom.io
-* Click on your avatar (bottom left-hand corner of page) and click 'App Settings'
-
-![](images/Intercom-Console-AppSettings.png)
-
-* Click on the 'API Keys' menu (to the left)
-* The 'APP ID" is the value of your 'ApiKey'
-
-#### Google Analytics
-
-If you wish to track site usage using Google Analytics, you can do that by providing your 'Tracking Id' found in the 'Administration -> Property Settings' page of your Google Analytics configuration page, for your Google account.
-
-> Note: Hourfleet will include the standard javascript that [Google Analytics instructs](https://developers.google.com/analytics/devguides/collection/analyticsjs/) to add to every web page, configured with your 'Tracking Id'.
-
-### Branding
-This section provides the basic look and feel of your Hourfleet app, so that it looks and feels like a natural extension of your main website
-
-#### Image Sizing
-All images can be provided in higher values as long as their aspect ratios remain the same.
-
-| Image | Size |
-| --- | --- |
-| og_logo.jpg | 200px X 200px |
-| logo_navbar.png | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
-| logo_navbar_mobile.ong | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
-| favicon.ico | 190px X 190px
-| loader_inline.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
-| loader_page.gif | minimum 100px x 100px. Image must be square but if larger will be sized down |
-| loader_button.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
-| apple-icon.jpg | 75px X 75px |
-| android-icon.jpg | 75px X 75px |
-
-#### SEO
-All web applications need to provide sufficient metadata for Search Engine Optimization (SEO) for web crawlers such as Google to help get your business found. Also, your Hourfleet operational website needs to provide the right metadata so that and when people share their experience with social media applications (like facebook and twitter), the right information is displayed in their post by default.
-
-### Navigation
-This section determines how the user navigates between your website and your Hourfleet operational website.
-
-There are many links in the app to pages that you will need to provide for users of your business, that cannot be provided by Hourfleet in the app. Such as: Terms Of Service, Company information, and legal documentation. These links are provided for your user's convenience.
-
-These links can be seen at the bottom of page in the footer section.
-
-If you don't want any of these links to be displayed, just leave these values blank.
-
-
-### Business Models
 
 #### Insurance
 As a car sharing business, whether your business owns the cars (B2C) or whether you allow your users to own cars (P2P) you are likely to have an insurer cover the cars when in use. If you work with an insurer and the conditions of insurance involve an insured value of the cars in your network, you will need to collect the insured value for each registered car.
@@ -352,6 +378,18 @@ In either case, borrowers will be fully verified by you before being able to bor
 
 As a Network Operator, you are able to customize the timing parameters for these usage models, and determine their pricing models.
 See more details about the Usage Models [How It Works](howitworks.html)
+
+## Settings
+
+These are general settings for your car sharing network.
+
+~~~
+	"Settings": {
+		"SiteUrl": "https://yourcompany.hourfleet.com", // URL of your app
+		"TimeZone": "New Zealand Standard Time", // Timezone of your users
+		"Locale": "en-NZ" // Locale of your users
+	}
+~~~
 
 ## User Notifications
 
