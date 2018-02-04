@@ -34,4 +34,4 @@ If you want to see what's been improved recently in the Hourfleet platform, see 
 
 Take control of Hourfleet and stay informed. 
 
-You can now create a 'Zap' at [zapier](www.zapier.com) to connect your car sharing network with your favourite apps, like : Intercom, Slack, and Email. See [Zapier Integration](zapier.html) for details.
+You can now create a 'Zap' at [zapier](http://www.zapier.com) to connect your car sharing network with your favourite apps, like : Intercom, Slack, and Email. See [Zapier Integration](zapier.html) for details.
