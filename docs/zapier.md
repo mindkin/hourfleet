@@ -26,7 +26,7 @@ Just follow the steps below, and select the app of your choice, the rest is very
 
 ## Step 1: Create a new Zap
 
-The first thing you need to do is create an account at [zapier.com](www.zapier.com), if you already have one, then just login.
+The first thing you need to do is create an account at [zapier.com](http://www.zapier.com), if you already have one, then just login.
 
 Now, we are going to create a new Zap that connects Hourfleet to send user's notifications to your favorite messaging app. 
 
