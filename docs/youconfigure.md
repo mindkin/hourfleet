@@ -399,7 +399,7 @@ You can watch these notifications in your favorite tool by setting up integratio
 
 If you wish, you can also customize the content of all of these messages, both the email content and the TXT message content. 
 
-You can see examples of these email notifications [here](notifications.md).
+You can see examples of these email notifications [here](notifications.html).
 
 There are many, many notifications, so the example below will show only the configuration for the notification: `101`. 
 
@@ -434,7 +434,7 @@ There are many, many notifications, so the example below will show only the conf
 
 Here is an example of the email message for notification `101`, branded for the 'Roam' network.
 
-> Note: that the section contain substitutions (between the characters `-`) for example `-car.name-`. By including these substitutions in the text, you can plug in those values from the notification itself. You can see the appropriate substitutions for each notification in the [Notifications](notifications.md) page.
+> Note: that the section contain substitutions (between the characters `-`) for example `-car.name-`. By including these substitutions in the text, you can plug in those values from the notification itself. You can see the appropriate substitutions for each notification in the [Notifications](notifications.html) page.
 
 ![Email Notification](images/EmailPreviews/requestDrafted_borrower.PNG)
 
