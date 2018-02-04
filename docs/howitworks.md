@@ -48,11 +48,11 @@ An example of the links in the Hourfleet web app can be seen in the footer secti
 
 All of the links in the list above (except the 'Home' link) can be optionally configured, and hidden if not configured. See [You Configure](http://docs.hourfleet.com/youconfigure.html) for the technical details.
 
-> Note: The 'Home' link must always be defined.
+> Note: The 'Home' link must always be defined. All other links are optional.
 
 ### Customer Support Page
 
-In addition to all the pages above, the Hourfleet web app offers you a ready made pre-formatted 'Support' page that displays support contact information and insurance information for your customers to use when they need assistance using the web app, or assistance when borrowing cars out on the road. 
+In addition to all the pages above, the Hourfleet web app offers you a ready made pre-formatted 'Support' page that displays support contact information and insurance information for your customers to use when they need assistance using the web app, or assistance when borrowing cars out on the road.
 
 This support page is pre-formatted with information you provide in your tenancy configuration. An example of the support page can be seen here.
 
@@ -60,9 +60,11 @@ This support page is pre-formatted with information you provide in your tenancy 
 
 ## Operational Management
 
-The Hourfleet web app includes a number of administration pages to help you operate and monitor your car sharing network.
+The Hourfleet web app includes a number of administration pages to help you operate and monitor your car sharing network. These administration pages are only available to priviledged users of the Hourfleet web app.
 
-You can nominate one or more people in your business to manage your business in the web app. Those people will log into the web app just like your customers, but they will have access to a number of tools that your customers would not see and not have access to.
+You can control and nominate one or more people in your business to manage your business in the administratiokn pages of the web app. Those people will log into the web app just like your customers, but they will have access to a number of tools that your customers would not see and not have access to.
+
+<<screenshot fo the operations menu>>
 
 These tools include the ability to:
 
@@ -75,17 +77,53 @@ These tools include the ability to:
 
 ### Activity Monitoring
 
-How to view operational alerts
+As your customers do various things on your netowrk, such as: create new accounts, verify their credentials, book and use cars, etc. Those events create 'alerts' that can be viewed. You can keep up to date with these alerts in the Operational Dashboard.
 
-Zapier Integration
+Alerts have varying levels: Urgent, Important, OfInterest, Security and Noise. You can filter this level to focus on what is important to you. You can also dismiss any specific alert to keep the list shorter.
+
+If you want to receive your alerts in other apps, such as: Slack, Intercom, Trello, email etc. you can setup Zapier.com to relay the alert to your favorite apps. See [Zapier Integration](zapier.html) for more details on how to set that up.
+
+<<screenshot of the alert panel>>
+
+> Note: The display of alerts is being improved overtime as we learn more about how operators use them, and what alerts are most important to operators.
 
 ### Account Verification
 
-What are verifications, and how to manage them
+In a car sharing network people must trust each other to borrow and rent vehicles. The car owners must trust that borrowers are legally qualified to drive their cars, and borrowers must trust car owners that cars are legally safe to drive, etc. Since these people may be using a specific service or specific car for the first time, trust is going to be need inferred from their network membership and from the feeeback and rating given by others on the network.
+
+For these reasons, all Hourfleet networks support two things: Verifications and Ratings and Reviews.
+  
+Every car, car owner, and borrower has their own verifications. For exmaple, a borrower must have at least a verified email adddress, a verified phone number and a verified drivers license. A car must have a verified license plate and a verified certificate of road worthiness, etc.
+
+Whenever a person or car is registered on your network, there is an ongoing process which they must go through to complete and maintain a list of verifications. The must get and stay fully verified to continue to use the service. Until they are fully verified, their use of the system will be limited. For example, until a borrower is fully verified they will not be able to actually use a car. Also, until a car is fully verified, borrowers will be unable to book or rent that car.
+
+Some of these verifications, like: car license plate, are unlikely to change over time. Some of these verifications, like: email address will only change if the user manually changes their email address. Some of these verifications will automatically change over time, like a drivers license, when it expires.
+
+Some of these verifications can be automatically verified by the Hourfleet system, such as a person's email address and credit cards. However, some of these verifications, like a drivers license, and possibly a car's license plate, can only be manually verified by the Network Operator, typically by way of some other government service/system.
+
+The Network operator is responsible for monitoring and managing these verifications for the users of the network. 
+
+The Hourfleet web app provides the tools from the Operations Dashboard to monitor and manage verifications of all users and cars as things change. i.e. as a new user registeres and provides all the information to get fully verified.
+
+> Note: Monitoring and manging verifications is a mandatory activity for network operators, and must be performed continuously, as users and cars on their network can change status over time.
+
+<<screenshots of verifying users>>
+
 
 ### Billing/Remittance
 
-The billing model, and why its manual
+When a borrower of a car on your network has used and returned the car, they will need to be charged for that usage. Charges are always charged to a verified credit card.
+
+The owner of the car in a P2P business will also need to be remmitted an amount for the use of their car. In a B2C business, the operator is the car owner, and will also need to be remitted for the use of the car. Remittance is always paid to a verified bank account.
+
+While remittance can be calculated and can be performed automatically by Hourfleet, the automatic charging of usage and late charges is not always desirable for the network operator. For example, if one of your users has had a poor experience, you may want to discount or waive usage charges for them on a case by case basis. For this reason, all billing in Hourfleet is performed manually after the fact, by the network operator. 
+
+> Note: the amount to charge a user is always automatically calculated for the network operator.
+ 
+
+The Hourfleet web app has all the tools to manually view all charges and to manually bill the user.
+
+<<Screenshot of billing a user for a booking>> 
 
 
 ### Carkit Management 
