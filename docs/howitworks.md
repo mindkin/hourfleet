@@ -44,7 +44,7 @@ The list of links in the web app that link to your website are:
 
 An example of the links in the Hourfleet web app can be seen in the footer section of the web app. It looks something like this:
 
-![Page Links](images/Footer.PNG)
+![Page Links](images/Footer.png)
 
 All of the links in the list above (except the 'Home' link) can be optionally configured, and hidden if not configured. See [You Configure](http://docs.hourfleet.com/youconfigure.html) for the technical details.
 
@@ -56,7 +56,7 @@ In addition to all the pages above, the Hourfleet web app offers you a ready mad
 
 This support page is pre-formatted with information you provide in your tenancy configuration. An example of the support page can be seen here.
 
-![Support Page](images/SupportPage.PNG)
+![Support Page](images/SupportPage.png)
 
 ## Operational Management
 

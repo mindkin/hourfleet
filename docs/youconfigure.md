@@ -28,7 +28,7 @@ There are several areas of the configuration, each with its own purpose.
 
 The example below, gives you an idea of the kinds of things you can customize.
 
-> Note: the file below is in JSON format, which is just how we represent it today. We are working on representing for you in a different format.
+> Note: the examples of configuration below are  in a simple JSON format, which is just how we represent it today. We are working on representing for you in a different format.
 
 ### Support
 
@@ -39,32 +39,32 @@ These settings are displayed on the support page of your web app, and in various
 		"Guidance": "If there is an issue with a car during your booking we  recommend first contacting the owner. You can find their contact information under the owner section of your booking",
 		"Social": {
 			"Facebook": {
-				"Url": "https://www.facebook.com/acmeride/"
+				"Url": "https://www.facebook.com/yourcompany/"
 			},
 			"Twitter": {
-				"Url": "https://twitter.com/acmeride"
+				"Url": "https://twitter.com/yourcompany"
 			},
 			"LinkedIn": {
-				"Url": "https://www.linkedin.com/company/acmeride"
+				"Url": "https://www.linkedin.com/company/yourcompany"
 			},
 			"Instagram": {
-				"Url": "https://www.instagram.com/acmeride"
+				"Url": "https://www.instagram.com/yourcompany"
 			},
 			"Blog": {
-				"Url": "https://acmeride.wordpress.com"
+				"Url": "https://yourcompany.wordpress.com"
 			},
 			"Other": {
 				"Url": ""
 			}
 		},
 		"Company": {
-			"Name": "Acmeride Limited",
+			"Name": "Your Company Limited",
 			"PhoneNumber": "0800-555-1212",
-			"Email": "support@acmeride.co.nz",
+			"Email": "support@yourcompany.co.nz",
 			"Address": {
-				"Street1": "99 One Acmeride Way",
+				"Street1": "99 Your Way",
 				"Street2": "",
-				"Town": "Acmeville",
+				"Town": "Yourville",
 				"Jurisdiction": "New Zealand"
 			}
 		},
@@ -73,7 +73,7 @@ These settings are displayed on the support page of your web app, and in various
 			"Name": "Acme Insurance",
 			"ClaimForm": {
 				"Title": "",
-				"Url": "http://www.acmerides.com/Docs/insurance_claim_form.pdf"
+				"Url": "http://www.yourcompanys.com/Docs/insurance_claim_form.pdf"
 			},
 			"PhoneNumber": "0800-555-1212",
 			"Email": "claims@acmeinsurance.co.nz"
@@ -99,7 +99,7 @@ These settings are displayed on the support page of your web app, and in various
 
 An example of the Support page that is created for you can be seen here:
 
-![Support Page](images/SupportPage.PNG)
+![Support Page](images/SupportPage.png)
 
 #### LiveChat
 
@@ -152,10 +152,10 @@ These settings control the look and feel of your web app, and important SEO info
 		},
 		"Seo": { // used primarily in SEO attributes, and for open graph information (http://ogp.me/)
 			"Title": "Acme",
-			"ImageUrl": "http://www.acmerides.com/Images/logo.jpeg",
+			"ImageUrl": "http://www.yourcompany.com/Images/logo.jpeg",
 			"Description": "Acme connects people who need a car with people who have a car that's sometimes idle.",
 			"SiteName": "Acme Car Sharing",
-			"Url": "http://www.acmerides.com"
+			"Url": "http://www.yourcompany.com"
 		},
 		"Styles": { // The colors used to brand your app
 			"PrimaryColor": "#03e4ac",
@@ -170,42 +170,42 @@ These settings control the look and feel of your web app, and important SEO info
 		},
 		"Social": { // Links to your social apps
 			"Facebook": {
-				"Url": "https://www.facebook.com/acmeride/"
+				"Url": "https://www.facebook.com/yourcompany/"
 			},
 			"Twitter": {
-				"Url": "https://twitter.com/acmeride"
+				"Url": "https://twitter.com/yourcompany"
 			},
 			"LinkedIn": {
-				"Url": "https://www.linkedin.com/company/acmeride"
+				"Url": "https://www.linkedin.com/company/yourcompany"
 			},
 			"Instagram": {
-				"Url": "https://www.instagram.com/acmeride"
+				"Url": "https://www.instagram.com/yourcompany"
 			},
 			"Blog": {
-				"Url": "https://acmeride.wordpress.com"
+				"Url": "https://yourcompany.wordpress.com"
 			},
 			"Other": {
 				"Url": ""
 			}
 		},
 		"Images": {
-			"DesktopImageUrl": "http://www.acmerides.com/Images/logo_navbar.png", // Image at top of every page in desktop sizes
-			"MobileImageUrl": "http://www.acmerides.com/Images/logo_navbar_mobile.png", // Image at top of every page in mobile sizes
-			"FavIconUrl": "http://www.acmerides.com/Images/favicon.ico",
-			"BusyInlineUrl": "http://www.acmerides.com/Images/loader_inline.gif", // Used to display progress for individual actions
-			"BusyPageUrl": "http://www.acmerides.com/Images/loader_page.gif", // Used to display progress for whole pages
-			"BusyButtonUrl": "http://www.acmerides.com/Images/loader_button.gif" // Used to display progress on certain buttons
+			"DesktopImageUrl": "http://www.yourcompany.com/Images/logo_navbar.png", // Image at top of every page in desktop sizes
+			"MobileImageUrl": "http://www.yourcompany.com/Images/logo_navbar_mobile.png", // Image at top of every page in mobile sizes
+			"FavIconUrl": "http://www.yourcompany.com/Images/favicon.ico",
+			"BusyInlineUrl": "http://www.yourcompany.com/Images/loader_inline.gif", // Used to display progress for individual actions
+			"BusyPageUrl": "http://www.yourcompany.com/Images/loader_page.gif", // Used to display progress for whole pages
+			"BusyButtonUrl": "http://www.yourcompany.com/Images/loader_button.gif" // Used to display progress on certain buttons
 		},
 		"Mobile": {
 			"Ios": { // Images used to create a native app on your iPhone home screen
-				"IconUrl": "http://www.acmerides.com/Images/apple-icon.jpg",
-				"Icon72Url": "http://www.acmerides.com/Images/apple-icon.jpg",
-				"Icon114Url": "http://www.acmerides.com/Images/apple-icon.jpg",
+				"IconUrl": "http://www.yourcompany.com/Images/apple-icon.jpg",
+				"Icon72Url": "http://www.yourcompany.com/Images/apple-icon.jpg",
+				"Icon114Url": "http://www.yourcompany.com/Images/apple-icon.jpg",
 				
 			},
 			"Android": { // Images used to create a native app on your Android home screen
-				"Icon72Url": "http://www.acmerides.com/Images/android-icon.jpg",
-				"Icon192Url": "http://www.acmerides.com/Images/android-icon.jpg",
+				"Icon72Url": "http://www.yourcompany.com/Images/android-icon.jpg",
+				"Icon192Url": "http://www.yourcompany.com/Images/android-icon.jpg",
 				
 			}
 		}
@@ -242,19 +242,19 @@ If you don't want any of these links to be displayed, just leave these values bl
 
 ~~~
 	"Navigation": { // URL's that are linked to from your app to your own website 
-		"HomeUrl": "http://www.acmerides.com",
-		"AboutUrl": "http://www.acmerides.com/about",
-		"ContactUrl": "http://www.acmerides.com/contact",
-		"DocsUrl": "http://www.acmerides.com/docs",
-		"TermsOfServiceUrl": "http://www.acmerides.com/terms",
-		"PrivacyUrl": "http://www.acmerides.com/privacy",
-		"FeesUrl": "http://www.acmerides.com/fees",
-		"FaqUrl": "http://www.acmerides.com/faq",
-		"ReturnUrl": "http://www.acmerides.com",
+		"HomeUrl": "http://www.yourcompany.com",
+		"AboutUrl": "http://www.yourcompany.com/about",
+		"ContactUrl": "http://www.yourcompany.com/contact",
+		"DocsUrl": "http://www.yourcompany.com/docs",
+		"TermsOfServiceUrl": "http://www.yourcompany.com/terms",
+		"PrivacyUrl": "http://www.yourcompany.com/privacy",
+		"FeesUrl": "http://www.yourcompany.com/fees",
+		"FaqUrl": "http://www.yourcompany.com/faq",
+		"ReturnUrl": "http://www.yourcompany.com",
 		"ShowMobileAppLink": true,
 		"UIElements": {
 			"Invitation": { // Privacy statement about collecting their invitation data on the invitation page
-				"Statement": "Acmerides values your privacy so we do not share this information with anyone else.",
+				"Statement": "YourCompany values your privacy so we do not share this information with anyone else.",
 				"DisplayStatement": true
 			}
 		}
@@ -263,7 +263,7 @@ If you don't want any of these links to be displayed, just leave these values bl
 
 You can see an example of the links in the web app footer section here:
 
-![Page Links](images/Footer.PNG)
+![Page Links](images/Footer.png)
 
 ### Business Models
 
