@@ -11,7 +11,7 @@ Your web app will need to be customized to suit your business model, and tailore
 You can see an example of what your web app will look like at [What Is In The Box](inthebox.html)
 
 # What Is A Network Operator?
-From the perspective of Hourfleet, you (and your business) are known as a "Network Operator", since you operate a car sharing network on the Hourfleet platform. 
+From the perspective of Hourfleet, you (and your business) are known to Hourfleet as a "Network Operator", since you operate a car sharing network on the Hourfleet platform. 
 
 As a Network Operator you are very likely to have many things unique to your business, such as: your own brand, your own social media presence, and also different rules about how your price and charge your customers for renting and borrowing cars on your network.
 
@@ -393,12 +393,53 @@ These are general settings for your car sharing network.
 
 ## User Notifications
 
-At various times, the users of your network are going to get notifications sent to them via email or TXT message. 
+At various times, the users of your network are going to get notifications sent to them via email or TXT message (or both). 
 
-You can watch these notifications by setting up integration between Hourfleet and many other apps by using Zapier.com.
+You can watch these notifications in your favorite tool by setting up integration between Hourfleet and many other apps by using Zapier.com.
 
-### Configuring Zapier
+If you wish, you can also customize the content of all of these messages, both the email content and the TXT message content. 
 
-To be alerted when users receive notifications, you can configure Zapier to relay the notifications to one or many apps that you might use to manage your network, such as 'Slack' or 'Intercom' and many others.
+You can see examples of these email notifications [here](notifications.md).
 
-See [Zapier Integration](zapier.html) for details of how to configure.
+There are many, many notifications, so the example below will show only the configuration for the notification: `101`.
+
+> Note: For each notification, the configuration is optional. You would only provide configuration for the notifications you wish to customize. And for each notification you only need to provide the elements of it you wish to customize. Leaving any part of the configuration blank, results in default content for each of those parts. 
+
+~~~
+"Notifications": [
+  {
+    "Id": 101,
+  	"Subject": "Get verified to continue! Your Booking request for '-car.name-' for period -request.startdate- to -request.enddate- is waiting.",
+    "Email": {
+    	"HTML": {
+            "Header": "Get Verified\nTo Continue",
+            "Address": "Kia Ora -borrower.name-,",
+            "Content": "Your account must be verified in order for the owner of '-car.name-' to receive your booking request.",
+            "Button": "Become Verified",
+    	},
+    	"PlainText": {
+            "Header": "Get verified to continue.",
+            "Address": "Kia Ora -borrower.name-,",
+            "Content": "You must get verified in order for the owner of '-car.name-' to receive your booking request.",
+    	}
+    },
+    Sms: {
+      "Subject": "Get verified to continue. Your booking of '-car.name-' is waiting. See -request.url-"
+    }
+  }
+]
+~~~
+
+Here is an example of the email message for notification `101`, branded for the 'Roam' network
+
+![Email Notification](images/EmailPreviews/requestDrafted_borrower.PNG)
+
+
+
+### Configuring Zapier.com
+
+As well as configuration and customizing your notifications, you can also be alerted when users receive notifications. 
+
+You can configure Zapier.com to relay the notifications to one or many apps that you might use to manage your network, such as 'Slack' or 'Intercom' and many, many others.
+
+See [Zapier Integration](zapier.html) for details of how to configure Zapier to see your notifications in your favorite apps.
