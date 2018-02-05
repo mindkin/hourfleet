@@ -17,7 +17,7 @@ Your Hourfleet web app will be hosted for you at: https://yourcompany.hourfleet.
   - [Customer Support Page](#customer-support-page)
 - [Operational Management](#operational-management)
   - [Activity Monitoring](#activity-monitoring)
-  - [Account Verification](#account-verification)
+  - [Verifications](#verifications)
   - [Billing/Remittance](#billing/remittance)
   - [Carkit Management](#carkit-management)
 - [Listing Cars](#listing-cars)
@@ -77,7 +77,7 @@ These tools include the ability to:
 
 ### Activity Monitoring
 
-As your customers do various things on your netowrk, such as: create new accounts, verify their credentials, book and use cars, etc. Those events create 'alerts' that can be viewed. You can keep up to date with these alerts in the Operational Dashboard.
+As your customers do various things on your network, such as: create new accounts, verify their credentials, book and use cars, etc. Those events create 'alerts' that can be viewed. You can keep up to date with these alerts in the Operational Dashboard.
 
 Alerts have varying levels: Urgent, Important, OfInterest, Security and Noise. You can filter this level to focus on what is important to you. You can also dismiss any specific alert to keep the list shorter.
 
@@ -89,21 +89,27 @@ If you want to receive your alerts in other apps, such as: Slack, Intercom, Trel
 
 ### Verifications
 
-In a car sharing network people must trust each other to borrow and rent vehicles. The car owners must trust that borrowers are legally qualified to drive their cars, and borrowers must trust car owners that cars are legally safe to drive, etc. Since these people may be using a specific service or specific car for the first time, trust is going to be need inferred from their network membership and from the feeeback and rating given by others on the network.
+In a car sharing network people must trust each other to borrow and rent vehicles. The car owners must at least trust the network that borrowers are legally qualified to drive their cars, and borrowers must at least trust car owners that cars are legally safe to drive. Everyone on the network, borrowers and car owners will want trust to some degree that everyone involved is legitimate, and the network has limited that kind of risk as much as it can. 
+Since many people may be using the network or specific car for the first time, trust is going to be need inferred from the other party's network membership and from the feeeback and rating given by others on the network about them.
 
-For these reasons, all Hourfleet networks support two things: Verifications and Ratings and Reviews.
-  
-Every car, car owner, and borrower has their own verifications. For exmaple, a borrower must have at least a verified email adddress, a verified phone number and a verified drivers license. A car must have a verified license plate and a verified certificate of road worthiness, etc.
+For these reasons, and others, all Hourfleet networks support two things: Verifications and Ratings and Reviews.
 
-Whenever a person or car is registered on your network, there is an ongoing process which they must go through to complete and maintain a list of verifications. The must get and stay fully verified to continue to use the service. Until they are fully verified, their use of the system will be limited. For example, until a borrower is fully verified they will not be able to actually use a car. Also, until a car is fully verified, borrowers will be unable to book or rent that car.
+Rating and reviews are well understood today. People using a service (i.e a car sharing service) get the option to rate and give open and honest feedback about their experience of the service, and of the people providing it to them. They typically do this in the hope that it helps or benefits others coming after them make either a good purchase or a poor purchase choice. Today, with many online services, this is a common experience, and it is expected whenever its difficult to establish initial trust between the individuals participating in the service (i.e. between the owner of the car, and the person using it temporarily). Your car sharing network is no different, where many people may not have very extensive experience with the other people providing them service. Particularly in the P2P networks, feedback and ratings are critical to making it succeed.
 
-Some of these verifications, like: car license plate, are unlikely to change over time. Some of these verifications, like: email address will only change if the user manually changes their email address. Some of these verifications will automatically change over time, like a drivers license, when it expires.
 
-Some of these verifications can be automatically verified by the Hourfleet system, such as a person's email address and credit cards. However, some of these verifications, like a drivers license, and possibly a car's license plate, can only be manually verified by the Network Operator, typically by way of some other government service/system.
+In terms of qualifying people and qualifying the minimum level of  service they provide (i.e. renting their car), ratings and feedback are not enough to define a minimum level of quality. Every car, car owner, and borrower needs to be verified as well.
 
-The Network operator is responsible for monitoring and managing these verifications for the users of the network. 
+Every user and every car on your network will have its own set of verifications. Depending whether you are a borrower, car owner or car, your set of verifications will differ. For example, a borrower must have, at least: a verified email adddress, a verified phone number, a verified credit card and a verified drivers license. A car owner must have at least: a verified email address, a verififed phone number and a verified bank account. A car must have: a verified license plate and a verified certificate of road worthiness.
 
-The Hourfleet web app provides the tools from the Operations Dashboard to monitor and manage verifications of all users and cars as things change. i.e. as a new user registeres and provides all the information to get fully verified.
+Whenever a person or car is registered on your network, there is an ongoing process which they must go through continuously to complete and maintain their list of verifications. The must get and stay fully verified to continue to use the service. Until they are fully verified, their use of the service will be limited. For example, until a borrower is fully verified they will not be able to actually use a car. Similarly, until a car is fully verified, borrowers will be unable to book or rent that car.
+
+Some of these verifications, like: car license plate, are not going to change over time. Some of these verifications, like: email address will only change if the user manually changes their email address. Some of these verifications will automatically change over time, like a drivers license, or credit card, when it expires.
+
+Some of these verifications can be automatically verified by the Hourfleet system, such as a person's email address or their credit card, etc. However, some of these verifications, like a drivers license, and possibly a car's license plate, can only be manually verified by the Network Operator, typically by way of some other government service/system.
+
+The network operator, your business, is therefore responsible for monitoring and managing these verifications for the users of the network. 
+
+The Hourfleet web app provides the tools from the Operations Dashboard to monitor and manage verifications of all users and cars as things change. i.e. as a new user registers and provides all the information to get fully verified.
 
 > Note: Monitoring and manging verifications is a mandatory activity for network operators, and must be performed continuously, as users and cars on their network can change status over time.
 
@@ -114,16 +120,48 @@ The Hourfleet web app provides the tools from the Operations Dashboard to monito
 
 When a borrower of a car on your network has used and returned the car, they will need to be charged for that usage. Charges are always charged to a verified credit card.
 
-The owner of the car in a P2P business will also need to be remmitted an amount for the use of their car. In a B2C business, the operator is the car owner, and will also need to be remitted for the use of the car. Remittance is always paid to a verified bank account.
+The owner of the car in a P2P business will also need to be remitted an amount for the use of their car. In a B2C business, the operator is the car owner, and will also need to be remitted for the use of the car. Remittance is always paid to a verified bank account.
 
-While remittance can be calculated and can be performed automatically by Hourfleet, the automatic charging of usage and late charges is not always desirable for the network operator. For example, if one of your users has had a poor experience, you may want to discount or waive usage charges for them on a case by case basis. For this reason, all billing in Hourfleet is performed manually after the fact, by the network operator. 
+While usage charges and remittance can be calculated and could technically be performed automatically by Hourfleet, doing this automatically for every usage is not always desirable for a network operator. For example, if one of your borrowers has had a very poor experience within your network, you may decide as the network operator to discount or waive usage charges for them on a case by case basis. 
 
-> Note: the amount to charge a user is always automatically calculated for the network operator.
- 
+For these kinds of reasons, all charing and remitting in Hourfleet is performed manually after the fact, by the network operator. All remittance and charging is performed after a booking is closed out and settled by the car owner, and is added to a backlog that can be managed by operators.
+
+> Note: the amount to charge a borrower, and the amount to remit the car owner, is always automatically calculated for you to make the act of reconciling the charges and remittance as easy as possible.
 
 The Hourfleet web app has all the tools to manually view all charges and to manually bill the user.
 
 <<Screenshot of billing a user for a booking>> 
+
+#### Usage Charges and Settlements
+
+Each hourfleet tenancy decides its own financial model for how its car sharing network charges borrowers and remits its car owners. The finaincial model is all cases can be quite complex depending on your commerical arrangements with: your customers (borrowers and car owners) and your insurer.
+
+> Note: In a B2C car sharing network, the network operator is typically (but not always) the owner of the cars on the network (it could be a 3rd party), whereas in a P2P car sharing network, other members of the network typically (but not always) own the cars. Car ownership should be understood to be separate from whether the network is B2C or P2P.
+
+Refering to the [network operator configuration](youconfigure.html#business-models) you can see the various options you have in the financial model of your car sharing network. Notice that your car sharing network can support either a B2C model, or a P2P model. 
+
+In a B2C model, a network operator typically owns the cars, and is remitted all the usage charges, less any payouts it must make to an insurer.
+
+In a P2P model, a network operator typically shares the revenue generated by borrowers renting out the cars of the car owners, less any insurance payouts.
+
+In either model, insurance payouts can be a combination of a fix fee, plus some share rate. 
+
+> Special Case: A network, like a trial network or promotional network, may not charge borrowers anything for using any of the cars on the network, and therefore there will be no revenue at all.
+
+This part of the financial model determines the fixed revenue of the business. The variable amount of revenue generated by actual usage of the cars by borrowers is determined by the 'Usage Model' or each car.
+
+In a 'Scheduled' model, where cars are 'booked' ahead of time for a known period of time, revenue depends on the hourly/daily/weekly prices set by the car owner. Actual revenue depends on how much (to nearest minute) of usage the car is used by the borrower within the schedule. Late fees and fixed penalties are mandatory for schedule infractions, depending on tolerances set by the network.
+
+In an 'Immediate'model, where cars are not booked, but used on demand (if available), for an unknown period of time, revenue also depends on hourly/daily/weekly prices set by the car owner. Revenue depends on how much (to nearest minute) of usage the car is used by the borrower. Late fees and penalties are only used in cases of gross over usage depending on maximums set by network operator. 
+
+In either model, there are also booking fees per usage that can be applied, and various timescales that can be defined controlling late fees and fixed penalties.
+
+Together, both the 'Ownership' and 'Usage' models provide the financial models for actual charges and remittance for both borrwer and car owner.
+
+> Note: In the Hourfleet web app, when it comes time to calculate any charges or remit any settlements, a full breakdown of the amounts will be presented to the user.
+
+<<screenshot of charges for a user at the end of a booking, with latet fees>>
+<<screenshot of remittance for a car owner when billing>>
 
 
 ### Carkit Management 
@@ -162,7 +200,7 @@ Once a car is registered, there is quite a rigorous process to get it verified s
 
 Only when the above requirements are met, will the car appear in the search results (and on the map) as 'Available'. Otherwise it appears in the search results (and on the map) as 'Coming Soon', and cannot be booked or used.
 
-> Note: At any time, any of the car's verifications and any of the car owners' verifications may become unverified (some are time based, some are action based - see [Verifications](#Verifications) for more details), at which point the car becomes unavailable, and dissapears from the list of 'available' cars in search results.
+> Note: At any time, any of the car's verifications and any of the car owners' verifications may become unverified (some are time based, some are action based - see [Verifications](#verifications) for more details), at which point the car becomes unavailable, and dissapears from the list of 'available' cars in search results.
 
 For car owners (P2P or B2C), it is imperative that they get themselves and their cars verified, and stay verified if the cars are to be used.
 
