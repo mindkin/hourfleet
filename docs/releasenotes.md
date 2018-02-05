@@ -2,6 +2,35 @@
 layout: default
 title: Release Notes
 ---
+## 1.44.0 05/02/2018
+
+### Improvements
+
+* Addition of more comprehensive health checks for all API's
+* Updated language used in agreement to terms, feedback page, and messaging between owners and borrowers.
+* Removed the 'how to find a car' help link on search page
+* Increased performance of sending email/TXT notifications
+* Displaying message history (between owner and borrower) in booking
+* Page menu for current section is highlighted
+* User account page replaces profile details page in menus
+* User is now directed to verifications after creating their account
+* Added a sign-up page for operations staff
+* Operators can now control whether to show or hide the mobile app link in the footer
+* Operators can now add their own Google Analytics to the web app
+* Now support a ZeroCharge network, where there are zero usage charged to any borrower
+* Now display "No Charge" for all pricing for a ZeroCharge network
+
+## Fixes
+
+* Fixed URL validation to prevent subdomain access
+* Removed car park owner verifications UI
+* Social media links (and header) are hidden when not configured (in footer and support page)
+* Calendar is now displayed when booking a car
+* Removed operator control of 'DisplayDurations' on a taking in favour of controlling same functionality of a ZeroCharge network
+* Fixed a bug in locating a car when returned home
+* Removed ability for car owner to see location information of existing inuse bookings
+* Removed multi-language switching controls in footer
+
 ## 1.43.0 12/01/2018
 
 ### Improvements
