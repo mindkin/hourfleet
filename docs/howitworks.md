@@ -87,7 +87,7 @@ If you want to receive your alerts in other apps, such as: Slack, Intercom, Trel
 
 > Note: The display of alerts is being improved overtime as we learn more about how operators use them, and what alerts are most important to operators.
 
-### Account Verification
+### Verifications
 
 In a car sharing network people must trust each other to borrow and rent vehicles. The car owners must trust that borrowers are legally qualified to drive their cars, and borrowers must trust car owners that cars are legally safe to drive, etc. Since these people may be using a specific service or specific car for the first time, trust is going to be need inferred from their network membership and from the feeeback and rating given by others on the network.
 
@@ -128,13 +128,49 @@ The Hourfleet web app has all the tools to manually view all charges and to manu
 
 ### Carkit Management 
 
-How to manage the carkits
+If the cars on your network support keyless access by smartphone, each car will need to have a carkit installed within it. The carkit is paired with the car after it is installed physcially in the car.
+
+> Note: the installation of carkits is not covered here. But once physcially installed into a car, the carkit will need to be removed and re-configured to be physcially installed into another car.
+
+Typically, after installing the carkit physcially into the car, the installer of the carkit will need to pair the carkit with the car in the Hourfleet web app. They would do that in the 'Manage Carkits' page of the web app.
+
+<<screenshot of pairing a carkit with car in ops panel>>
+ 
+To pair a carkit with a car in your network you will need to know the following information:
+
+* The SIMM identifier of the carkit. This is printed on teh actual carkit.
+
+Once the carkit is paired with a car on your network, you can manually operate various functions to test the car, including Locking and Unlocking the car.
+
+> Note: if one of your customers get in trouble while using a car, this is the same function you can use to help them Lock/Unlock their car.
+
+<<screenshot of the carkit control panel>>
 
 ## Listing Cars
 
-What listing cars is, who can do it, and some of the rules around listing
+In order to add a car to your network, the car needs to be 'listed' on the network. 
+
+The listing of cars for P2P networks is usually done by the owner of the car. For B2C networks, cars are listed by the network operator. 
+
+Once a car is registered, there is quite a rigorous process to get it verified so that it appears in search results for borrowers to find. Generally, the following must be configured before a car can be borrowed.
+
+1. The car must be fully registered, and have all the basic information filled out. e.g. Year, Make, Model, Location, Photo, Prices, Usage Model, etc.
+2. The car must have details of a Certificate of Road Worthiness, and this must be verified by the operator.
+3. The car owner must be fully verified as a car owner. Requires the owner to have a verified: Email, Phone, BankAccount.
+4. The car must have any future availability set for it by the car owner.
+5. The car must not be set as 'Offline'.
+
+Only when the above requirements are met, will the car appear in the search results (and on the map) as 'Available'. Otherwise it appears in the search results (and on the map) as 'Coming Soon', and cannot be booked or used.
+
+> Note: At any time, any of the car's verifications and any of the car owners' verifications may become unverified (some are time based, some are action based - see [Verifications](#Verifications) for more details), at which point the car becomes unavailable, and dissapears from the list of 'available' cars in search results.
+
+For car owners (P2P or B2C), it is imperative that they get themselves and their cars verified, and stay verified if the cars are to be used.
+
+> Note: It is imperative that operators stay on top of any manual verifications that would block cars from being fully verified at any time.
 
 ## Borrowing Cars
+
+
 
 What borrowing means, who can do it, and some of the constrints around borrowing. i.e. account verifications
 
