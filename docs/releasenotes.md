@@ -2,6 +2,13 @@
 layout: default
 title: Release Notes
 ---
+
+## 1.45.0 06/02/2018
+
+### Improvements
+
+* All Emails and TXT notification messages can be fully customized. 
+
 ## 1.44.0 05/02/2018
 
 ### Improvements
