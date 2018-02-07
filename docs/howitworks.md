@@ -226,14 +226,37 @@ In the meantime, as long as the user has created an account on the network, they
 
 ### Using a Car
 
-What is the process of using a car? starting the booking, starting the taking, unlocking the car, or exchanging keys, returning the car, completing teh transaction, etc.
+There are two usage models that govern how borrowing a car works on your network:
 
+* Scheduled - (a.k.a Book Later) In this model, cars must be booked in advance, and are generally booked for a known amount of time. The borower shows up at the car and uses it at (or very close to) the time they booked it. The car owner gets the option to approve requests manually ahead of time, and can choose the best request to fit their needs (i.e. times, durations, costs, reputations etc.). Or they can auto-approve the requests and requests are approved as long as the car is available (first in first served).
+* Immediate - (a.k.a Take Now) In this model, there are no bookings, and no approvals. Borrowers walk up to a car wherever it is and reserve it right away. They have a short period of time to actually use the car (i.e. start the rental), before it becomes available to others to reserve and use. The borower uses the car as long as they like (within max limits set by the network operator), and returns it when they no longer need it.
 
-### Usage Models
+Any network can support both models at the same time, and every car determines which model it uses at any one time. The car owner can change the usage model anytime (except under certain circumstances). For example, a car can be setup for the 'Scheduled' usage model and borrowers can make bookings and use the car. Some time later, the car owner may decide to switch to the 'Immediate'usage model, and now borrowers can take the car immediately anytime its not already in use, no bookings required. 
 
-Immediate versus Scheduled models
+> Note: A car owner cannot swap from 'Immediate'to 'Scheduled' when there are future booking already scheduled.
 
-How usage is charged, fees are determined, revenue share is calculated etc.
+#### Keyless Access
+
+For cars that support Keyless access, borrowers walk up to where the car is located, and from their smartphone, in the web app, they start their 'booking' (Scheduled) or 'rental' (Immediate) in the app. They then Unlock the car from their smartphone. Once inside the car, there will be a 'Start' button on the dashboard to start the car and drive it away.
+
+While they have the car, the app will track them on a map, that shows them where to return the car when they are done. The app also keeps track of the usage time, costs, and fees for them.
+
+When they are done, and they return the car, they will complete the booking/rental in the app, ensuring the car is returned to the correct location, and it is left locked. They can review their charges and give feedback at that point.
+
+Later, the borrower can view their past booking/rental and they will be billed by the network operator.
+
+The car owner is notified of all the steps of the booking/rental process. At the end, they must confirm the completion of the booking/rental, where they can see a summary or their earnings.
+
+> The car owner is strongly encouraged to be involved in the completion process, and monitor their car usage, but it is optional. If they don't take any actions within set periods of time, the booking will be auto-completed for them, so that billing and other processes can proceed.
+
+During the whole process, there is an opportunity for the borrower and car owner to communicate directly, on any issues.
+
+#### Key Exchange
+
+For cars that are NOT Keyless access, the borrower and car owner will make arrangements to exchange car keys. 
+
+<<describe the process in more detail>>
+
 
 ## Cloud Hosted Environment
 
