@@ -2,6 +2,17 @@
 layout: default
 title: Release Notes
 ---
+## 1.46.0 07/02/2018
+
+### Improvements
+
+* Now can customize teh copy of all email/SMS notifications
+* A new search page that can be centered on a street address
+
+### Fixes
+
+* Not being able to book a car for minimum duration
+* Email substitutions now look for the most common dashes. (i.e. hyphen or en-dash or em-dash)
 
 ## 1.45.0 06/02/2018
 
