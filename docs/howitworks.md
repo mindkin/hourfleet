@@ -22,20 +22,20 @@ Your Hourfleet web app will be hosted for you at: https://yourcompany.hourfleet.
   - [Carkit Management](#carkit-management)
 - [Listing Cars](#listing-cars)
 - [Borrowing Cars](#borrowing-cars)
-  - [Usage Models](#usage-models)
+  - [Using a Car](#using-a-car)
 - [Cloud Hosted Environment](#cloud-hosted-environment)
 
 ## Web App Integration
 
 The Hourfleet web app is where your customers will manage their account with your car sharing network, manage their profile, and they will book/reserve and list cars there too. Basically, they do everything with cars on the web app.
 
-The Hourfleet web app however will not be able to provide things to your customers like: your Terms of Service or Privacy policy, etc.. But instead, it will provide the ability to link users to those things on the landing pages of your own website, from various links in the Hourfleet web app.
+The Hourfleet web app however will not be able to provide things to your customers like: your Terms of Service or Privacy policy, etc. But instead, it will provide the ability to link users to those things on the landing pages of your own website, from various links in the Hourfleet web app.
 
 The list of links in the web app that link to your website are:
 
 * Home (Landing Page) - the user is returned here after logging out of the web app.
 * Terms Of Service - the user is directed here to read your terms of service, generally when being asked to accept them.
-* Privacy Policy - the user is directed here to read your privacy policy in places where infromation is taken from them.
+* Privacy Policy - the user is directed here to read your privacy policy in places where information is taken from them.
 * How It Works - the user is directed here to read about how your network works, and reads any information specific to how your network works.
 * About - you can provide information about about your business or people
 * Contact - you can provide information for contacting the people and services of your business  
@@ -60,9 +60,9 @@ This support page is pre-formatted with information you provide in your tenancy 
 
 ## Operational Management
 
-The Hourfleet web app includes a number of administration pages to help you operate and monitor your car sharing network. These administration pages are only available to priviledged users of the Hourfleet web app.
+The Hourfleet web app includes a number of administration pages to help you operate and monitor your car sharing network. These administration pages are only available to privileged users of the Hourfleet web app.
 
-You can control and nominate one or more people in your business to manage your business in the administratiokn pages of the web app. Those people will log into the web app just like your customers, but they will have access to a number of tools that your customers would not see and not have access to.
+You can control and nominate one or more people in your business to manage your business in the administration pages of the web app. Those people will log into the web app just like your customers, but they will have access to a number of tools that your customers would not see and not have access to.
 
 <<screenshot fo the operations menu>>
 
@@ -70,7 +70,7 @@ These tools include the ability to:
 
 * Monitor activity on your network, such as when new users register, when users create bookings, etc.
 * Manage your user accounts and their verifications.
-* Manage the charging and remitance of your customers.
+* Manage the charging and remittance of your customers.
 * Configure, manage and test your physical keyless devices.
 
 > Note: Hourfleet is constantly striving to provide its customers with the most relevant tools for managing your network. So please let us know what is missing and we will try to provide you the best experience for managing your network.
@@ -79,7 +79,7 @@ These tools include the ability to:
 
 As your customers do various things on your network, such as: create new accounts, verify their credentials, book and use cars, etc. Those events create 'alerts' that can be viewed. You can keep up to date with these alerts in the Operational Dashboard.
 
-Alerts have varying levels: Urgent, Important, OfInterest, Security and Noise. You can filter this level to focus on what is important to you. You can also dismiss any specific alert to keep the list shorter.
+Alerts have varying levels: 'Urgent', 'Important', 'OfInterest', 'Security' and 'Noise'. You can filter this level to focus on what is important to you. You can also dismiss any specific alert to keep the list shorter. All items in the list will expire after some time (7 days by default).
 
 If you want to receive your alerts in other apps, such as: Slack, Intercom, Trello, email etc. you can setup Zapier.com to relay the alert to your favorite apps. See [Zapier Integration](zapier.html) for more details on how to set that up.
 
@@ -90,7 +90,8 @@ If you want to receive your alerts in other apps, such as: Slack, Intercom, Trel
 ### Verifications
 
 In a car sharing network people must trust each other to borrow and rent vehicles. The car owners must at least trust the network that borrowers are legally qualified to drive their cars, and borrowers must at least trust car owners that cars are legally safe to drive. Everyone on the network, borrowers and car owners will want trust to some degree that everyone involved is legitimate, and the network has limited that kind of risk as much as it can. 
-Since many people may be using the network or specific car for the first time, trust is going to be need inferred from the other party's network membership and from the feeeback and rating given by others on the network about them.
+
+Since many people may be using the network or specific car for the first time, trust is going to be need inferred from the other party's network membership and from the feedback and rating given by others on the network about them.
 
 For these reasons, and others, all Hourfleet networks support two things: Verifications and Ratings and Reviews.
 
@@ -99,7 +100,7 @@ Rating and reviews are well understood today. People using a service (i.e a car 
 
 In terms of qualifying people and qualifying the minimum level of  service they provide (i.e. renting their car), ratings and feedback are not enough to define a minimum level of quality. Every car, car owner, and borrower needs to be verified as well.
 
-Every user and every car on your network will have its own set of verifications. Depending whether you are a borrower, car owner or car, your set of verifications will differ. For example, a borrower must have, at least: a verified email adddress, a verified phone number, a verified credit card and a verified drivers license. A car owner must have at least: a verified email address, a verififed phone number and a verified bank account. A car must have: a verified license plate and a verified certificate of road worthiness.
+Every user and every car on your network will have its own set of verifications. Depending whether you are a borrower, car owner or car, your set of verifications will differ. For example, a borrower must have, at least: a verified email address, a verified phone number, a verified credit card and a verified drivers license. A car owner must have at least: a verified email address, a verified phone number and a verified bank account. A car must have: a verified license plate and a verified certificate of road worthiness.
 
 Whenever a person or car is registered on your network, there is an ongoing process which they must go through continuously to complete and maintain their list of verifications. The must get and stay fully verified to continue to use the service. Until they are fully verified, their use of the service will be limited. For example, until a borrower is fully verified they will not be able to actually use a car. Similarly, until a car is fully verified, borrowers will be unable to book or rent that car.
 
@@ -111,7 +112,7 @@ The network operator, your business, is therefore responsible for monitoring and
 
 The Hourfleet web app provides the tools from the Operations Dashboard to monitor and manage verifications of all users and cars as things change. i.e. as a new user registers and provides all the information to get fully verified.
 
-> Note: Monitoring and manging verifications is a mandatory activity for network operators, and must be performed continuously, as users and cars on their network can change status over time.
+> Note: Monitoring and managing verifications is a mandatory activity for network operators, and must be performed continuously, as users and cars on their network can change status over time.
 
 <<screenshots of verifying users>>
 
@@ -124,7 +125,9 @@ The owner of the car in a P2P business will also need to be remitted an amount f
 
 While usage charges and remittance can be calculated and could technically be performed automatically by Hourfleet, doing this automatically for every usage is not always desirable for a network operator. For example, if one of your borrowers has had a very poor experience within your network, you may decide as the network operator to discount or waive usage charges for them on a case by case basis. 
 
-For these kinds of reasons, all charing and remitting in Hourfleet is performed manually after the fact, by the network operator. All remittance and charging is performed after a booking is closed out and settled by the car owner, and is added to a backlog that can be managed by operators.
+For these kinds of reasons, some charging and remitting in Hourfleet must be performed manually after the fact, by the network operator. 
+
+All remittance and charging is performed after a booking is closed out and settled by the car owner, and is added to a backlog that can be managed by operators.
 
 > Note: the amount to charge a borrower, and the amount to remit the car owner, is always automatically calculated for you to make the act of reconciling the charges and remittance as easy as possible.
 
@@ -134,11 +137,11 @@ The Hourfleet web app has all the tools to manually view all charges and to manu
 
 #### Usage Charges and Settlements
 
-Each hourfleet tenancy decides its own financial model for how its car sharing network charges borrowers and remits its car owners. The financial model in all cases can be quite complex depending on your commerical arrangements with: your customers (borrowers and car owners) and your insurerance company.
+Each Hourfleet tenancy decides its own financial model for how its car sharing network charges borrowers and remits its car owners. The financial model in all cases can be quite complex depending on your commercial arrangements with: your customers (borrowers and car owners) and your insurance company.
 
 > Note: In a B2C car sharing network, the network operator is typically (but not always) the owner of the cars on the network (a car owner could also be a 3rd party), whereas in a P2P car sharing network, other members of the network typically (but not always) own the cars. Car ownership should be understood to be separate from whether the network is B2C or P2P.
 
-Refering to the [network operator configuration](youconfigure.html#business-models) you can see the various options you have in the financial model of your car sharing network. Notice that your car sharing network can support either a B2C model, or a P2P model, not both. 
+Referring to the [network operator configuration](youconfigure.html#business-models) you can see the various options you have in the financial model of your car sharing network. Notice that your car sharing network can support either a B2C model, or a P2P model, not both. 
 
 In a B2C model, a network operator typically owns the cars, and is remitted all the usage charges, less any payouts it must make to an insurer.
 
@@ -146,7 +149,7 @@ In a P2P model, a network operator typically shares the revenue generated by bor
 
 In either model, insurance payouts can be a combination of a fix fee, plus some share rate, or none of these things.
 
-> Special Case: A network, like a trial network, promotional network of wholey subscription based network, may not want to charge borrowers anything for using any of the cars on the network, and therefore there will be no revenue from usage at all.
+> Special Case: Special car sharing networks like: trial networks, promotional networks, or wholly-subscription based networks, may not want to charge borrowers anything for using any of the cars on the network, and therefore there will be no revenue from usage at all.
 
 This B2C and P2P parts of the financial model determine the fixed revenue of the business. The variable amount of revenue generated by actual usage of the cars by borrowers is determined by the 'Usage Model' or each car. Both B2C and P2P models support both 'Scheduled' and 'Immediate' usage models.
 
@@ -166,19 +169,19 @@ Together, both the 'Ownership' and 'Usage' models provide the financial models f
 
 ### Carkit Management 
 
-If the cars on your network support keyless access by smartphone, each car will need to have a carkit installed within it. The carkit is paired with the car after it is installed physcially in the car.
+If the cars on your network support keyless access by smartphone, each car will need to have a car kit installed within it. The car kit is paired with the car after it is installed physically in the car.
 
 > Note: the installation of carkits is not covered here. But once physcially installed into a car, the carkit will need to be removed and re-configured to be physcially installed into another car.
 
-Typically, after installing the carkit physcially into the car, the installer of the carkit will need to pair the carkit with the car in the Hourfleet web app. They would do that in the 'Manage Carkits' page of the web app.
+Typically, after installing the car kit physically into the car, the installer of the car kit will need to pair the car kit with the car in the Hourfleet web app. They would do that in the 'Manage Carkits' page of the web app.
 
 <<screenshot of pairing a carkit with car in ops panel>>
- 
-To pair a carkit with a car in your network you will need to know the following information:
 
-* The SIMM identifier of the carkit. This is printed on teh actual carkit.
+To pair a car kit with a car in your network you will need to know the following information:
 
-Once the carkit is paired with a car on your network, you can manually operate various functions to test the car, including Locking and Unlocking the car.
+* The SIMM identifier of the car kit. This is printed on the actual car kit.
+
+Once the car kit is paired with a car on your network, you can manually operate various functions to test the car, including Locking and Unlocking the car.
 
 > Note: if one of your customers get in trouble while using a car, this is the same function you can use to help them Lock/Unlock their car.
 
@@ -200,7 +203,7 @@ Once a car is registered, there is quite a rigorous process by the car owner to 
 
 Only when the above requirements are met, will the car appear in the search results (and on the map) as 'Available'. Otherwise it appears in the search results (and on the map) as 'Coming Soon', and cannot be booked or used.
 
-> Note: At any time, any of the car's verifications and any of the car owners' verifications may become unverified (some are time based, some are action based - see [Verifications](#verifications) for more details), at which point the car becomes unavailable, and dissapears from the list of 'available' cars in search results.
+> Note: At any time, any of the car's verifications and any of the car owners' verifications may become unverified (some are time based, some are action based - see [Verifications](#verifications) for more details), at which point the car becomes unavailable, and disappears from the list of 'available' cars in search results (still visible on the 'unavailable' cars in search results.
 
 For car owners (P2P or B2C), it is imperative that they get themselves and their cars verified, and stay verified if the cars are to be used.
 
@@ -214,11 +217,11 @@ To be fully verified a user must first:
 
 1. Create an account on the network, by providing an email and name, and accept the terms of service of the network.
 2. Verify their email address (an email is sent to them for this purpose)
-3. Verify their phone number. This is currently done manually by the newtork operator.
+3. Verify their phone number. This is currently done manually by the network operator.
 4. Provide their drivers license in their profile. The network operator must verify this manually.
 5. Provide their credit card details in their profile. This is automatically verified when they register their card.
 
-Only when the user has completed teh above checklist will they be able to actually use any car on the network. 
+Only when the user has completed the above checklist will they be able to actually use any car on the network. 
 
 In the meantime, as long as the user has created an account on the network, they will be able to make requests to book scheduled' cars, but will still need to get verified before it is time to use the car, otherwise the booking will expire.
 
@@ -228,16 +231,16 @@ In the meantime, as long as the user has created an account on the network, they
 
 There are two usage models that govern how borrowing a car works on your network:
 
-* Scheduled - (a.k.a Book Later) In this model, cars must be booked in advance, and are generally booked for a known amount of time. The borower shows up at the car and uses it at (or very close to) the time they booked it. The car owner gets the option to approve requests manually ahead of time, and can choose the best request to fit their needs (i.e. times, durations, costs, reputations etc.). Or they can auto-approve the requests and requests are approved as long as the car is available (first in first served).
-* Immediate - (a.k.a Take Now) In this model, there are no bookings, and no approvals. Borrowers walk up to a car wherever it is and reserve it right away. They have a short period of time to actually use the car (i.e. start the rental), before it becomes available to others to reserve and use. The borower uses the car as long as they like (within max limits set by the network operator), and returns it when they no longer need it.
+* Scheduled - (a.k.a Book Later) In this model, cars must be booked in advance, and are generally booked for a known amount of time. The borrower shows up at the car and uses it at (or very close to) the time they booked it. The car owner gets the option to approve requests manually ahead of time, and can choose the best request to fit their needs (i.e. times, durations, costs, reputations etc.). Or they can auto-approve the requests and requests are approved as long as the car is available (first in first served).
+* Immediate - (a.k.a Take Now) In this model, there are no bookings, and no approvals. Borrowers walk up to a car wherever it is and reserve it right away. They have a short period of time to actually use the car (i.e. start the rental), before it becomes available to others to reserve and use. The borrower uses the car as long as they like (within max limits set by the network operator), and returns it when they no longer need it.
 
 Any network can support both models at the same time, and every car determines which model it uses at any one time. The car owner can change the usage model anytime (except under certain circumstances). For example, a car can be setup for the 'Scheduled' usage model and borrowers can make bookings and use the car. Some time later, the car owner may decide to switch to the 'Immediate'usage model, and now borrowers can take the car immediately anytime its not already in use, no bookings required. 
 
-> Note: A car owner cannot swap from 'Immediate'to 'Scheduled' when there are future booking already scheduled.
+> Note: A car owner cannot swap from 'Immediate'to 'Scheduled' when there are future booking already scheduled for that car.
 
 #### Scheduled Bookings
 
-Bookings work like most people imagine they should. 
+Bookings work like most people imagine they should, with some interesting limitations: 
 
 * First, a borrower makes a 'Request' to rent a car, for a specific period of time. They get the chance to ask a question of the car owner, for example: "I'd like to take my child with me on this trip, would you be able to include one of your baby car seats in the car please".
 * A booking 'Request' is sent to the car owner to approve. (Unless the car owner has configured the car for auto-approval, in which case, the request is immediately approved as long as the car is available). 
@@ -248,15 +251,29 @@ Bookings work like most people imagine they should.
 * Before the booking actually starts, the borrower will use the app to find the car (on a map). 
 * The borrower can actually start the booking early (within e.g 15mins before scheduled start), if the car is at the home location, and the previous booking is done.
 * The borrower starts the booking (in the app), they open the car and they drive it away. They will have up until (e.g 15mins) before the scheduled end of the booking to actually start the booking and use the car, otherwise the booking will expire, assuming the borrower was a "no show".
+* During the use of the car, the borrower will have the option to extend the scheduled end date of the booking, as long as teh car is not already scheduled fro another booking then.
 * After use, the borrower must return the car to its agreed home location, or close by. In some cases, like urban on-street parking, it may not actually be possible to return the car to its designated home location (as the park may be occupied), so the borrower must make an effort to park it as close as possible. Ultimately, the car owner will decide whether the final location is acceptable to them.
 * The borrower completes the booking (in the app) and locks the car. They give feedback about their experience of the car to the car owner.
-* If the borrower returns the car late, and its more than (e.g 5mins) past scheduled end time, then a one time late fee penalty is applied (e.g $50), and for every minute late there is an hourly late fee applied (e.g $1/min).
+* If the borrower returns the car late, and its more than (e.g 5mins) past scheduled end time, then a one time late fee penalty is applied (e.g \$50), and for every minute late there is an hourly late fee applied (e.g \$1/min).
 * After the borrower returns the car (in the app) the owner can review the final booking, and must accept the final situation of the car. They can choose to give feedback at this point. If the car owner does not complete the booking within (e.g 3 days) the booking is auto-completed on their behalf.
 * Finally, once the booking is completed, the borrower is charged all usage/late fees, and the car owner is remitted their earnings.
 
-> Note: In the process above, all example times and costs given are defaults, and are configurable for your specific network. These settings are all defined in your configuration for the 'Scheduled'. usage model. See the [configuration](#youconfigure.html#business-model) for more details.
+> Note: In the points above, all example times and costs given are defaults, and are configurable for your specific network. These settings are all defined in your configuration for the 'Scheduled'. usage model. See the [configuration](#youconfigure.html#business-model) for more details.
+
+This diagram illustrates the timings and limits involved in making a booking request, before its approved. 
+![Request Timings](images/BookingStateModel-Request-Timings.png)
+
+This diagram illustrates the timings and limits involved in using a car and completing a booking. 
+![Booking Timings](images/BookingStateModel-Booking-Timings.png)
 
 #### Immediate Takings
+
+
+
+<<points on how a taking works>>
+
+This diagram illustrates the timings and limits involved in using a car and completing a taking. 
+![Booking Timings](images/BookingStateModel-Takings-Timings.png)
 
 
 #### Keyless Access
@@ -271,7 +288,7 @@ Later, the borrower can view their past booking/rental and they will be billed b
 
 The car owner is notified of all the steps of the booking/rental process. At the end, they must confirm the completion of the booking/rental, where they can see a summary or their earnings.
 
-> The car owner is strongly encouraged to be involved in the completion process, and monitor their car usage, but it is optional. If they don't take any actions within set periods of time, the booking will be auto-completed for them, so that billing and other processes can proceed.
+> Note: The car owner is strongly encouraged to be involved in the completion process, and monitor their car usage, but it is optional. If they don't take any actions within set periods of time, the booking will be auto-completed for them, so that billing and other processes can proceed.
 
 During the whole process, there is an opportunity for the borrower and car owner to communicate directly, on any issues.
 
