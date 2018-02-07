@@ -235,6 +235,30 @@ Any network can support both models at the same time, and every car determines w
 
 > Note: A car owner cannot swap from 'Immediate'to 'Scheduled' when there are future booking already scheduled.
 
+#### Scheduled Bookings
+
+Bookings work like most people imagine they should. 
+
+* First, a borrower makes a 'Request' to rent a car, for a specific period of time. They get the chance to ask a question of the car owner, for example: "I'd like to take my child with me on this trip, would you be able to include one of your baby car seats in the car please".
+* A booking 'Request' is sent to the car owner to approve. (Unless the car owner has configured the car for auto-approval, in which case, the request is immediately approved as long as the car is available). 
+* The car owner, when they get to it, looks at all their booking requests and considers which to approve, or which to decline. If there are multiple requests for the car at the same time, the car owner will compare the requests to see which works out best for them, approve one or none, and decline the others.
+* If a car owner does not approve or decline a request up until (e.g 15mins) before the booking should actually start, then the request is automatically expired. 
+* If a request is approved, then the borrower is notified, the schedule, home location, and prices are locked in for the borrower.
+* Before the booking is due to start, the borrower has the option to request an extension to the schedule, but only if the car is available for that whole time.
+* Before the booking actually starts, the borrower will use the app to find the car (on a map). 
+* The borrower can actually start the booking early (within e.g 15mins before scheduled start), if the car is at the home location, and the previous booking is done.
+* The borrower starts the booking (in the app), they open the car and they drive it away. They will have up until (e.g 15mins) before the scheduled end of the booking to actually start the booking and use the car, otherwise the booking will expire, assuming the borrower was a "no show".
+* After use, the borrower must return the car to its agreed home location, or close by. In some cases, like urban on-street parking, it may not actually be possible to return the car to its designated home location (as the park may be occupied), so the borrower must make an effort to park it as close as possible. Ultimately, the car owner will decide whether the final location is acceptable to them.
+* The borrower completes the booking (in the app) and locks the car. They give feedback about their experience of the car to the car owner.
+* If the borrower returns the car late, and its more than (e.g 5mins) past scheduled end time, then a one time late fee penalty is applied (e.g $50), and for every minute late there is an hourly late fee applied (e.g $1/min).
+* After the borrower returns the car (in the app) the owner can review the final booking, and must accept the final situation of the car. They can choose to give feedback at this point. If the car owner does not complete the booking within (e.g 3 days) the booking is auto-completed on their behalf.
+* Finally, once the booking is completed, the borrower is charged all usage/late fees, and the car owner is remitted their earnings.
+
+> Note: In the process above, all example times and costs given are defaults, and are configurable for your specific network. These settings are all defined in your configuration for the 'Scheduled'. usage model. See the [configuration](#youconfigure.html#business-model) for more details.
+
+#### Immediate Takings
+
+
 #### Keyless Access
 
 For cars that support Keyless access, borrowers walk up to where the car is located, and from their smartphone, in the web app, they start their 'booking' (Scheduled) or 'rental' (Immediate) in the app. They then Unlock the car from their smartphone. Once inside the car, there will be a 'Start' button on the dashboard to start the car and drive it away.
