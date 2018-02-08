@@ -10,7 +10,9 @@ Your website is likely to have information such as: Pricing Plans, Fees, Terms o
 
 As a tenant on the Hourfleet platform, you will get a branded web app of your own that will look and feel like your website and landing pages. But this web app will have a different URL than your landing page. 
 
-Your Hourfleet web app will be hosted for you at: https://yourcompany.hourfleet.com. 
+Your Hourfleet web app will be hosted for you at: https://yourcompany.hourfleet.com
+
+<<diagram of websites and relationship between them>>
 
 ### Table of Contents
 - [Web App Integration](#web-app-integration)
