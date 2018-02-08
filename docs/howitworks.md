@@ -268,6 +268,24 @@ This diagram illustrates the timings and limits involved in using a car and comp
 
 #### Immediate Takings
 
+'Takings' is the name given to rentals that use the 'Immediate' usage model. Takings work very differently to bookings even though from a users perspective the differences may be very subtle.
+
+* First, a user does not need to make a booking for a car. There is no request. There is no schedule.
+* A borrower simply finds a car (in the app) either physically away from the car or physically next to the car. 
+* They 'reserve' the car (in the app), and then have (e.g. 15mins) to start their rental. At this point they don't actually have to be driving the car, but the charges do start from that point. The reservation typically happens outside the car, and in some cases the borrower can be still traveling to pick up the car. 
+* If a borrower does not start the rental in the given 'reservation' time, the reservation expires and the car becomes available for other borrowers to reserve it. (or the same borrower has to make another 'reservation' for it.
+* The borrower then unlocks the car and (in the app) starts the rental.
+* The borrower has the chance to provide feedback about the car prior to using it.
+* The borrower then can drive the car away.
+* A borrower then has a window of grace time (e.g 15mins) to 'Reject'the car. If they reject the car, they must return it, and the rental is not charged. This period is to allow for the cases where the borrower starts the rental and then discovers a problem with the car, that is not acceptable to them. (i.e. a flat tyre).
+* The borrower drives the car away, and uses it for an indefinate period of time. In this model, there is no scheduled period of time for the rental. However, there maybe a maximum length of rental (e.g. 4 days) set by the network operator.
+* After use, the borrower must return the car to its agreed home location, or close by. In some cases, like urban on-street parking, it may not actually be possible to return the car to its designated home location (as the park may be occupied), so the borrower must make an effort to park it as close as possible. Ultimately, the car owner will decide whether the final location is acceptable to them.
+* If the borrower returns the car late, and its more than (e.g 5mins) past scheduled end time, then a one time late fee penalty is applied (e.g \$50), and for every minute late there is an hourly late fee applied (e.g \$1/min).
+* After the borrower returns the car (in the app) the owner can review the final booking, and must accept the final situation of the car. They can choose to give feedback at this point. If the car owner does not complete the booking within (e.g 3 days) the booking is auto-completed on their behalf.
+* Finally, once the booking is completed, the borrower is charged all usage/late fees, and the car owner is remitted their earnings.
+
+> Note: In the points above, all example times and costs given are defaults, and are configurable for your specific network. These settings are all defined in your configuration for the 'Scheduled'. usage model. See the [configuration](#youconfigure.html#business-model) for more details.
+
 
 
 <<points on how a taking works>>
