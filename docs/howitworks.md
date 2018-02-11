@@ -4,13 +4,21 @@ title: How Things Work
 ---
 #  How Things Work
 
-Typically, your car sharing business is already going to have its own website and landing pages where you attract, advertise and track and convert your customers. 
+Hourfleet is here to help you create and operate your own car sharing business.
+
+Let's get right to talking about how your customers buy the use of cars through your business.
+
+Typically, your car sharing business is already going to have its own website, and have one or more landing pages where you attract, advertise, track and convert your customers to becoming users of your services. 
 
 Your website is likely to have information such as: Pricing Plans, Fees, Terms of Service, Privacy Policy, Customer Case Studies, Company Info and other information, typically in multiple pages (URL's). For the purposes of this documentation, we will refer to these pages of your website as the 'Landing Pages' of your car sharing business.
 
-As a tenant on the Hourfleet platform, you will get a branded web app of your own that will look and feel like your website and landing pages. But this web app will have a different URL than your landing page. 
+Your new users are likely to spend a bit of time on your website checking things out and seeing what you have to offer, and what others are saying about it. Then a some point, hopefully immediately, they are going to want to try out your service, register an account, and be led by the site to try out your services.
 
-Your Hourfleet web app will be hosted for you at: https://yourcompany.hourfleet.com
+AT that point you will need an app where users can find availble cars, making bookings or reservations for those cars, and then use the app to use the car. If you are going to use keyless technology in your cars, your users are going to need an app to lock and unlock the cars too.
+
+This app has to look and feel like your business, and has to integrate seemlessly with your existing website.
+
+As a tenant on the Hourfleet platform, you will get your own branded app that will look and feel like your website and landing pages, and manage navigation between them so that your users feel comfortable moving around from your existing website into and out of the app depending on what they are doing at any one time. To your users the experience will be seemless, but in actual fact, the Hourfleet web app will be hosted for you at: https://<yourcompanyname>.hourfleet.com
 
 <<diagram of websites and relationship between them>>
 
