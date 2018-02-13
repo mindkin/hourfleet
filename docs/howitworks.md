@@ -124,7 +124,7 @@ The Hourfleet web app provides the tools from the Operations Dashboard to monito
 
 > Note: Monitoring and managing verifications is a mandatory activity for network operators, and must be performed continuously, as users and cars on their network can change status over time.
 
-![Operations Verifications](images/Operations-Verifications.png)
+![Operations Verifications](images/Operations-Verifications.PNG)
 
 ### Billing/Remittance
 
@@ -173,7 +173,7 @@ Together, both the 'Ownership' and 'Usage' models provide the financial models f
 
 > Note: In the Hourfleet web app, when it comes time to calculate any charges or remit any settlements, a full breakdown of the amounts will be presented to the user.
 
-![Booking Summary](images/Bookings-Summary.png)
+![Booking Summary](images/Booking-Summary.PNG)
 
 ### Carkit Management
 
