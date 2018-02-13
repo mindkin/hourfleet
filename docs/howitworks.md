@@ -77,8 +77,6 @@ The Hourfleet web app includes a number of administration pages to help you oper
 
 You can control and nominate one or more people in your business to manage your business in the administration pages of the web app. Those people will log into the web app just like your customers, but they will have access to a number of tools that your customers would not see and not have access to.
 
-<<screenshot fo the operations menu>>
-
 These tools include the ability to:
 
 - Monitor activity on your network, such as when new users register, when users create bookings, etc.
@@ -96,7 +94,7 @@ Alerts have varying levels: 'Urgent', 'Important', 'OfInterest', 'Security' and 
 
 If you want to receive your alerts in other apps, such as: Slack, Intercom, Trello, email etc. you can setup Zapier.com to relay the alert to your favorite apps. See [Zapier Integration](zapier.html) for more details on how to set that up.
 
-<<screenshot of the alert panel>>
+![Operation Alerts](images/Operation-Alerts.png)
 
 > Note: The display of alerts is being improved overtime as we learn more about how operators use them, and what alerts are most important to operators.
 
@@ -126,7 +124,7 @@ The Hourfleet web app provides the tools from the Operations Dashboard to monito
 
 > Note: Monitoring and managing verifications is a mandatory activity for network operators, and must be performed continuously, as users and cars on their network can change status over time.
 
-<<screenshots of verifying users>>
+![Operations Verifications](images/Operations-Verifications.png)
 
 ### Billing/Remittance
 
@@ -144,7 +142,8 @@ All remittance and charging is performed after a booking is closed out and settl
 
 The Hourfleet web app has all the tools to manually view all charges and to manually bill the user.
 
-<<Screenshot of billing a user for a booking>> 
+![Operations Billing](images/Operations-Billing.png)
+![Operations Billing Modal](images/Operations-BillingModal.png)
 
 #### Usage Charges and Settlements
 
@@ -174,8 +173,7 @@ Together, both the 'Ownership' and 'Usage' models provide the financial models f
 
 > Note: In the Hourfleet web app, when it comes time to calculate any charges or remit any settlements, a full breakdown of the amounts will be presented to the user.
 
-<<screenshot of charges for a user at the end of a booking, with latet fees>>
-<<screenshot of remittance for a car owner when billing>>
+![Booking Summary](images/Bookings-Summary.png)
 
 ### Carkit Management
 
@@ -185,7 +183,7 @@ If the cars on your network support keyless access by smartphone, each car will 
 
 Typically, after installing the car kit physically into the car, the installer of the car kit will need to pair the car kit with the car in the Hourfleet web app. They would do that in the 'Manage Carkits' page of the web app.
 
-<<screenshot of pairing a carkit with car in ops panel>>
+![Operations Carkit Pair](images/Operations-CarkitPair.png)
 
 To pair a car kit with a car in your network you will need to know the following information:
 
@@ -195,7 +193,7 @@ Once the car kit is paired with a car on your network, you can manually operate 
 
 > Note: if one of your customers get in trouble while using a car, this is the same function you can use to help them Lock/Unlock their car.
 
-<<screenshot of the carkit control panel>>
+![Operations Carkit Control](images/Operations-CarkitControl.png)
 
 ## Listing Cars
 
