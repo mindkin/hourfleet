@@ -31,7 +31,7 @@ As a tenant on the Hourfleet platform, you will get your own branded app that wi
 - [Operational Management](#operational-management)
   - [Activity Monitoring](#activity-monitoring)
   - [Verifications](#verifications)
-  - [Billing/Remittance](#billing/remittance)
+  - [Billing/Remittance](#billingremittance)
   - [Carkit Management](#carkit-management)
 - [Listing Cars](#listing-cars)
 - [Borrowing Cars](#borrowing-cars)
