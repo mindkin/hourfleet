@@ -2,6 +2,28 @@
 layout: default
 title: Release Notes
 ---
+## 1.47.0 14/02/2018
+
+### Improvements
+
+* Wording for private messages during a booking changed to instead reflect leaving comments for B2C networks
+* Certain notifications no longer are sent for short duration bookings
+* Improved usability of the date picker when making a booking request
+* UI changes made for Ops Verifications page to improve usability and reduced unneeded information
+* Ops Verifications page will now update every 30 seconds with the latest verifications
+* Ability for Ops Users to clear specific network cache's
+* The Mobile Menu on small form devices is now includes current page sections e.g. User Settings contains Account Details, Profile Details, Reset Password. e.t.c.
+* References to 'My Listings' has been changed to say 'My Cars'
+
+
+### Fixes
+
+* Updated the display of future bookings on a car availability calendar to appear less like availability slots
+* Cancelling a booking restores the availability slot
+* Fixed a bug which caused a zero length booking to appear when making a booking
+* Fixed a bug that would cause a failing search for cars when using a non existing street address
+* Fixed a bug which causes a user to become unknownly unauthorised when signed out from a different device
+
 ## 1.46.0 07/02/2018
 
 ### Improvements
