@@ -321,9 +321,9 @@ These settings decide how your car sharing business will actually function. mode
 					"MaximumRequestPeriodMinutes": 20160, // Maximum duration of a booking that can be requested
 					"UseBeforeStartPeriodMinutes": 15, //How long before the scheduled time can the next borrower start their rental if the car is available
 					"AutoCompleteAfterNoCompletionPeriodMinutes": 4320, // How long after the car is returned by borrower will it be auto-completed by the system on behalf of the owner
-					"AutoCompleteAfterNoUsePeriodMinutes": 15, //How long before the end of the reservation will the rental be auto-completed by the system on behalf of the borrower, if they haven't started the rental.
+					"AutoCompleteAfterNoUsePeriodMinutes": 15, //How long before the scheduled end of the booking will it be auto-completed by the system, if the borrower has not started the rental. (i.e. a 'no show' scenario)
 					"LateFees": {
-						"GracePeriodMinutes": 15 // How long after the car is due back, that late fees start accumulating
+						"GracePeriodMinutes": 15 // How long after the scheduled end time of the booking do late fees start accumulating.
 					}
 				}
 			},
@@ -338,10 +338,10 @@ These settings decide how your car sharing business will actually function. mode
 				},
 				"Timing": {
 					"FlagFallPeriodMinutes": 15, // A rental completed in less than this time, incurs no usage charge
-					"ReservationPeriodMinutes": 15, // How long the car is reserved for the borrower to use before it expires and becomes available for others to reserve
-					"RejectionPeriodMinutes": 15, // How long after the car is reserved (or after it is used) can the borrower reject it and not be charged usage fees
+					"ReservationPeriodMinutes": 15, // How long the car is reserved for the borrower to use before it expires and becomes available for others to reserve.
+					"RejectionPeriodMinutes": 15, // How long after the car is reserved (or after it is used) can the borrower reject it and not be charged usage fees.
 					"LateFees": {
-						"GracePeriodMinutes": 15 // How long after the maximum usage, that late fees start accumulating
+						"GracePeriodMinutes": 15 // How long after the maximum usage, do late fees start accumulating.
 					}
 				}
 			}
