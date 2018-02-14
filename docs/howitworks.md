@@ -324,14 +324,30 @@ During the whole process, there is an opportunity for the borrower and car owner
 
 For cars that do not support keyless access, the borrower and car owner will need to make physical arrangements to exchange car keys.
 
-The experience of borrowing cars is very different from those cars that support keyless access, because the car owner must make time and physical arrangements with the borrower to obtain their car keys. This manual key exchange is facilitated by the app, but can also occur offline to the app through phone calls, emails and other communication between the borrower and car owner. 
+This experience of borrowing cars is very different from those cars that support keyless access, because the car owner must make time and physical arrangements with the borrower to obtain their car keys prior to the booking starting. This manual key exchange is facilitated by the app, but it can also occur out-of-band to the app through: phone calls, emails and other direct communication between the borrower and car owner. 
 
-Manual key exchange is not suited to short term rentals, since the effort to exchange keys is often more than the value produced in the rental to either party.
+Manual key exchange is not ideally suited to short term rentals (say, less than a few hours), since the effort to coordinate and exchange keys is often more than the value produced by the rental to either party. Borrowing the car for a short trip, or renting the car to multiple people in a single day requires a lot of leg work for the car owner, and could be prohibitive, certainly not convienient.
 
-Furthermore, it requires a little more dilligence by the borrower to ensure they still use the app to record their journey, and charges.
+Furthermore, it requires a little more dilligence by the borrower to ensure they still use the app to record their journey, and to track their usage. Once the borrower has the keys to the car, essentially they have access to the car from that time until they return the keys, and so tracking their usage relies on their honest and diligent participation with the app to calculate usage charges.
 
+With all this in mind, this is how renting a car with manual key exchange works in the Hourfleet app. This process is as you might expect if you were to lend your car to someone with the addtion of an app to help record scheduled usage.
 
-<<describe the process in more detail>>
+##### Scheduled Bookings
+
+- The borrower makes a booking request in the usual way for a scheduled booking. Once the booking is made, the borrower is presented with the owner's personal contact details to allow them direct contact with the owner through any means (i.e. email, phone etc.). The app also provides them with chat tools to have a two-way chat with the owner to arrange key pickup.
+- The car owner approves or declines the booking in the usual way.
+- If the booking request is approved, the owner and borrower coordinate to exchange the keys prior to the scheduled booking start time.
+- The borrower starts the rental in the app when they go to pickup the car.
+- The borrower uses the car in the usual way, and uses the keys to access the car and start it - as normal with any car.
+- The borrower returns the key to the owner, in a manner agreed with the car owner beforehand (e.g. dropped off in a mailbox, or dropped at an office reception, or handed back in person, etc.).
+- The borrower goes in the app, and finishes the booking, marking the end of the booking. They have the opportunity to rate the experience and leave a chat message for the car owner, explaining any drop off details.
+- The car owner, later, (perhaps after picking up the keys from the prearranged dropoff) uses the app to complete the booking in the usual way, and has an opportunity for a final chat message to the borrower.
+- The booking is complete.
+
+##### Immediate Takings
+
+Immediate takings do not support manual key exchange at this time.
+In order to support Immediate Takings, cars must support keyless access.
 
 ## Cloud Hosted Environment
 
