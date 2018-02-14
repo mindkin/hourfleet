@@ -316,9 +316,10 @@ These settings decide how your car sharing business will actually function. mode
 				},
 				"Timing": {
 					"FlagFallPeriodMinutes": 15, // A rental completed in less than this time, incurs no usage charge
-					"MinimumActionBeforeStartPeriodMinutes": 15, // How soon before the rental starts can it not be approved, declined or extended anymore
+					"MinimumActionBeforeStartPeriodMinutes": 15, // How soon before the rental starts can it not be manually approved, declined or pended. Auto-approvals can occur right up to the start date.
 					"MinimumRequestPeriodMinutes": 30, // Minimum duration of a booking that can be requested
-					"UseBeforeStartPeriodMinutes": 15, //How long before the scheduled time can the next borrower start their reservation if the car is ready and waiting for them
+					"MaximumRequestPeriodMinutes": 20160, // Maximum duration of a booking that can be requested
+					"UseBeforeStartPeriodMinutes": 15, //How long before the scheduled time can the next borrower start their rental if the car is available
 					"AutoCompleteAfterNoCompletionPeriodMinutes": 4320, // How long after the car is returned by borrower will it be auto-completed by the system on behalf of the owner
 					"AutoCompleteAfterNoUsePeriodMinutes": 15, //How long before the end of the reservation will the rental be auto-completed by the system on behalf of the borrower, if they haven't started the rental.
 					"LateFees": {
