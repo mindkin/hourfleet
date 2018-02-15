@@ -2,6 +2,21 @@
 layout: default
 title: Release Notes
 ---
+## 1.48.0 16/02/2018
+
+### Improvements
+
+* Improvements to the Request Booking Calendar with the inclusion of a 'day' view and more distinct color seperation between available and unavailable times.
+* The Request Booking Date Controls will now alert the user if their requested time period is outside the booking periods defined by the network and car owner.
+* When the Minimum Booking Period and the Maximum Booking Period are equal (e.g. bookings MUST be a 15 minutes) then only a start date and time when requesting a car is available, with the end time being automatically set
+* Increased the spacing between the buttons in a bookings 'manage booking' control for better usability on small form factors
+
+### Fixes
+
+* Added headers to the sidebar menu
+* Updated api rules to better support starting a booking near its end time during a short booking period
+* A car's Max Booking Duration Setting can no longer be less than a network defined Minimum Booking Period
+
 ## 1.47.0 14/02/2018
 
 ### Improvements
