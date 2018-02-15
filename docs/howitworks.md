@@ -20,9 +20,13 @@ At that point you are going to need an app that users can use to find available 
 
 This app has to look and feel like your business, and has to integrate seemlessly with your existing website.
 
-As a tenant on the Hourfleet platform, we give you your own branded app that will look and feel like your website and landing pages, and the app manages the seemless navigation between them so that your users feel comfortable moving around from your existing website into and out of the app depending on what they are doing at any one time. To your users the experience will be seemless. However, to the observant types, in actual fact, the Hourfleet web app will be hosted for you at a different URL than your website, at: https://<yourcompanyname>.hourfleet.com
+As a tenant on the Hourfleet platform, we give you your own branded app that will look and feel like your website and landing pages, and the app manages the seamless navigation between them so that your users feel comfortable moving around from your existing website into and out of the app depending on what they are doing at any one time. To your users the experience will be seamless. However, to the observant types, in actual fact, the Hourfleet web app will be hosted for you at a different URL than your website, at: **https://<yourcompanyname>.hourfleet.com**
 
-<<screenshot of both websites side-by-side illustrating navigation links between them>>
+You can see from the example image below, for the car sharing network **Roam**. The site of the left is the existing Roam business website (roamride.co.nz), and the site on the right is the Hourfleet web app for Roam (roamride.hourfleet.com). Both sites work together to give a full experience for Roam's customers.
+
+> Notice: the links on the left side for 'Find a Car', 'List a Car' and 'Sign In' all link to pages in the Hourfleet web app on the left. Conversely, the links in the footer in the Hourfleet web app on the right link to various pages in the business website  on the left. The branding of the Hourfleet web app mimics that of the business web site on the right.
+
+![Websites](images/Site Integration.png)
 
 ### Table of Contents
 
@@ -40,28 +44,28 @@ As a tenant on the Hourfleet platform, we give you your own branded app that wil
 
 ## Web App Integration
 
-The Hourfleet web app is where your customers will manage their account with your car sharing network, manage their profile, and they will book/reserve and list cars there too. Basically, they do everything with cars on the web app.
+The Hourfleet web app is where your customers will manage their account with your car sharing network, manage their profile, and they will book/reserve and list cars there too. Basically, they do everything to do with cars in the web app.
 
 The Hourfleet web app however will not be able to provide things to your customers like: your Terms of Service or Privacy policy, etc. But instead, it will provide the ability to link users to those things on the landing pages of your own website, from various links in the Hourfleet web app.
 
 The list of links in the web app that link to your website are:
 
-- Home (Landing Page) - the user is returned here after logging out of the web app.
-- Terms Of Service - the user is directed here to read your terms of service, generally when being asked to accept them.
-- Privacy Policy - the user is directed here to read your privacy policy in places where information is taken from them.
-- How It Works - the user is directed here to read about how your network works, and reads any information specific to how your network works.
-- About - you can provide information about about your business or people
-- Contact - you can provide information for contacting the people and services of your business  
-- Fees - you can provide pricing and fees information
-- Documentation - A place you can provide additional documentation, like forms, etc.
+- **Home** (Landing Page) - the user is returned here after logging out of the web app.
+- **Terms Of Service** - the user is directed here to read your terms of service, generally when being asked to accept them.
+- **Privacy Policy** - the user is directed here to read your privacy policy in places where information is taken from them.
+- **How It Works** - the user is directed here to read about how your network works, and reads any information specific to how your network works.
+- **About** - you can provide information about about your business or people
+- **Contact** - you can provide information for contacting the people and services of your business  
+- **Fees** - you can provide pricing and fees information
+- **Documentation** - A place you can provide additional documentation, like forms, etc.
+
+> Note: The 'Home' link must always be defined. All other links are optional.
 
 An example of the links in the Hourfleet web app can be seen in the footer section of the web app. It looks something like this, depending on which links you enable:
 
 ![Page Links](images/Footer.png)
 
 All of the links in the list above (except the 'Home' link) can be optionally enabled, or hidden if not required. See [You Configure](http://docs.hourfleet.com/youconfigure.html) for the technical details.
-
-> Note: The 'Home' link must always be defined. All other links are optional.
 
 ### Customer Support Page
 
@@ -313,6 +317,8 @@ This diagram illustrates the timings and limits involved in using a car and comp
 
 #### Keyless Access
 
+<<screenshot of the keyless device>>
+
 For cars that support Keyless access, borrowers must walk up to where the car is located, and from their smartphone, in the app, they start their 'booking' (Scheduled) or 'rental' (Immediate) to open the car. Once inside the car, there will be a 'Start' button on the dashboard to start the car and drive it away.
 
 While they have the car the app will display their location on a map and shows them where to return the car when they are done. The app also keeps track of the usage time, costs, and fees for them. They can lock and unlock the car at anytime during their booking using the app.
@@ -330,6 +336,8 @@ The car owner is notified of all the steps of the booking/rental process. At the
 During the whole process, there is an opportunity for the borrower and car owner to communicate directly, on any issues.
 
 #### Key Exchange
+
+<<screenshot of hands exchanging keys>>
 
 For cars that do not support keyless access, the borrower and car owner will need to make physical arrangements to exchange car keys.
 
@@ -355,12 +363,15 @@ With all this in mind, this is how renting a car with manual key exchange works 
 
 ##### Immediate Takings
 
-Immediate takings do not support manual key exchange at this time.
-In order to support Immediate Takings, cars must support keyless access.
+>  Note: Immediate takings do not support manual key exchange at this time.
+
+In order for a car to support Immediate Takings, the car must support keyless access.
 
 ## Cloud Hosted Environment
 
 Your Hourfleet web app, all your web API's, all associated network infrastructure and databases are all hosted in the cloud on Microsoft Azure, in a region geographically close to your business.
+
+<<screenshot of Azure Cloud>>
 
 The network infrastructure is managed by Hourfleet, you don't need to worry about managing any of that. We will take care of all of it for you.
 
