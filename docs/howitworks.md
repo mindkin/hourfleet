@@ -6,9 +6,9 @@ title: How Things Work
 
 # How Things Work
 
-Hourfleet is here to help you create and operate your own car sharing business.
+Hourfleet helps you create and operate your own car sharing business. Knowing how it works will help you optimize the experience for your customers.
 
-Let's get right to talking about how your customers buy 'the use' of cars on your network.
+Let's get right to talking about how your customers buy 'usage' of cars on your network.
 
 Typically, your car sharing business at some point is going to have its own website, and it is likely to have one or more landing pages where you attract, advertise, track and convert viewers to paying customers of your services.
 
@@ -20,9 +20,9 @@ At that point you are going to need an app that users can use to find available 
 
 This app has to look and feel like your business, and has to integrate seemlessly with your existing website.
 
-As a tenant on the Hourfleet platform, we give you your own branded app that will look and feel like your website and landing pages, and the app manages the seemless navigation between them so that your users feel comfortable moving around from your existing website into and out of the app depending on what they are doing at any one time. To your users the experience will be seemless. However, to the observant types, in actual fact, the Hourfleet web app will be hosted for you at a different URL thatn your website, at: https://<yourcompanyname>.hourfleet.com
+As a tenant on the Hourfleet platform, we give you your own branded app that will look and feel like your website and landing pages, and the app manages the seemless navigation between them so that your users feel comfortable moving around from your existing website into and out of the app depending on what they are doing at any one time. To your users the experience will be seemless. However, to the observant types, in actual fact, the Hourfleet web app will be hosted for you at a different URL than your website, at: https://<yourcompanyname>.hourfleet.com
 
-<<diagram of websites and relationship between them>>
+<<screenshot of both websites side-by-side illustrating navigation links between them>>
 
 ### Table of Contents
 
@@ -106,9 +106,18 @@ Since many people may be using the network or specific car for the first time, t
 
 For these reasons, and others, all Hourfleet networks support two things: Verifications and Ratings and Reviews.
 
+#### Ratings and Reputation
+
+<<screenshot of ratings starts and perhaps a review>>
+
 Rating and reviews are well understood today. People using a service (i.e a car sharing service) get the option to rate and give open and honest feedback about their experience of the service, and of the people providing it to them. They typically do this in the hope that it helps or benefits others coming after them to make an informed purchase choice. Today, with many online services, this is a common experience, and is expected whenever it's difficult to establish initial trust between the individuals participating in the service (i.e. between the owner of the car, and the person using it temporarily). Your car sharing network is no different, where many people may not have extensive experience with the other people providing them service. Particularly in the P2P networks, feedback and ratings are critical to making it succeed.
 
 In terms of qualifying people and qualifying the minimum level of service they provide (i.e. renting their car), ratings and feedback are not enough to define a minimum level of quality. Every car, car owner, and borrower needs to be verified as well.
+
+#### Getting and Staying Verified
+
+<<screenshot of verification labels>>
+<<graphic of a verification tick>
 
 Every user and every car on your network will have its own set of verifications. Depending whether you are a borrower, car owner or car, your set of verifications will differ. For example, a borrower must have at least: a verified email address, a verified phone number, a verified credit card and a verified drivers license. A car owner must have at least: a verified email address, a verified phone number and a verified bank account. A car must have: a verified license plate and a verified certificate of road worthiness.
 
@@ -235,7 +244,7 @@ In the meantime, as long as the user has created an account on the network, they
 
 > Note: if at any time the user becomes unverified, the ability to use a car is restricted until they restore their verifications.
 
-### Usage Models
+### Car Usage Models
 
 There are two basic usage models that govern how borrowing a car works on your network:
 
@@ -351,12 +360,17 @@ In order to support Immediate Takings, cars must support keyless access.
 
 ## Cloud Hosted Environment
 
-Your Hourfleet web app, all web API's, all associated network infrastructure and databases are all hosted in the cloud on Microsoft Azure, in a region geographically close to your business.
+Your Hourfleet web app, all your web API's, all associated network infrastructure and databases are all hosted in the cloud on Microsoft Azure, in a region geographically close to your business.
 
-The network infrastructure is managed by Hourfleet, you don't need to worry about managing any of that.
+The network infrastructure is managed by Hourfleet, you don't need to worry about managing any of that. We will take care of all of it for you.
 
-All the data that is created or collected from your customers or your business is stored in secure data repositories and backed up for you automatically in the cloud.
+### Data Privacy and Backup
 
-Backups are run once a day, and stored for 30 days.
+All the data that is created or collected from your customers or your business is stored in secure data repositories, and backed up for you automatically in the cloud. Your data is physcially separated from other tenants (separate Azure Storage Accounts), and it is replicated in your region and others nearby.
+
+> See [Azure Geo Redundant Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy#geo-redundant-storage) for more technical details
+
+
+A running snaphot backup is run once a day (at about 3am NZT). A copy of the snaphot is stored for 30 days, before being permanently deleted.
 
 > Note: all data that is created or collected from your customers or your business belongs to your business, and can be obtained at any time. Please contact Hourfleet support for assistance.
