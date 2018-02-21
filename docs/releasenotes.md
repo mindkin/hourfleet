@@ -2,6 +2,21 @@
 layout: default
 title: Release Notes
 ---
+## 1.49.0 21/02/2018
+
+This release separates all web components into separate scalable units for future optimization. 
+
+### Improvements
+
+* Car's name of the car you are editing is now included in the sidebar
+
+### Fixes
+
+* Images are now cached in browser, improving download response times.
+* Drivers license entry form updated to allow older driver licenses (older than 1970).
+* Booking calendar displays week (rather than day) by default
+* Date format of calendar now localized for NZ.
+
 ## 1.48.0 16/02/2018
 
 ### Improvements
