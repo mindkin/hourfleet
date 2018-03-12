@@ -196,18 +196,14 @@ These settings control the look and feel of your web app, and important SEO info
 			"BusyPageUrl": "http://www.yourcompany.com/Images/loader_page.gif", // Used to display progress for whole pages
 			"BusyButtonUrl": "http://www.yourcompany.com/Images/loader_button.gif" // Used to display progress on certain buttons
 		},
-		"Mobile": {
-			"Ios": { // Images used to create a native app on your iPhone home screen
-				"IconUrl": "http://www.yourcompany.com/Images/apple-icon.jpg",
-				"Icon72Url": "http://www.yourcompany.com/Images/apple-icon.jpg",
-				"Icon114Url": "http://www.yourcompany.com/Images/apple-icon.jpg",
-				
-			},
-			"Android": { // Images used to create a native app on your Android home screen
-				"Icon72Url": "http://www.yourcompany.com/Images/android-icon.jpg",
-				"Icon192Url": "http://www.yourcompany.com/Images/android-icon.jpg",
-				
-			}
+		"Mobile": { // Images used to create a native app on your iPhone/Android home screen from the progressive web app 
+			"IconUrl": "http://www.yourcompany.com/Images/mobile.png", // used by iPhone 
+			"Icon72Url": "http://www.yourcompany.com/Images/mobile72x72.png", // used by iPhone and Android
+			"Icon114Url": "http://www.yourcompany.com/Images/mobile114x114.png", // used by iPhone 
+			"Icon192Url": "http://www.yourcompany.com/Images/mobile192x192.png", // used by Android
+			"Icon256Url": "http://www.yourcompany.com/Images/mobile256x256.png", // used by Android
+			"Icon384Url": "http://www.yourcompany.com/Images/mobile384x384.png", // used by Android
+			"Icon512Url": "http://www.yourcompany.com/Images/mobile512x512.png", // used by Android
 		}
 	},
 ~~~
@@ -224,8 +220,7 @@ All images can be provided in higher values as long as their aspect ratios remai
 | loader_inline.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
 | loader_page.gif | minimum 100px x 100px. Image must be square but if larger will be sized down |
 | loader_button.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
-| apple-icon.jpg | 75px X 75px |
-| android-icon.jpg | 75px X 75px |
+| mobile72x72.png | 72px X 72px |
 
 #### SEO
 All web applications need to provide sufficient metadata for Search Engine Optimization (SEO) for web crawlers such as Google to help get your business found. Also, your Hourfleet operational website needs to provide the right metadata so that and when people share their experience with social media applications (like facebook and twitter), the right information is displayed in their post by default.
