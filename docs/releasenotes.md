@@ -2,6 +2,26 @@
 layout: default
 title: Release Notes
 ---
+## 1.51.0 13/03/2018
+
+### Improvements
+
+* Upgraded all web servers to HTTP/2 for increased performance
+* The web app now qualifies as a Progressive Web Application (PWA), and support offline view in the app.
+* We now hide the 'Manage' section on the bookings page when there are no actions to take e.g. after a booking has completed
+
+### Fixes
+
+* Changed salutations of all email templates to use 'Hi' instead of 'Kia Ora' 
+* Operations staff can now only change one verification at a time. Previously, this process could get out of sync.
+* Recently updated cars now appear at the top of the verifications list
+* When taking a car offline, the spinner for that car is shown. Previously, spinners for all cars were shown.
+* Fixed typo on NZ drivers license form.
+
+## 1.50.0 24/02/2018
+
+This release is just a routine maintenance build including very minor changes.
+
 ## 1.49.0 21/02/2018
 
 This release separates all web components into separate scalable units for future optimization. 
