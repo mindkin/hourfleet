@@ -2,6 +2,15 @@
 layout: default
 title: Release Notes
 ---
+
+## 1.53.0 20/03/2018
+
+Only minor infrastructure changes and performance optimizations in this release.
+
+## 1.52.0 14/03/2018
+
+An intermediary build, was not released, and rolled back.
+
 ## 1.51.0 13/03/2018
 
 ### Improvements
