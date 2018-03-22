@@ -2,6 +2,11 @@
 layout: default
 title: Release Notes
 ---
+## 1.54.0 22/03/2018
+
+### Fixes
+
+* Fixed empty pages in search results (various result sets, including: specifically availability and verifications)
 
 ## 1.53.0 20/03/2018
 
