@@ -2,6 +2,13 @@
 layout: default
 title: Release Notes
 ---
+## 1.55.3 12/04/2018
+
+### Improvements
+
+* The navigation has been changed where all page links are now contained in the mobile menu and the sidebar only appears on larger screen sizes.
+* The Operations Dashboard has had an overhaul and now has specific contexts to find operational activities like billing, verifing users or managing carkits.
+
 ## 1.54.0 22/03/2018
 
 ### Fixes
