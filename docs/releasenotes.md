@@ -2,6 +2,12 @@
 layout: default
 title: Release Notes
 ---
+## 1.55.4 18/04/2018
+
+### Improvements
+
+* Metrics for number of new, unverified and total Users is now available on the Ops Dashboard.
+
 ## 1.55.3 12/04/2018
 
 ### Improvements
