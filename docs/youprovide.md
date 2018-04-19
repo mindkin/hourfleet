@@ -21,7 +21,7 @@ These are broadly some of the things that you need to do:
 
 # Paystation Account
 *[New Zealand Network Operators Only]*
-Once you have secured a Merchant Bank account, you can create an account with [www.Paystation.co.nz](www.Paystation.co.nz).
+Once you have secured a Merchant Bank account, you can create an account with [www.Paystation.co.nz](http://www.paystation.co.nz).
 You will need to create an account that gives you the ability to charge your customers credit cards, and make payments into your bank account.
 
 Hourfleet integrates with Paystation to collect and verify your customer's credit cards, using what is called a *3-party with tokenisation*. 
@@ -93,7 +93,7 @@ On their site, Paystation  provides you with a full suite of manual payments pro
 # Modica Account
 *[New Zealand Network Operators Only]*
 
-Hourfleet integrates with [www.modica.co.nz](www.modica.co.nz) (formerly RunTheRed) as a text messaging gateway used by HourFleet for sending alerts to your customers, and instructions to the cars in your network.
+Hourfleet integrates with [www.modica.co.nz](http://www.modica.co.nz) (formerly RunTheRed) as a text messaging gateway used by HourFleet for sending alerts to your customers, and instructions to the cars in your network.
 
 You need to create your own account with Modica, through contacting Modica directly, and you need to obtain a shortcode so that Hourfleet can connect to your Modica account.
 
