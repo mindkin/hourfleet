@@ -2,6 +2,21 @@
 layout: default
 title: Release Notes
 ---
+
+## 1.56.0 22/04/2018
+
+### Improvements
+
+* Metrics for car listings and bookings now available on the Ops Dashboard.
+* There are now graphs showing the previous periods in comparison to the current view period for Cars and Users
+* A network's theme color now uses the navigation color in the network config so navigation is blended with the browser on mobile devices
+* The ops alerts panel is now removed as it shows redundant information
+
+### Fixes
+
+* Fixed a bug that causes the verifications list to become hidden
+* Error messages are now shown on the Ops Verifications pages
+
 ## 1.55.4 18/04/2018
 
 ### Improvements
