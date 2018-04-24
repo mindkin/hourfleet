@@ -3,6 +3,17 @@ layout: default
 title: Release Notes
 ---
 
+## 1.57.0 24/04/2018
+
+### Improvements
+
+* Updated 'period' selector in ops dashboard
+* Added aggregated reporting for bookings and takings
+
+### Fixes
+
+* Added safeguard to prevent 'userprofile' and 'verification' records being created (on-demand) for non-user accounts.
+
 ## 1.56.0 22/04/2018
 
 ### Improvements
