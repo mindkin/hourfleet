@@ -229,11 +229,11 @@ All web applications need to provide sufficient metadata for Search Engine Optim
 
 This section determines how the user navigates between your website and your Hourfleet operational website.
 
-There are many links in the app to pages that you will need to provide for users of your business, that cannot be provided by Hourfleet in the app. Such as: Terms Of Service, Company information, and legal documentation. These links are provided for your user's convenience.
+There are many links in the app to pages that you will need to provide for users of your business, that cannot be provided by Hourfleet in the app. Such as: Terms Of Service, Privacy Policy, Company information, and legal documentation. These links are provided for your user's convenience.
 
 These links can be seen at the bottom of page in the footer section.
 
-If you don't want any of these links to be displayed, just leave these values blank.
+If you don't want a link to be displayed, leave their values blank. The Terms of Service Url and Privacy Url are required.
 
 ~~~
 	"Navigation": { // URL's that are linked to from your app to your own website 
