@@ -435,7 +435,6 @@ Here is an example of the email message for notification `101`, branded for the 
 ![Email Notification](images/EmailPreviews/requestDrafted_borrower.PNG)
 
 
-
 ### Configuring Zapier.com
 
 As well as configuration and customizing your notifications, you can also be alerted when users receive notifications. 
@@ -443,3 +442,29 @@ As well as configuration and customizing your notifications, you can also be ale
 You can configure Zapier.com to relay the notifications to one or many apps that you might use to manage your network, such as 'Slack' or 'Intercom' and many, many others.
 
 See [Zapier Integration](zapier.html) for details of how to configure Zapier to see your notifications in your favorite apps.
+
+## Subscription
+
+Every car sharing network has a subscription model that determines pricing and limits on the network.
+
+Your subscription plan is one of the plans seen at [Hourfleet Pricing](http://www.hourfleet.com/#pricing).
+
+> Note: You cannot configure this section of your configuration
+
+~~~
+"Subscription": { // This is the how the "Business" plan from http://www.hourfleet.com/#pricing is represented
+	"Costs": {
+		"PerLicense": 349,
+		"PerCar": 10,
+		"PerCarkit": 30,
+		"PerUser": 5
+	},
+	"Limits": {
+		"Cars": 50,
+	},
+	"Billing": {
+		"DayOfMonth": 5, // The day of the month when you are charged the total subscription
+		"BeginsDateUtc": "2018-05-04T12:00:00.00Z" // The date that billing starts from
+	}
+}
+~~~
