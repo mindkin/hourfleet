@@ -2,6 +2,18 @@
 layout: default
 title: Release Notes
 ---
+## 1.58.0 05/05/2018
+
+### Improvements
+
+* Graphs are added to new users and new listings on the Ops Dashboard comparing current period to last 2
+* Added a subscription plan to the Network Configuration file
+* Added a Configuration page to Operations which displays the current Network Configuration
+
+### Fixes
+
+* Searching on an unknown address/location on the search page will display a message instead of not searching
+* Updated the Ops Dashboard reports for better distinctions between a summary and an activity focused report
 
 ## 1.57.0 24/04/2018
 
