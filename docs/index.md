@@ -19,7 +19,8 @@ There is a lot to learn about Hourfleet, so lets dive in:
 * [What You Gonna Get](inthebox.html) - Lists the assets that are provided for you when you signup for an Hourfleet license.
 * [What You Need To Sort Out](youprovide.html) - There are some things that your business needs to get sorted before your car sharing business can operate properly
 * [What You Can Configure](youconfigure.html) - There is lots to customize, here is what you can configure to make it your own car sharing network
-* [How Things Work](howitworks.html) - Want to be more familiar with how Hourfleet car sharing works?
+* [How Things Work](howitworks.html) - Want to be more familiar with how Hourfleet car sharing works?  
+* [Setting up the car kit](carkit.html) - Getting your car kits online  
 
 
 
