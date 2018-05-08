@@ -2,13 +2,15 @@
 layout: default
 title: Release Notes
 ---
-## 1.59.0 08/05/2018
+## 1.59.0-1.60.0 08/05/2018
 ### Improvements
+
 * Added Summary section to Operations Dashboard to show current status of resources (inUse bookings, unverified cars, etc)
 
 ### Fixes
 
 * Network Operator report data more accurate
+* Fixed startup error with 'operators' migrator
 
 ## 1.58.0 05/05/2018
 
