@@ -2,6 +2,12 @@
 layout: default
 title: Release Notes
 ---
+## 1.59.0 08/05/2018
+
+### Fixes
+
+* Network Operator report data more accurate
+
 ## 1.58.0 05/05/2018
 
 ### Improvements
