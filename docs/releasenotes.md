@@ -4,7 +4,7 @@ title: Release Notes
 ---
 ## 1.59.0 08/05/2018
 ### Improvements
-Added Summary section to Operations Dashboard to show current status of resources (inUse bookings, unverified cars, etc)
+* Added Summary section to Operations Dashboard to show current status of resources (inUse bookings, unverified cars, etc)
 
 ### Fixes
 
