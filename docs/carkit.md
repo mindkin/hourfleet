@@ -1,7 +1,7 @@
 # Car Kit Device
 ![](images/Mindkin-Scout-Gen2-RevF-Installation.png) 
-
-
+  
+  
 # Network Connectivity
 The Hourfleet carkit operates as a telemetry device, connecting to a 2G mobile data network so that car door instructions can be received from the Hourfleet network, and telemetry data can be transferred to the Hourfleet network. 
 
