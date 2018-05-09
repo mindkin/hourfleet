@@ -1,5 +1,5 @@
 ## Carkit Installation
-![](images/Mindkin-Scout-Gen2-RevF-Installation.png) 
+![](images/Mindkin-Scout-Gen2-RevF-Diagram.png) 
   
   
 ## Network Connectivity
@@ -11,4 +11,4 @@ It will be important for you to work with your chosen carrier to ensure your car
 -	Your carrier can supply a standard size data SIM which has an APN pre-configured. An APN is a bit like a 'carrier internal' DNS server. The mobile data network uses the APN to decide how the carkit will be allocated a real-world IP address. SIM cards may have one of more APNs pre configured. The carkit uses the APN pre-configured in PDP context #1  
   
 ## SIM Installation
-This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this device must be opened for the SIM to be connected to the cellular modem. The Hourfleet team will provide technical assistance as and when this is needed
+This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this device must be opened for the SIM to be connected to the cellular modem. The Hourfleet team will provide technical assistance as required.
