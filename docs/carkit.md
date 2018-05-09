@@ -1,4 +1,4 @@
-# Car Kit Device
+# Carkit Installation
 ![](images/Mindkin-Scout-Gen2-RevF-Installation.png) 
   
   
