@@ -463,7 +463,7 @@ Your subscription plan is one of the plans seen at [Hourfleet Pricing](http://ww
 		"Cars": 50,
 	},
 	"Renewal": {
-		"DayOfMonth": 5, // The day of the month when you are charged the total subscription
+		"DayOfMonth": 5, // The day of the month when monthly cost are dated
 	},
 	"BeganDateUtc": "2018-05-04T12:00:00.00Z" // The date that subscription began
 }
