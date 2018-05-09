@@ -20,10 +20,8 @@ There is a lot to learn about Hourfleet, so lets dive in:
 * [What You Need To Sort Out](youprovide.html) - There are some things that your business needs to get sorted before your car sharing business can operate properly
 * [What You Can Configure](youconfigure.html) - There is lots to customize, here is what you can configure to make it your own car sharing network
 * [How Things Work](howitworks.html) - Want to be more familiar with how Hourfleet car sharing works?  
-* [Setting up the car kit](carkit.html) - Getting your carkits online  
-
-
-
+* [Setting up the car kit](carkit.html) - Getting your carkits online 
+* [Notifications](notifications.html) - Manage your email and SMS notification content
 
 
 
@@ -31,8 +29,6 @@ There is a lot to learn about Hourfleet, so lets dive in:
 
 If you want to see what's been improved recently in the Hourfleet platform, see the: [Platform Release Notes](releasenotes.html)
 
-### Notifications!
-
-Take control of Hourfleet and stay informed. 
+## Zapier Integration
 
 You can now create a 'Zap' at [zapier](http://www.zapier.com) to connect your car sharing network with your favourite apps, like : Intercom, Slack, and Email. See [Zapier Integration](zapier.html) for details.
