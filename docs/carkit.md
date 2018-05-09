@@ -18,7 +18,7 @@ It will be important for you to work with your chosen carrier to ensure your car
 -	Your carrier has 2G coverage over the geographic areas where Hourfleet-enabled cars are expected to travel
 -	You can purchase monthly data plan which supports 50Mb/month, and inbound SMS messaging. Telemetry-style data plans should cost your business less than $US4/month
 -	Your carrier can supply a standard size data SIM which has an APN pre-configured. An APN is a bit like a 'carrier internal' DNS server. The mobile data network uses the APN to decide how the carkit will be allocated a real-world IP address. SIM cards may have one of more APNs pre configured. The carkit uses the APN pre-configured in PDP context #1 
-- The number printed on your SIM should be 16 digits in length. If you can see only 13 digits then there are three unprinted digits which prefix the 13 you can see. You'll need to speak to your carrier as all 16 digits are required when configuring the carkit in \<yourtenancy\>.hourfleet.com. General info on this topic is [here](https://www.imei.info/faq-what-is-ICCID)
+- The number printed on your SIM should be 16 digits in length. If you can see only 13 digits then there are three unprinted digits which prefix the 13 you can see. You'll need to speak to your carrier as all 16 digits are required when configuring the carkit in \<yourtenancy\>.hourfleet.com. General info on this topic is [here](http://www.imei.info/faq-what-is-ICCID/)
   
 ### SIM Installation
 This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this device must be opened for the SIM to be connected to the cellular modem. The Hourfleet team will provide technical assistance as required.
