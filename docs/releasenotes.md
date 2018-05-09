@@ -2,6 +2,12 @@
 layout: default
 title: Release Notes
 ---
+
+## 1.60.1 09/05/2018
+### Fixes
+
+* Licence Fees in Network Summary report now use a subscription began date for calculating past costs
+
 ## 1.59.0-1.60.0 08/05/2018
 ### Improvements
 
