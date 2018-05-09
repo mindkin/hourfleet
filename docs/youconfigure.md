@@ -464,7 +464,7 @@ Your subscription plan is one of the plans seen at [Hourfleet Pricing](http://ww
 	},
 	"Renewal": {
 		"DayOfMonth": 5, // The day of the month when you are charged the total subscription
-		"BeginsDateUtc": "2018-05-04T12:00:00.00Z" // The date that billing starts from
-	}
+	},
+	"BeganDateUtc": "2018-05-04T12:00:00.00Z" // The date that subscription began
 }
 ~~~
