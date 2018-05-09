@@ -1,5 +1,14 @@
-## Carkit Installation
+# Carkit Installation
 ![](images/Mindkin-Scout-Gen2-RevF-Diagram.png) 
+
+## Device Placement  
+Secure firmly in the glove compartment or behind the dash. It is important that the carkit’s embedded OEM proximity key can be detected by the car, otherwise ‘Key not found’ or similar will be reported on pressing the ‘Start’ button. Please consult manufacturer specifications for the internal placement of proximity key sensors.  
+
+## Antennae
+These can be affixed in the same general area, near the base of the windscreen. It is important that the GPS antenna is affixed on a level (or near level) surface, and that it has an unobstructed view of the sky. 
+
+## Power  
+Ensure 12 volt supply is not managed by the car systems. The power supply must be constant to ensure the Scout device stays operating even when the ignition has been off for some time. The device should be protected with a 5A fuse.  
   
   
 ## Network Connectivity
