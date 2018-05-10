@@ -22,12 +22,12 @@ Your tenancy includes the following main pieces:
 You get a responsive web app that looks and works great on any device.
 You can see an example of what that looks like at [roamride.hourfleet.com](https://roamride.hourfleet.com/signin) 
 
-iPhone and ANdroid apps are coming soon.
+iPhone and Android apps are coming soon.
 
 Want to see what it looks like? 
 
 Just [Join](https://roamride.hourfleet.com/invite) the roamride network and explore the app yourself. 
-ANyone can join, you just need an email address, name and a password. You can search for cars, book a car, and even register your own car, if you like. Its a good way to kick the tyres and see what it all looks like.
+Anyone can join, you just need an email address, name and a password. You can search for cars, book a car, and even register your own car, if you like. Its a good way to kick the tyres and see what it all looks like.
 
 The app for your network will look similar, with your own colors, icons and customizations.
 
