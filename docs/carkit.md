@@ -3,7 +3,7 @@ The Hourfleet carkit is compatible with cars that
 - Have a proximity key. These are the keys you can leave in your pocket while using the car  
 - Have a factory-fitted push-to-start button
 
-Cars that have older style twist-key ignitions can not have a carkit fitted, however they can still be used on Hourfleet networks which have been configured to allow key exchange. Key exchange is where the car owner and renter must meet to co-ordinate the pickup and dropoff of physical car keys  
+Cars that have older style twist-key ignitions can not have a carkit fitted, however they can still be used on Hourfleet networks which have been configured to allow `Key Exchange`. `Key exchange` is a feature which facilitates the car owner and renter meeting to pickup and dropoff of physical car key.  
 
 # Carkit Customization
 Each carkit must first be customized before it is installed in the target car. This customization makes the carkit specific to that one car, and the carkit can not simply be removed from that car and installed in another.
