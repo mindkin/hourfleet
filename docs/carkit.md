@@ -5,6 +5,12 @@ The Hourfleet carkit is compatible with cars that
 
 Cars that have older style twist-key ignitions can not have a carkit fitted, however they can still be used on Hourfleet networks which have been configured to allow key exchange. Key exchange is where the car owner and renter must meet to co-ordinate the pickup and dropoff of physical car keys  
 
+# Carkit Customization
+Each carkit must first be customized before it is installed in the target car. This customization makes the carkit specific to that one car, and the carkit can not simply be removed from that car and installed in another.
+
+Customization involves our technician taking a working proximity car key, disassembling it, and installing the key's internal circuitry inside the hourfleet carkit. This is a one-way trip for that key - it can't be recovered or re-used as a conventional key ever again. 
+
+The purchase price of an Hourfleet carkit includes the device itself, the customization work, and delivery of the customized carkit to any address accessible by DHL. The price does not include the cost of the car key itself, nor delivery of that key to our technician.
 
 # Carkit Installation
 ![](images/Mindkin-Scout-Gen2-RevF-Diagram.png) 
