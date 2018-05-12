@@ -1,3 +1,11 @@
+# Carkit Compatibility   
+The Hourfleet carkit is compatible with cars that  
+- Have a proximity key. These are the keys you can leave in your pocket while using the car  
+- Have a factory-fitted push-to-start button
+
+Cars that have older style twist-key ignitions can not have a carkit fitted, but these car can still be used on Hourfleet networks that are configured to allow key exchange. This is where the car owner and renter must meet to co-ordinate the pickup and dropoff of car keys  
+
+
 # Carkit Installation
 ![](images/Mindkin-Scout-Gen2-RevF-Diagram.png) 
 
