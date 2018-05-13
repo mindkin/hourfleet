@@ -35,4 +35,4 @@ It will be important for you to work with your chosen carrier to ensure your car
 - The number printed on your SIM should be 16 digits in length. If you can see only 13 digits then there are three unprinted digits which prefix the 13 you can see. You'll need to speak to your carrier as all 16 digits are required when configuring the carkit in \<yourtenancy\>.hourfleet.com. General info on this topic is [here](http://www.imei.info/faq-what-is-ICCID/)
   
 ### SIM Installation
-This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this device must be opened for the SIM to be connected to the cellular modem. The Hourfleet team will provide technical assistance as required.
+This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this device must be opened for the SIM to be connected to the internal cellular modem. The Hourfleet team will provide technical assistance as required.
