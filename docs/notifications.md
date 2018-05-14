@@ -76,6 +76,8 @@ This notification is sent to the *User* when they request an invitation to creat
 Substitutions Available:
 
 `invitation.fullname`
+`invitation.firstname`
+`invitation.lastname`
 `invitation.url`
 
 **Email**
@@ -96,6 +98,8 @@ This notification is sent to the *User* when they created an account on your net
 Substitutions Available:
 
 `user.fullname`
+`user.firstname`
+`user.lastname`
 `user.url`
 
 **Email**
@@ -178,7 +182,9 @@ This notification is sent to the *User* when they have been verified for all the
 
 Substitutions Available:
 
-`user`
+`user.name`
+`user.firstname`
+`user.lastname`
 
 **Email**
 
@@ -196,7 +202,9 @@ This notification is sent to the *User* when they have been verified for all the
 
 Substitutions Available:
 
-`user`
+`user.name`
+`user.firstname`
+`user.lastname`
 
 **Email**
 
@@ -214,7 +222,9 @@ This notification is sent to the *User* when they have become unverified for any
 
 Substitutions Available:
 
-`user`
+`user.name`
+`user.firstname`
+`user.lastname`
 
 **Email**
 
@@ -232,7 +242,9 @@ This notification is sent to the *User* when they have become unverified for any
 
 Substitutions Available:
 
-`user`
+`user.name`
+`user.firstname`
+`user.lastname`
 
 **Email**
 
@@ -250,7 +262,9 @@ This notification is sent to the *User* when they have changed their account ema
 
 Substitutions Available:
 
-`user`
+`user.name`
+`user.firstname`
+`user.lastname`
 
 **Email**
 
@@ -270,7 +284,11 @@ Substitutions Available:
 Substitutions Available:
 
 `borrower.name`
+`borrower.firstname`
+`borrower.lastname`
 `carowner.name`
+`carowner.firstname`
+`carowner.lastname`
 `car.plate`
 `car.name`
 `car.photo`
@@ -412,7 +430,11 @@ This notification is sent to the *Car Owner* when a booking request has expired.
 Substitutions Available:
 
 `borrower.name`
+`borrower.firstname`
+`borrower.lastname`
 `carowner.name`
+`carowner.firstname`
+`carowner.lastname`
 `car.plate`
 `car.name`
 `car.photo`
