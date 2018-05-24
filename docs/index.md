@@ -14,7 +14,8 @@ Let's get you up and running with the benefits of doing your car sharing online 
 
 
 
-There is a lot to learn about Hourfleet, so lets dive in:
+There is a lot to learn about Hourfleet, so lets dive in:  
+
 **How Hourfleet Works**  
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing works?  
 * [The Hourfleet carkit](carkit.html). All you need to know about this in-car device - compatibility, customization, installation and cellular network setup   
