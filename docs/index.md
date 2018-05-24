@@ -15,14 +15,16 @@ Let's get you up and running with the benefits of doing your car sharing online 
 
 
 There is a lot to learn about Hourfleet, so lets dive in:
+**How Hourfleet Works**  
+* [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing works?  
+* [The Hourfleet carkit](carkit.html). All you need to know about this in-car device - compatibility, customization, installation and cellular network setup   
 
-* [What You Gonna Get](inthebox.html) - Lists the assets that are provided for you when you signup for an Hourfleet license.
-* [What You Need To Sort Out](youprovide.html) - There are some things that your business needs to get sorted before your car sharing business can operate properly
-* [What You Can Configure](youconfigure.html) - There is lots to customize, here is what you can configure to make it your own car sharing network
-* [How Things Work](howitworks.html) - Want to be more familiar with how Hourfleet car sharing works?  
-* [The Hourfleet carkit](carkit.html) - All you need to know - compatibility, customization, installation and cellular network setup 
-* [Notifications](notifications.html) - Manage your email and SMS notification content
-
+**Setting up your tenancy**  
+* [Planning](youprovide.html). The things that your business needs to get sorted before your car sharing business can operate properly
+* [Your marketing website](yoursite.html). The integration between your marketing site and your Hourfleet tenancy  
+* [Configuring your tenancy](youconfigure.html). There is lots to customize. Here is what you can configure to make your car sharing network unique  
+* [What You Gonna Get](inthebox.html) - Lists the assets that are provided for you when you signup for an Hourfleet license.  
+* [Notifications](notifications.html) - Manage your email and SMS notification content  
 
 
 ## What's New?
