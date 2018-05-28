@@ -115,7 +115,11 @@ Substitutions Available:
 ### Attempted Password Reset (User)
 ###### ID: 4010 
 
-This notification is sent to the *Email Address* used when a *User* requests a password reset on an email address that is not registered on your network.
+This notification is sent to the *Email Address* used when a *User* requests a password reset on an email address that is _NOT_ registered on your network. 
+
+This email is sent as a courtesy to the user, even though they have no account in your network, to alert them to the fact that someone (most likely an attacker) has tried to reset their password on your network. 
+
+There is no assocaited SMS for this email. 
 
 Substitutions Available:
 
@@ -150,7 +154,6 @@ Substitutions Available:
 > Please click on this link to reset your password: %url%
 
 
-
 ### Password Reset (User)
 ###### ID: 4012 
 
@@ -167,9 +170,6 @@ Substitutions Available:
 **SMS**
 
 > Your account password has just been reset.
-
-
-
 
 
 ## Verifications
