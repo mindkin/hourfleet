@@ -117,7 +117,7 @@ Substitutions Available:
 
 This notification is sent to the *Email Address* used when a *User* requests a password reset on an email address that is _NOT_ registered on your network. 
 
-This email is sent as a courtesy to the user, even though they have no account in your network, to alert them to the fact that someone (most likely an attacker) has tried to reset their password on your network. 
+This email is sent as a courtesy to the email recipient, even though they have no account in your network. It is to alert them to the fact that someone (most likely an attacker) is trying to reset their password on your network. A common attack is to obtain an email address and password from a weakly protected site, and then try to find other sites where that password is used, and attempt a password reset to compromise that site. This email is simply notifying the email recipient of that possibility, which occasionally serves to attract new customers to your network because of the social service you have provided them.
 
 There is no assocaited SMS for this email. 
 
