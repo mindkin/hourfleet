@@ -4,12 +4,16 @@ title: Release Notes
 ---
 
 ## 1.61.0 30/05/2018
+
+This platform update replaces the Paystation Payment provider (NZD currencies only) with a global Stripe Payment provider for handling global currencies and global remittance.
+Credit Card numbers from network users that were taken on previous versions of the Hourfleet platform, will not longer be valid, and network users will automatically become unverified, as their Paystation credit card details will be removed. They will need to re-register their credit cards to become verified again. 
+
 ### Improvements
 
 * Changed the way percentages are calculated for the network operator report
 * Updated APIs to allow changing of network locale
-* Replaced Paystation with Stripe as the default payment provider
 * Removed Home Location field from Register Car page
+* Replaced Paystation with Stripe as the default payment provider
 
 ### Fixes
 * Added missing spinners on the Edit Car Detail pages
