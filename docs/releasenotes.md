@@ -3,6 +3,18 @@ layout: default
 title: Release Notes
 ---
 
+## 1.61.0 30/05/2018
+### Improvements
+
+* Changed the way percentages are calculated for the network operator report
+* Updated APIs to allow changing of network locale
+* Replaced Paystation with Stripe as the default payment provider
+* Removed Home Location field from Register Car page
+
+### Fixes
+* Added missing spinners on the Edit Car Detail pages
+
+
 ## 1.60.1 09/05/2018
 ### Fixes
 
