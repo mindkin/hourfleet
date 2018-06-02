@@ -2,6 +2,11 @@
 layout: default
 title: Release Notes
 ---
+## 1.61.2 01/06/2018
+
+### Fixes
+
+* Moved Stripe Cofiguration to Tennant Settings
 
 ## 1.61.0 30/05/2018
 
@@ -14,6 +19,7 @@ Credit Card numbers from network users that were taken on previous versions of t
 * Updated APIs to allow changing of network locale
 * Removed Home Location field from Register Car page
 * Replaced Paystation with Stripe as the default payment provider
+* App Loading screen now uses values defined by the network operator (navigation color + spinner)
 
 ### Fixes
 * Added missing spinners on the Edit Car Detail pages
