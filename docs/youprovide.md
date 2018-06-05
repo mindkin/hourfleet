@@ -4,7 +4,7 @@ title: What You Need to Provide
 ---
 # What You Need to Provide
 
-Setting up a new car sharing business can be complicated. There is much to think about besides having a web site, an app and some cars.
+Setting up a new car sharing business can be complicated. There is quite a bit to think about besides having a web site, an app and some cars.
 
 You are also going to need to run a legitimate company in your country and jurisdiction, and worry about things like: Insurance, Terms Of Service, Privacy Policies, Tier1 Support, Marketing, Social Media, etc.
 
