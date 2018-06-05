@@ -18,10 +18,10 @@ These are broadly some of the things that you need to do:
 * Create a 'landing page' website to inform and capture your customers, and that can lead your customers to register and use cars in your network.
 
 # Stripe Account
-If you don't alread have a Stripe account you'll need to [https://dashboard.stripe.com/register](register). If you need to do this, we recommend you take some time [https://stripe.com/customers](to learn about Stripe).
+If you don't alread have a Stripe account you'll need to [register](https://dashboard.stripe.com/register). If you need to do this, we recommend you take some time [to learn about Stripe](https://stripe.com/customers).
 
 
-![Paystation Application Form](images/Paystation-Onboarding-Form-SoftwareIntegrator.png)
+![Stripe Menu](images/stripe-menu.png)
 
 
 # Modica Account
