@@ -29,7 +29,7 @@ From your Stripe Dashboard, click `Developers` and then `API Keys`.
 On the right you'll then see a panel which contains two API keys  
 ![Stripe API Keys](images/stripe-keys.png)
 
-Save the `Publishable crowd` key. Then click `Reveal live key token` and the `Secret key` will be displayed. It's secret for a reason - don't leave this lying around!
+Save the `Publishable key`. Then click `Reveal live key token` and the `Secret key` will be displayed. It's secret for a reason - don't leave this lying around!
 
 Send both keys to `admin@mindkin.co.nz` and then delete any reference to these keys from your computer. Remember to check your email's Sent Items too.
 
