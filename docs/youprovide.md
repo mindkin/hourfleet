@@ -35,7 +35,7 @@ Send both keys to `admin@mindkin.co.nz` and then delete any reference to these k
 
 Once we receive these keys we will configure your tenancy, and the Stripe setup will be complete.
 
-Important: Your relationship with Stripe is governed by your acceptance of their terms of Service. We are unable to manage any aspect of your relationship with Stripe, or to advocate for you. Other than initiating charges to your cstomers as covered by our Terms of Service, we are unable to act for on your behalf.
+**Important**: Your relationship with Stripe is governed by your acceptance of their Terms of Service. We are unable to manage any aspect of your relationship with Stripe, or to advocate for you. Other than initiating charges to your cstomers as covered by our Terms of Service, we are unable to act for or on your behalf.
 
 
 # Modica Account
