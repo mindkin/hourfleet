@@ -22,14 +22,14 @@ If you don't alread have a Stripe account you'll need to [register](https://dash
 
 The next step is to configure your Hourfleet tenancy with your Stripe API keys. This enables your Hourfleet tenancy to bill your customers when they use your car sharing service.
 
-From your Stripe Dashboard, click `Developers` and then `API Keys'. 
+From your Stripe Dashboard, click `Developers` and then `API Keys`. 
 
 ![Stripe Menu](images/stripe-menu.png)
 
 On the right you'll then see a panel which contains two API keys  
 ![Stripe API Keys](images/stripe-keys.png)
 
-Save the `Publishable crowd` key. Then click `Reveal live key token` and the `Secret key' will be displayed. It's secret for a reason - don't leave this lying around!
+Save the `Publishable crowd` key. Then click `Reveal live key token` and the `Secret key` will be displayed. It's secret for a reason - don't leave this lying around!
 
 Send both keys to `admin@mindkin.co.nz` and then delete any reference to these keys from your computer. Remember to check your email's Sent Items too.
 
