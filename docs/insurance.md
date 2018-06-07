@@ -5,5 +5,5 @@ Hourfleet has been designed with a couple of insurance-specific features. These 
 - Allowing you to give your insurance provider a secure signin so they can view basic details of past bookings. They have access to the renter contacts details and date/time of the trip.  
 - Allow you to enter in a revenue share arrangement with your insurer. This may obviate the need for an annual premium, allowing you to buy cover for on-rental risk based on actual usage. 
 
-![](images\Insurers_Bookings_Desktop.jpg) 
+![](images/Insurers_Bookings_Desktop.jpg) 
 
