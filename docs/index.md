@@ -26,6 +26,7 @@ There is a lot to learn about Hourfleet, so lets dive in:
 * [Configuring your tenancy](youconfigure.html). There is lots to customize. Here is what you can configure to make your car sharing network unique  
 * [What You Gonna Get](inthebox.html) - Lists the assets that are provided for you when you signup for an Hourfleet license.  
 * [Notifications](notifications.html) - Manage your email and SMS notification content  
+* [Insurance](insurance.html) - Supporting your insurance provider
 
 
 ## What's New?
