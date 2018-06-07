@@ -9,7 +9,7 @@ Hourfleet has been designed with a couple of insurance-specific features. These 
 ![](images/Insurers_Bookings_Desktop.jpg) 
 
 ## Hourfleet Verifications  
-Your insurer is likely to be interested in how well Hourfleet keeps the rental environment. There are a number of features built into the platform for this purpose. In order for a rental to start:
+Your insurer is likely to be interested in how  Hourfleet keeps the rental environment secure for all parties. There are a number of features built into the platform for this purpose. In order for a rental to be started by the renter:
 - Renters must have a valid drivers' licence in. You can revoke this verification at any time, and Hourfleet automatically revokes it if the drivers' licence is past its expiry
 - Renters must have a valid email address, mobile number and credit card. Any validity expiry or communication failure results in the renter's account becoming unverified
 - If required by your jurisdiction, cars must have a valid vehicle inspection certificate 
