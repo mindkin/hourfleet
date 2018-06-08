@@ -2,6 +2,15 @@
 layout: default
 title: Release Notes
 ---
+## 1.62 08/06/2018
+
+### Improvements
+
+* Certificate of Worthiness renamed to Safety Certifications
+* Reduced white space between paragraphs in emails
+* Remove trailing ',' on email salutation for better configuration
+* Improved formatting for distances, currency, percentages and dates
+
 ## 1.61.2 01/06/2018
 
 ### Fixes
