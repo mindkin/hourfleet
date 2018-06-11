@@ -2,6 +2,18 @@
 layout: default
 title: Release Notes
 ---
+## 1.63 11/06/2018
+
+### Improvements
+
+* Added configuration for notification templates 4010, 4011 + 4012
+* Removed unneeded white space from email templates
+* Added User.Firstname and User.Lastname to available substitutions for notifications
+
+### Fixes
+
+* Fixed url to a car profile in notifications that would direct to a 404 page
+
 ## 1.62 08/06/2018
 
 ### Improvements
