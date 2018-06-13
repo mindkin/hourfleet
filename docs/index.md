@@ -3,7 +3,7 @@ layout: default
 title: Getting Started
 ---
 # Establishing Your Tenancy
-* [Step by step Guide](stepbystep.html) - So you're ready to launch your car sharing network? Great, so use this checklist to confirm you have everything sorted.    
+* [Step by step Guide](stepbystep.html) - Are you ready to launch your Hourfleet-powered car sharing network? Yes? Great, so use this checklist to confirm that you have everything sorted.    
 
 # Learning about Hourfleet  
 
