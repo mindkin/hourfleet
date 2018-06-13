@@ -32,7 +32,7 @@ The example below, gives you an idea of the kinds of things you can customize.
 
 ### Support
 
-These settings are displayed on the support page of your web app, and in various places around the web app that reference support/assistance for your customers
+These settings are displayed in various places around the web app that reference support/assistance for your customers. It also includes the ability to use third party support service like Google Analytics and live chat widgets. Hourfleet generates a support page for your web app using some of these details that helps provide guidenence for your users. You can choose to link to your own external support page (see [Navigation Configuration](youconfigure.html#Navigation)).
 
 ~~~
 	"Support": { 
@@ -97,7 +97,7 @@ These settings are displayed on the support page of your web app, and in various
 
 
 
-An example of the Support page that is created for you can be seen here:
+An example of the Support page that is generated for you can be seen here:
 
 ![Support Page](images/SupportPage.png)
 
@@ -246,6 +246,7 @@ If you don't want a link to be displayed, leave their values blank. The Terms of
 		"FeesUrl": "http://www.yourcompany.com/fees",
 		"FaqUrl": "http://www.yourcompany.com/faq",
 		"ReturnUrl": "http://www.yourcompany.com",
+		"Support": "http://www.yourcompany.com/support", // This URL will overide the navigation links to the support page Hourfleet generates for you based on the values supplied in the Support Configuration section. 
 		"ShowMobileAppLink": true,
 		"UIElements": {
 			"Invitation": { // Privacy statement about collecting their invitation data on the invitation page
