@@ -14,7 +14,6 @@ title: Getting Started
 * [First steps](youprovide.html). The things that your business needs to get sorted before your car sharing business can operate properly
 * [Your own landing page(s)](yoursite.html). The integration between your own landing pages Hourfleet tenancy.  
 * [Configuring your tenancy](youconfigure.html). There is lots to customize. Here is what you can configure to make your car sharing network unique.  
-* [What You Gonna Get](inthebox.html). Lists the assets that are provided for you when you signup for an Hourfleet license.  
 * [Notifications](notifications.html). Manage your email and SMS notification content  
 * [Insurance](insurance.html). Supporting your insurance provider
 * [Integrations](integrations.html). Learn about the third-party platform that Hourfleet integrates with. Currently only [Stripe](http://stripe.com) is mandatory. 
