@@ -2,7 +2,10 @@
 layout: default
 title: Getting Started
 ---
-# Getting Started
+# Establishing Your Tenancy
+* [Step by step Guide](stepbystep.html) - So you're ready to launch your car sharing network? Great, so use this checklist to confirm you have everything sorted.    
+
+# Learning about Hourfleet  
 
 **How Hourfleet Works**
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing works.  
@@ -15,10 +18,6 @@ title: Getting Started
 * [What You Gonna Get](inthebox.html) - Lists the assets that are provided for you when you signup for an Hourfleet license.  
 * [Notifications](notifications.html) - Manage your email and SMS notification content  
 * [Insurance](insurance.html) - Supporting your insurance provider
-
-**Establishing Your Tenancy**
-* [Step by step Guide](stepbystep.html) - So you're ready to launch your car sharing network? Great, so use this checklist to confirm you have everything sorted.    
-
 
 ## What's New?
 
