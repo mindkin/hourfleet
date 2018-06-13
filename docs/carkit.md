@@ -34,7 +34,7 @@ It will be important for you to work with your chosen carrier to ensure your car
 -	Your carrier can supply a standard size data SIM which has an APN pre-configured. An APN is a bit like a 'carrier internal' DNS server. The mobile data network uses the APN to decide how the carkit will be allocated a real-world IP address. SIM cards may have one of more APNs pre configured. The carkit uses the APN pre-configured in PDP context #1 
 - The number printed on your SIM should be 16 digits length. 
 - If the SIM card shows 13 digits then there are three unprinted digits which prefix the 13 that are shown. You'll need to speak to your carrier as all 16 digits are required when configuring the carkit in \<yourtenancy\>.hourfleet.com.   
-- If the SIM card shows 19 digits + one alphabetic character, then the first two digits should be ignored, and the true SIM number is the following 16 digits. T-Mobile SIMs are in this general form.  
+- If the SIM card shows 19 digits + one alphabetic character, then the first two digits should be ignored, and the true SIM number is the following 16 digits. For example, ~~89~~1067365855460907~~6F~~. T-Mobile SIMs display their SIM number in this general form.  
 General info on this topic is [here](http://www.imei.info/faq-what-is-ICCID/).
 
   
