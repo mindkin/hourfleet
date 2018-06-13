@@ -21,7 +21,8 @@ title: Getting Started
 **Establishing Your Tenancy**  
 * [Step by step Guide](stepbystep.html) - Are you ready to launch your Hourfleet-powered car sharing network? Yes? Great, so use this checklist to confirm that you have everything sorted.   
 
-## What's New?
+
+### What's New?
 
 We're constantly improving Hourfleet. Some improvements are small and barely noticable, while others are large, most typically adding new features that are designed to make your car sharing network the go-to in your area. We document all improvements in our [Platform Release Notes](releasenotes.html).
 
