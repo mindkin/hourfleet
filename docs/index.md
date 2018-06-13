@@ -7,7 +7,7 @@ title: Getting Started
 ### Learning about Hourfleet  
 
 **How Hourfleet Works**
-* [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing works.  
+* [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing networks.  
 * [The Hourfleet carkit](carkit.html). All you need to know about this in-car device - compatibility, customization, installation and cellular network setup.     
 
 **Planning Your Tenancy**  
