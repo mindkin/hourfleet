@@ -4,7 +4,7 @@ title: Getting Started
 ---
  
 
-## Learning about Hourfleet  
+### Learning about Hourfleet  
 
 **How Hourfleet Works**
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing works.  
