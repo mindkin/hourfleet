@@ -26,6 +26,4 @@ title: Getting Started
 
 We're constantly improving Hourfleet. Some improvements are small and barely noticable, while others are large, most typically adding new features that are designed to make your car sharing network the go-to in your area. We document all improvements in our [Platform Release Notes](releasenotes.html).
 
-## Zapier Integration
 
-You can now create a 'Zap' at [zapier](http://www.zapier.com) to connect your car sharing network with your favourite apps, like : Intercom, Slack, and Email. See [Zapier Integration](zapier.html) for details.
