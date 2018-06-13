@@ -1,4 +1,5 @@
 * Introduction
+
 We're keen to see you get value for money from your Hourfleet subscription. So before you sign up, there are a few things you'll need to understand, and a few things you'll need to do. Some of this may be self-evident to you.
 
 **1. Business plan, marketing, customer care and insurance.** It should come as no surprise that having a great platform like Hourfleet is only a very small part of your business success. If you're establishing a car sharing business then you're going to need to spend plenty of time on these things. You can work on them while you prepare your Hourfleet tenancy as guided below.
