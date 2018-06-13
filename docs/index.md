@@ -19,7 +19,7 @@ title: Getting Started
 * [Insurance](insurance.html). Supporting your insurance provider
 * [Integrations](integrations.html). Learn about the third-party platform that Hourfleet integrates with. Currently only [Stripe](http://stripe.com) is mandatory. 
 
-## Establishing Your Tenancy
+**Establishing Your Tenancy**  
 * [Step by step Guide](stepbystep.html) - Are you ready to launch your Hourfleet-powered car sharing network? Yes? Great, so use this checklist to confirm that you have everything sorted.   
 
 ## What's New?
