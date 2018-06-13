@@ -2,8 +2,7 @@
 layout: default
 title: Getting Started
 ---
-## Establishing Your Tenancy
-* [Step by step Guide](stepbystep.html) - Are you ready to launch your Hourfleet-powered car sharing network? Yes? Great, so use this checklist to confirm that you have everything sorted.    
+ 
 
 ## Learning about Hourfleet  
 
@@ -15,13 +14,17 @@ title: Getting Started
 * [First steps](youprovide.html). The things that your business needs to get sorted before your car sharing business can operate properly
 * [Your own landing page(s)](yoursite.html). The integration between your own landing pages Hourfleet tenancy.  
 * [Configuring your tenancy](youconfigure.html). There is lots to customize. Here is what you can configure to make your car sharing network unique.  
-* [What You Gonna Get](inthebox.html) - Lists the assets that are provided for you when you signup for an Hourfleet license.  
-* [Notifications](notifications.html) - Manage your email and SMS notification content  
-* [Insurance](insurance.html) - Supporting your insurance provider
+* [What You Gonna Get](inthebox.html). Lists the assets that are provided for you when you signup for an Hourfleet license.  
+* [Notifications](notifications.html). Manage your email and SMS notification content  
+* [Insurance](insurance.html). Supporting your insurance provider
+* [Integrations](integrations.html). Learn about the third-party platform that Hourfleet integrates with. Currently only [Stripe](http://stripe.com) is mandatory. 
+
+## Establishing Your Tenancy
+* [Step by step Guide](stepbystep.html) - Are you ready to launch your Hourfleet-powered car sharing network? Yes? Great, so use this checklist to confirm that you have everything sorted.   
 
 ## What's New?
 
-If you want to see what's been improved recently in the Hourfleet platform, see the: [Platform Release Notes](releasenotes.html)
+We're constantly improving Hourfleet. Some improvements are small and barely noticable, while others are large, most typically adding new features that are designed to make your car sharing network the go-to in your area. We document all improvements in our [Platform Release Notes](releasenotes.html).
 
 ## Zapier Integration
 
