@@ -11,10 +11,3 @@ We're keen to see you get value for money from your Hourfleet subscription. So b
 1. **Integrations.** The most important integration is with [Stripe.com](http://stripe.com). Specific instructions are [here](http://docs.hourfleet.com/youprovide.html)   
 
 1. **Let's go!** If you're ready then [get started now](https://www.hourfleet.com/getstarted) by choosing a subscription plan and ordering your initial batch of car-kits   
-
-- [ ] A  
-- [ ] B  
-- [ ] C  
-
-
-
