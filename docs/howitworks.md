@@ -92,15 +92,10 @@ These tools include the ability to:
 
 ### Activity Monitoring
 
-As your customers do various things on your network, such as: create new accounts, verify their credentials, book and use cars, etc. Those events create 'alerts' that can be viewed. You can keep up to date with these alerts in the Operational Dashboard.
+As your customers do various things on your network, such as: create new accounts, verify their credentials, book and use cars, etc. 
+These activities are collated and summarised on the Operations Dashboard.  
 
-Alerts have varying levels: 'Urgent', 'Important', 'OfInterest', 'Security' and 'Noise'. You can filter this level to focus on what is important to you. You can also dismiss any specific alert to keep the list shorter. All items in the list will expire after some time (7 days by default).
-
-If you want to receive your alerts in other apps, such as: Slack, Intercom, Trello, email etc. you can setup Zapier.com to relay the alert to your favorite apps. See [Zapier Integration](zapier.html) for more details on how to set that up.
-
-![Operation Alerts](images/Operation-Alerts.png)
-
-> Note: The display of alerts is being improved overtime as we learn more about how operators use them, and what alerts are most important to operators.
+![Operations Dashboard](images/operations-dashboard.png)
 
 ### Verifications
 
