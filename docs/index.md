@@ -6,11 +6,9 @@ title: Getting Started
 
 ### Learning about Hourfleet  
 
-**How Hourfleet Works**
+**Planning Your Tenancy**  
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing networks.  
 * [The Hourfleet carkit](carkit.html). All you need to know about this in-car device - compatibility, customization, installation and cellular network setup.     
-
-**Planning Your Tenancy**  
 * [First steps](youprovide.html). The things that your business needs to get sorted before your car sharing business can operate properly
 * [Your own landing page(s)](yoursite.html). The integration between your own landing pages Hourfleet tenancy.  
 * [Configuring your tenancy](youconfigure.html). There is lots to customize. Here is what you can configure to make your car sharing network unique.  
