@@ -20,7 +20,7 @@ At that point you are going to need an app that users can use to find available 
 
 This app has to look and feel like your business, and has to integrate seemlessly with your existing website.
 
-As a tenant on the Hourfleet platform, we give you your own branded app that will look and feel like your website and landing pages, and the app manages the seamless navigation between them so that your users feel comfortable moving around from your existing website into and out of the app depending on what they are doing at any one time. To your users the experience will be seamless. However, to the observant types, in actual fact, the Hourfleet web app will be hosted for you at a different URL than your website, at: **https://<yourcompanyname>.hourfleet.com**
+As a tenant on the Hourfleet platform, we give you your own branded app that will look and feel like your website and landing pages, and the app manages the seamless navigation between them so that your users feel comfortable moving around from your existing website into and out of the app depending on what they are doing at any one time. To your users the experience will be seamless. However, to the observant types, in actual fact, the Hourfleet web app will be hosted for you at a different URL than your website, at: **https:\/\/\<yourcompanyname\>.hourfleet.com**
 
 You can see from the example image below, for the car sharing network **Roam**. The site of the left is the existing Roam business website (roamride.co.nz), and the site on the right is the Hourfleet web app for Roam (roamride.hourfleet.com). Both sites work together to give a full experience for Roam's customers.
 
