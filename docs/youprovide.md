@@ -46,4 +46,6 @@ Send both keys in an email to `admin@mindkin.co.nz` and then delete any referenc
 
 Once we receive these keys we will configure your tenancy, and the Stripe setup will be complete.
 
-**Important**: Your relationship with Stripe is governed by your acceptance of their Terms of Service. We are unable to manage any aspect of your relationship with Stripe, or to advocate for you. Other than initiating charges to your cstomers as covered by our Terms of Service, we are unable to act for or on your behalf.
+> If you change your `Secret Key` for any reason, you will need to update it Hourfleet, otherwise you will be unable to bill your Hourfleet customers anymore. Contact support@hourfleet.com for assistance. 
+
+**Important**: Your relationship with Stripe is governed by your acceptance of their Terms of Service. We are unable to manage any aspect of your relationship with Stripe, or to advocate for you. Other than initiating charges to your customers as covered by our Terms of Service, we are unable to act for or on your behalf.
