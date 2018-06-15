@@ -28,7 +28,7 @@ The next step is to configure your Hourfleet tenancy with your Stripe API keys. 
 
 ## Setting Up Hourfleet
 
-From your [Stripe Dashboard](https://www.stripe.com),  click `Developers` and then `API Keys`. 
+From your [Stripe Dashboard](https://dashboard.stripe.com/dashboard),  click `Developers` and then `API Keys`. 
 
 ![Stripe Menu](images/stripe-menu.png)
 
