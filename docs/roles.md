@@ -19,6 +19,7 @@ Many of each roles' responsibilities are time-critical, and some of these have a
 
 - Creating and maintaining the car profile, including  photos, features, pricing, home location and more  
 - Deciding if their car can be automatically booked by Car Borrowers, or if they want to manually approve/decline each booking request  
+- Deciding if their car must be pre-booked, or if it can instead be rented immediately without pre-booking.  
 - If applicable, manually approving/declining each booking requests  
 - Managing any dialog with Car Renters before, during or after a booking  
 - Signing off a booking when it has been concluded, including rating the Car Borrower
