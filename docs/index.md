@@ -3,9 +3,6 @@ layout: default
 title: Getting Started
 ---
  
-
-### Learning about Hourfleet  
-
 **Planning Your Tenancy**  
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing networks.  
 * [The Hourfleet carkit](carkit.html). All you need to know about this in-car device - compatibility, customization, installation and cellular network setup.     
@@ -18,6 +15,9 @@ title: Getting Started
 
 **Establishing Your Tenancy**  
 * [Step by step Guide](stepbystep.html) - Are you ready to launch your Hourfleet-powered car sharing network? Yes? Great, so use this checklist to confirm that you have everything sorted.   
+
+**Operations**
+* [Who does what?](roles.html) - Learn about the distinct roles of network operators (you!), car owners and car borrowers
 
 
 ### What's New?
