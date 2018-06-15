@@ -1,5 +1,5 @@
 ## Roles
-Your Hourfleet tenancy has four main roles, and each role as distinct activities and responsibilities. It is important to remember that sometimes the same person may have several concurrent roles. The roles are:
+Your Hourfleet tenancy has four main roles, and each role as distinct activities and responsibilities.  The roles are:
 
 - **Network Operator** - The administrator of your car sharing network
 - **Car Owner** - The designated owner of a car
@@ -7,6 +7,8 @@ Your Hourfleet tenancy has four main roles, and each role as distinct activities
 - **Insurance Provider** - The person representing the Network Operator's insurance provider  
 
 Many of each roles' responsibilities are time-critical, and some of these have automated events that take place in the absence of any activity from the role owner. For example, when a Car Renter finishes a booking the Car Owner then has a configurable length of time in order to complete the booking, noting the condition of the car and rating the Car Renter. In the absence of this action, Hourfleet will automatically complete that booking.  
+
+It is important to remember that sometimes the same person may have several concurrent roles. For example, if the Network Operator is running a network where they own the cars (sometimes referred to as a B2C network) then they also function as a Car Owner. Hourfleet's support for Car Owner features is found in 'My Cars', while support for Network Operator features is found in the 'Operations Dashboard'  
 
 ### Network Operator Responsibilities  
 
