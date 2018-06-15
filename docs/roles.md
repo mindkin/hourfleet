@@ -15,7 +15,7 @@ It is important to remember that sometimes the same person may have several conc
 - Verifying Car Borrower profiles  
 - If the network operator has their owner cars listed on the network, then they should undertake the Car Owner Responsibilities shown below.  
 - Verifying cars
-- Managing the billing of completed bookings  
+- Managing the billing of completed bookings
 
 ### Car Owner Responsibilities
 
