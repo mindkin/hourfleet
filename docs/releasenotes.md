@@ -2,6 +2,15 @@
 layout: default
 title: Release Notes
 ---
+## 1.64 15/06/2018
+
+This platform update replaces the RunTheRed/Modica SMS gateway provider with Plivo.com provider, making it possible to send TXT anywhere in the world. All mobile phone numbers of all users will be automatically adjusted to become internationally dialable, with the inclusion of the '+' prefix and country code. (Some numbers that were not valid mobile phone numbers will be discarded). Operators will also configure a default country code. 
+
+### Improvements
+
+* Added ability for operators to provide their own support page.
+* Reduced configuration for operators, as SMS provider moved to platform.
+
 ## 1.63 11/06/2018
 
 ### Improvements
