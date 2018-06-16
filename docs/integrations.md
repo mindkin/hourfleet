@@ -11,10 +11,14 @@ The next step is to configure your Hourfleet tenancy with your Stripe API keys. 
 
 From your Stripe Dashboard, click `Developers` and then `API Keys`. 
 
-![Stripe Menu](images/stripe-menu.png)
+![Stripe Menu](images/restrictedkey.png)
+.  
+.  
+.  
 
-On the right you'll then see a panel which contains two API keys  
-![Stripe API Keys](images/stripe-keys.png)
+![Stripe Menu](images/restrictedkey2.png)
+
+
 
 Save the `Publishable key`. Then click `Reveal live key token` and the `Secret key` will be displayed. It's secret for a reason - don't leave this lying around!
 
