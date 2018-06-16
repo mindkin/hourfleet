@@ -31,4 +31,4 @@ Table of Contents
 
 
 
-> &ast Hourfleet is under constant revision, and sometime we're a bit behind updateing these images with the latest versions. 
+> &ast; Hourfleet is under constant revision, and sometime we're a bit behind updateing these images with the latest versions. 
