@@ -25,7 +25,7 @@ Table of Contents
 
 | Description        | Screen  |
 | ------------------ | :-----:|
-| Insurer Daskboard |![](images/Insurers_Bookings_Desktop.jpg)|
+| Insurer Dashboard |![](images/Insurers_Bookings_Desktop.jpg)|
 
 
 
