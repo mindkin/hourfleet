@@ -1,7 +1,7 @@
 ## Integrations
 Hourfleet depends on one mandatory third-party integration ([Stripe](http://stripe.com)), and supports a number of optional third-party integrations. In all cases, configuring this integration requires you to 
 1. Sign in to your account with the integraton provider
-1. Locate one of more API keys
+1. Create Restricted API keys - one Publishable and the other Secret  
 1. Send those API keys to `admin@mindkin.co.nz` and then delete any reference to these keys from your computer. Remember to check your email's Sent Items too.
 
 ### Stripe
@@ -9,12 +9,19 @@ You will need a Stripe account to operate an Hourfleet Tenancy. If you don't alr
 
 The next step is to configure your Hourfleet tenancy with your Stripe API keys. This enables your Hourfleet tenancy to bill your customers when they use your car sharing service.
 
-From your Stripe Dashboard, click `Developers` and then `API Keys`. 
+From your Stripe Dashboard, click `Developers`, then `API Keys`, and then `+ Create restricted key`
 
-![](images/RestrictedKey.png)  
 ![](images/RestrictedKey2.png)  
 
-Save the `Publishable key`. Then click `Reveal live key token` and the `Secret key` will be displayed. It's secret for a reason - don't leave this lying around!
+Give the key the name `Hourfleet`. All your permissions should be showing `None`. Go through and check each  of the permissions shown as needing `Read nd write` 
+
+![](images/RestrictedKey.png) 
+  
+Now click `Create key`
+
+![](images/RestrictedKey2.png)  
+
+Now it's time to colect the two keys that Hourfleet needs. First save the `Publishable key`. Then click `Reveal live key token` and the `Secret key` will be displayed. It's secret for a reason - don't leave this lying around!
 
 **Important**: Your relationship with Stripe is governed by your acceptance of their Terms of Service. We are unable to manage any aspect of your relationship with Stripe, or to advocate for you. Other than initiating charges to your customers as covered by our Terms of Service, we are unable to act for or on your behalf.
 
