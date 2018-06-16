@@ -7,15 +7,19 @@ Table of Contents
 - [Insurer Dashboard](#insurer-dashboard)
 
 ___  
+
 # Finding a car
 
 ___  
+
 # Booking a Car
 
 ___  
+
 # Managing a Booking
 
-___  
+___ 
+
 # Insurer Dashboard
 
 | Description        | Screen  |
