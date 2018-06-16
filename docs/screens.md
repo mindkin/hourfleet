@@ -6,13 +6,16 @@ Table of Contents
 - [Managing a Booking](#managing-a-booking)
 - [Insurer Dashboard](#insurer-dashboard)
 
-
+___  
 # Finding a car
 
+___  
 # Booking a Car
 
+___  
 # Managing a Booking
 
+___  
 # Insurer Dashboard
 
 | Description        | Screen  |
