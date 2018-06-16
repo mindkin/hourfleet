@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What You Can Configure
+title: What You Can Configure.
 ---
 # What You Can Configure
 
