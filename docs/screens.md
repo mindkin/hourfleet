@@ -11,13 +11,13 @@ Table of Contents
 
 # Finding a car  
 
-| Description        | Screen  |
-| ------------------ | :-----:|
-| Available cars are shown on a local map |![](images/screens/car-map.jpg)|
+![](images/screens/car-map.jpg)
 
 
 
 # Booking a Car
+
+![](images/screens/car-booking.jpg)
 
 
 
