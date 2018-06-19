@@ -10,7 +10,7 @@ Table of Contents
 
 
 # Finding a car
-
+![](images/screens/car-map.png]
 
 
 # Booking a Car
