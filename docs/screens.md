@@ -9,8 +9,12 @@ Table of Contents
 - [Insurer Dashboard](#insurer-dashboard)
 
 
-# Finding a car
-![](images/screens/car-map.png]
+# Finding a car  
+
+| Description        | Screen  |
+| ------------------ | :-----:|
+| Available cars are shown on a local map |![](images/screens/car-map.jpg)|
+
 
 
 # Booking a Car
