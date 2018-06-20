@@ -13,6 +13,9 @@ Table of Contents
 
 |![](images/screens/car-search.jpg)| ![](images/screens/car-map.jpg) |
 
+***
+
+|![](images/screens/booking-request.jpg)| ![](images/screens/booking-confirmation.jpg) |
 
 
 # Insurer Dashboard
