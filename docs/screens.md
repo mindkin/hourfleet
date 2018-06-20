@@ -11,7 +11,7 @@ Table of Contents
 
 # Finding and booking a car  
 
-|![](images/screens/car-search.jpg)| ![](images/screens/car-map.jpg)|
+|![](images/screens/car-search.png)| ![](images/screens/car-map.png)|
 
 
 
