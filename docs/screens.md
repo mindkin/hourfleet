@@ -18,9 +18,11 @@ Cars can be located by entering a location and/or date and time of pickup. Car c
 
 # Managing a booking
 
-|![](images/screens/dashboard-main.jpg)| ![](images/screens/dashboard-contact.jpg) 
+All bookings are managed from a single dashboard. Once a booking is a configured number of minutes prior to its start, the interface provides a `start` button for the borrower.
 
-|![](images/screens/dashboard-vehicle.jpg)|  
+![](images/screens/dashboard-main.jpg)| ![](images/screens/dashboard-contact.jpg) 
+
+![](images/screens/dashboard-vehicle.jpg)|  
 
 
 
