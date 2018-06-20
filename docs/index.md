@@ -5,6 +5,7 @@ title: Getting Started
  
 **Planning Your Tenancy**  
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing networks.  
+* [Hourfleet Pics](screens.html). A collection of car search, booking, and dashboard images designed for mobile.  
 * [The Hourfleet carkit](carkit.html). All you need to know about this in-car device - compatibility, customization, installation and cellular network setup.     
 * [First steps](youprovide.html). The things that your business needs to get sorted before your car sharing business can operate properly
 * [Your own landing page(s)](yoursite.html). The integration between your own landing pages Hourfleet tenancy.  
