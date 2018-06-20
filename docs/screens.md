@@ -28,7 +28,9 @@ All bookings are managed from a single dashboard. Once a booking is a configured
 
 # Insurer Dashboard
 
-| Insurer Dashboard |![](images/Insurers_Bookings_Desktop.jpg)|
+Network operators can authorise their insurance provider(s) to access details of current and completed bookings
+
+![](images/Insurers_Bookings_Desktop.jpg)|
 
 
 
