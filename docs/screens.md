@@ -12,9 +12,9 @@ Table of Contents
 
 Cars can be located by entering a location and/or date and time of pickup. Car can also be found by browing the map and clicking on the red pins. Cars that are available have red pins. A borrow can view the car's full details, and make a request. They are required to acceot the Terms of Servive and Privacy Policy each time they make a booking.
 
-|![](images/screens/car-search.jpg)| ![](images/screens/car-map.jpg) 
+![](images/screens/car-search.jpg)| ![](images/screens/car-map.jpg) 
 
-|![](images/screens/booking-request.jpg)| ![](images/screens/booking-confirmation.jpg) 
+![](images/screens/booking-request.jpg)| ![](images/screens/booking-confirmation.jpg) 
 
 # Managing a booking
 
