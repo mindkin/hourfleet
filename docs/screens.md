@@ -11,7 +11,8 @@ Table of Contents
 
 # Finding and booking a car  
 
-|![](images/screens/car-map.jpg)| ![](images/screens/car-booking.jpg)|
+|![](images/screens/car-search.jpg)| ![](images/screens/car-map.jpg)|
+
 
 
 # Insurer Dashboard
