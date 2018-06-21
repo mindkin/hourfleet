@@ -23,6 +23,10 @@ title: Getting Started
 
 ### What's New?
 
-We're constantly improving Hourfleet. Some improvements are small and barely noticable, while others are large, most typically adding new features that are designed to make your car sharing network the go-to in your area. We document all improvements in our [Platform Release Notes](releasenotes.html).
+We're constantly improving Hourfleet. Some improvements are small and barely noticable, while others are large, most typically adding new features that are designed to make your car sharing network the go-to in your area. 
 
+We document all improvements and fixes in our [Platform Release Notes](releasenotes.html).
 
+### Need an Improvement?
+
+Please head over to our [feedback page](https://feedback.hourfleet.com) where you can submit new ideas and track what is coming in the platform road map.
