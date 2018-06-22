@@ -246,7 +246,7 @@ If you don't want a link to be displayed, leave their values blank. The Terms of
 		"FeesUrl": "http://www.yourcompany.com/fees",
 		"FaqUrl": "http://www.yourcompany.com/faq",
 		"ReturnUrl": "http://www.yourcompany.com",
-		"Support": "http://www.yourcompany.com/support", // This URL will overide the navigation links to the support page Hourfleet generates for you based on the values supplied in the Support Configuration section. 
+		"SupportUrl": "http://www.yourcompany.com/support", // If defined (default is undefined), this URL will overide the navigation links to the support page Hourfleet automatically generates for you based on the values supplied in the Support Configuration section. 
 		"ShowMobileAppLink": true,
 		"UIElements": {
 			"Invitation": { // Privacy statement about collecting their invitation data on the invitation page
@@ -267,6 +267,11 @@ These settings decide how your car sharing business will actually function. mode
 
 ~~~
 	"BusinessModel": {
+	        "Settings":{
+		    "Cars":{
+		        "Types":["Car","SUV","Minivan","Truck"] //A list of vehicle types that are supported on the network
+		    }
+		},
 	        "Insurance": {
 		    "MaxValuedAt": 50000,
 		    "MinValuedAt": 1000,
@@ -344,6 +349,9 @@ These settings decide how your car sharing business will actually function. mode
 		}
 	},
 ~~~
+
+#### Settings
+These are various settings related to the business model of the network.
 
 #### Insurance
 As a car sharing business, whether your business owns the cars (B2C) or whether you allow your users to own cars (P2P) you are likely to have an insurer cover the cars when in use. If you work with an insurer and the conditions of insurance involve an insured value of the cars in your network, you will need to collect the insured value for each registered car.
