@@ -29,4 +29,4 @@ We document all improvements and fixes in our [Platform Release Notes](releaseno
 
 ### Need an Improvement?
 
-Please head over to our [feedback page](https://feedback.hourfleet.com) where you can submit new ideas and track what is coming in the platform road map.
+Please head over to our [feedback page](http://feedback.hourfleet.com) where you can submit new ideas and track what is coming in the platform road map.
