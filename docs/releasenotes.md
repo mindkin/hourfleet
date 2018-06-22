@@ -2,6 +2,17 @@
 layout: default
 title: Release Notes
 ---
+
+## 1.66.1 22/06/2018
+
+### Improvements
+
+* Better localization support for english language locales.
+* The find cars page now centers on and zooms to the configured geofence for each network
+* The geofence for each network is configurable to a country or city (any locality) in that country
+* An operator can choose to provide their own support page and be linked to it, instead of using the provided one.
+* An operator can now define and customize a list of vehicle types which the network should support (e.g. Car, MiniVan, Truck, etc)
+
 ## 1.64 15/06/2018
 
 This platform update replaces the RunTheRed/Modica SMS gateway provider with Plivo.com provider, making it possible to send TXT anywhere in the world. All mobile phone numbers of all users will be automatically adjusted to become internationally dialable, with the inclusion of the '+' prefix and country code. (Some numbers that were not valid mobile phone numbers will be discarded). Operators will also configure a default country code. 
