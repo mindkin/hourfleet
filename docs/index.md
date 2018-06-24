@@ -31,7 +31,7 @@ We document all improvements and fixes in our [Platform Release Notes](releaseno
 
 Please head over to our [feedback page](http://feedback.hourfleet.com) where you can submit new ideas and track what is coming in the platform road map.
 
-## Service Status
+### Service Status
 
 If you are experiencing issues with any aspect of the platform, including accessing any service, please take a quick look at our [Service Status](https://status.hourfleet.com) page.
 
