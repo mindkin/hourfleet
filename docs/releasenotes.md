@@ -3,6 +3,14 @@ layout: default
 title: Release Notes
 ---
 
+
+## 1.67.0 29/06/2018
+
+### Improvements
+
+* Strengthened authentication of instructions between carkit and platform.
+* Added 'operations' link to navigation system
+
 ## 1.66.1 22/06/2018
 
 ### Improvements
