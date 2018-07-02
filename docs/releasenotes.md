@@ -3,6 +3,12 @@ layout: default
 title: Release Notes
 ---
 
+## 1.68.0 02/07/2018
+
+### Fixes
+
+* Fixed CSS preventing scrolling of search results on the Find a Car page
+* Fixed displaying of mobile icons on the network configuration page, where the images wouldn't show even if they were configured.
 
 ## 1.67.0 29/06/2018
 
