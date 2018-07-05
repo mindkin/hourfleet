@@ -52,4 +52,4 @@ General info on this topic is [here](http://www.imei.info/faq-what-is-ICCID/).
 
   
 ### SIM Installation
-This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this carkit must be opened for the SIM to be connected to the internal cellular modem. The Hourfleet team will provide technical assistance as required.
+This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this carkit must be opened for the SIM to be connected to the internal cellular modem. The Hourfleet team will provide technical assistance if required. In most instances te carkit will have been shipped with the SIM card pre-installed.
