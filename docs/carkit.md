@@ -12,15 +12,26 @@ Customization involves our technician taking a working proximity car key, disass
 
 The purchase price of an Hourfleet carkit includes the carkit itself, the customization work, and delivery of the customized carkit to any address accessible by DHL. The price does not include the cost of the car key itself, nor delivery of that key to our technician.
 
-# Carkit Installation
+# Carkit Unboxing
 ![](images/Mindkin-Scout-Gen2-RevF-Diagram.png) 
 
 
 ### Carkit Basics
 The Hourfleet carkit is simple to install. It takes a constant +12v supply and has GPS and Cell network antennae which should be mounted on th dashboard. Unlike the image above, some versions of the car kit have a plastic case affixed to the outside of the aluminium case. This is an after-market modification, necessary as we have discovered that some cars have very low power proximity sensors inside the cabin. The customised car key must be outside the aluminium case in order to be detected by the car's proximity sensor.
 
+### Pre-Installation Testing
+We recommend the carkit is tested for unlock/lock functions _before_ it is closed up inside the car. This can be done using a portabl 12v power source, or using the car's supply.
 
-### Carkit Placement  
+Once the device is powered up: 
+- sign in to your network administration account
+- click  `Car`, then `Car Kits` 
+- enter the plate number of the car that's been configured with this device
+- click 
+
+**IMPORTANT** The  carkit _is not_ reverse polarity protected, so be very carful to apply +ve to the red wire, and -ve to the ground wire. This is made difficult as not all cars have the same ground system. Please consult your manufacturers documentation.
+
+
+### Carkit Installation  
 Secure firmly in the glove compartment or behind the dash. The automotive environment is harsh, with strong and in some off-road cases violent vibrations. Take extra car to secure the carkit for the harshest possible conditions. 
 
 It is important that the carkit’s embedded OEM proximity key can be detected by the car, otherwise ‘Key not found’ or similar will be reported on pressing the ‘Start’ button. Please consult manufacturer specifications for the internal placement of proximity key sensors. From past experience, the internal proximity sensors tend to be near the centre console, between or near the driver and passenger seats.
