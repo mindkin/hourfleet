@@ -26,7 +26,10 @@ Once the device is powered up:
 - sign in to your network administration account
 - click  `Car`, then `Car Kits` 
 - enter the plate number of the car that's been configured with this device
-- click 
+- click `control`
+
+![](images/Operations-CarkitControlSmall.PNG)
+
 
 **IMPORTANT** The  carkit _is not_ reverse polarity protected, so be very carful to apply +ve to the red wire, and -ve to the ground wire. This is made difficult as not all cars have the same ground system. Please consult your manufacturers documentation.
 
