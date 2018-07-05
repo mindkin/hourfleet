@@ -22,7 +22,7 @@ The Hourfleet carkit is simple to install. It takes a constant +12v supply and h
 ### Pre-Installation Testing
 We recommend the carkit is tested for unlock/lock functions _before_ it is closed up inside the car. This can be done using a portabl 12v power source, or using the car's supply.
 
-**IMPORTANT** The  carkit _is not_ reverse polarity protected, so be very carful to apply +ve to the red wire, and -ve to the ground wire. This is made difficult as not all cars have the same ground system. Please consult your manufacturers documentation.
+**IMPORTANT** The  carkit _is not_ reverse polarity protected, so be very careful to apply +ve to the red wire, and -ve to the ground wire. This is made difficult as not all cars have the same ground system. Please consult your car manufacturer's documentation.
 
 Once the device is powered up: 
 - sign in to your network administration account
