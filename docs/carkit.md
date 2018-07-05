@@ -3,10 +3,10 @@ This section is intended for Hourfleet Gen-II carkit as shown in the image below
 - Have a proximity key. These are the keys you can leave in your pocket while using the car  
 - Have a factory-fitted push-to-start button
 
-Cars that have older style twist-key ignitions **can not** have a carkit fitted, however they can still be used on Hourfleet networks which have been configured to allow Key Exchange. Key Exchange is a feature which facilitates the car owner and renter meeting to pickup and dropoff of a physical car key.  
+Cars that have older style twist-key ignitions **cannot** have a carkit fitted, however they can still be used on Hourfleet networks which have been configured to allow Key Exchange. Key Exchange is a feature which facilitates the car owner and renter meeting to pickup and dropoff of a physical car key.  
 
 # Carkit Customization
-Each carkit must first be customized before it is installed in the target car. This customization makes the carkit specific to that one car, and the carkit can not simply be removed from that car and installed in another.
+Each carkit must first be customized before it is installed in the target car. This customization makes the carkit specific to that one car, and the carkit cannot simply be removed from that car and installed in another.
 
 Customization involves our technician taking a working proximity car key, disassembling it, and installing the key's internal circuitry inside the hourfleet carkit. This is a one-way trip for that key - it can't be recovered or re-used as a conventional key ever again. 
 
@@ -17,7 +17,7 @@ The purchase price of an Hourfleet carkit includes the carkit itself, the custom
 
 
 ### Carkit Basics
-The Hourfleet carkit is simple to install. It takes a constant +12v supply and has GPS and Cell network antennae which should be mounted on th dashboard. Unlike the image above, some versions of the car kit have a plastic case affixed to the outside of the case.
+The Hourfleet carkit is simple to install. It takes a constant +12v supply and has GPS and Cell network antennae which should be mounted on th dashboard. Unlike the image above, some versions of the car kit have a plastic case affixed to the outside of the aluminium case.
 
 
 ### Carkit Placement  
@@ -25,7 +25,7 @@ Secure firmly in the glove compartment or behind the dash. The automotive enviro
 
 It is important that the carkit’s embedded OEM proximity key can be detected by the car, otherwise ‘Key not found’ or similar will be reported on pressing the ‘Start’ button. Please consult manufacturer specifications for the internal placement of proximity key sensors. From past experience, the internal proximity sensors tend to be near the centre console, between or near the driver and passenger seats.
 
-**IMPORTANT**: To maximise the signal strength betwen the carkit and the car's proximity sensor(s), ensure the device is mounted with the red dot facing generally inwards to the car cabin. Do not mount the device with the red dot facing the engine/firewall.  
+**IMPORTANT**: To maximise the signal strength between the carkit and the car's proximity sensor(s), ensure the device is mounted with the red dot facing generally inwards to the car cabin. Do not mount the device with the red dot facing the engine/firewall.  
 
 
 ### Antennae
