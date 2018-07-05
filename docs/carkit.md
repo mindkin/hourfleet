@@ -17,7 +17,7 @@ The purchase price of an Hourfleet carkit includes the carkit itself, the custom
 
 
 ### Carkit Basics
-The Hourfleet carkit is simple to install. It takes a constant +12v supply and has GPS and Cell network antennae which should be mounted on th dashboard. Unlike the image above, some versions of the car kit have a plastic case affixed to the outside of the aluminium case.
+The Hourfleet carkit is simple to install. It takes a constant +12v supply and has GPS and Cell network antennae which should be mounted on th dashboard. Unlike the image above, some versions of the car kit have a plastic case affixed to the outside of the aluminium case. This is an after-market modification, necessary as we have discovered that some cars have very low power proximity sensors inside the cabin. The customised car key must be outside the aluminium case in order to be detected by the car's proximity sensor.
 
 
 ### Carkit Placement  
