@@ -22,16 +22,20 @@ The Hourfleet carkit is simple to install. It takes a constant +12v supply and h
 ### Pre-Installation Testing
 We recommend the carkit is tested for unlock/lock functions _before_ it is closed up inside the car. This can be done using a portabl 12v power source, or using the car's supply.
 
+**IMPORTANT** The  carkit _is not_ reverse polarity protected, so be very carful to apply +ve to the red wire, and -ve to the ground wire. This is made difficult as not all cars have the same ground system. Please consult your manufacturers documentation.
+
 Once the device is powered up: 
 - sign in to your network administration account
 - click  `Car`, then `Car Kits` 
 - enter the plate number of the car that's been configured with this device
-- click `control`
+- click `control` and the panel below will be shown
 
 ![](images/Operations-CarkitControlSmall.PNG)
 
-
-**IMPORTANT** The  carkit _is not_ reverse polarity protected, so be very carful to apply +ve to the red wire, and -ve to the ground wire. This is made difficult as not all cars have the same ground system. Please consult your manufacturers documentation.
+Control actions can take anywhere from 10s to 30s to complete, depending on load on the cellular network. Run through the following manual tests:
+1. Click `unlock` and confirm the car unlocks
+1. Click `lock` and confirm the car locks
+1. Click 'Sync' and then periodically click the link that tracks the Sync message. Remember it could take 30s to confirm the Sync was process and acknowledged by the Hourfleet network.
 
 
 ### Carkit Installation  
