@@ -53,7 +53,7 @@ These can be affixed in the same general area, near the base of the windscreen. 
 ### Power  
 The carkit requires a constant 12 volt supply. An increasing number of cars provide a 'managed' 12 volt supply, one where the accessor or other circuits are powered down after the car has been idle for a period of time. It is critical that the carkit **is not** subject to any such power management scheme, as it must remain continuiously powered up.The carkit should be protected with a 5A fuse.  
 
-**IMPORTANT**: The constant operation of the carkit represents an additional drain on the car battery. If the car is left idle for long periods there is an increased risk that the car battery could run flat. The actual dischanrge timeframe will depend on factors such as the frequency and leng of use, the battery age/condition and even the temperature. Our experience is that an medium-sized car could expereince a flat battery if left unused for 3+ weeks.
+**IMPORTANT**: Because the carkit is always powered on, it creates additional drain on the car battery. If the car is left idle for long periods there is an increased risk that the car battery could run flat. The actual dischanrge timeframe will depend on factors such as the frequency and length of use, the battery age/condition and even the temperature. Our experience is that an medium-sized car could expereince a flat battery if left unused for 3+ weeks.
   
   
 # Network Connectivity
