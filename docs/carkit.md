@@ -1,5 +1,5 @@
 # Carkit Compatibility   
-The Hourfleet carkit is compatible with cars that  
+This section is intended for Hourfleet Gen-II carkit as shown in the image below. This carkit is compatible with cars that  
 - Have a proximity key. These are the keys you can leave in your pocket while using the car  
 - Have a factory-fitted push-to-start button
 
@@ -10,30 +10,30 @@ Each carkit must first be customized before it is installed in the target car. T
 
 Customization involves our technician taking a working proximity car key, disassembling it, and installing the key's internal circuitry inside the hourfleet carkit. This is a one-way trip for that key - it can't be recovered or re-used as a conventional key ever again. 
 
-The purchase price of an Hourfleet carkit includes the device itself, the customization work, and delivery of the customized carkit to any address accessible by DHL. The price does not include the cost of the car key itself, nor delivery of that key to our technician.
+The purchase price of an Hourfleet carkit includes the carkit itself, the customization work, and delivery of the customized carkit to any address accessible by DHL. The price does not include the cost of the car key itself, nor delivery of that key to our technician.
 
 # Carkit Installation
 ![](images/Mindkin-Scout-Gen2-RevF-Diagram.png) 
 
-### Device Basics
+### Carkit Basics
 The Hourfleet car kit is simple to install. It takes a constant +12v supply and has GPS and Cell network antennae which should be mounted on th dashboard. 
 
-### Device Placement  
-Secure firmly in the glove compartment or behind the dash. Note: Unlike the image above, some versions of the car kit have a plastic case affixed to the outside of the case.
+### Carkit Placement  
+Secure firmly in the glove compartment or behind the dash. The automotive environment is harsh, with strong and in some off-road cases violent vibrations. Take extra car to secure the carkit for the harshest possible conditions. Note: Unlike the image above, some versions of the car kit have a plastic case affixed to the outside of the case.
 
 It is important that the carkit’s embedded OEM proximity key can be detected by the car, otherwise ‘Key not found’ or similar will be reported on pressing the ‘Start’ button. Please consult manufacturer specifications for the internal placement of proximity key sensors. From past experience, the internal proximity sensors tend to be near the centre console, between or near the driver and passenger seats.
 
-**IMPORTANT**: To maximise the signalbetwen the device and the car's proximity sensor(s), ensure the device is mounted with the red dot facing generally towards the car cabin. Do not mount the device with the red dot facing the engine/firewall.  
+**IMPORTANT**: To maximise the signal strength betwen the carkit and the car's proximity sensor(s), ensure the device is mounted with the red dot facing generally inwards to the car cabin. Do not mount the device with the red dot facing the engine/firewall.  
 
 ### Antennae
 These can be affixed in the same general area, near the base of the windscreen. It is important that the GPS antenna is affixed on a level (or near level) surface, and that it has an unobstructed view of the sky. 
 
 ### Power  
-Ensure 12 volt supply is not managed by the car systems. The power supply must be constant to ensure the device stays operating even when the ignition has been off for some time. The device should be protected with a 5A fuse.  
+Ensure 12 volt supply is not managed by the car systems. The power supply must be constant to ensure the carkit stays operating even when the ignition has been off for some time. The device should be protected with a 5A fuse.  
   
   
 # Network Connectivity
-The Hourfleet carkit operates as a telemetry device, connecting to a 2G mobile data network so that car door lock/unlock instructions can be received from the Hourfleet network, and telemetry data can be transferred to the Hourfleet network. 
+The Hourfleet carkit operates as a telemetry carkit, connecting to a 2G mobile data network so that car door lock/unlock instructions can be received from the Hourfleet network, and telemetry data can be transferred to the Hourfleet network. 
 
 It will be important for you to work with your chosen carrier to ensure your carkits work correctly. Before launching your network, we suggest you confirm:
 -	Your carrier has 2G coverage over the geographic areas where Hourfleet-enabled cars are expected to travel
@@ -46,4 +46,4 @@ General info on this topic is [here](http://www.imei.info/faq-what-is-ICCID/).
 
   
 ### SIM Installation
-This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this device must be opened for the SIM to be connected to the internal cellular modem. The Hourfleet team will provide technical assistance as required.
+This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this carkit must be opened for the SIM to be connected to the internal cellular modem. The Hourfleet team will provide technical assistance as required.
