@@ -35,7 +35,7 @@ Once the device is powered up:
 Control actions can take anywhere from 10s to 30s to complete, depending on load on the cellular network. Run through the following manual tests:
 1. Click `unlock` and confirm the car unlocks
 1. Click `lock` and confirm the car locks
-1. Click `Sync` and then periodically click the link that tracks the Sync message. Remember it could take 30s to confirm the Sync was process and acknowledged by the Hourfleet network.
+1. Click `Sync` and then periodically click the link that tracks the Sync message. Remember it could take 30s to confirm the Sync was processed and acknowledged by the Hourfleet network.
 
 
 ### Carkit Installation  
