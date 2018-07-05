@@ -39,7 +39,7 @@ The carkit requires a constant 12 volt supply. An increasing number of cars prov
   
   
 # Network Connectivity
-The Hourfleet carkit operates as a telemetry carkit, connecting to a 2G mobile data network so that car door lock/unlock instructions can be received from the Hourfleet network, and telemetry data can be transferred to the Hourfleet network. 
+The Hourfleet carkit operates as a telemetry device, connecting to a 2G mobile data network so that digitally-encrypted door unlock/lock instructions can be received from the Hourfleet network, and telemetry data can be transferred to the Hourfleet network. 
 
 It will be important for you to work with your chosen carrier to ensure your carkits work correctly. Before launching your network, we suggest you confirm:
 -	Your carrier has 2G coverage over the geographic areas where Hourfleet-enabled cars are expected to travel
@@ -52,4 +52,4 @@ General info on this topic is [here](http://www.imei.info/faq-what-is-ICCID/).
 
   
 ### SIM Installation
-This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this carkit must be opened for the SIM to be connected to the internal cellular modem. The Hourfleet team will provide technical assistance if required. In most instances te carkit will have been shipped with the SIM card pre-installed.
+This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this carkit must be opened for the SIM to be connected to the internal cellular modem. The Hourfleet team will provide technical assistance if required. In some instances the carkit will have been shipped with its SIM card pre-installed.
