@@ -239,7 +239,6 @@ If you don't want a link to be displayed, leave their values blank. The Terms of
 	"Navigation": { // URL's that are linked to from your app to your own website 
 		"HomeUrl": "http://www.yourcompany.com",
 		"AboutUrl": "http://www.yourcompany.com/about",
-		"ContactUrl": "http://www.yourcompany.com/contact",
 		"DocsUrl": "http://www.yourcompany.com/docs",
 		"TermsOfServiceUrl": "http://www.yourcompany.com/terms",
 		"PrivacyUrl": "http://www.yourcompany.com/privacy",
