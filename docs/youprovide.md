@@ -15,5 +15,6 @@ These are broadly some of the things that you need to do:
 * Create an account with Stripe.com, so that you can charge your customers' credit cards
 * Construct a Terms Of Service agreement with your Lawyers
 * Create a Privacy Policy with your Lawyers
+* Get a good understanding of [how Hourfleet works](http://docs.hourfleet.com/howitworks.html)
 * Create a 'landing page' website to inform and capture your customers, and that can lead your customers to register and use cars in your network.
-
+* Learn about how Hourfleet can [integrate with your existing service providers](http://docs.hourfleet.com/integrations.html)
