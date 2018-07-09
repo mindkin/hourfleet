@@ -271,7 +271,7 @@ These settings decide how your car sharing business will actually function. mode
 		        "Types":["Car","SUV","Minivan","Truck"] //A list of vehicle types that are supported on the network
 		    },
 		    "Carkits":{
-		        "IsSupported": true, // Do you want to support KeyLess access on your network?
+		        "IsSupported": true, // Do you want to support Keyless access on your network? or support only KeyExchange?
 			"Enrolment": "ByOwner" // If "ByOwner", then any car owner will be allowed to enrole in fitting a carkit to their car. If "ByOperator", then operators will need to assign specific cars to be allowed to enrole in fitting a carkit.  
 		    }
 		},
