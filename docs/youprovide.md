@@ -17,35 +17,3 @@ These are broadly some of the things that you need to do:
 * Create a Privacy Policy with your Lawyers
 * Create a 'landing page' website to inform and capture your customers, and that can lead your customers to register and use cars in your network.
 
-# Stripe Account
-If you don't alread have a Stripe account you'll need to [register](https://dashboard.stripe.com/register). 
-
-> If you need to do this, we recommend you take some time [to learn about Stripe](https://stripe.com/customers). 
-
-The next step is to configure your Hourfleet tenancy with your Stripe API keys. This enables your Hourfleet tenancy to bill your customers when they use your car sharing service.
-
->  Without this, you cannot bill your customers
-
-## Setting Up Hourfleet
-
-From your [Stripe Dashboard](https://dashboard.stripe.com/dashboard),  click `Developers` and then `API Keys`. 
-
-![Stripe Menu](images/stripe-menu.png)
-
-On the right you'll then see a panel which contains two API keys  
-![Stripe API Keys](images/stripe-keys.png)
-
-Make a note of the `Publishable key`. 
-Then click `Reveal live key token` and the `Secret key` will be displayed. 
-
-> It's secret for a reason - don't leave this lying around!
-
-Send both keys in an email to `admin@mindkin.co.nz` and then delete any reference to these keys from your computer. 
-
-> Remember to check your email's Sent Items and Trash too.
-
-Once we receive these keys we will configure your tenancy, and the Stripe setup will be complete.
-
-> If you change your `Secret Key` for any reason, you will need to update it Hourfleet, otherwise you will be unable to bill your Hourfleet customers anymore. Contact support@hourfleet.com for assistance. 
-
-**Important**: Your relationship with Stripe is governed by your acceptance of their Terms of Service. We are unable to manage any aspect of your relationship with Stripe, or to advocate for you. Other than initiating charges to your customers as covered by our Terms of Service, we are unable to act for or on your behalf.
