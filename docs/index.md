@@ -33,5 +33,5 @@ Please head over to our [feedback page](http://feedback.hourfleet.com) where you
 
 ### Service Status
 
-If you are experiencing issues with any aspect of the platform, including accessing any service, please take a quick look at our [Service Status](https://status.hourfleet.com) page.
+If you are experiencing issues with any aspect of the platform, including accessing any service, please take a quick look at our [Service Status](http://status.hourfleet.com) page.
 
