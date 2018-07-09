@@ -3,12 +3,13 @@ layout: default
 title: Release Notes
 ---
 
-## 1.69.0 09/07/2018
+## 1.69.2 09/07/2018
 
 ### Fixes
 
 * Password reset that includes a D.O.B has been fixed to compare the right date
 * Changed Drivers License form to accept dates in current locale, and these dates are displayed in current locale (user's profile, verifications page, etc)
+* Fixed unreadable date for Road Worthiness expiry date
 
 ## 1.68.0 02/07/2018
 
