@@ -269,6 +269,10 @@ These settings decide how your car sharing business will actually function. mode
 	        "Settings":{
 		    "Cars":{
 		        "Types":["Car","SUV","Minivan","Truck"] //A list of vehicle types that are supported on the network
+		    },
+		    "Carkits":{
+		        "IsSupported": true, // Will you need any car on your network to have a carkit fitted?
+			"Enrolment": "ByOwner" // If "ByOwner", then any car owner will be allowed to enrole in fitting a carkit to their car. If "ByOperator", then operators will need to assign specific cars to be allowed to enrole in fitting a carkit.  
 		    }
 		},
 	        "Insurance": {
