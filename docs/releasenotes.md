@@ -7,7 +7,7 @@ title: Release Notes
 
 ### Improvements
 
-* Add support for /,( and ) characters when defining network car types
+* Added support for /,( and ) characters when defining network car types
 
 ### Fixes
 
