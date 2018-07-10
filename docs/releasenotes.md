@@ -3,6 +3,16 @@ layout: default
 title: Release Notes
 ---
 
+## 1.69.3 10/07/2018
+
+### Improvements
+
+* Add support for /,( and ) characters when defining network car types
+
+### Fixes
+
+* Fixed a validation issue on the Car Details - Identity page where a worthiness expiry date
+
 ## 1.69.2 09/07/2018
 
 ### Fixes
