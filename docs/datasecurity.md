@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Information and Security
+title: Data Security Policy
 ---
  
 TODO: 
@@ -9,4 +9,7 @@ TODO:
 * how to access tenants datats 
 * data rentention
 * backup
+* PCI compliance
+* Password storage protection
+* Data sovereignty
 link to privacy policy
