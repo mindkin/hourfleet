@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Security Policy
+title: Information & Security
 ---
  
 TODO: 
