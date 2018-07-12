@@ -3,6 +3,12 @@ layout: default
 title: Release Notes
 ---
 
+## 1.69.4 12/07/2018
+
+### Fixes
+
+* Fixed bug in `en-nz` date formats for input of DOB and other dates
+
 ## 1.69.3 10/07/2018
 
 ### Improvements
