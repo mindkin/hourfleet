@@ -205,19 +205,21 @@ Once the car kit is paired with a car on your network, you can manually operate 
 
 ## Listing Cars
 
-In order for a car to be used on your network, the car needs to be 'listed' on the network by one of the current users on the network. 
+In order for a car to be 'seen' or used on your network, the car needs to be 'listed' on the network by one of the current users on the network. The listing of cars for P2P networks is usually done by the owner of the car. For B2C networks, cars are listed by the network operator, or perhaps some 3rd party.
 
-The listing of cars for P2P networks is usually done by the owner of the car. For B2C networks, cars are listed by the network operator, or perhaps some 3rd party.
+Once a car is listed, there is quite a rigorous process by the car owner to get it verified so that it appears in search results for borrowers to find. 
 
-Once a car is registered, there is quite a rigorous process by the car owner to get it verified so that it appears in search results for borrowers to find. Generally, the following must be configured before a car can be borrowed.
+Generally, the following must be configured before a car will be seen in search results, in order for it to be borrowed.
 
-1. The car must be fully registered, and have all the basic information filled out. e.g. Year, Make, Model, Location, Photo, Prices, Usage Model, etc.
-2. The car must have details of a Certificate of Road Worthiness, and this must be verified by the operator.
-3. The car owner must be fully verified as a car owner. Requires the owner to have a verified: Email, Phone and Bank Account.
-4. The car must have some future availability set for it by the car owner.
-5. The car must not be set as 'Offline'.
+1. The car must be fully registered, and have all the basic information filled out. e.g. Year, Make, Model, Location, Photo, Prices, Usage Model, etc. (The app displays green ticks and checklists to help you see what is still missing here).
+2. The car must have details of a Certificate of Road Worthiness, and this must be manually verified by the operator.
+3. The car owner must be fully verified as a car owner. Requires the owner to have a verified: Email, Phone and Bank Account, and these must be manually verified by the operator.
+4. The car must have some future availability set for it by the car owner. This can be for any date in the future for any period of time.
+5. The car must not be manually set as 'Offline' by the car owner.
 
-Only when the above requirements are met, will the car appear in the search results (and on the map) as 'Available'. Otherwise it appears in the search results (and on the map) as 'Coming Soon', and cannot be booked or used.
+Only when the above requirements are met, will the car appear in the search results (and on the map) as 'Available'. 
+
+Cars that do not meet all these requirements, but are fully registered, appear in the search results (and on the map) as 'Coming Soon', and cannot be booked or used.
 
 > Note: At any time, any of the car's verifications and any of the car owners' verifications may become unverified (some are time based, some are action based - see [Verifications](#verifications) for more details), at which point the car becomes unavailable, and disappears from the list of 'available' cars in search results (still visible on the 'unavailable' cars in search results.
 
