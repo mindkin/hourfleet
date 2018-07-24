@@ -845,7 +845,7 @@ The new deployment in this release increases Azure VM sizes; from 'Medium' (for 
 ### Improvements
 
 * Menu items when on tablet/mobile resolutions are now displayed similar to mobile apps and transition in from the left rather than from the top of the screen. Mobile menu can now accommodate more menu items.
-* Manual billing becomes a lot easier. Ops selects a booking to bill and how much, the system then takes care of the rest.
+* Manual billing becomes a lot easier. Ops selects a booking to bill and how much, Hourfleet then takes care of the rest.
 * Ops can now see if a cars bookings still needs billing and by what amount or if a booking's bill has been settled.
 * Updated Cloud diagnostics
 * The 'lock car' step that would make borrowers think they had finished their booking has been removed. Roam now locks the car before finishing the booking.

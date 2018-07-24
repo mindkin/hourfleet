@@ -13,7 +13,7 @@ But that is not all. There are 100's of apps that you can connect together!
 
 Hourfleet supports Zapier! so that means you can now get information about your car sharing network by connecting Hourfleet to your favourtie apps using Zapier zaps of your own!
 
-**NOTE: At the moment, you can only get notified when the users of your network are notified of key events in the system, like when they join your network, or when they reserve or book a car.**
+**NOTE: At the moment, you can only get notified when the users of your network are notified of key events in Hourfleet, like when they join your network, or when they reserve or book a car.**
 
 This is how you can set Zapier.com up to notify you through one of your favourite apps, like Slack, etc.
 

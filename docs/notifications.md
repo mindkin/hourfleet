@@ -36,7 +36,7 @@ title: Notifications
 
 # Notifications
 
-For key events in the system, users will receive SMS and Email notifications. For example when they join your network, or when they book a car.
+For key events in Hourfleet, users will receive SMS and Email notifications. For example when they join your network, or when they book a car.
 Here you can see an example of all the SMS and Email notifications that get sent and at which key events they happen.
 If you would like to be notified of these events at the same time as your customers you can do this through Zapier Integration. To find out how to do this visit the [Zapier Integration](zapier.html) page. 
   
@@ -586,7 +586,7 @@ This notification is sent to the *Car Owner* when the *Borrower* has returned th
 
 ### Booking Completed (Borrower)
 ###### ID: 209
-This notification is sent to the *Borrower* when the *Car Owner* completes the booking or the system auto-completes it.
+This notification is sent to the *Borrower* when the *Car Owner* completes the booking or Hourfleet auto-completes it.
 
 **Email**
 
@@ -599,7 +599,7 @@ This notification is sent to the *Borrower* when the *Car Owner* completes the b
 
 ### Booking Completed (Car Owner)
 ###### ID: 210
-This notification is sent to the *Car Owner* when they complete a booking or the system has auto-completed one.
+This notification is sent to the *Car Owner* when they complete a booking or Hourfleet has auto-completed one.
 
 **Email**
 ![EmailPreview](images/EmailPreviews/bookingComplete_owner.PNG)

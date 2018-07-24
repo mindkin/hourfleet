@@ -324,8 +324,8 @@ These settings decide how your car sharing business will actually function. mode
 					"MinimumRequestPeriodMinutes": 30, // Minimum duration of a booking that can be requested
 					"MaximumRequestPeriodMinutes": 20160, // Maximum duration of a booking that can be requested
 					"UseBeforeStartPeriodMinutes": 15, //How long before the scheduled start time can the borrower start their rental (if the car is available). Also, how soon before the scheduled end time is the borrower allowed to start the booking, if they are late to start the rental. 
-					"AutoCompleteAfterNoCompletionPeriodMinutes": 4320, // How long after the car is returned by borrower will it be auto-completed by the system on behalf of the owner
-					"AutoCompleteAfterNoUsePeriodMinutes": 15, //How long before the scheduled end of the booking will it be auto-completed by the system, if the borrower has not started the rental. (i.e. a 'no show' scenario)
+					"AutoCompleteAfterNoCompletionPeriodMinutes": 4320, // How long after the car is returned by borrower will it be auto-completed by Hourfleet on behalf of the owner
+					"AutoCompleteAfterNoUsePeriodMinutes": 15, //How long before the scheduled end of the booking will it be auto-completed by Hourfleet, if the borrower has not started the rental. (i.e. a 'no show' scenario)
 					"LateFees": {
 						"GracePeriodMinutes": 15 // How long after the scheduled end time of the booking do late fees start accumulating.
 					}
