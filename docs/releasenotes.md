@@ -3,11 +3,30 @@ layout: default
 title: Release Notes
 ---
 
+## 1.70.0 31/07/2018
+
+This is a major release that introduces 'KeyExchange' bookings. That is, bookings without a carkit fitted in the car. In this release, car owners are now able to designate their vehicles as 'Key Exchange', which means that physical car keys must be exchanged between borrowers and car owners, and the pick up and drop off of vehicles must be pre-arranged between the parties before and after using the car. The app now supports in-app conversations between the borrower and car owner during all stages of the booking process.
+Key Exchange is not available to cars configured for the 'Immediate' usage model.
+
+### Improvements
+
+* Car owners can now select between 3 usage models: 'Scheduled - Key Exchange' (when no carkit is installed), 'Scheduled - Keyless', and 'Immediate - Keyless' when a carkit is installed.
+* Car owners can disable the carkit (when it is installed) to permit the car to be used in 'Scheduled - Key Exchange', on a per booking basis.
+* Borrowers and car owners can now 'chat' in the app during the entire booking process (in any usage model)
+* When errors are captured in the web app, more error details can be viewed, so clues as to the origin of the issue, to aid  error reporting.
+* Cars now become searchable and visible on the map (as 'Coming Soon) when the car owner has completed all registration details.
+* When cancelling a booking, a user now provides a reason for the cancellation
+
+### Fixes
+
+* Pagination in the cars and users verifications page is now limited to the number of pages of the actual number of results available.
+* When selecting a home location, the user shouldis no longer presented non-street addresses to select
+
 ## 1.69.4 12/07/2018
 
 ### Fixes
 
-* Fixed bug in `en-nz` date formats for input of DOB and other dates
+* Fixed bug in `en-NZ` date formats for input of DOB and other dates
 
 ## 1.69.3 10/07/2018
 
