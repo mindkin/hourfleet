@@ -35,11 +35,13 @@ In this case we are going to show you connecting Hourfleet to Slack, and send al
 
 ## Step 1: Accept the Invitation
 
-Before you can select the Hourfleet app, you will need to click on this link, and complete the invitation: [Hourfleet App Invitation](https://zapier.com/developer/invite/78919/2e8309ce775718d73031ad5086cab303/)
+Before you can select the Hourfleet app, you will need to click on this link, 
+
+and accept this invitation: [Hourfleet Zap Invitation](https://zapier.com/developer/invite/95156/56d7bcf69452e20c2d857f6c96063846/)
 
 
 
-> Note: You need to complete this invitation, because the Hourfleet App is not publicly available or listed to just anyone.
+> Note: You need to accept this invitation, because the Hourfleet Zap is not publicly available.
 
 ![Accept the Invitation](images/Zapier_1.PNG)
 
@@ -65,13 +67,19 @@ Just click "Save+Continue"
 
 Just click "Connect"
 
-## Step 5: Name Your Network
+## Step 5: Provide Your Network Info
 
 A new browser window will popup.
 
 ![Name Your Network](images/Zapier_5.PNG)
 
-Here you are going to enter the name of your Hourfleet network. e.g roamride, and press "Yes, Continue".
+Here you are going to enter your network name, and some client credentials (Client ID and Client Secret)  that you must obtain for your network from Hourfleet support.
+
+> Note: The name of your Hourfleet network is your subdomain of hourfleet.com. For example, if your Hourfleet network is at https://myrides.hourfleet.com, then your network name is `myrides`.
+
+Obtain your Client ID, Client Secret from Hourfleet support, enter those, and your network name.
+
+Then press "Yes, Continue".
 
 ## Step 6: Login
 
@@ -81,7 +89,7 @@ Then you will see this window, where you are going to need to login.
 
 Your username will be: `zapier.services.appuser`
 
-Your password, you will need to obtain directly from Hourfleet support for your network.
+Your password, you will obtain directly from Hourfleet support for your network.
 
 Press "SIGN IN"
 
