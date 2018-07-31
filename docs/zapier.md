@@ -13,18 +13,19 @@ But that is not all. There are 100's of apps that you can connect together!
 
 Hourfleet supports Zapier! so that means you can now get information about your car sharing network by connecting Hourfleet to your favourtie apps using Zapier zaps of your own!
 
-**NOTE: At the moment, you can only get notified when the users of your network are notified of key events in Hourfleet, like when they join your network, or when they reserve or book a car.**
+> NOTE: At the moment, you can only get notified when the users of your network are notified of key events in Hourfleet, like when they join your network, or when they reserve or book a car.
 
 This is how you can set Zapier.com up to notify you through one of your favourite apps, like Slack, etc.
 
-NOTE: We are going to show you how you can get notified of all your user's Notifications in a Slack channel of your choice. 
+>  NOTE: We are going to show you how you can get notified of all your user's Notifications in a Slack channel of your choice. 
+
 But don't worry, even if you don't use Slack as your messaging app, and you use another app like Intercom or just Email, you can also get notified in the same way (as long as Zapier supports your app). 
 
 Just follow the steps below, and select the app of your choice, the rest is very similar, and within no time you will be up and running.
 
 # Creating a Zap
 
-## Step 1: Create a new Zap
+## Step 0: Login to Zapier
 
 The first thing you need to do is create an account at [zapier.com](http://www.zapier.com), if you already have one, then just login.
 
@@ -32,103 +33,165 @@ Now, we are going to create a new Zap that connects Hourfleet to send user's not
 
 In this case we are going to show you connecting Hourfleet to Slack, and send all user's notifications to a specific Slack channel.
 
-![Create a New Zap](images/Zapier_1.PNG)
-
-## Step 2: Select the Hourfleet App
+## Step 1: Accept the Invitation
 
 Before you can select the Hourfleet app, you will need to click on this link, and complete the invitation: [Hourfleet App Invitation](https://zapier.com/developer/invite/78919/2e8309ce775718d73031ad5086cab303/)
 
-You need to complete this invitation, because the Hourfleet App is not publically available or listed to just anyone.
 
-** NOTE: Once you have been invited, you will need to search for the "hourfleet" app to select it.**
-(Hourfleet is a private and privileged application and you will not find it listed in the Zapier directory without a search for it, and certainly not without completing the invitation to use it.)
 
-![Select the Hourfleet App](images/Zapier_2.PNG)
+> Note: You need to complete this invitation, because the Hourfleet App is not publicly available or listed to just anyone.
 
-Simply click on the app.
+![Accept the Invitation](images/Zapier_1.PNG)
+
+Just click "Accept Invite & Build A Zap"
+
+## Step 2: Create The Zap
+
+![Create The Zap](images/Zapier_2.PNG)
+
+
+
+Just click "Create this Zap"
 
 ## Step 3: Latest Notifications
 
-Click the "Latest Notifications", and press "Save+Continue"
+Just click "Save+Continue"
 
 ![Select Latest Notifications](images/Zapier_3.PNG)
 
-## Step 4: Your Account name
+## Step 4: Connect to Hourfleet
 
-Next, you will be asked for the name of your Hourfleet account.
+![Connect](images/Zapier_4.PNG)
 
-![Your Account Name](images/Zapier_4.PNG)
+Just click "Connect"
 
-This is the name of your Hourfleet tenancy. (i.e. roamride)
+## Step 5: Name Your Network
 
-## Step 5: Login to Hourfleet
+A new browser window will popup.
 
-Next you will need to login to Hourfleet.
-You are going to use your account "zapier.services.appuser", and the password that you were provided for this account when you created your tenancy.
+![Name Your Network](images/Zapier_5.PNG)
 
-![Login](images/Zapier_5.PNG)
+Here you are going to enter the name of your Hourfleet network. e.g roamride, and press "Yes, Continue".
 
-## Step 6: Authorize Zapier
+## Step 6: Login
 
-Next, you will need to authorize that Zapier.com can have permission to access your data on your behalf.
+Then you will see this window, where you are going to need to login.
 
-![Authorize](images/Zapier_6.PNG)
+![Login To Hourfleet](images/Zapier_6.PNG)
 
-If you are happy with this, then click the "Authorize" button
+Your username will be: `zapier.services.appuser`
 
-## Step 7: Complete App Registration
+Your password, you will need to obtain directly from Hourfleet support for your network.
 
-Now that Zapier is setup to access user notifications with your account, you should see the following messages to confirm and test that everything is setup correctly.
+Press "SIGN IN"
 
-![Summary](images/Zapier_7.PNG)
-![Test](images/Zapier_8.PNG)
+## Step 7: Authorize Zapier
 
-## Step 8: Configure Receiving App
+You will be then prompted to authorize Zapier.com to have access to data from your network.
 
-Now, we need to setup the app that is going to receive the user notification. IN this case, we are going to show you setting up a Slack channel, but you can choose any app that Zapier supports to do this.
+If you agree, just press "AUTHORIZE".
 
-Select "Slack" from the list of apps, or search for your favourite app here.
+![Authorize](images/Zapier_7.PNG)
 
-![Select Receiving App](images/Zapier_9.PNG)
+## Step 8: Test The Zap
 
-## Step 9: Select Slack Channel
+The Zap is now created, and its time to test it is working.
 
-With Slack, we want to send the notification to a specific channel. So we need to select the "Send Channel Message" Action.
+![Test The Zap](images/Zapier_8.PNG)
 
-![Select Action](images/Zapier_10.PNG)
+Just click "Test"
 
-## Step 10: Connect to Slack Account
+You should then see a "Success" message
 
-If you have not already logged into Zapier with your Slack account, you do that now, and press "Save+Continue"
+![Test Success](images/Zapier_9.PNG)
 
-![Connect to Slack](images/Zapier_11.PNG)
+## Step 9: Integrate
 
-## Step 11: Setup the Receiving App
+The, just click "Save + Continue"
 
-For a slack notification, you need to tell Zapier which channel to use, and who is going to be seen to send the user's notification (i.e. whether to use a bot or not).
+![Integrate](images/Zapier_10.PNG)
 
-![Setup Receiving App](images/Zapier_12.PNG)
+At this point your Zap is created, but it has nothing to integrate with yet.
 
-Then, probably the most important part is to define the "Message Text" that is going to be posted to your slack channel.
+You now need to setup the application that will receive data from Hourfleet.
 
-You choose the format and data in the message. You can substitute any of the fields that are included in a user's notification into the message. Simply select them from the dropdown on the right side of the "Message Text" field.
+> Note: In this example, we are going to set up the Zap to send Hourfleet notifications to a Slack channel you might have.
 
-In this case you can see we have chosen the message: `[Resource ID] was notified of [Event ID] at [Event Created Date Utc]`
+Just click "Continue", and you will pick an example to work with.
 
-These are just some of the fields you can select. See the next section below for an explanation of those fields
+> Note: The examples you will be seeing are coming from your Hourfleet network.
 
-## Step 12: Test & Save
+![Test Success](images/Zapier_11.PNG)
 
-Finally save your changes.  Zapier will send a test notification to your slack channel so that you can see the result.
+Just click "Continue"
 
-You can always come back and change the settings to get what you need.
+![Add A Step](images/Zapier_12.PNG)
 
-# Notifications
+On the left hand side, just click "Add a Step"
 
-Notifications provide this data, which can be selected (from the Message Text dropdown) when you setup your Zap.
-For a more detailed explaination of what notifications get sent out and when check out the [Notifications Page](notifications.html)
+![Add A Step](images/Zapier_13.PNG)
 
-## Fields
+And on the right type "Slack", and select Slack from the dropdown.
+
+![Select Slack](images/Zapier_13.PNG)
+
+Once Slack is selected you will select the "Send Channel Message"
+
+![Send Channel Message](images/Zapier_14.PNG)
+
+and click "Save + Continue"
+
+![Connect To Slack](images/Zapier_15.PNG)
+
+Just click "Connect"
+
+A new browser window will pop up asking to to Authorize you to connect Zapier to your Slack Team
+
+![Authorize Zapier](images/Zapier_16.PNG)
+
+If you agree, just scroll to the bottom, and click "Authorize"
+
+![Authorize Zapier](images/Zapier_17.PNG)
+
+Just click "Save + Continue"
+
+![Authorize Zapier](images/Zapier_18.PNG)
+
+Now, you need to pick a slack "Channel" to send messages to, and the "Message Text" you want to send to Slack. All other fields are defaulted for you.
+
+> Note: You are free to choose the format and data in the message. You can substitute any of the fields that are included in a user's notification into the message. Simply select them from the dropdown on the right side of the "Message Text" field.
+
+In this example, we have chosen the general message: `[Resource ID] was notified of [Event ID] at [Event Created Date Utc]` where the `[value]` in the square brackets is selected from the drop down list.
+
+> Note: You can see the Notifications section below for an explanation of all the fields that are available for all notifications. Note, that some fields are valid for only some notifications. The example above, will work for all notifications, but is too general for very much use.
+
+Once, you are done with the Slack channel options, click the "Continue" button.
+
+On the next page you can test the integration, by sending a notification to your Slack channel.
+
+![Authorize Zapier](images/Zapier_19.PNG)
+
+Just click "Send Test to Slack", and you should see a message appear instantly in your chosen slack channel, looking like this:
+
+![Slack Notification](images/Zapier_20.PNG)
+
+When you are done testing, just click the "Finish" button.
+
+## Step 10: Turn On Your Zap
+
+Then you will need to turn on your Zap to start working.
+
+![Turn On Your Zap](images/Zapier_21.PNG)
+
+Congratulations you have successfully integrated Slack with Hourfleet notifications!
+
+## Notification Data
+
+Hourfleet notifications provide the following fields, which can be selected (from the "Message Text" dropdown) when you setup your Zap.
+
+>  Note: For a more detailed explanation of what notifications get sent out and when, check out the [Notifications Page](notifications.html)
+
+## Field Names
 
 Field | Meaning
 --- | ---
