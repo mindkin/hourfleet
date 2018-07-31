@@ -36,7 +36,7 @@ In this case we are going to show you connecting Hourfleet to Slack, and send al
 
 ## Step 2: Select the Hourfleet App
 
-Before you can select the Hourfleet app, you will need to click on this link, and complete the invitation: [Hourfleet App Invitation](https://zapier.com/developer/invite/51326/fccef634d394c7efcb8248feb6ddb64c/)
+Before you can select the Hourfleet app, you will need to click on this link, and complete the invitation: [Hourfleet App Invitation](https://zapier.com/developer/invite/78919/2e8309ce775718d73031ad5086cab303/)
 
 You need to complete this invitation, because the Hourfleet App is not publically available or listed to just anyone.
 
