@@ -26,8 +26,8 @@ Key Exchange is not available to cars configured for the 'Immediate' usage model
 * When selecting a home location, the user should no longer be presented non-street addresses to select
 * Fixed duplicated booking email/TXT notifications
 * Added missing error message when sign-in email address was not recognized
-* Completed l10n of remaining dates, times, currencies, metrics etc
-
+* Completed l10n of remaining dates, times, currencies, metrics etc.
+* The 'Hourfleet' zap (on Zapier.com) is now fully configurable to work with any Hourfleet network. 
 
 ## 1.69.4 12/07/2018
 
