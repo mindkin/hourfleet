@@ -3,7 +3,7 @@ layout: default
 title: Release Notes
 ---
 
-## 1.70.0 Comming Soon
+## 1.70.0 (Comming Soon)
 
 This is a major release that introduces 'KeyExchange' bookings. That is, bookings without a carkit fitted in the car. In this release, car owners are now able to designate their vehicles as 'Key Exchange' (switch between 'Key Exchange' and 'Keyless'). Key Exchange defines a rental where physical car keys must be exchanged between borrowers and car owners, and the pick up and drop off of vehicles must be pre-arranged between the parties before and after using the car. The app now supports in-app conversations between the borrower and car owner during all stages of the booking process.
 Key Exchange is not available to cars configured for the 'Immediate' usage model.
