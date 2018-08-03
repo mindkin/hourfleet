@@ -3,7 +3,7 @@ layout: default
 title: Release Notes
 ---
 
-## 1.70.0 (Coming Soon)
+## 1.70.0 3/08/2018
 
 This is a major release that introduces 'KeyExchange' bookings. That is, bookings without a carkit fitted in the car.
 In this release, car owners are now able to designate their vehicles as 'Key Exchange' (switch between 'Key Exchange' and 'Keyless'). [Key Exchange](http://docs.hourfleet.com/howitworks.html#key-exchange) defines a rental where physical car keys must be exchanged between borrowers and car owners, and the pick up and drop off of vehicles must be pre-arranged between the parties before and after using the car. The app now supports in-app conversations between the borrower and car owner during all stages of the booking process.
