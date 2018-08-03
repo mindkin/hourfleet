@@ -5,31 +5,32 @@ title: Release Notes
 
 ## 1.70.0 3/08/2018
 
-This is a major release that introduces 'KeyExchange' bookings. That is, bookings without a carkit fitted in the car.
-In this release, car owners are now able to designate their vehicles as 'Key Exchange' (switch between 'Key Exchange' and 'Keyless'). [Key Exchange](http://docs.hourfleet.com/howitworks.html#key-exchange) defines a rental where physical car keys must be exchanged between borrowers and car owners, and the pick up and drop off of vehicles must be pre-arranged between the parties before and after using the car. The app now supports in-app conversations between the borrower and car owner during all stages of the booking process.
+This is a major release that introduces 'Key Exchange' to bookings. That is, bookings without a carkit fitted in the car.
+Car owners are now able to designate their vehicles as 'Key Exchange' (switch between 'Key Exchange' and 'Keyless'). 
+
+[Key Exchange](http://docs.hourfleet.com/howitworks.html#key-exchange) defines a rental model where physical car keys must be exchanged between borrowers and car owners, and the pick up and drop off of vehicles must be pre-arranged between those parties before and after renting the car. As a tool to facilitate the extra communication, the app now supports in-app conversations between the borrower and car owner during all stages of the booking process.
 Key Exchange is not available to cars configured for the 'Immediate' usage model.
 
 ### Improvements
 
-* Car owners can now select between 3 usage models: 'Scheduled - Key Exchange' (when no carkit is installed), 'Scheduled - Keyless', and 'Immediate - Keyless' when a carkit is installed.
+* Car owners can now select between 3 usage models: 'Scheduled - Key Exchange' (when no carkit is installed), 'Scheduled - Keyless', and 'Immediate - Keyless', but only when a carkit is installed. By default all cars are configured as 'Key Exchange'.
 * Car owners can disable the carkit (when it is installed) to permit the car to be used in 'Scheduled - Key Exchange', on a per booking basis.
-* Borrowers and car owners can now 'chat' in the app during the entire booking process (in any usage model).
-* When errors are captured in the web app, more error details can be viewed, so clues as to the origin of the issue, to aid error reporting.
-* Cars now become searchable and visible on the map (as 'Coming Soon) when the car owner has completed all registration details.
-* When cancelling a booking, a user now provides a reason for the cancellation.
-* Improvements to the 'My Bookings' page for borrowers and 'Manage Request' for both parties.
-* Major improvements to usability of managing verifications in the operators dashboard.
-* Gather a specific pre-canned reason when cancelling a scheduled booking, or rejecting an immediate booking.
+* Borrowers and car owners can now 'chat' in the app during the entire booking process (in all usage models).
+* When errors are seen in the web app, more error details can be revealed as to the origin of the issue, to aid in error reporting.
+* The criteria for cars to become searchable (and visible on the map as 'Coming Soon') has been relaxed to just requiring the car owner to complete all registration details. Whereas before, car owners also needed license plate and road worthiness verifications to be manually verified.
+* When cancelling a scheduled booking or rejecting a immediate booking, a user now needs to select a reason for the cancellation/rejection to help potential conflict resolution in Key Exchange.
+* There are several improvements to the 'My Bookings' page for borrowers, and 'Manage Request' for both parties.
+* There are several improvements to usability of managing verifications in the operators dashboard.
 
 ### Fixes
 
-* Pagination in the cars and users verifications page is now limited to the number of pages of the actual number of results available.
-* When selecting a home location, the user should no longer be presented non-street addresses to select.
-* Fixed duplicated booking email/TXT notifications.
-* Added missing error message when sign-in email address was not recognized.
+* Pagination in the verifications pages in operators dashboard is now limited to the number of pages of the actual number of results available.
+* When selecting a home location (or searching for a locaiton of a car) the user should no longer be presented non-street addresses to select.
+* Duplicated email/TXT notifications should no longer be sent to borrowers or car owners notifying upcomign or past events.
+* Fixed the missing error message when signing-in with an email address that was not recognized.
 * Completed l10n of remaining dates, times, currencies, metrics etc.
-* The 'Hourfleet' zap (on Zapier.com) is now fully configurable to work with any Hourfleet network.
-* Fixed the displaying of 'unknown' when requesting a car for a period greater than what is allowed.
+* The 'Hourfleet USer Notifications' zap (on Zapier.com) is now fully configurable to work with any Hourfleet network.
+* Fixed the displaying of 'unknown' when requesting a car for a period greater than what is allowed. A more user friendly representation of this condition is in use now.
 * Fixed a display bug in the 'Private Message' control which would show "CommentMessage" if a network was configured to support B2C
 * Fixed the displaying of multiple booking ranges on the 'Manage Booking' page once a booking has been returned or completed
 
