@@ -17,7 +17,7 @@ Key Exchange is not available to cars configured for the 'Immediate' usage model
 * When errors are captured in the web app, more error details can be viewed, so clues as to the origin of the issue, to aid error reporting.
 * Cars now become searchable and visible on the map (as 'Coming Soon) when the car owner has completed all registration details.
 * When cancelling a booking, a user now provides a reason for the cancellation.
-* Improved the usability of the 'My Bookings' page for borrowers.
+* Improvements to the 'My Bookings' page for borrowers and 'Manage Request' for both parties.
 * Major improvements to usability of managing verifications in the operators dashboard.
 * Gather a specific pre-canned reason when cancelling a scheduled booking, or rejecting an immediate booking.
 
