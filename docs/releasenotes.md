@@ -8,7 +8,7 @@ title: Release Notes
 ### Fixes
 
 * 'Last Updated' on Ops Verification Pages now updates after the call to get new verifications succeeds instead of before
-* Fixed a display bug that causes the a differnet cars details to change when taking a car offline/online on the 'My Cars' page
+* Fixed a display bug that causes a different car's details to change when taking a car offline/online on the 'My Cars' page
 * Only show the borrower cancellation reasons if an owner is borrowing their own car and cancelling
 * Only show the Key Exchange usage option unless a car has its carkit registered by the network
 * Coming Soon pins are shown on the search page
