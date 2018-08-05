@@ -1,15 +1,8 @@
 ---
 layout: default
-title: Information & Security
+title: Data & Security Policy
 ---
- 
-TODO: 
-* where the tenandata is kept
-* what security measures are in place
-* how to access tenants datats 
-* data rentention
-* backup
-* PCI compliance
-* Password storage protection
-* Data sovereignty
-link to privacy policy
+
+Topics: 
+* Data Location. Where the tenant data is kept?, and what policies, infrastructure manages it
+* Data encryption in transit. What protocols and confidentiality do we deploy? platform and carkits?
