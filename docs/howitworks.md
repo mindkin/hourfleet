@@ -24,7 +24,7 @@ This web app has to look and feel like your business, and has to integrate seaml
 
 ## The Hourfleet Web App
 
-As a tenant on the Hourfleet platform, we give you your own branded web app that will look and feel like your website and landing pages, and the app will manage the navigation between them so that your users feel comfortable moving around from your existing website into and out of the Hourfleet web app depending on what they are doing at any one time. To your users, the experience will be seamless. However, to the observant types, in actual fact, the Hourfleet web app will be hosted for you at a different URL than your website. For example, your website might be at http://yourcompany.io, but your Hourfleet web app will be at: **https:\/\/\<yourcompany\>.hourfleet.com**
+As a tenant on the Hourfleet platform, we give you your own branded web app that will look and feel like your website and landing pages, and the app will manage the navigation between them so that your users feel comfortable moving around from your existing website into and out of the Hourfleet web app depending on what they are doing at any one time. To your users, the experience will be seamless. However, to the observant types, in actual fact, the Hourfleet web app will be hosted for you at a different URL than your website. For example, your website might be at http://yourcompany.io, but your Hourfleet web app will be at: **https://<yourcompany\>.hourfleet.com**
 
 You can see from the example image below, for the car sharing network **Roam**. The site of the left is the existing Roam website (http://roamride.co.nz), and the site on the right is the Hourfleet web app for Roam (https://roamride.hourfleet.com). Both sites work together to give a full experience for Roam's customers.
 
@@ -43,7 +43,7 @@ You can see from the example image below, for the car sharing network **Roam**. 
   - [Carkit Management](#carkit-management)
 - [Listing Cars](#listing-cars)
 - [Borrowing Cars](#borrowing-cars)
-  - [Usage Models](#usage-models)
+  - [Usage Models](#car-usage-models)
 - [Cloud Hosted Environment](#cloud-hosted-environment)
 
 ## Web App Integration
@@ -250,7 +250,7 @@ Once a car is listed, there is quite a rigorous process by the car owner and the
 
 ### Available Cars
 
-<<screens shot of a pin, and search result>>
+![Available Results](images/search_results_available.png)
 
 Just listing a car is not enough for it to be seen on the map to be rented by borrowers. The car must be fully registered and verified and the car owner must have defined some future availability for the car first.
 
@@ -267,11 +267,13 @@ Only when the above requirements are met, will the car appear in the search resu
 
 ### Unavailable Cars
 
+![Unavailable Results](images/search_results_unavailable.png)
+
 Cars that meet the above requirements but they have no availability set or any availability for the search period.
 
 ### Coming Soon Cars
 
-<<screen shot of a Coming Soon pin, and results>>
+![Coming Soon Results](images/search_results_coming.png)
 
 Cars that do not meet all the above requirements, but that are fully registered (The app displays green ticks and checklists to help you see what is still missing here), will appear in the search results (and on the map) as 'Coming Soon', but cannot be booked or used.
 
@@ -385,8 +387,6 @@ This diagram illustrates the timings and limits involved in using a car and comp
 
 #### Keyless Access
 
-<<screenshot of the keyless device>>
-
 For cars that support Keyless access, borrowers must walk up to where the car is located, and from their smartphone, in the Hourfleet app, they start their 'booking' (Scheduled) or 'rental' (Immediate) to open the car. Once inside the car, there will be a 'Start' button on the dashboard to start the car and drive it away.
 
 While they have the car the app will display their location on a map and shows them where to return the car when they are done. The app also keeps track of the usage time, costs, and fees for them. 
@@ -406,8 +406,6 @@ The car owner is notified of all the steps of the booking/rental process. At the
 During the whole process, there is an opportunity for the borrower and car owner to communicate directly, on any issues.
 
 #### Key Exchange
-
-<<screenshot of hands exchanging keys>>
 
 For cars that do not support keyless access, the borrower and car owner will need to make physical arrangements to exchange car keys.
 
