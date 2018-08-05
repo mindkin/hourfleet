@@ -268,6 +268,7 @@ Only when the above requirements are met, will the car appear in the search resu
 ### Unavailable Cars
 
 ![Unavailable Results](images/search_results_unavailable.png)
+
 Cars that meet the above requirements but they have no availability set or any availability for the search period.
 
 ### Coming Soon Cars
