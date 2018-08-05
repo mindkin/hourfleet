@@ -267,11 +267,15 @@ Only when the above requirements are met, will the car appear in the search resu
 
 ### Unavailable Cars
 
+Cars that meet the above requirements but they have no availability set or any availability for the search period.
+
+### Coming Soon Cars
+
 <<screen shot of a Coming Soon pin, and results>>
 
 Cars that do not meet all the above requirements, but that are fully registered (The app displays green ticks and checklists to help you see what is still missing here), will appear in the search results (and on the map) as 'Coming Soon', but cannot be booked or used.
 
-> Note: At any time, any of the car's verifications and any of the car owners' verifications may become unverified (some are time based, some are action based - see [Verifications](#verifications) for more details), at which point the car becomes unavailable, and disappears from the list of 'available' cars in search results (still visible on the 'unavailable' cars in search results.
+> Note: At any time, any of the car's verifications and any of the car owners' verifications may become unverified (some are time based, some are action based - see [Verifications](#verifications) for more details), at which point the car disappears from the list of 'available' cars in search results (still visible on the 'unavailable' cars in search results.
 
 For car owners (P2P or B2C), it is imperative that they get themselves and their cars verified, and stay verified if the cars are to be used.
 
