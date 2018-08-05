@@ -3,6 +3,16 @@ layout: default
 title: Release Notes
 ---
 
+## 1.70.1 6/08/2018
+
+### Fixes
+
+* 'Last Updated' on Ops Verification Pages now updates after the call to get new verifications succeeds instead of before
+* Fixed a display bug that causes the a differnet cars details to change when taking a car offline/online on the 'My Cars' page
+* Only show the borrower cancellation reasons if an owner is borrowing their own car and cancelling
+* Only show the Key Exchange usage option unless a car has its carkit registered by the network
+* Coming Soon pins are shown on the search page
+
 ## 1.70.0 3/08/2018
 
 This is a major release that introduces 'Key Exchange' to bookings. That is, bookings without a carkit fitted in the car.
