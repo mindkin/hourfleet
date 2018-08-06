@@ -1,4 +1,4 @@
 # http://docs.hourfleet.com
-Any Network. Any Location. One Platform.
+Any car, any driver, one sharing platform.
 
 This site provides the documentation for network operators on the hourfleet platform.
