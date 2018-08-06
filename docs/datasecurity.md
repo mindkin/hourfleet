@@ -5,29 +5,29 @@ title: Data & Security Policies
 
 This policy is applied to security and data protection supplied by the Hourfleet platform for data that is managed for the platform and for any data managed on behalf of all Hourfleet network operators.
 
-# Overview 
+# Data & Security Policy 
 
-The Hourfleet platform is composed of a number of HTTP services and worker processes hosted in the cloud. Hourfleet's customers and their end-users, as well as devices, applications and user agents send data over the internet by using any HTTP client. 
+The Hourfleet platform is composed of a number of HTTP services and worker processes hosted in the cloud, or devices deployed into cars. Hourfleet's customers and their end-users, as well as devices, applications and user agents all send data over the internet by using any HTTP client. 
 
-All data is confidential, and is encrypted end to end in transit over secure TLS protocol using HTTPS. 
+All data is confidential, and is encrypted end to end in transit over secure TLS protocol using HTTPS.
 
-All data that flows between any client and Hourfleet is destined either for the use of the Hourfleet platform (eg. for configuration, management or auditing purposes) or for the use of each tenant on the Hourfleet platform (eg. for car sharing or customer data).
+All data that flows between any client and Hourfleet is destined either for the use of the Hourfleet platform (eg. for operation, configuration, management or auditing purposes) or for the use of each tenant on the Hourfleet platform (eg. for car sharing or customer data for operating a car sharing business).
 
-All data bound for use by any tenant is stored in dedicated services, in one or more geographical regions of the Microsoft Azure Cloud.
+Customers of Hourfleet that license the Hourfleet platform become tenants operating on the Hourfleet platform.
 
 # Data Protection
 
 ### Data Stores
 
-Each Hourfleet tenant has deployed a *dedicated* data store (Azure Storage Account) provisioned for it (in the Microsoft Azure cloud) in a geographic region of the tenants choice. This means that each tenant on the Hourfleet platform has a physically separate data store that is secured by unique access keys only accessible by that tenant, in order to limit any security breaches of any single tenant.
+Each Hourfleet tenant will have deployed a *dedicated* data store (Azure Storage Account) provisioned for it (in the Microsoft Azure cloud) in a geographic region of the tenants choice. This means that each tenant on the Hourfleet platform has a physically separate data store that is secured by unique access keys only accessible by that tenant, in order to limit any security breaches of any single tenant.
 
->  Azure Table Storage, Azure Queue Storage and Azure Blob Storage are not centralized databases like say: SQL Server, but rather a distributed data service, that maintains very high scalability and availability.
+>  Azure Table Storage, Azure Queue Storage and Azure Blob Storage are not centralized databases like say: SQL Server, but rather a distributed data service, that maintains very high scalability and availability in of themselves.
 
-The primary region for the tenancy will be located closest to the main volume of end-users for that tenancy. The choice is typically influenced by the need to reduce network latency between the end users agents and the Hourfleet platform.
+The primary region for the tenancy will be located closest to the main volume of end-users for that tenancy. The choice is largely influenced by the need to reduce network latency between the end users agents and the Hourfleet platform.
 
-The data stored in the primary region is replicated in a secondary region, generally close to the primary region. See Azure documentation for more details on [GRS cross-regional replication](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-grs).
+The data stored in the primary region is replicated in a secondary region, generally adjacent to or close to the primary region. See Azure documentation for more details on [GRS cross-regional replication](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-grs).
 
-All access to all data stored in any Azure Storage Account will be securely encrypted via HTTPS, and limited to direct access only by components in the Hourfleet architecture. Access Keys to this storage account are also stored in physically separate key vaults. See [Secrets](#Secrets) below. Direct access to these data stores is permitted to Hourfleet support staff.
+All access to all data stored in any Azure Storage Account will be securely encrypted via HTTPS, and limited to direct access only by services in the Hourfleet architecture. Access Keys to this storage account are also stored in physically separate key vaults. See [Secrets](#Secrets) below. Direct access to these data stores is permitted via HTTPS to Hourfleet support staff.
 
 All transactional data for the purposes of managing a tenants car sharing network will be stored in these Data Stores.
 
@@ -37,7 +37,7 @@ Hourfleet uses numerous caches at various layers in its architecture for storing
 
 There will be a single dedicated in-memory cache provider (Redis Server) per geographic region, shared by all tenants in residence in that region.
 
-All access to all data stored in Redis will be securely encrypted via HTTPS, and limited to direct access by only components in the Hourfleet architecture. Access Keys to this caching service are also stored in physically separate key vaults. See [Secrets](#Secrets) below. Direct access to these data stores is permitted to Hourfleet support staff.
+All access to all data stored in Redis will be securely encrypted via HTTPS, and limited to direct access by only components in the Hourfleet architecture. Access Keys to this caching service are also stored in physically separate key vaults. See [Secrets](#Secrets) below. Direct access to these data stores is permitted via HTTPS to Hourfleet support staff.
 
 ### Configuration
 
@@ -45,7 +45,7 @@ Hourfleet manages a vast collection of configuration for numerous tenants in a s
 
 These configuration sets are stored in a separate data store dedicated to the Hourfleet platform only. There is no access to this store from any tenant on the platform. Direct access to these data stores is permitted to Hourfleet support staff.
 
-All access to all data stored in this dedicated Azure Storage Account will be securely encrypted via HTTPS, and limited to direct access by only components in the Hourfleet architecture. Access Keys to this storage account are also stored in a platform dedicated Azure Key Vault. See [Secrets](#Secrets) below. Direct access to these data stores is permitted to Hourfleet support staff.
+All access to all data stored in this dedicated Azure Storage Account will be securely encrypted via HTTPS, and limited to direct access by only components in the Hourfleet architecture. Access Keys to this storage account are also stored in a platform dedicated Azure Key Vault. See [Secrets](#Secrets) below. Direct access to these data stores is permitted via HTTPS to Hourfleet support staff.
 
 ### Secrets
 
@@ -57,7 +57,7 @@ Hourfleet stores all secrets in dedicated Azure Key Vaults. Data stored in an Az
 
 Each tenant within a geographic region will have provisioned for it a *dedicated* Azure Key Vault in order to limit any security breaches of any single tenant. There is also a dedicated Key Vault for the platforms own exclusive use.
 
-All access to Azure Key Vault will be secured via HTTPS. All access to all secrets by Hourfleet is limited to read-only access to all secrets and keys, from a dedicated account specific to the specific tenant. Direct access to these data stores is permitted to Hourfleet support staff.
+All access to Azure Key Vault will be secured via HTTPS. All access to all secrets by Hourfleet is limited to read-only access to all secrets and keys, from a dedicated account specific to the specific tenant. Direct access to these data stores is permitted via HTTPS to Hourfleet support staff.
 
 ### Access to Tenancy Data
 
