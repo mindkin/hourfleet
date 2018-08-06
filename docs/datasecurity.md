@@ -77,7 +77,7 @@ Tenant Transactional Data - TODO
 
 Tenant Transient Data (Cached Data) - TODO
 
-## Personally Identifiable Data (PII)
+## Personally Identifiable Information (PII)
 
 Hourfleet captures, transports and stores PII data in various forms.
 
@@ -91,7 +91,13 @@ Examples of PII data are:
 * Certificates of road worthiness
 * Car license number plates and VIN numbers
 
-TODO
+All PII data is captured and transported securely, and stored in secure data repositories specific to the tenant where the data was captured.
+
+Hourfleet must sanitize all PII data returned from all API responses so that this confidential infromation is not inadvertantly revealed unintentionally to any external party, except the owner of the PII data, or a trusted recipient of that data. 
+
+For example, if a user requests their own profile from Hourfleet, the response from Hourfleet may contain certain PII data of theirs (i.e. their email address). However, if a user requests another users' profile, all unnecessary PII data is removed from the response. 
+
+> Note: In some cases, certain PII data must be shared between certain users in certain circumstances. For example, the email address and phone number of a car owner might need to be shared with the borrower of their car for the purposes of directly contacting them in an emergency situation while using the car. Hourfleet, ensures that this data is kept confidential between these parties. 
 
 ### PCI Compliance
 
