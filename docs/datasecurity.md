@@ -75,13 +75,13 @@ Tenants will not be permitted to change, update, delete or otherwise alter the d
 
 Upon the creation of an Hourfleet tenancy, various Azure components are automatically provisioned and configured. Each of these components has a separate data retention policy applied to it.
 
-Platform Data - With the exception of data stored for individual tenants, all other data will be retained for as long as the platform operates in any specific geograhic region. Tenant specific data (ie. network configuration settings) will be retained for as long as the network remains on the platform.
+Platform Data - With the exception of data stored for individual tenants, all other data will be retained for as long as the platform operates in any specific geographic region. Tenant specific data (i.e. network configuration settings) will be retained for as long as the network remains on the platform.
 
-Tenant Transactional Data - Tenant specific data will be retained for as long as the network remains on the platform.
+Tenant Transactional Data - Tenant specific data (including all car sharing data, user accounts, audits, logs etc.) will be retained for as long as the network remains on the platform.
 
 Cached Tenant Data - Any tenant specific cached data required while operating the tenants network, will be retained for as long as the network remains on the platform, or until it expires and is automatically removed from the caches.
 
-## Personally Identifiable Information (PII)
+## Personally Identifiable Information
 
 Hourfleet captures, transports and stores PII data in various forms.
 
@@ -99,7 +99,7 @@ All PII data will be captured and transported securely, and will be stored secur
 
 Hourfleet must sanitize all PII data returned from all API responses so that this confidential information is not inadvertantly revealed unintentionally to any external party, except the owner of the PII data or a trusted recipient of that data for the purposes of operating the car sharing network. 
 
-For example, if a user requests their own user profile from Hourfleet, the response from Hourfleet may contain certain PII data of theirs (i.e. their email address, drivers license). However, if a user requests another users' profile, all unnecessary PII data will be removed from the response. 
+For example: if a user requests their own user profile from Hourfleet, the response from Hourfleet may contain certain PII data of theirs (i.e. their email address, drivers license). However, if a user requests another users' profile, all unnecessary PII data will be removed from the response. 
 
 > Note: In some cases, certain PII data must be shared between certain users in certain circumstances during normal operations. For example, the email address and phone number of a car owner might need to be shared with the borrower of their car for the purposes of directly contacting them in an emergency situation while using the car. Hourfleet, ensures that this data is kept confidential between these parties. 
 
@@ -109,14 +109,14 @@ Hourfleet is **not** [Payment Card Industry Data Security Standards](https://www
 
 Hourfleet **does not** directly capture nor store credit card information provided by any user.
 
-Hourfleet will integrate with and delegate to trusted payment providers such as [Stripe.com](www.stripe.com) to gather and store credit card information on behalf of all users of the platform.
+Hourfleet will integrate with, and delegate to, trusted payment providers such as [Stripe.com](www.stripe.com) to gather and store credit card information on behalf of all users of the platform. Hourfleet will instruct those payment providers to manage and charge all users credit cards.
 
 
 # Auditing
 
 The Hourfleet platform has been designed for operational monitoring, with a built in capability for detailed diagnostics, and reporting.
 
-All activities in the Hourfleet platform that result in any change in state of *any* data will be logged and stored permanently.
+All activities in the Hourfleet platform that result in any change in state of *any* data will be logged and those logs stored according to the data retention policy for logs.
 
 Many business critical activities (such as: registering new users, booking cars, etc.) will also be audited separately and stored historically to prevent future repudiation by the initiating party. 
 
@@ -126,42 +126,80 @@ Any faults or crashes that are experienced by any tenant on the platform and by 
 
 Depending on the source of the information, this logged data will either be stored in the tenancy storage where the activity took place, or in platform storage (i.e. crash reports, performance counters etc.) or both.
 
-TODO
-
-- Independent Assessments results or certifications. 
-
-  * Arrangements for 3rd party agreed auditing?
-
 # Authentication and Administration
 
+Access to all APIs in the Hourfleet backend will be secured via HTTPS.
 
+Access to all API's that identify a specific user will be secured with an OAuth2 bearer token, that contains an OAuth2 `access_token`. The access token will provide the mechanism to identify the user, and the claims that the user has to the entire system. This token must be validated and the contained claims authorized for all access.
 
-TODO
+## Account Provisioning
 
-- Authentication
-- Account Provisioning
-- Account Access Termination
-- Passwords Policy - eg. length, complexity, reuse etc.
-- Account Lockout Policy
-- Password Reset Policy
+All users on the Hourfleet platform will have a registered account, and that account will be secured with a username and password.
+
+User accounts, and passwords will be stored in the data store of each tenancy on the platform.
+
+Authentication of a user account will be performed by the Hourfleet platform using any of the [OAuth2 authorizations flows](https://oauth.net/2/grant-types/) (i.e. Authorization Code Flow, Resource Owner Password Credentials Flow, etc.).
+
+## Account Access Termination
+
+Upon written request from an end-user, a users account will terminated. The users account will be permanently disabled, and any profile information stored for that user will be erased (or replaced with non-personally identifiable values). The user account will remain permanently retained as long as the tenant remains on the platform.
+
+## Password Policy
+
+All passwords will meet the following policy:
+
+* Must be no less than 8 characters in length, and no more than 160 characters in length.
+* Can contain: any number, any letter, spaces and any of the following common characters:``~!@#$%:&*()-+={}[]|:;'"<,>.?/`
+* Upon reset of a password, the new password cannot be teh same as the previous password.
+
+## Password Reset Policy
+
+As the Hourfleet platform gathers and stores many forms of personally identifiable information, (See [Personally Identifiable Information](#Personally-Identifiable-Information)) it must take appropriate steps to protect that data for all users.
+
+>  Note: Often times, attackers target the 'password reset' back door as an easier way to gain access to users account, because often, the 'back door' is easier to get through than the 'front door'.
+
+The password reset process for Hourfleet must be more rigorous and *adaptive* depending on what PII data is actually stored for any specific users account.
+
+> For example: If all the Hourfleet platform stores for a user is their *email address*, then verifying that the user owns that email address is a reasonable precondition for authenticating that they own the Hourfleet account for which they are attempting to reset the password for. However, if the platform stores more sensitive PII data stored for the user, then just authenticating the user based upon their email address is not sufficient protection.
+
+At a minimum, for user accounts that only have *email address* captured (the minimum PII data needed to create an account on the Hourfleet platform) the password reset process must challenge that the user is the owner of the email address. This will be done by sending a password reset link in an email to that address.
+
+For user accounts that hold more PII data, the password reset process must go much further to challenge the user to verify a subset of their stored PII data, in order to reset their password. This question-answer process will also start with an email challenge as the first step in the process. Following that, the user will be asked to provide confirmation of existing PII they already have provided the platform, until the user has provided sufficient evidence that they own the account.
+
+The password reset process will time-bombed from the moment it starts to completion. i.e the password rest process must complete within a reasonable period of time once initiated. eg. 30 mins.
+
+A user must have no more than **4** failed attempts to answer all challenges, after which their account will become locked out.
+
+## Account Lockout Policy
+
+All Hourfleet user accounts can become permanently or temporarily locked out. During that time, the user will not gain any access to the platform.
+
+The user's account will become permanently locked out if either the network operator manually locks them out or if they initiate and fail to reset their password successfully.
+
+A users account will become temporarily locked out for **5** mins if they fail to authenticate with their credentials (username/password) more than **5** times.
 
 # Disaster Recovery
 
-* DR processes
-  * Storage outages: https://docs.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery-guidance
-  * Redis: its a cache, if it goes down, the data can be rebuilt any time after it comes back up. The impact is only to performance of the system.
-  * Azure Key Vault outages: https://docs.microsoft.com/en-us/azure/key-vault/key-vault-disaster-recovery-guidance
-* Backups
-* SLA, RTO and RPO
+Hourfleet is built upon the Azure Cloud platform, and its main system components are built upon commonly available services provided by Azure.
 
+The following Azure components will each have their own DR processes:
 
+* Tenant Storage Accounts:
+  * Replication: All tenant storage accounts will be replicated across two regions using [GRS replication](https://docs.microsoft.com/en-nz/azure/storage/common/storage-redundancy-grs) 
+* Azure Key Vault:
+  * Replication: All tenant secrets will be replicated across two regions using [Azure Key Vault replication](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-disaster-recovery-guidance)
+* Redis Cache:
+  * There is no requirement for the caches to be replicated for high availability. If the cache is unavailable a degradation in performance is experienced during teh outage, but the platform must continue to operate. The cache will be rebuilt automatically and performance will be restored when the cache is brought back up.
 
 # Incident Response
 
-* Notification process of security incidents/breaches
-* The process, the SLA
+The current and historical availability of the Hourfleet platform is displayed at: https://status.hourfleet.com, where subscribers can opt in to watch a change in status.
 
+When an outage is detected, the status of the platform and its various sub systems will be updated to reflect the incident.
 
+The incident will be updated as soon as the status changes, and at least once after 60mins, then at least once every full day the incident is still active.
+
+After the incident is closed, within a reasonable timeframe a post mortem will e performed and communicated on the incident at: https://status.hourfleet.com
 
 # References
 
@@ -169,4 +207,4 @@ Terms of Service
 
 Privacy Policy
 
-Service Level Agreement
+Service Level Agreements
