@@ -11,9 +11,19 @@ But that is not all. There are 100's of apps that you can connect together!
 
 ## Hourfleet and Zapier
 
-Hourfleet supports Zapier! so that means you can now get information about your car sharing network by connecting Hourfleet to your favourtie apps using Zapier zaps of your own!
+Hourfleet supports Zapier! so that means you can now easily get information about your car sharing network by connecting Hourfleet to your favourtie apps using Zapier zaps of your own! No coding required.
 
-> NOTE: At the moment, you can only get notified when the users of your network are notified of key events in Hourfleet, like when they join your network, or when they reserve or book a car.
+> NOTE: At the moment, you can only get notified when the users of your network are notified (via email or SMS) of key events in Hourfleet, like when they join your network, or when they reserve or book a car.
+
+If you setup a zapier zap (as detailed below), you can hook into Hourfleet's notification events.
+
+This is how it works:
+
+* Every 15 mins Zapier calls your tenancy on Hourfleet and asks if there are any new notifications.
+* Zapier gathers these new notifications from Hourfleet and then executes your zap, passing it all the notifications that have changed since the last time it checked.
+* Assuming that you had created a zap that connected Hourfleet to another app, like Slack (as in the walkthrough below), those new notifications would then appear in your selected Slack channel.
+
+# Creating a Zap
 
 This is how you can set Zapier.com up to notify you through one of your favourite apps, like Slack, etc.
 
@@ -22,8 +32,6 @@ This is how you can set Zapier.com up to notify you through one of your favourit
 But don't worry, even if you don't use Slack as your messaging app, and you use another app like Intercom or just Email, you can also get notified in the same way (as long as Zapier supports your app). 
 
 Just follow the steps below, and select the app of your choice, the rest is very similar, and within no time you will be up and running.
-
-# Creating a Zap
 
 ## Step 0: Login to Zapier
 
