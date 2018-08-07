@@ -218,8 +218,8 @@ EventType | Should always be "UserNotification"
 EventCreatedDateUtc | The time the event was raised (UTC)
 Description | Should always be the same as the EventId
 Context.XXX | where XXX represents one of the *field* names in the table below, depending on the EventId
---- | ---
 EmailAddress | Email address where the notification was sent
+--- | ---
 
 ## Event Specific Fields
 
