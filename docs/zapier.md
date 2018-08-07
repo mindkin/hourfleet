@@ -19,8 +19,8 @@ If you setup a zapier zap (as detailed below), you can hook into Hourfleet's not
 
 This is how it works:
 
-* Every 15 mins Zapier calls your tenancy on Hourfleet and asks if there are any new notifications.
-* Zapier gathers these new notifications from Hourfleet and then executes your zap, passing it all the notifications that have changed since the last time it checked.
+* Every 15 mins Zapier calls Hourfleet and asks if there are any new notifications for your network.
+* Zapier gathers any new notifications from Hourfleet and then executes your zap, passing it all the notifications that have changed since the last time it checked.
 * Assuming that you had created a zap that connected Hourfleet to another app, like Slack (as in the walkthrough below), those new notifications would then appear in your selected Slack channel.
 
 # Creating a Zap
