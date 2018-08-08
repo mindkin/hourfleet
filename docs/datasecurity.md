@@ -166,7 +166,7 @@ At a minimum, for user accounts that only have *email address* captured (the min
 
 For user accounts that hold more PII data, the password reset process must go much further to challenge the user to verify a subset of their stored PII data, in order to reset their password. This question-answer process will also start with an email challenge as the first step in the process. Following that, the user will be asked to provide confirmation of existing PII they already have provided the platform, until the user has provided sufficient evidence that they own the account.
 
-The password reset process will time-bombed from the moment it starts to completion. i.e the password rest process must complete within a reasonable period of time once initiated. eg. 30 mins.
+The password reset process will time-bombed from the moment it starts to completion. The password reset process must complete within a reasonable period of time once initiated. No less than 15mins, no more than 60mins.
 
 A user must have no more than **4** failed attempts to answer all challenges, after which their account will become locked out.
 
