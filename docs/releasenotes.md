@@ -3,6 +3,20 @@ layout: default
 title: Release Notes
 ---
 
+## 1.70.2 9/08/2018
+
+## Improvements
+
+* (Zapier integration) Added 'EmailAddress' field to all user notifications
+* (Zapier integration) Added 'booking.requesteddate' field to all user notifications for bookings
+
+### Fixes
+
+* Added confirmation to complete booking if the booking is not yet returned
+* Fixed error in app when trying to extend abooking past the max duration of a booking for that car
+* Fixed bug with users not being able to login after changing their email address
+* Fixed mixed locales being used for formatting dates in user notifications
+
 ## 1.70.1 6/08/2018
 
 ### Fixes
