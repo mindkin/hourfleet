@@ -3,6 +3,12 @@ layout: default
 title: Release Notes
 ---
 
+## 1.71.0 15/08/2018
+
+## Improvements
+
+* Added a notification message for borrower (217) and car owner (218) to notify them that teh car has not yet returned in the app by the time of the scheduled end of the booking. 
+
 ## 1.70.2 9/08/2018
 
 ## Improvements
