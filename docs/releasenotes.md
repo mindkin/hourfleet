@@ -5,18 +5,18 @@ title: Release Notes
 
 ## 1.71.1 15/08/2018
 
-## Improvements
+### Improvements
 
 * Added a notification message for borrower (217) and car owner (218) to notify them that the car has not yet returned in the app by the borrower by the time of the scheduled end of the booking.
 
-# Fixes
+### Fixes
 
 * Fixed missing `booking.returneddate` substitution in 'complete booking' (208, 209) notifications when forced completed.
 * Fixed crash when Redis cache throws an error 
 
 ## 1.70.2 9/08/2018
 
-## Improvements
+### Improvements
 
 * (Zapier integration) Added 'EmailAddress' field to all user notifications
 * (Zapier integration) Added 'booking.requesteddate' field to all user notifications for bookings
