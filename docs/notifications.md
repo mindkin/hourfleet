@@ -658,3 +658,24 @@ This notification is sent to the *Car Owner* after the *Borrower* has extended t
 
 **SMS**
 > The rental of your '%car.name%' by %borrower.name% has been extended to start at %booking.startdate% and end at %booking.enddate%. See %booking.url%
+
+
+### Booking Not returned (Borrower)
+###### ID: 217
+This notification is sent to the *Borrower* when the *Borrower* has has not returned their booking before the end of the scheduled booking period.
+
+**Email**
+![EmailPreview](images/EmailPreviews/bookingNotReturned_borrower.PNG)
+
+**SMS**
+> Your booking for '%car.name%' needed to be returned by %booking.enddate%. Please return ASAP. See %booking.url%
+
+### Booking Not returned (Car Owner)
+###### ID: 218
+This notification is sent to the *Car Owner* when the *Borrower* has has not returned their booking before the end of the scheduled booking period.
+
+**Email**
+![EmailPreview](images/EmailPreviews/bookingNotReturned_carowner.PNG)
+
+**SMS**
+> The rental of your '%car.name%' by %borrower.name% was not returned on time. See %booking.url%
