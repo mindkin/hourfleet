@@ -269,6 +269,24 @@ These settings decide how your car sharing business will actually function. mode
 	        "Settings":{
 		    "Cars":{
 		        "Types":["Car","SUV","Minivan","Truck"] //A list of vehicle types that are supported on the network
+			"Licenses":{
+				"Jurisdictions":{
+					"Primary": "New Zealand" // The default jurisdiction for car license plates
+					"Allowed": [
+						"New Zealand" // Allowable jurisdictions for car license plates
+					]
+				}
+			}
+		    },
+		    "Drivers":{
+		    	"Licenses":{
+				"Jurisdictions":{
+					"Primary": "New Zealand" // The default jurisdiction for drivers license plates
+					"Allowed": [
+						"New Zealand" // Allowable jurisdictions for drivers license plates
+					]
+				}
+			}
 		    },
 		    "Carkits":{
 		        "IsSupported": true, // Do you want to support Keyless access on your network? or support only KeyExchange?
