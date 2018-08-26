@@ -3,6 +3,18 @@ layout: default
 title: Release Notes
 ---
 
+## 1.72.0 Comming Soon
+
+### Improvements
+
+* Added rate limits to all API's, and critical security related API's
+* Localised the driver license to the specific network, and allowed networks to define the jurisdictions of licenses it accepts.
+
+### Fixes
+
+* Replaced example dates used in validation messages for DOB and other dates to show an example of single digit entry for the day and the month to clarify what format is supported.
+* Fixed display of criminal convictions in the verifications page for a user, and added a visual indicator of whether the user had declared a criminal conviction or not.
+
 ## 1.71.1 15/08/2018
 
 ### Improvements
