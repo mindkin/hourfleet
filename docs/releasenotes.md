@@ -3,7 +3,7 @@ layout: default
 title: Release Notes
 ---
 
-## 1.72.0 Comming Soon
+## 1.72.0 Coming Soon
 
 ### Improvements
 
