@@ -3,7 +3,7 @@ layout: default
 title: Release Notes
 ---
 
-## 1.72.0 Coming Soon
+## 1.72.0 27/08/2018
 
 ### Improvements
 
@@ -12,8 +12,8 @@ title: Release Notes
 
 ### Fixes
 
-* Replaced example dates used in validation messages for DOB and other dates to show an example of single digit entry for the day and the month to clarify what format is supported.
-* Fixed display of criminal convictions in the verifications page for a user, and added a visual indicator of whether the user had declared a criminal conviction or not.
+* Replaced example dates used in validation messages (i.e. for DOB) to show an example of single digit entry for the day and the month to clarify what format is required for entry.
+* Fixed incorrect display of criminal convictions in the verifications page for a user, and added a visual indicator of whether the user had declared a criminal conviction or not.
 
 ## 1.71.1 15/08/2018
 
