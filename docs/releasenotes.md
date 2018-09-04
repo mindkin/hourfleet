@@ -3,6 +3,12 @@ layout: default
 title: Release Notes
 ---
 
+## 1.73.0 4/09/2018
+
+### Fixes
+
+* Fixed operator dashboard metric calculations for 'InUse' vehicles
+
 ## 1.72.0 27/08/2018
 
 ### Improvements
