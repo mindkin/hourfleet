@@ -3,6 +3,12 @@ layout: default
 title: Release Notes
 ---
 
+## 1.74.0 5/09/2018
+
+### Fixes
+
+* Fixed operator dashboard metric calculations for 'Unverified' cars and users
+
 ## 1.73.0 4/09/2018
 
 ### Fixes
