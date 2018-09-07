@@ -3,6 +3,13 @@ layout: default
 title: Release Notes
 ---
 
+## 1.75.0 7/09/2018
+
+### Fixes
+
+* Fixed operator dashboard metric calculations for 'Became Unverified' cars and users
+* Increased the cache time to live, which shoudl speed up time to navigate data on pages
+
 ## 1.74.0 5/09/2018
 
 ### Fixes
