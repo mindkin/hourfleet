@@ -7,7 +7,7 @@ title: Release Notes
 ### Improvements
 
 * Several improvements to how dates and times are managed for the user both when booking a car and also for the car owner managing car availability: 
-    * For borrowers (makign a booking):
+    * For borrowers (making a booking):
         * When selecting a start date beyond the end date, then end date is adjusted ahead of the start date by an hour.
         * When selecting the same value for the start and end date, the end date is adjusted ahead of the start date by an hour.
     * For car owners (managing availability for a car):
