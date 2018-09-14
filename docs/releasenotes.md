@@ -7,10 +7,12 @@ title: Release Notes
 ### Improvements
 
 * Several improvements to how dates and times are managed for the user both when booking a car and also for the car owner managing car availability: 
-    * For borrowers:
+    * For borrowers (makign a booking):
         * When selecting a start date beyond the end date, then end date is adjusted ahead of the start date by an hour.
-    * For car owners:
+        * When selecting the same value for the start and end date, the end date is adjusted ahead of the start date by an hour.
+    * For car owners (managing availability for a car):
         * When selecting a start date beyond the end date, then end date is adjusted ahead of the start date by an hour.
+        * When selecting the same value for the start and end date, the end date is adjusted ahead of the start date by an hour.
         * Initially, the rest of the current day is pre-selected to be added, and is visualised in the calender. 
         * When switching to 'All Day', the next day is automatically selected. 
         * When changing a new date, it is visualised in the calendar. The current time is visualised in the calendar. 
