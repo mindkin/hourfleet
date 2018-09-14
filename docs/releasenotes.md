@@ -2,13 +2,28 @@
 layout: default
 title: Release Notes
 ---
+## 1.76.0 Coming Soon
+
+### Improvements
+
+* Several improvements to how dates and times are managed for the user both when booking a car and also for the car owner managing car availability: 
+    * For borrowers:
+        * when selecting a start date beyond the end date, then end date is adjusted ahead of the start date by an hour.
+    * Additionally, for car owners:
+        * initially, the rest of the current day is pre-selected to be added, and is marked in the calender. 
+        * When switching to 'All Day', the next day is automatically selected. 
+        * When changing a new date, it is visualised in the calendar. The current time is visualised in the calendar. 
+
+### Fixes
+
+* Fixed refreshing of availabilities once a booking by a borrower has been made.
 
 ## 1.75.0 7/09/2018
 
 ### Fixes
 
 * Fixed operator dashboard metric calculations for 'Became Unverified' cars and users
-* Increased the cache time to live, which shoudl speed up time to navigate data on pages
+* Increased the cache time to live, which should speed up time to navigate data on pages
 
 ## 1.74.0 5/09/2018
 
