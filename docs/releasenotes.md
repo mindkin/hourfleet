@@ -6,6 +6,7 @@ title: Release Notes
 
 ### Improvements
 
+* A cars registration details on the ops verifications page can now not be unverified by an ops user (auto-verified details)
 * Car Make, Model and License plate are now added to the menu/sidebar when managing a car or editing it's details
 * Several improvements to how dates and times are managed for the user both when booking a car and also for the car owner managing car availability: 
     * For borrowers (making a booking):
@@ -21,6 +22,7 @@ title: Release Notes
 ### Fixes
 
 * Fixed refreshing of availabilities once a booking by a borrower has been made.
+* Removed Vehicle Make, Model and Year in license section of a cars verification details
 
 ## 1.75.0 7/09/2018
 
