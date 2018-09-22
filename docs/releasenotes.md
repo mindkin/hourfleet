@@ -6,6 +6,7 @@ title: Release Notes
 
 ### Improvements
 
+* Car Make, Model and License plate are now added to the menu/sidebar when managing a car or editing it's details
 * Several improvements to how dates and times are managed for the user both when booking a car and also for the car owner managing car availability: 
     * For borrowers (making a booking):
         * When selecting a start date beyond the end date, then end date is adjusted ahead of the start date by an hour.
