@@ -271,11 +271,11 @@ Substitutions Available:
 
 **Email**
 
-![EmailPreview](images/EmailPreviews/expiringLicense.jpg)
+![EmailPreview](images/EmailPreviews/emailChanged_user.PNG)
 
 **SMS**
 
-> Your drivers license expires soon. Update it here: %verification.url%
+> Please verify your email address: %verification.url%
 
 
 
@@ -291,11 +291,11 @@ Substitutions Available:
 
 **Email**
 
-![EmailPreview](images/EmailPreviews/emailChanged_user.PNG)
+![EmailPreview](images/EmailPreviews/expiringLicense.jpg)
 
 **SMS**
 
-> Please verify your email address: %verification.url%
+> Your drivers license expires soon. Update it here: %verification.url%
 
 
 
