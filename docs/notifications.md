@@ -16,6 +16,7 @@ title: Notifications
   - [Unverified Borrower](#unverified-borrower-user)
   - [Unverified Car Owner](#unverified-car-owner-user)
   - [Updated Email](#updated-email-user)
+  - [Expiring Drivers License](#expiring-drivers-license)
 - [Booking Requests](#booking-requests)
   - [Draft Requests](#draft-request-borrower)
   - [Pending Requests](#pending-request-borrower)
@@ -245,6 +246,7 @@ Substitutions Available:
 `user.name`
 `user.firstname`
 `user.lastname`
+`verifications.url`
 
 **Email**
 
@@ -265,6 +267,27 @@ Substitutions Available:
 `user.name`
 `user.firstname`
 `user.lastname`
+`verifications.url`
+
+**Email**
+
+![EmailPreview](images/EmailPreviews/expiringLicense.jpg)
+
+**SMS**
+
+> Your drivers license expires soon. Update it here: %verification.url%
+
+
+
+### Expiring Drivers License (User)
+###### ID: 306
+This notification is sent to the *User* when their listed drivers license is about to expire (1 month before expiry date).
+
+Substitutions Available:
+
+`user.name`
+`user.firstname`
+`user.lastname`
 
 **Email**
 
@@ -273,7 +296,6 @@ Substitutions Available:
 **SMS**
 
 > Please verify your email address: %verification.url%
-
 
 
 
