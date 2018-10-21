@@ -16,7 +16,7 @@ title: Notifications
   - [Unverified Borrower](#unverified-borrower-user)
   - [Unverified Car Owner](#unverified-car-owner-user)
   - [Updated Email](#updated-email-user)
-  - [Expiring Drivers License](#expiring-drivers-license)
+  - [Expiring Drivers License](#expiring-drivers-license-user)
 - [Booking Requests](#booking-requests)
   - [Draft Requests](#draft-request-borrower)
   - [Pending Requests](#pending-request-borrower)
