@@ -288,6 +288,7 @@ Substitutions Available:
 `user.name`
 `user.firstname`
 `user.lastname`
+`verifications.url`
 
 **Email**
 
