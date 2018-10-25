@@ -280,7 +280,7 @@ Substitutions Available:
 
 
 ### Expiring Drivers License (User)
-###### ID: 306
+###### ID: 307
 This notification is sent to the *User* when their listed drivers license is about to expire (1 month before expiry date).
 
 Substitutions Available:
