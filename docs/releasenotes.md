@@ -2,11 +2,13 @@
 layout: default
 title: Release Notes
 ---
-## 1.76.0 Coming Soon
+## 1.76.1 26/10/2018
 
 ### Improvements
 
-* A cars registration details on the ops verifications page can now not be unverified by an ops user (auto-verified details)
+* Vehicle and User verifications are now split into verified and unverified with unverified details being displayed first.
+* A cars registration details on the ops verifications page can now not be verified/unverified by an ops user (auto-verified details)
+* If a car autoapproves booking requests, when a request is made the user will be redirected to their bookings page instead of an empty request page.
 * Car Make, Model and License plate are now added to the menu/sidebar when managing a car or editing it's details
 * Several improvements to how dates and times are managed for the user both when booking a car and also for the car owner managing car availability: 
     * For borrowers (making a booking):
