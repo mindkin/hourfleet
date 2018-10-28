@@ -2,6 +2,13 @@
 layout: default
 title: Release Notes
 ---
+## 1.76.2 28/10/2018
+
+### Improvements
+
+* This release includes the automatic notification and expiring of user drivers licenses. A [http://docs.hourfleet.com/notifications.html#expiring-drivers-license-user](new email template) has been included and there has been messaging added to the user's Account Settings page to communicate when their drivers license is nearing expiry or has expired.
+* The account settings page has been updated as part of the ongoing changes to make verifications easier to understand.
+
 ## 1.76.1 26/10/2018
 
 ### Improvements
