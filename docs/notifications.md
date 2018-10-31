@@ -40,7 +40,7 @@ title: Notifications
 For key events in Hourfleet, users will receive SMS and Email notifications. For example when they join your network, or when they book a car.
 Here you can see an example of all the SMS and Email notifications that get sent and at which key events they happen.
 If you would like to be notified of these events at the same time as your customers you can do this through Zapier Integration. To find out how to do this visit the [Zapier Integration](zapier.html) page. 
-  
+
 ## Email Configuration
 
 Some email elements are determined by your [Network Operator configuration file](youconfigure.html) and will be the same across all the email notifications that are sent. In the image examples below references to 'Roam' by name, URLs or images will be replaced with your network counterpart.
@@ -288,7 +288,6 @@ Substitutions Available:
 `user.name`
 `user.firstname`
 `user.lastname`
-`verifications.url`
 
 **Email**
 
@@ -296,7 +295,7 @@ Substitutions Available:
 
 **SMS**
 
-> Your drivers license expires soon. Update it here: %verification.url%
+> Your drivers license will expire soon. Please review your profile and update your drivers license.
 
 
 
