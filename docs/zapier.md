@@ -230,7 +230,7 @@ Event Id | Context Fields
 4010 | A password reset has been requested for an unknown email address: *email*
 4011 | A password reset has been requested for a registered user: *email, url*
 4012 | A password has been reset for a registered user: *email*
-**101 - 109** | **Book Later requests:** *borrower.name, borrower.firstname, borrower.lastname, carowner.name, carowner.firstname, carowner.lastname, car.plate, car.name, car.photo, car.url, request.requesteddate, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url*
+**100 - 110** | **Book Later requests:** *borrower.name, borrower.firstname, borrower.lastname, carowner.name, carowner.firstname, carowner.lastname, car.plate, car.name, car.photo, car.url, request.requesteddate, request.startdate, request.enddate, request.cancelleddate, request.cost.estimated, request.url, requests.url*
 101 | (Borrower) Request has been drafted
 102 | (Borrower) Request has been cancelled
 103 | (Car Owner) Request has ben cancelled
@@ -240,7 +240,7 @@ Event Id | Context Fields
 107 | (Car Owner) Request has been declined
 108 | (Borrower) Request has been expired (by Hourfleet)
 109 | (Car Owner) Request has been expired (by Hourfleet)
-**201 - 218** | **Book Later bookings:** *borrower.name, borrower.firstname, borrower.lastname, carowner.name, carowner.firstname, carowner.lastname, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, booking.requesteddate, booking.startdate, booking.enddate, booking.cancelleddate, booking.returneddate, booking.useddate, booking.completeddate, booking.cost.usage, booking.cost.estimated, booking.url, bookings.url, booking.comments.borrowercancellation, booking.comments.borrowerreturned, booking.comments.carownercancellation, booking.comments.carownercompletion*
+**200 - 220** | **Book Later bookings:** *borrower.name, borrower.firstname, borrower.lastname, carowner.name, carowner.firstname, carowner.lastname, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, booking.requesteddate, booking.startdate, booking.enddate, booking.cancelleddate, booking.returneddate, booking.useddate, booking.completeddate, booking.cost.usage, booking.cost.estimated, booking.url, bookings.url, booking.comments.borrowercancellation, booking.comments.borrowerreturned, booking.comments.carownercancellation, booking.comments.carownercompletion*
 201 | (Borrower) Booking has been approved
 202 | (Car Owner) Booking has been approved
 203 | (Borrower) Booking has been cancelled
@@ -259,7 +259,7 @@ Event Id | Context Fields
 216 | (Car Owner) Booking has been extended
 217 | (Borrower) Booking has not been returned on time
 218 | (Car Owner) Booking has not been returned on time
-**221 - 234** | **Take Now takings:** *borrower.name, borrower.firstname, borrower.lastname, carowner.name, carowner.firstname, carowner.lastname, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, taking.reserveddate, taking.nouseexpireson, taking.noreturnexpireson, taking.cancelleddate, taking.useddate, taking.returneddate, taking.rejecteddate, taking.cost.usage, taking.url, takings.url*
+**221 - 240** | **Take Now takings:** *borrower.name, borrower.firstname, borrower.lastname, carowner.name, carowner.firstname, carowner.lastname, car.plate, car.name, car.photo, car.url, car.homelocation.description, car.homelocation.address, car.currentlocation.address, taking.reserveddate, taking.nouseexpireson, taking.noreturnexpireson, taking.cancelleddate, taking.useddate, taking.returneddate, taking.rejecteddate, taking.cost.usage, taking.url, takings.url*
 221 | (Borrower) Taking has been reserved
 222 | (Car Owner)  Taking has been reserved
 223 | (Borrower)  Taking has been cancelled
@@ -274,9 +274,10 @@ Event Id | Context Fields
 232 | (Car Owner) Taking will be ending soon
 233 | (Borrower) Taking has been returned
 234 | (Car Owner) Taking has been returned
-**302 - 306** | **User verifications:** *user.name*
+**300 - 310** | **User verifications:** *user.name*
 302 | User has become verified as a borrower
 303 | User has become unverified as a borrower
 304 | User has become verified as a carowner
 305 | User has become unverified as a carowner
 306 | User's email address has changed: *user.name, verification.url*
+307 | User's drivers license is expiring: *user.name, user.firstname, user.lastname*
