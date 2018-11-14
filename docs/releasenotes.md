@@ -2,6 +2,20 @@
 layout: default
 title: Release Notes
 ---
+## 1.77.0 14/11/2018
+
+This is a major release that brings with it improvements to how notifications are sent and displayed for users.
+Notifications are now displayed to a user in the app (in addition receiving emails and sms), including specific notifications linking directly to important actions e.g. 'Booking about to begin' links to their booking.
+Another major improvement is that users now have control over which notifications they wish to receive. They now have the ability to turn off the sending of emails or sms for most notifications in the preferences tab of their account details.
+
+### Improvements
+* Performance of the cars and users verifications pages for operators.
+* The 'update app' message has changed to a small clickable bubble for desktop users.
+
+### Fixes
+* fixed a display issue where the 'drivers license about to expire' warning would display for a user that had no drivers license listed.
+* Includes a fix for a bug that was introduced in 1.76.2 where old user account verifications may not display for the operator.
+
 ## 1.76.2 28/10/2018
 
 ### Improvements
