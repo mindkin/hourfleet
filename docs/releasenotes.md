@@ -11,6 +11,7 @@ Another major improvement is that users now have control over which notification
 ### Improvements
 * Performance of the cars and users verifications pages for operators.
 * The 'update app' message has changed to a small clickable bubble for desktop users.
+* Added links to My Cars and List a Car for Operators in their Operations Dashboard
 
 ### Fixes
 * fixed a display issue where the 'drivers license about to expire' warning would display for a user that had no drivers license listed.
