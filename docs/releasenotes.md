@@ -2,6 +2,14 @@
 layout: default
 title: Release Notes
 ---
+## 1.79.0 23/11/2018
+
+This release contains major changes to Hourfleets API's with the purpose of improving the speed of the Hourfleet software site wide.
+Noticable improvements should be visible fetching verifications and bookings. This is only the first phase of planned improvements.
+
+### Fixes
+* Fixed the disabled toggle control for a vehicles offline status allowing it's status to be turned off and on again.
+
 ## 1.77.0 14/11/2018
 
 This is a major release that brings with it improvements to how notifications are sent and displayed for users.
