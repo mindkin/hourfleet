@@ -2,12 +2,19 @@
 layout: default
 title: Release Notes
 ---
+## 1.80.0 26/11/2018
+
+### Improvements
+
+* Turned on perf optimizations for search API's
+
 ## 1.79.0 23/11/2018
 
 This release contains major changes to Hourfleets API's with the purpose of improving the speed of the Hourfleet software site wide.
 Improvements should be noticable when fetching verifications and a list of bookings. This is only the first phase of planned improvements with more targeted improvements coming in the future.
 
 ### Fixes
+
 * Fixed the disabled toggle control for a vehicles offline status allowing it's status to be turned off and on again.
 
 ## 1.77.0 14/11/2018
@@ -17,11 +24,13 @@ Notifications are now displayed to a user in the app (in addition receiving emai
 Another major improvement is that users now have control over which notifications they wish to receive. They now have the ability to turn off the sending of emails or sms for most notifications in the preferences tab of their account details.
 
 ### Improvements
+
 * Performance of the cars and users verifications pages for operators.
 * The 'update app' message has changed to a small clickable bubble for desktop users.
 * Added links to My Cars and List a Car for Operators in their Operations Dashboard
 
 ### Fixes
+
 * fixed a display issue where the 'drivers license about to expire' warning would display for a user that had no drivers license listed.
 * Includes a fix for a bug that was introduced in 1.76.2 where old user account verifications may not display for the operator.
 
