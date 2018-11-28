@@ -65,7 +65,7 @@ The configuration of your email footer is determined by values in your configura
 - The social media icons link to the URL's provided under the `social` category. 
   **Note:** If you do not provide a URL for a particular platform, e.g. Twitter, the corresponding icon will not be displayed.
 - The address is replaced with the `Address` section provided under the `Support/Company` section
-        
+  ​      
 ## Accounts
 
 ----
@@ -442,8 +442,30 @@ This notification is sent to the *Car Owner* when a booking request has expired.
 **SMS**
 > The request for your '%car.name%' by %borrower.name% at %request.startdate% has now expired. See %request.url%
 
+### Unread Conversation
+###### ID: 110
 
+This notification is either send to the *Car Owner* or the *Borrower* when the other party has sent a new message in the conversation for the request.
 
+> Note: this notification only occurs if recipient of the notification has previously read the entire conversation.
+
+Substitutions Available:
+
+The following substitutions replace the respective versions for `borrower` and `carowner` used in other notifications.
+
+`sender.name`
+`sender.firstname`
+`sender.lastname`
+`recipient.name`
+`recipient.firstname`
+`recipient.lastname`
+
+**Email**
+
+![EmailPreview](images/EmailPreviews/requestAddedConversationMessage.PNG)
+
+**SMS**
+> You have a new message from -sender.name-. See %request.url%
 
 
 ## 'Book Later' Bookings
@@ -701,3 +723,28 @@ This notification is sent to the *Car Owner* when the *Borrower* has has not ret
 
 **SMS**
 > The rental of your '%car.name%' by %borrower.name% was not returned on time. See %booking.url%
+
+### Unread Conversation
+###### ID: 219
+This notification is either send to the *Car Owner* or the *Borrower* when the other party has sent a new message in the conversation for the booking.
+
+> Note: this notification only occurs if recipient of the notification has previously read the entire conversation.
+
+Substitutions Available:
+
+The following substitutions replace the respective versions for `borrower` and `carowner` used in other notifications.
+
+`sender.name`
+`sender.firstname`
+`sender.lastname`
+`recipient.name`
+`recipient.firstname`
+`recipient.lastname`
+
+**Email**
+
+![EmailPreview](images/EmailPreviews/bookingAddedConversationMessage.PNG)
+
+**SMS**
+
+> You have a new message from -sender.name-. See %booking.url%
