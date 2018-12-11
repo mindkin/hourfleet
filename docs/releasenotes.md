@@ -2,6 +2,19 @@
 layout: default
 title: Release Notes
 ---
+## 1.80.1 12/12/2018
+
+### Improvements
+
+* Conversations have been improved to now support sending image (alone or as attachment) and sending personal notes (messages that are private)
+* Notifications are now sent to participating parties of a conversation when a new message is received. 
+* Unverified Users and Cars show the most recently updated, instead of simply being order by most recent.
+* Small performance optimisation for showing users a list of their current bookings and  history.
+* Replaced some image icons with font icons for improve usability
+* Optomised required cache download size
+* Changed the 'Expand Image' dialog for viewing drivers licenes and conversation images to use the original image size, or the largest supported size.
+* Visual changes to uploaded images to removed transparent banding and provide a more consistant appearance across the site.
+
 ## 1.80.0 26/11/2018
 
 ### Improvements
