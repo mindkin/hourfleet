@@ -49,7 +49,7 @@ All access to all data stored in this dedicated Azure Storage Account will be se
 
 ### Secrets
 
-Hourfleet maintains a vast collection of highly confidential and sensitive configuration data used for the platform and for numerous tenants in a single deployment in a single geographic region. It also manages secure access and connections to numerous 3rd party services, including those within its own internal architecture (i.e. data stores, caches, etc). 
+Hourfleet maintains a collection of confidential and sensitive configuration data used for the platform and for numerous tenants in a single deployment in a single geographic region. It also manages secure access and connections to numerous 3rd party services, including those within its own internal architecture (i.e. data stores, caches, etc). 
 
 As such, it has to manage numerous secrets (e.g. account credentials) in order to protect the confidentiality of its tenants and any data flowing to and from the Platform.
 
