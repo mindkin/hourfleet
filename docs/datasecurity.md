@@ -189,7 +189,7 @@ The following Azure components will each have their own DR processes:
 * Azure Key Vault:
   * Replication: All tenant secrets will be replicated across two regions using [Azure Key Vault replication](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-disaster-recovery-guidance)
 * Redis Cache:
-  * There is no requirement for the caches to be replicated for high availability. If the cache is unavailable a degradation in performance is experienced during teh outage, but the platform must continue to operate. The cache will be rebuilt automatically and performance will be restored when the cache is brought back up.
+  * There is no requirement for the caches to be replicated for high availability. If the cache is unavailable a degradation in performance is experienced during the outage, but the platform must continue to operate. The cache will be rebuilt automatically and performance will be restored when the cache is brought back up.
 
 # Incident Response
 
@@ -203,8 +203,8 @@ After the incident is closed, within a reasonable timeframe a post mortem will e
 
 # References
 
-Terms of Service
+[Terms of Service](https://www.wix.hourfleet.com/terms)
 
-Privacy Policy
+[Privacy Policy](https://www.wix.hourfleet.com/privacy)
 
 Service Level Agreements
