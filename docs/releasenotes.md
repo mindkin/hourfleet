@@ -9,6 +9,7 @@ title: Release Notes
 * The action bar on the manage request/booking/takenow pages has been updated for quicker access to messages and upload photos.
 * Vehicle Booking rates can now have a custom currency amounts instead of being restricted to a list of rate values.
 * Changed the layout of Edit Car Details pages so guidence is clearer.
+* Pricing for hourly/daily/weekly rates are now free form, and not restricted by lists of values.
 
 ### Fixes
 
