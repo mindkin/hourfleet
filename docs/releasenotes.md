@@ -2,7 +2,7 @@
 layout: default
 title: Release Notes
 ---
-## 1.80.3 - Pending Release
+## 1.80.3 - 19/12/2018
 
 ### Improvements
 
