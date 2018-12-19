@@ -2,6 +2,29 @@
 layout: default
 title: Release Notes
 ---
+## 1.80.3 - Pending Release
+
+### Improvements
+
+* The action bar on the manage request/booking/takenow pages has been updated for quicker access to messages and upload photos.
+* Vehicle Booking rates can now have a custom currency amounts instead of being restricted to a list of rate values.
+* Changed the layout of Edit Car Details pages so guidence is clearer.
+
+### Fixes
+
+* Validation on the vehicle description and car location description have been fixed to have the correct maximum character limit (is now 5000 instead of 1000)
+
+## 1.80.2 12/12/2018
+
+### Improvements
+
+* Adjust vertical size of the messages window for bookings and requests to avoid potential scrolling problems
+
+### Fixes
+
+* Fixed a display bug where clicking a 'read' notification would duplicate itself in the list
+* Fixed ordering of unverified users so they are once again ordered by last created date
+
 ## 1.80.1 12/12/2018
 
 ### Improvements
