@@ -2,6 +2,13 @@
 layout: default
 title: Release Notes
 ---
+## 1.80.4 - 20/12/2018
+
+### Improvements
+
+* Hourfleet now supports lighter colored navigation themes.
+* Ops Carkits area has been updated and now has the ability to navigate back to a vehicle without requiring searching again.
+
 ## 1.80.3 - 19/12/2018
 
 ### Improvements
