@@ -2,6 +2,10 @@
 layout: default
 title: Release Notes
 ---
+## 1.80.5 - 31/12/2018
+
+This release is a service maintenance fix, and contains no new features. Only performance improvements
+
 ## 1.80.4 - 20/12/2018
 
 ### Improvements
