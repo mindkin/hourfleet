@@ -4,11 +4,15 @@ title: Release Notes
 ---
 ## 1.80.6 - 02/01/2019
 
-This release is a service maintenance fix, and contains no new features. Only performance improvements
+This release is a service maintenance fix, and contains no new features. Only performance improvements and bug fixes.
+
+### Fixes
+
+* Issue matching DOB formats in password reset answers.
 
 ## 1.80.5 - 31/12/2018
 
-This release is a service maintenance fix, and contains no new features. Only performance improvements
+This release is a service maintenance fix, and contains no new features. Only contains performance improvements
 
 ## 1.80.4 - 20/12/2018
 
