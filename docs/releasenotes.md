@@ -2,6 +2,12 @@
 layout: default
 title: Release Notes
 ---
+## 1.80.7 - 03/01/2019
+
+### Fixes
+
+* Fixed pagination in verifications and APIs 
+
 ## 1.80.6 - 02/01/2019
 
 This release is a service maintenance fix, and contains no new features. Only performance improvements and bug fixes.
