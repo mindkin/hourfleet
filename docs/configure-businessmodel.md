@@ -10,14 +10,18 @@ These settings decide how your car sharing business will actually function. mode
 	"BusinessModel": {
 	        "Settings":{
 		    "Cars":{
-		        "Types":["Car","SUV","Minivan","Truck"] //A list of vehicle types that are supported on the network
+		        "Types":["Car","SUV","Minivan","Truck"] // A list of vehicle types that are supported on the network
 			"Licenses":{
 				"Jurisdictions":{
 					"Primary": "New Zealand" // The default jurisdiction for car license plates
 					"Allowed": [
 						"New Zealand" // Allowable jurisdictions for car license plates
 					]
-				}
+				},
+				"Limits": {
+                                    "Min": 6, // Minumum number of alpha-numeric characters (not including spaces)
+                                    "Max": 6 // Maximum number of alpha-numeric characters (not including spaces)
+                                },
 			}
 		    },
 		    "Drivers":{
