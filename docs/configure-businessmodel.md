@@ -4,7 +4,9 @@ title: Configure Business Model.
 ---
 # Business Models
 
-These settings decide how your car sharing business will actually function. models, pricing, rules, rates, etc.
+These settings decide how your car sharing business will actually operate. 
+
+Supported models, settings, pricing, rules, rates, etc.
 
 ~~~
 	"BusinessModel": {
