@@ -137,13 +137,16 @@ Across all 'allowed' juridictions you will need to define the number of characte
 
 ### Carkits
 
-Does your network support cars with carkits installed? If so, who has authority to 'enrol' in having a carkit.
+Does your network support cars with carkits installed? If so, who has authority to 'enroll' in having a carkit.
+
+> Note: Hourfleet provides the actual physical carkit devices at a nominal cost to your business, but fulfilling carkits to car owners, and managing the physical installation process, is something that your business will need to manage on behalf of your customers. These settings help manage and control that process.
+
 
 Common examples: 
 1. If your car share network is B2C, and you own your own cars, you may decide to use carkits, therefore you would only permit enrollment `Enrolement=ByOperator`.
 2. If your car share network is P2P, you may allow car owners to register their own vehicles, but you may not permit carkits to be installed (`IsSupported=false`), forcing your borrowers and car owners to use manual 'KeyExchange'. 
-3. If your car share network is P2P, you may allow any car owner to register their own carkit in their vehicle `Enrolement=ByOwner`.
-4. Hybrids combinations are also possible.
+3. If your car share network is P2P, you may allow any car owner to request their own carkit (`IsSupported=false`) for their vehicle `Enrolement=ByOwner`.
+4. Less common hybrids combinations are also possible.
 
 ## Insurance
 As a car sharing business, whether your business owns the cars (B2C) or whether you allow your users to own cars (P2P) you are likely to have an insurer cover the cars when in use. If you work with an insurer and the conditions of insurance involve an insured value of the cars in your network, you will need to collect the insured value for each registered car.
