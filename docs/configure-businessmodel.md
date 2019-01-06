@@ -21,8 +21,8 @@ Supported models, settings, pricing, rules, rates, etc.
 					]
 				},
 				"Limits": {
-                                    "Min": 6, // Minumum number of alpha-numeric characters (not including spaces)
-                                    "Max": 6 // Maximum number of alpha-numeric characters (not including spaces)
+                                    "Min": 6, // Minumum number of alpha-numeric characters (including spaces)
+                                    "Max": 6 // Maximum number of alpha-numeric characters (including spaces)
                                 },
 			}
 		    },
