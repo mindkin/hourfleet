@@ -128,8 +128,8 @@ These are the licensing jurisdictions for both drivers licenses, and for car lic
 In either case, you need to define a 'Primary' (or home) jurisdiction (i.e. Colorado), and define one or more 'allowed' jurisdictions for your users to select from (i.e. any state of the United States).
 
 The following wildcard tokens can be used as shortcuts for the 'Allowed':
-* `\*Canada` - for all 13  provinces of canada
-* `\*United States` - for all 50 states of the United States
+* `*Canada` - for all 13  provinces of canada
+* `*United States` - for all 50 states of the United States
 
 ### Car License Limits
 
