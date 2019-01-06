@@ -120,7 +120,30 @@ Supported models, settings, pricing, rules, rates, etc.
 ```
 
 ## Settings
-These are various settings related to the business model of the network.
+These are various settings related to the business model of your car share network.
+
+### Jurisdictions 
+These are the licensing jurisdictions for both drivers licenses, and for car license plates. 
+
+In either case, you need to define a 'Primary' (or home) jurisdiction (i.e. Colorado), and define one or more 'allowed' jurisdictions for your users to select from (i.e. any state of the United States).
+
+The following wildcard tokens can be used as shortcuts for the 'Allowed':
+* \*Canada - for all 13  provinces of canada
+* \*United States - for all 50 states of the United States
+
+### Car License Limits
+
+Across all 'allowed' juridictions you will need to define the number of characters that are supported in its license plates.
+
+### Carkits
+
+Does your network support cars with carkits installed? If so, who has authority to 'enrol' in having a carkit.
+
+Common examples: 
+1. If your car share network is B2C, and you own your own cars, you may decide to use carkits, therefore you would only permit enrollment `Enrolement=ByOperator`.
+2. If your car share network is P2P, you may allow car owners to register their own vehicles, but you may not permit carkits to be installed (`IsSupported=false`), forcing your borrowers and car owners to use manual 'KeyExchange'. 
+3. If your car share network is P2P, you may allow any car owner to register their own carkit in their vehicle `Enrolement=ByOwner`.
+4. Hybrids combinations are also possible.
 
 ## Insurance
 As a car sharing business, whether your business owns the cars (B2C) or whether you allow your users to own cars (P2P) you are likely to have an insurer cover the cars when in use. If you work with an insurer and the conditions of insurance involve an insured value of the cars in your network, you will need to collect the insured value for each registered car.
