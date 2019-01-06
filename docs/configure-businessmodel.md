@@ -8,7 +8,7 @@ These settings decide how your car sharing business will actually operate.
 
 Supported models, settings, pricing, rules, rates, etc.
 
-~~~
+```
 	"BusinessModel": {
 	        "Settings":{
 		    "Cars":{
@@ -117,7 +117,7 @@ Supported models, settings, pricing, rules, rates, etc.
 			}
 		}
 	},
-~~~
+```
 
 ## Settings
 These are various settings related to the business model of the network.
