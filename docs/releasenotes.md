@@ -2,6 +2,13 @@
 layout: default
 title: Release Notes
 ---
+## 1.81.0 - 06/01/2019
+
+### Improvements
+
+* Car license plate has now been internationalised to include selection of a jurisdiction (Country/State), which is configurable by the operator.
+* Road Worthiness (Certificate/Inspection) has been internatioanlised.
+
 ## 1.80.7 - 03/01/2019
 
 ### Fixes
