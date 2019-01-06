@@ -135,6 +135,13 @@ The following wildcard tokens can be used as shortcuts for the 'Allowed':
 
 Across all 'allowed' juridictions you will need to define the number of characters that are supported in its license plates.
 
+> Note: Careful consideration is required in jurisdictions if you want to support custom/vanity plates, since the character limits may vary in each jurisdiction. 
+
+For example to support most license plates (inc. custom/vanity plates):
+* In any U.S state: `Min=2, Max=8`
+* In United Kingdom: `Min=2, Max=8`
+* In New Zealand: `Min=2, Max=6`
+
 ### Carkits
 
 Does your network support cars with carkits installed? If so, who has authority to 'enroll' in having a carkit.
