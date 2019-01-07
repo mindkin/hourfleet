@@ -2,6 +2,12 @@
 layout: default
 title: Release Notes
 ---
+## 1.81.1 - 07/01/2019
+
+### Improvements
+
+* A criminal conviction complementary statement is now configurable by the network operator.
+
 ## 1.81.0 - 06/01/2019
 
 ### Improvements
