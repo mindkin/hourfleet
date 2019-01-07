@@ -28,6 +28,10 @@ If you don't want a link to be displayed, leave their values blank. The Terms of
 			"Invitation": { // Privacy statement about collecting their invitation data on the invitation page
 				"Statement": "YourCompany values your privacy so we do not share this information with anyone else.",
 				"DisplayStatement": true
+			},
+			"CriminalConviction": { 
+			    	"Statement": "" // Compliance statement to accompany criminal conviction input.
+				"DisplayStatement": true
 			}
 		}
 	},
