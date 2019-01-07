@@ -29,8 +29,8 @@ If you don't want a link to be displayed, leave their values blank. The Terms of
 				"Statement": "YourCompany values your privacy so we do not share this information with anyone else.",
 				"DisplayStatement": true
 			},
-			"CriminalConviction": { 
-			    	"Statement": "" // Compliance statement to accompany criminal conviction input.
+			"CriminalConviction": { // Compliance statement to accompany criminal conviction input.
+			    	"Statement": "(other than traffic convictions) not subject to the 'clean slate scheme' under the Criminal Records (Clean Slate) Act 2004, or currently have a pending prosecution for a criminal offence (other than a traffic offence)?" 
 				"DisplayStatement": true
 			}
 		}
