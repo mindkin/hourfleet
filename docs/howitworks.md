@@ -70,7 +70,7 @@ An example of the links in the Hourfleet web app can be seen in the footer secti
 
 ![Page Links](images/Footer.png)
 
-All of the links in the list above (except the 'Home' link) can be optionally enabled, or hidden if not required. See [You Configure](http://docs.hourfleet.com/youconfigure.html) for the technical details.
+All of the links in the list above (except the 'Home' link) can be optionally enabled, or hidden if not required. See [Configure](http://docs.hourfleet.com/configure.html) for the technical details.
 
 ### Customer Support Page
 
@@ -196,7 +196,7 @@ Each Hourfleet tenancy decides its own financial model for how charges for borro
 
 > Note: In a B2C car sharing network, the network operator is typically (but not always) the owner of the cars on the network (a car owner could also be a 3rd party), whereas in a P2P car sharing network, other members of the network typically (but not always) own the cars. Car ownership should be understood to be separate from whether the network is B2C or P2P.
 
-Referring to the [network operator configuration](youconfigure.html#business-models) you can see the various options you have in the financial model of your car sharing network. Notice that your car sharing network will support either a B2C model, or a P2P model, but not both. 
+Referring to the [network operator configuration](configure.html#business-models) you can see the various options you have in the financial model of your car sharing network. Notice that your car sharing network will support either a B2C model, or a P2P model, but not both. 
 
 In a B2C model, a network operator typically owns the cars, and is remitted all the usage charges, less any payouts it must make to an insurer.
 
@@ -351,7 +351,7 @@ Bookings work like most people imagine they should, with some interesting limita
 - If the car owner does not complete the booking within a configurable period (e.g 3 days) the booking is auto-completed on their behalf, so that billing and other functions can commence.
 - Finally, once the booking is completed, the borrower is charged all usage/late fees, and the car owner is remitted their earnings.
 
-> Note: In the points above, all configurable times and costs given are defaults, and are configurable for your specific network. These settings are all defined in your configuration for the 'Scheduled'. usage model. See the [configuration](#youconfigure.html#business-model) for more details.
+> Note: In the points above, all configurable times and costs given are defaults, and are configurable for your specific network. These settings are all defined in your configuration for the 'Scheduled'. usage model. See the [configuration](#configure.html#business-model) for more details.
 
 This diagram illustrates the timings and limits involved in making a booking request, before its approved, with example timings. 
 ![Request Timings](images/BookingStateModel-Request-Timings.png)
@@ -380,7 +380,7 @@ This model suits car sharing businesses where on-demand service is required. Typ
 - After the borrower returns the car (in the app) the owner can review the final booking, and must accept the final situation of the car. They can choose to give feedback at this point. If the car owner does not complete the booking within a certain time span (e.g 3 days) the booking is auto-completed on their behalf.
 - Finally, once the booking is completed, the borrower is charged all usage/late fees, and the car owner is remitted their earnings.
 
-> Note: In the points above, all configurable times and costs given are defaults, and are configurable for your specific network. These settings are all defined in your configuration for the 'Immediate'. usage model. See the [configuration](#youconfigure.html#business-model) for more details.
+> Note: In the points above, all configurable times and costs given are defaults, and are configurable for your specific network. These settings are all defined in your configuration for the 'Immediate'. usage model. See the [configuration](#configure.html#business-model) for more details.
 
 This diagram illustrates the timings and limits involved in using a car and completing a taking, with example timings. 
 ![Booking Timings](images/BookingStateModel-Takings-Timings.png)

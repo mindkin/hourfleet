@@ -43,7 +43,7 @@ If you would like to be notified of these events at the same time as your custom
 
 ## Email Configuration
 
-Some email elements are determined by your [Network Operator configuration file](youconfigure.html) and will be the same across all the email notifications that are sent. In the image examples below references to 'Roam' by name, URLs or images will be replaced with your network counterpart.
+Some email elements are determined by your [Network Operator configuration file](configure.html) and will be the same across all the email notifications that are sent. In the image examples below references to 'Roam' by name, URLs or images will be replaced with your network counterpart.
 
 **Email Headers**
 

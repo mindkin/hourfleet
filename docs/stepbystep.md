@@ -6,8 +6,8 @@ We're keen to see you get value for money from your Hourfleet subscription. So b
 
 1. **Understanding an Hourfleet Tenancy.** You will need to host, create and maintain [your own landing page](yoursite.html) which are unique to your business. You can bespoke build this, or use tools like [Squarespace](http://squarespace.com), [Wix](http://wix.com) or others.
 
-1. **Configuring your Hourfleet Tenancy.** These are a large number of [configuration options](http://docs.hourfleet.com/youconfigure.html) which help you establish the branding, business rules and other details which underpin your tenancy. 
+1. **Configuring your Hourfleet Tenancy.** These are a large number of [configuration options](http://docs.hourfleet.com/configure.html) which help you establish the branding, business rules and other details which underpin your tenancy. 
 
-1. **Integrations.** The most important integration is with [Stripe.com](http://stripe.com). Specific instructions are [here](http://docs.hourfleet.com/youprovide.html)   
+1. **Integrations.** The most important integration is with [Stripe.com](http://stripe.com). Specific instructions are [here](http://docs.hourfleet.com/provide.html)   
 
 1. **Let's go!** If you're ready then [get started now](https://www.hourfleet.com/getstarted) by choosing a subscription plan and ordering your initial batch of car-kits   

@@ -4,7 +4,7 @@ title: Configure Support.
 ---
 # Support
 
-These settings are displayed in various places around the web app that reference support/assistance for your customers. It also includes the ability to use third party support service like Google Analytics and live chat widgets. Hourfleet generates a support page for your web app using some of these details that helps provide guidance for your users. You can choose to link to your own external support page (see [Navigation Configuration](youconfigure.html#Navigation)).
+These settings are displayed in various places around the web app that reference support/assistance for your customers. It also includes the ability to use third party support service like Google Analytics and live chat widgets. Hourfleet generates a support page for your web app using some of these details that helps provide guidance for your users. You can choose to link to your own external support page (see [Navigation Configuration](configure.html#Navigation)).
 
 ~~~
 	"Support": { 
