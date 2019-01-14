@@ -486,6 +486,7 @@ Substitutions Available:
 `car.homelocation.description`
 `car.homelocation.address`
 `car.currentlocation.address`
+`booking.reference`
 `booking.startdate`
 `booking.enddate`
 `booking.cancelleddate`
