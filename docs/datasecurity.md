@@ -168,7 +168,7 @@ For user accounts that hold more PII data, the password reset process must go mu
 
 The password reset process will time-bombed from the moment it starts to completion. The password reset process must complete within a reasonable period of time once initiated. No less than 15mins, no more than 60mins.
 
-A user must have no more than **4** failed attempts to answer all challenges, after which their account will become locked out.
+A user must have no more than **4** failed attempts to answer all challenges, after which their account will become permanently locked out.
 
 ## Account Lockout Policy
 
