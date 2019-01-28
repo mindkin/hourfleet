@@ -2,6 +2,22 @@
 layout: default
 title: Release Notes
 ---
+## 1.82.0 - 28/01/2019
+
+### Improvements
+
+* Quicker access to various sources of information in 'Manage Requests/Bookings/Takings' pages.
+* Quicker access to various actions of a car in the 'My Cars' page.
+* Car Condition Capture - borrowers are now prompted (before starting a booking) to capture the condition of the car (i.e. record damage before use). This step can be skipped. Whereupon they can see the register of damage on the car, and can then upload photos and text describing any new damage/conditions they find on the car.
+* Operators can now search across cars in their network (by: license plate or by: make and model) and then view information about those cars.
+
+### Fixes
+
+* Perf improvements with loading network operator data in the web app.
+* Fixed incorrect `-sender.name-` substitution in notifications for new converstaion updates.
+* Fixed ordering of recently updated verifications in operator summary, so that recently changed verifications always appear high up in the list.
+* Fixed issue with older versions of web app still lingering after new version deployment.
+
 ## 1.81.1 - 07/01/2019
 
 ### Improvements
