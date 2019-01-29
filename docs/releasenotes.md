@@ -2,6 +2,10 @@
 layout: default
 title: Release Notes
 ---
+## 1.82.1 - 30/01/2019
+
+This release is a service maintenance fix, and contains no new features. Only performance improvements and minor bug fixes.
+
 ## 1.82.0 - 28/01/2019
 
 ### Improvements
@@ -39,7 +43,7 @@ title: Release Notes
 
 ## 1.80.6 - 02/01/2019
 
-This release is a service maintenance fix, and contains no new features. Only performance improvements and bug fixes.
+This release is a service maintenance fix, and contains no new features. Only performance improvements and minor bug fixes.
 
 ### Fixes
 
