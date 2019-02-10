@@ -2,6 +2,20 @@
 layout: default
 title: Release Notes
 ---
+
+## 1.83.0 - 11/02/2019
+Included in this release is the requested User Search functionality for network operators which can be accessed through the operators dashboard. This allows operators to search for their customer based on Name, Email address or phone number.
+
+### Improvements
+
+* Reporting on a vehicles condition during a booking can now be accessed at any time in a booking.
+* Faster lookup for In Use/Approved bookings and In Use Trips when redirecting to a users home page.
+* A selected vehicle on the Ops Search Cars page will automatically open to show its quick actions, and to better signify which vehicle is currently being managed.
+
+### Fixes
+* Fixed an issue where some vehicle license plates would not display on the search page correctly.
+* Vehicle ratings are now showing on search results again for networks that support Peer-to-peer.
+
 ## 1.82.1 - 30/01/2019
 
 This release is a service maintenance fix, and contains no new features. Only performance improvements and minor bug fixes.
