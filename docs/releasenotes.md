@@ -3,6 +3,17 @@ layout: default
 title: Release Notes
 ---
 
+## 1.83.1 - 18/02/2019
+
+### Improvements
+
+* Vehicles listed by a user are now displayed on a users profile for network operators. Note: this is subject to change in future releases.
+* A vehicles location description is now displayed on the location page for a booking, in addition to the vehicle description page
+
+### Fixes
+
+* Bookings made on an 'auto-approve' configured vehicle will direct borrowers to their bookings view instead of an empty request view
+
 ## 1.83.0 - 11/02/2019
 Included in this release is the requested User Search functionality for network operators which can be accessed through the operators dashboard. This allows operators to search for their customer based on Name, Email address or phone number.
 
