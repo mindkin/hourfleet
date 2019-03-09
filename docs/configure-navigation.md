@@ -15,7 +15,7 @@ In addition, you can send customers and visitors forward into your Hourfleet car
 - httsp://\<yourname\>.hourfleet.com/search. Used to present a visitor with a map highlighting your car locations  
 
 
-### Reverse - From your Hourfleet car share service to your marketing site
+### Reverse - From your Hourfleet car share service back to your marketing site
 There are many links in the app to pages that you will need to provide for users of your business, that cannot be provided by Hourfleet in the app. Such as: Terms Of Service, Privacy Policy, Company information, and legal documentation. These links are provided for your user's convenience.
 
 These links can be seen at the bottom of page in the footer section.
