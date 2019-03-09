@@ -4,7 +4,7 @@ title: Configure Navigation.
 ---
 # Navigation
 
-This section determines how the user navigates between your website and your Hourfleet operational website.
+This section determines how the user navigates between your marketing website and your Hourfleet car share service.
 
 There are many links in the app to pages that you will need to provide for users of your business, that cannot be provided by Hourfleet in the app. Such as: Terms Of Service, Privacy Policy, Company information, and legal documentation. These links are provided for your user's convenience.
 
