@@ -12,7 +12,7 @@ You have complete editorial control over your marketing site. The links in the R
 In addition, you can send your customers forward into your Hourfleet car share service via a number of urls. They are:
 - https://<yourname>.hourfleet.com/signin. Used to start a visitor on the signup journey   
 - httsp://<yourname>.hourfleet.com/invite. Used to direct a customer to the signin page  
-- httsp://<yourname>.hourfleet.com/search. Used to present a visitor with a location maps highlighting your car locations  
+- httsp://<yourname>.hourfleet.com/search. Used to present a visitor with a map highlighting your car locations  
 
 ## Reverse - From your Hourfleet car share service to your marketing site
 There are many links in the app to pages that you will need to provide for users of your business, that cannot be provided by Hourfleet in the app. Such as: Terms Of Service, Privacy Policy, Company information, and legal documentation. These links are provided for your user's convenience.
