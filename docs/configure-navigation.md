@@ -7,7 +7,7 @@ title: Configure Navigation.
 This section determines how the user navigates between your marketing website and your Hourfleet car share service.
 
 ### Forward - From your marketing site to your Hourfleet Car Share service  
-You have complete editorial control over your marketing site. The links in the Reverse section give a clue as to the type of pages you may want to publish.  
+You have complete editorial control over your marketing site. This gives your marketing people plenty of scope to present your brand and proposition is a way that best connects with your target market. As a minimum you'll probably want to publish FAQ's, About Us, Terms of Service and several others. Have a look at the next section ('Reverse') below for clues as to the types of pages you may want to publish.  
 
 In addition, you can send customers and visitors forward into your Hourfleet car share service via a number of urls. They are:
 - https://\<yourname\>.hourfleet.com/signin. Used to start a visitor on the signup journey   
