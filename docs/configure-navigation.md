@@ -6,6 +6,15 @@ title: Configure Navigation.
 
 This section determines how the user navigates between your marketing website and your Hourfleet car share service.
 
+## Forward - From yourmarketing site to you Hourfleet Car Share service  
+You have complete editorial control over your marketing site. The links in the Reverse section give a clue as to the type of pages you may want to publish.  
+
+In addition, you can send your customers forward into your Hourfleet car share service via a number of urls. They are:
+- https://<yourname>.hourfleet.com/signin. Used to start a visitor on the signup journey   
+- httsp://<yourname>.hourfleet.com/invite. Used to direct a customer to the signin page  
+- httsp://<yourname>.hourfleet.com/search. Used to present a visitor with a location maps highlighting your car locations  
+
+## Reverse - From your Hourfleet car share service to your marketing site
 There are many links in the app to pages that you will need to provide for users of your business, that cannot be provided by Hourfleet in the app. Such as: Terms Of Service, Privacy Policy, Company information, and legal documentation. These links are provided for your user's convenience.
 
 These links can be seen at the bottom of page in the footer section.
@@ -39,4 +48,8 @@ If you don't want a link to be displayed, leave their values blank. The Terms of
 
 You can see an example of the links in the web app footer section here:
 
-![Page Links](images/Footer.png)
+![Page Links](images/Footer.png)  
+
+
+
+
