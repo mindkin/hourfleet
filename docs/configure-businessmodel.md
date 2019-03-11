@@ -86,7 +86,7 @@ Supported models, settings, pricing, rules, rates, etc.
 				},
 				"Timing": {
 					"FlagFallPeriodMinutes": 15, // A rental completed in less than this time, incurs no usage charge
-					"MinimumActionBeforeStartPeriodMinutes": 15, // How soon before the rental starts can it not be manually approved, declined or pended. Auto-approvals can occur right up to the start date.
+					"MinimumActionBeforeStartPeriodMinutes": 15, // How soon before the rental starts can the request NOT be manually: changed, approved, declined or pended (to give owners and borrowers a chance to prepare for the change).
 					"MinimumRequestPeriodMinutes": 30, // Minimum duration of a booking that can be requested
 					"MaximumRequestPeriodMinutes": 20160, // Maximum duration of a booking that can be requested
 					"UseBeforeStartPeriodMinutes": 15, //How long before the scheduled start time can the borrower start their rental (if the car is available). Also, how soon before the scheduled end time is the borrower allowed to start the booking, if they are late to start the rental. 
