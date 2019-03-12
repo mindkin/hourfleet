@@ -3,6 +3,52 @@ layout: default
 title: Release Notes
 ---
 
+## 1.84.2 - Pending Release
+
+### Improvements
+
+* Add an availability calendar to a car profile for Operations
+* Operators can now search for bookings based on a date range
+
+## 1.84.1 - 09/03/2019
+
+### Improvements
+
+* A vehicles 'quick actions' for an operator are now smarter about where they link to based on context
+
+### Fixes
+
+* Fixed missing 'No Vehicles' message on Operators Vehicle Search
+
+## 1.84.0 - 25/02/2019
+
+### Improvements
+
+* Operators can now easily get to a Users profile, verifications and bookings after selecting a user
+
+### Fixes
+
+* After billing a booking, the booking page is updated to contain the latest information (billed)
+
+## 1.83.3 - 22/02/2019
+
+### Improvements
+
+* Operators can now search for a booking based on it's reference number
+* Operators can now jump to search users or search vehicles from the Operations Dashboard
+
+## 1.83.2 - 12/02/2019
+
+This release mostly contained improvements to GENIII carkit functionality
+
+### Improvements
+
+* Operators can now choose a carkit version when registering a carkit
+
+### Fixes
+
+* Added abililty to navigate directly to Ops Update Carkit using URL
+
 ## 1.83.1 - 18/02/2019
 
 ### Improvements
