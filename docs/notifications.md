@@ -23,6 +23,7 @@ title: Notifications
   - [Cancelled Requests](#cancelled-request-borrower)
   - [Declined Requests](#declined-request-borrower)
   - [Expired Requests](#expired-request-borrower)
+  - [Changed Requests](#changed-request-borrower)
 - ['Book Later' Bookings](#book-later-bookings)
   - [Approved Requests](#approved-request-borrower)
   - [Cancelled Bookings](#cancelled-booking-borrower)
@@ -32,6 +33,8 @@ title: Notifications
   - [Completed Bookings](#booking-completed-borrower)
   - [Bookings Due to End](#booking-due-to-end-borrower)
   - [Extended Bookings](#booking-extended-borrower)
+  - [Changed Bookings](#booking-changed-borrower)
+  - [Bookings Not Returned](#booking-not-returned-borrower)
 
 ----
 
@@ -442,6 +445,30 @@ This notification is sent to the *Car Owner* when a booking request has expired.
 **SMS**
 > The request for your '%car.name%' by %borrower.name% at %request.startdate% has now expired. See %request.url%
 
+### Changed Request (Borrower)
+###### ID: 111
+This notification is sent to the *Borrower* when a new change request is created
+
+**Email**
+
+![EmailPreview](images/EmailPreviews/requestChanged_borrower.PNG)
+
+**SMS**
+> Your change request (ref: %booking.reference%) for '%car.name%' at %request.startdate% is awaiting the owner's approval. See %request.url%
+
+### Changed Request (Car Owner)
+###### ID: 112
+This notification is sent to the *Car Owner* when a new change request is created
+
+**Email**
+
+![EmailPreview](images/EmailPreviews/requestChanged_owner.PNG)
+
+**SMS**
+> A change request (ref: %booking.reference%) for your '%car.name%' by %borrower.name% at %request.startdate% is awaiting your approval. See %request.url%
+
+
+
 ### Unread Conversation
 ###### ID: 110
 
@@ -703,6 +730,31 @@ This notification is sent to the *Car Owner* after the *Borrower* has extended t
 
 **SMS**
 > The rental of your '%car.name%' by %borrower.name% has been extended to start at %booking.startdate% and end at %booking.enddate%. See %booking.url%
+
+
+
+### Booking Changed (Borrower)
+###### ID: 236
+This notification is sent to the *Borrower* after they have changed their booking.
+
+**Email**
+![EmailPreview](images/EmailPreviews/bookingChanged_borrower.PNG)
+
+**SMS**
+
+> Your booking change request (ref: %booking.reference%) for '%car.name%' at %booking.startdate% has been approved by the owner. See %booking.url%
+
+
+
+### Booking Changed (Car Owner)
+###### ID: 237
+This notification is sent to the *Car Owner* after the *Borrower* has changed their booking.
+
+**Email**
+![EmailPreview](images/EmailPreviews/bookingChanged_owner.PNG)
+
+**SMS**
+> You have approved the change request (ref: %booking.reference%) for your '%car.name%' by %borrower.name% at %booking.startdate%. See %booking.url%
 
 
 ### Booking Not returned (Borrower)
