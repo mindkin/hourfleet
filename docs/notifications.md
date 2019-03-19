@@ -35,6 +35,7 @@ title: Notifications
   - [Extended Bookings](#booking-extended-borrower)
   - [Changed Bookings](#booking-changed-borrower)
   - [Bookings Not Returned](#booking-not-returned-borrower)
+  - [Reallocated Bookings](#booking-reallocated-borrower)
 
 ----
 
@@ -776,6 +777,26 @@ This notification is sent to the *Car Owner* when the *Borrower* has has not ret
 
 **SMS**
 > The rental of your '%car.name%' by %borrower.name% was not returned on time. See %booking.url%
+
+### Booking Reallocated (Borrower)
+###### ID: 238
+This notification is sent to the *Borrower* when either the owner of their booked car, or an operator, re-allocates a booking to another available car, usually in case when the car has unexpectedly become unavailable for use (i.e. maintenance).
+
+**Email**
+![EmailPreview](images/EmailPreviews/bookingReAllocated_borrower.PNG)
+
+**SMS**
+> Your booking (ref: %booking.reference%) has been moved to a different car '%car.name%' at %booking.startdate%. See %booking.url%
+
+### Booking Reallocated (Car Owner)
+###### ID: 239
+This notification is sent to the *Car Owner* when either they, or an operator, re-allocates a booking to another available car, usually in case when the car has unexpectedly become unavailable for use (i.e. maintenance).
+
+**Email**
+![EmailPreview](images/EmailPreviews/bookingReAllocated_carowner.PNG)
+
+**SMS**
+> A booking (ref: %booking.reference%) for one of your cars has been moved to another car:'%car.name%' for %borrower.name% at %booking.startdate%. See %booking.url%
 
 ### Unread Conversation
 ###### ID: 219
