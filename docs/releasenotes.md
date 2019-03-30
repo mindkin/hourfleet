@@ -3,7 +3,33 @@ layout: default
 title: Release Notes
 ---
 
-## 1.84.2 - Pending Release
+## 1.86.0 - 30/03/2019
+
+### Improvements
+
+* Hourfleet has improved its support for PWA's and users are now presented with the ability to install the Hourfleet if they are in a supported browser.
+* App installation guidance has also been improved to detect a users browser and offer a quick install button if supported.
+* Bookings can now be reallocated by the vehicle owner to other available vehicles. This can be done for bookings that are Approved or or currently In Use.
+* Vehicle owners are now told if there may be any bookings affected by taking their vehicle offline, and can try reallocate them if possible.
+* Added an error message if starting a booking fails.
+* Small Performance improvements to fetching Borrower, Vehicle Owner and Operator list of bookings.
+
+## 1.85.1 - 20/03/2019
+
+This release contained small updates and incremental work on current stories tracked on feedback.hourfleet.com
+
+## 1.85.0 - 19/03/2019
+
+### Improvements
+
+* Booking start dates and end dates can now be changed after a booking has been approved as long as it has not begun.
+
+### Fixes
+
+* Fixed a bug with the booking date input which would incorrectly display the current date after a reset.
+* Fixed an issue where vehicles would be displayed as available 'right now' on the search page even if they weren't.
+
+## 1.84.2 - 12/03/2019
 
 ### Improvements
 
