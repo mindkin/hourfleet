@@ -3,9 +3,11 @@ layout: default
 title: Release Notes
 ---
 
-# Release Notes have moved
-Release Notes are now posted at: https://mindkin.canny.io/admin/changelog
+## 1.87.0 - 01/04/2019
 
+### Fixes
+
+* Fixed Google recaptcha not appearing sometimes on registration page
 
 ## 1.86.0 - 30/03/2019
 
