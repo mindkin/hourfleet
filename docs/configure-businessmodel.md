@@ -24,7 +24,10 @@ Supported models, settings, pricing, rules, rates, etc.
                                     "Min": 2, // Minumum number of alpha-numeric characters (including spaces)
                                     "Max": 6 // Maximum number of alpha-numeric characters (including spaces)
                                 },
-			}
+			},
+			"Verifications" : {
+				"IsDiscretionaryAutoVerified": true // A car's discretionary verification is set by default 
+			},
 		    },
 		    "Drivers":{
 		    	"Licenses":{
@@ -39,7 +42,12 @@ Supported models, settings, pricing, rules, rates, etc.
 		    "Carkits":{
 		        "IsSupported": true, // Do you want to support Keyless access on your network? or support only KeyExchange?
 			"Enrolment": "ByOwner" // If "ByOwner", then any car owner will be allowed to enrole in fitting a carkit to their car. If "ByOperator", then operators will need to assign specific cars to be allowed to enrole in fitting a carkit.  
-		    }
+		    },
+		    "Users":{
+		    	"Verifications" : {
+				"IsDiscretionaryAutoVerified": true // A user's discretionary verification is set by default 
+			},
+		    },
 		},
 	        "Insurance": {
 		    "MaxValuedAt": 50000,
@@ -133,7 +141,7 @@ The following wildcard tokens can be used as shortcuts for the 'Allowed':
 
 ### Car License Limits
 
-Across all 'allowed' juridictions you will need to define the number of characters that are supported in its license plates.
+Across all 'allowed' jurisdictions you will need to define the number of characters that are supported in its license plates.
 
 > Note: Careful consideration is required in jurisdictions if you want to support custom/vanity plates, since the character limits may vary in each jurisdiction. 
 
