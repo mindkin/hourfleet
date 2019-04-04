@@ -26,7 +26,7 @@ Supported models, settings, pricing, rules, rates, etc.
                                 },
 			},
 			"Verifications" : {
-				"IsDiscretionaryAutoVerified": true // A car's discretionary verification is set by default 
+				"IsDiscretionaryAutoVerified": true // A car's discretionary verification is auto-verified when their account is created
 			},
 		    },
 		    "Drivers":{
@@ -45,7 +45,7 @@ Supported models, settings, pricing, rules, rates, etc.
 		    },
 		    "Users":{
 		    	"Verifications" : {
-				"IsDiscretionaryAutoVerified": true // A user's discretionary verification is set by default 
+				"IsDiscretionaryAutoVerified": true // A user's discretionary verification is auto-verified when their account is created
 			},
 		    },
 		},
