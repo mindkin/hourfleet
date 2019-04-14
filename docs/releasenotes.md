@@ -6,7 +6,7 @@ title: Release Notes
 
 # Release Notes Moved
 
-Release Notes are now posted as a Changelog in our feedback channel: https://feedback.hourfleet.com/changelog
+Release Notes are now posted as a Changelog in our feedback channel: http://feedback.hourfleet.com/changelog
 
 
 ## 1.87.0 - 01/04/2019
