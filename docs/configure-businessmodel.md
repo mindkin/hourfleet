@@ -26,7 +26,13 @@ Supported models, settings, pricing, rules, rates, etc.
                                 },
 			},
 			"Verifications" : {
-				"IsDiscretionaryAutoVerified": true // A car's discretionary verification is auto-verified when their account is created
+				"Discretionary": {
+                    "IsAutoVerified": true, // A car's discretionary verification is auto-verified when their account is created
+                    "Instructions": {
+                        "Title": "Service Record",
+                        "Content":["Upload a copy of your vehicles service record in the Files area of your car profile", "Once uploaded our support team will verify your documention."]
+                    }
+				}
 			},
 		    },
 		    "Drivers":{
@@ -45,8 +51,14 @@ Supported models, settings, pricing, rules, rates, etc.
 		    },
 		    "Users":{
 		    	"Verifications" : {
-				"IsDiscretionaryAutoVerified": true // A user's discretionary verification is auto-verified when their account is created
-			},
+					"Discretionary": {
+                        "IsAutoVerified": true, // A users's discretionary verification is auto-verified when their account is created
+                    	"Instructions": {
+                        	"Title": "Upload Documentation",
+                        	"Content":["Upload your driving record in the Files area of your profile", "Once uploaded our support team will verify your documention."]
+                    	}
+					}
+				},
 		    },
 		},
 	        "Insurance": {
@@ -163,6 +175,12 @@ Common examples:
 3. If your car share network is P2P, you may allow any car owner to request their own carkit (`IsSupported=false`) for their vehicle `Enrolement=ByOwner`.
 4. Less common hybrids combinations are also possible.
 
+### User and Car Verifications
+
+For both Users and Cars there are a set of required verifications defined by the Hourfleet software the need to be met in order for them to participate on your network. There is also an additional verification which can be used as a discrete flag during a review process (e.g. To prevent a borrowers use of a vehicle during a dispute claim) or to support a verification procedure that occurs off the Hourfleet Platform (e.g. Borrowers may be required to provide a copy of their driving record).
+
+If you choose to use this verification to support a verification step not provided by default then you have the ability to provide your users additional guidance on what they must do on their respective account pages. You can do this using the `Title` and `Content` areas of the `Verifications.Discretionary` section.
+
 ## Insurance
 As a car sharing business, whether your business owns the cars (B2C) or whether you allow your users to own cars (P2P) you are likely to have an insurer cover the cars when in use. If you work with an insurer and the conditions of insurance involve an insured value of the cars in your network, you will need to collect the insured value for each registered car.
 
@@ -193,4 +211,3 @@ In either case, borrowers will be fully verified by you before being able to bor
 
 As a Network Operator, you are able to customize the timing parameters for these usage models, and determine their pricing models.
 See more details about the Usage Models [How It Works](howitworks.html)
-
