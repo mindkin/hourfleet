@@ -13,7 +13,7 @@
     }
     
     a {
-        color: #ff8e43;
+        color: #19af84;;
     }
 
     h1, h2, strong, b {
@@ -23,6 +23,20 @@
     h6 {
         font-size: 0.85em;
         color: #6a737d;
+    }
+
+    h1 {
+        font-size: 2.0rem;
+        margin-top: 60px;
+    }
+    h1:first {
+        margin-top: 0px;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.0rem;
     }
 }
 
