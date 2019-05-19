@@ -55,3 +55,20 @@ blockquote {
         }
     }
 }
+.navbar-toggler {
+    float: left;
+}
+
+.navbar-brand>img {
+    height: 20px;
+}
+
+@media (max-width: 767px){
+.navbar-brand {
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+}
