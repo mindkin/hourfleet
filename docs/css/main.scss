@@ -13,7 +13,10 @@
     }
     
     a {
-        color: #19af84;;
+        color: #19af84;
+    }
+    a:hover, a:focus {
+        color: #198566;
     }
 
     h1, h2, strong, b {
@@ -76,7 +79,7 @@ blockquote {
 .navbar-brand>img {
     height: 20px;
     padding-right: 5px;
-    margin-top: -50px;
+    margin-top: -5px;
 }
 
 @media (max-width: 575px){
