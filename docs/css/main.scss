@@ -29,8 +29,8 @@
         font-size: 2.0rem;
         margin-top: 60px;
     }
-    h1:first {
-        margin-top: 0px;
+    h1:first-child {
+        margin-top: 15px;
     }
     h2{
         font-size: 1.5rem;
@@ -76,6 +76,7 @@ blockquote {
 .navbar-brand>img {
     height: 20px;
     padding-right: 5px;
+    margin-top: -50px;
 }
 
 @media (max-width: 575px){
