@@ -2,8 +2,9 @@
 layout: default
 title: Documentation Page
 ---
- 
-**Planning Your Tenancy**  
+
+# Customizing Your Car Share
+
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing networks.  
 * [Hourfleet Pics](screens.html). A collection of car search, booking, and dashboard images designed for mobile.  
 * [The Hourfleet carkit](carkit.html). All you need to know about this in-car device - compatibility, customization, installation and cellular network setup.     
@@ -14,24 +15,25 @@ title: Documentation Page
 * [Insurance](insurance.html). Supporting your insurance provider
 * [Integrations](integrations.html). Learn about the third-party platform that Hourfleet integrates with. Currently only [Stripe](http://stripe.com) is mandatory. 
 
-**Establishing Your Tenancy**  
+## Establishing Your Car Share
+
 * [Step by step Guide](stepbystep.html) - Are you ready to launch your Hourfleet-powered car sharing network? Yes? Great, so use this checklist to confirm that you have everything sorted.   
 
-**Operations**
+## Operations
 * [Who does what?](roles.html) - Learn about the distinct roles of network operators (you!), car owners and car borrowers
 
 
-### What's New?
+# What's New?
 
 We're constantly improving Hourfleet. Some improvements are small and barely noticable, while others are large, most typically adding new features that are designed to make your car sharing network the go-to in your area. 
 
-We document all improvements and fixes in our [Platform Release Notes](releasenotes.html).
+We document all improvements and fixes in our [Changelog](https://mindkin.canny.io/admin/changelog).
 
-### Need an Improvement?
+## Need an Improvement?
 
-Please head over to our [feedback page](http://feedback.hourfleet.com) where you can submit new ideas and track what is coming in the platform road map.
+Head over to our [feedback page](http://feedback.hourfleet.com) where you can submit new ideas and track what is coming in the platform road map.
 
-### Service Status
+## Service Status
 
-If you are experiencing issues with any aspect of the platform, including accessing any service, please take a quick look at our [Service Status](http://status.hourfleet.com) page.
+Subscribe to service updates for all services of the platform [Service Status](http://status.hourfleet.com) page.
 
