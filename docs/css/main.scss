@@ -61,9 +61,10 @@ blockquote {
 
 .navbar-brand>img {
     height: 20px;
+    padding-right: 5px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 575px){
 .navbar-brand {
     -ms-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
