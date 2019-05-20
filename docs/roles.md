@@ -1,3 +1,7 @@
+---
+layout: default
+title: Roles
+---
 ## Roles
 Your Hourfleet tenancy has four main roles, and each role as distinct activities and responsibilities.  The roles are:
 

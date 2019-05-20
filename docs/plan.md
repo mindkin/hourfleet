@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation Page
+title: Planning Your Car Share
 ---
 
 # Planning Your Car Share

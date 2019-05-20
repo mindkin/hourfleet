@@ -1,3 +1,7 @@
+---
+layout: default
+title: Checklist
+---
 # Checklist  
 
 We're keen to see you get value for money from your Hourfleet subscription. So before you sign up, there some important things you'll need to understand, and a few things you'll need to do. 

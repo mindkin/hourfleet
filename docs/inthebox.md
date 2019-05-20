@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What You Are Ging To Get
+title: In The Box
 ---
 # What You Are Going To Get
 

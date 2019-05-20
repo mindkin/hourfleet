@@ -1,3 +1,7 @@
+---
+layout: default
+title: Insurance
+---
 # Introduction
 Having the right insurance product is an essential part of running a car sharing service. The range of insurance producs available to you will depend on how well local insurance companies support car sharing services. In many jurisdictions products designed for the car rental industry can be purchased for conventional business-to-consumer car sharing. Support for peer-to-peer car sharing is quite varied. Generally the United States, Canada and Europe has mature products peer-to-peer products, and other jurisdictions less so.
 

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Integrations
+---
 ## Integrations
 Hourfleet depends on one mandatory third-party integration ([Stripe](http://stripe.com)), and supports a number of optional third-party integrations. In all cases, configuring this integration requires you to 
 1. Sign in to your account with the integraton provider
@@ -16,7 +20,7 @@ From your Stripe Dashboard, click `Developers`, then `API Keys`, and then `+ Cre
 Give the key the name `Hourfleet`. All your permissions should be showing `None`. Go through and check each  of the permissions shown as needing `Read and write` as shown below.
 
 ![](images/RestrictedKey.png) 
-  
+
 Now click `Create key`
 
 ![](images/RestrictedKey2.png)  

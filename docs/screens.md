@@ -1,3 +1,7 @@
+---
+layout: default
+title: Screens
+---
 # Screens  
 
 Hourfleet is a full-featured car sharing platform. In practice this means there are a large number of screens and features, and all features are available on all/any device type - from desktop, to tablet and phone. This section captures some of the key screens that will exist* in your tenancy. We have used mobile form-factor screens, and where the screen would scrolls we've streteched the image. Feel free to check back, as we will extend this set of images over time.

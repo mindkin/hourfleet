@@ -1,3 +1,7 @@
+---
+layout: default
+title: Your Website
+---
 # Introduction  
 Hourfleet is a fully featured car sharing platform. Part of the white label capability is a mechanism that allows you to design, host and maintain your own landing page(s) to promote your service, and for your hourfleet tenancy to integrate with those pages.  
 
