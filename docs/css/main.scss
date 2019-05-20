@@ -1,6 +1,13 @@
 ---
 ---
 
+$primary-color: #ff9b17;
+$light-grey: #dfe2e5;
+
+html, body, .body {
+    background-color: #f3f3f3;
+}
+
 .page-content {
     margin: 0 auto;
     max-width: 50rem;
@@ -9,10 +16,10 @@
     color: #555;
 
     a {
-        color: #19af84;
+        color: $primary-color;
     }
     a:hover, a:focus {
-        color: #198566;
+        color: scale-color($color: $primary-color, $lightness: -30%);
     }
 
     h1, h2, strong, b {
@@ -24,7 +31,9 @@
     .h1, h1 {
         font-size: 2.0rem;
         margin-top: 1.5em;
-        margin-bottom: 0.75em;
+        margin-bottom: 0.5em;
+        padding-bottom: .25em;
+        border-bottom: 1px solid $light-grey;
     }
     .h1, h1:first-child {
         margin-top: 15px;
@@ -52,7 +61,7 @@
 blockquote {
     padding: 0 1em;
     color: #6a737d;
-    border-left: 0.25em solid #dfe2e5;
+    border-left: 0.25em solid $light-grey;
 }
 
 .release-notes {
