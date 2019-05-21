@@ -1,77 +1,132 @@
 ---
 layout: default
-title: Carkits
+title: Carkit
 ---
 # Carkit Compatibility   
-This section is intended for Hourfleet Gen-II carkit as shown in the image below. This carkit is compatible with cars that  
-- Have a proximity key. These are the keys you can leave in your pocket while using the car  
-- Have a factory-fitted push-to-start button
+This section is intended for the latest generation of Hourfleet carkits, with a smart optical unlock feature, known as **Tap, Tap Go**. 
 
-Cars that have older style twist-key ignitions **cannot** have a carkit fitted, however they can still be used on Hourfleet networks which have been configured to allow Key Exchange. Key Exchange is a feature which facilitates the car owner and renter meeting to pickup and dropoff of a physical car key.  
+This carkit is only compatible with cars that:
 
-# Carkit Customization
-Each carkit must first be customized before it is installed in the target car. This customization makes the carkit specific to that one car, and the carkit cannot simply be removed from that car and installed in another.
+- Have a proximity key. These are the kinds of keys you can leave in your pocket while using the car  
+- Have a factory-fitted push-to-start button (usually on the dashboard of the car)
 
-Customization involves our technician taking a working proximity car key, disassembling it, and installing the key's internal circuitry inside the hourfleet carkit. This is a one-way trip for that key - it can't be recovered or re-used as a conventional key ever again. 
+![Push To Start](https://static.wixstatic.com/media/d9b141_c7fd15ae9f164d96a6f41998402daeaf~mv2.jpg/v1/fill/w_630,h_326,al_c,q_80,usm_0.66_1.00_0.01/d9b141_c7fd15ae9f164d96a6f41998402daeaf~mv2.webp)
 
-The purchase price of an Hourfleet carkit includes the carkit itself, the customization work, and delivery of the customized carkit to any address accessible by DHL. The price does not include the cost of the car key itself, nor delivery of that key to our technician.
+Cars that have older style twist-key ignitions **cannot** have this carkit fitted, however they can still be used on Hourfleet networks which have been configured to allow "Key Exchange". 
 
-# Carkit Unboxing
-![](images/Mindkin-Scout-Gen2-RevF-Diagram.png) 
+> Key Exchange is a feature which facilitates the car owner and renter meeting to pickup and dropoff of a physical car keys. No carkits.
 
+# How it Works - Tap Tap Go!
 
-### Carkit Basics
-The Hourfleet carkit is simple to install. It takes a constant +12v supply and has GPS and Cell network antennae which should be mounted on th dashboard. Unlike the image above, some versions of the car kit have a plastic case affixed to the outside of the aluminium case. This is an after-market modification, necessary as we have discovered that some cars have very low power proximity sensors inside the cabin. The customised car key must be outside the aluminium case in order to be detected by the car's proximity sensor.
-
-### Pre-Installation Testing
-We recommend the carkit is tested for unlock/lock functions _before_ it is closed up inside the car. This can be done using a portabl 12v power source, or using the car's supply.
-
-**IMPORTANT** The  carkit _is not_ reverse polarity protected, so be very careful to apply +ve to the red wire, and -ve to the ground wire. This is made difficult as not all cars have the same ground system. Please consult your car manufacturer's documentation.
-
-Once the device is powered up: 
-- sign in to your network administration account
-- click  `Car`, then `Car Kits` 
-- enter the plate number of the car that's been configured with this device
-- click `control` and the panel below will be shown
-
-![](images/Operations-CarkitControlSmall.PNG)
-
-Control actions can take anywhere from 10s to 30s to complete, depending on load on the cellular network. Run through the following manual tests:
-1. Click `unlock` and confirm the car unlocks
-1. Click `lock` and confirm the car locks
-1. Click `Sync` and then periodically click the link that tracks the Sync message. Remember it could take 30s to confirm the Sync was processed and acknowledged by the Hourfleet network.
+[![Tap, Tap Go](http://img.youtube.com/vi/boopaYYKiSo/0.jpg)](https://www.youtube.com/watch?v=boopaYYKiSo)
 
 
-### Carkit Installation  
-Secure firmly in the glove compartment or behind the dash. The automotive environment is harsh, with strong and in some off-road cases violent vibrations. Take extra car to secure the carkit for the harshest possible conditions. 
+# Obtaining a Carkit
+A carkit is obtained by ordering a quantity of them from Hourfleet. 
 
-It is important that the carkit’s embedded OEM proximity key can be detected by the car, otherwise ‘Key not found’ or similar will be reported on pressing the ‘Start’ button. Please consult manufacturer specifications for the internal placement of proximity key sensors. From past experience, the internal proximity sensors tend to be near the centre console, between or near the driver and passenger seats.
+These carkits are devices that can be shipped to your business, and then paired with a key unit of the car before being fitted into any car.
 
-**IMPORTANT**: To maximise the signal strength between the carkit and the car's proximity sensor(s), ensure the device is mounted with the red dot facing generally inwards to the car cabin. Do not mount the device with the red dot facing the engine/firewall.  
+A carkit comes in two parts that fit together when installed. The main carkit unit and a separate car key unit.
+
+![Two Parts](images\OpticalCarkit_PiecesLabeled.jpg)
+
+The car key unit must be physically constructed by Hourfleet technicians prior to the delivery of the carkit. This physical customization makes the car key unit specific to each car. Which means that the car key unit can only be used for that car. However, the main carkit unit is general purpose and can be installed in other cars, paired with each of their car key units.
+
+The basic process to provision a carkit for any car is as follows:
+
+1. Place an order for a carkit with Hourfleet (contact info@hourfleet.com for pricing and availability).
+2. Send one of the spare (proximity) car keys for the car to Hourfleet technicians (by mail).
+3. Hourfleet technicians return a fully configured carkit, which comes in two parts: a car key unit, and the carkit unit, which fit together for that car.
+4. Install the carkit into the car
+5. In the Hourfleet App, registered the carkit with a registered car, which creates a secure binding in the Hourfleet App.
+6. People can now start booking and using that car keylessly, using the Hourfleet App.
+
+**IMPORTANT**: It is important to understand that the creation of a car key unit is a destructive process to the spare car key. Which means, that you must sacrifice a spare key to your car to get keyless access for the car. You will need to have a spare car key to do this. Once a carkit is delivered back to you from Hourfleet technicians, the car key is no longer usable by a person. The car key is now permanently embedded in a carkey unit that can only be used by an Hourfleet carkit.
+
+### Pricing
+
+The purchase price of an Hourfleet carkit includes the carkit itself, the provisioning work, and delivery of the carkit to any address accessible by DHL. 
+
+Contact info@hourfleet.com for pricing and availability.
+
+The price **does not include** the cost of the car key itself, nor the postage delivery of that car key to our technician.
 
 
-### Antennae
-These can be affixed in the same general area, near the base of the windscreen. It is important that the GPS antenna is affixed on a level (or near level) surface, and that it has an unobstructed view of the sky. 
+# Installing the Carkit
+The Hourfleet carkit is simple to install in a car by any person.
+
+Normally, for most car sharea, it will be the operator of the car share that will be responsible for arranging, overseeing  or performing the installation of the carkit, both physcially in the car and electronically with the Car Share.
+
+> Note: Some car share operators may choose to outsource the phsycial installation of the carkit in their cars to other parties, but the electronic registration of the carkit can only be done by the operator in the Hourfleet App.
+
+Familiarise yourself with the following parts:
+
+1. The main carkit unit and the Car Key Unit
+2. A GPS Antenna
+3. A Touch Sensor
+4. An OBD Connector
+
+![CarKit](images\OpticalCarkit_AccessoriesLabeled.jpg)
+
+Ideally, you would mount the main unit (connected to car key unit) under the dashboard on the drivers side of the car, or as close to the drivers side as possible.
+
+### OBD Connector
+
+Plug the ODB Connector into the Onboard Diagnostics (OBD) connector of the car. 
+
+This connector can be located in different places in different cars, usually at least one connection under the dashboard.
+
+![OBD COnnector](images\OBD2Port.png)
+
+### GPS Antenna
+
+Then, you route the GPS Antenna cable from the main unit up onto the dashboard. It can be on either the drivers side of the car or the passengers side. Ideally, you would route the GPS Antenna cable out of sight behind the dash. Place the GPS Antenna in plain sight of the windscreen, either on the dashboard, or adhered to the windowscreen near the top of the windscreen, with a clear view of the skies.
+
+### Touch Sensor
+
+Then you route the Touch Sensor cable from the main unit up onto the dashboard on the drivers side. Like the GPS cable, try to route the Touch Sensor cable out of sight behind the dash. Run the Touch Sensor cable up the vertical support column that supports the side of the windscreen on the drivers side. This is the vertical column between the glass of the windscreen and the glass of the drivers side door window. Adhere the Touch Sensor to the windowscreen as low and as close the drivers side of the windscreen, so it does not obstruct the drivers view of the road. Ideally, place it at the same height as an average persons elbow. This makes it very accessible to operate for Tap Tap Go outside the car for most people.
+
+### Make a Note
+
+Finally, make a note of both the **license plate** of the car, and the **number from the sticky label on the main carkit unit**. You will both of these to complete the registration below.
+
+## Verify the Physcial Installation
+
+Once the carkit has been physcially installed, and the OBD connector has been connected successfully, you should see a slow flashing red light on the Touch Sensor in the windowscreen (from the outside of the car). This confirms that the device is working correctly.
+
+> If the red light is not flashing, then check your OBD connector
+
+For the next part, you will need the another spare (proximity) car key for the car.
+
+You will need to start the car, as you do normally with the start button.
+
+For the next part, the car has to be in a location where it has cellular access to the internet.
+
+You may need to move the car to do this, or drive around for a few minutes in a cell covered area.
+
+Either way, after a few minutes, you will notice that the red flashing light on the Touch Sensor will change from flashing red to flashing blue. It may, flash purple for a few seconds turning from red to blue.
+
+Once the Touch Sensor turns to flashing blue. You may stop the car. The carkit is now fully programmed and can now be registered in the Hourfleet App to be used by others (through the app) to access and drive the car, without the use of the spare proxity key you have.
+
+# Registering the Carkit on Your Car Share
+
+As an operator of your car share, you will need to register the carkit as being installed into one of the cars already registered in your network of cars on your car share. 
+
+This must be done before anyone in the car share can access or use the car from the Hourfleet App.
+
+>  Note: This step is also necessary any time a main carkit unit is swapped between cars, or a carkit is removed from a car. In those cases, the carkit wil need to be unregistered from the first car, and if necessary re-registered with another car.
+
+Once the carkit is physically installed and working as described above, then open the Hourfleet App at your Car Share URL (looks like: https://yourcompany.hourfleet.com), login and go to the 'Operations Dashboard' page in the App.
+
+- From the menu of the far left, click  'Cars', and then 'Carkits'
+- Enter the license plate number of the car, and hit 'Search'
+- When the car is found, click the 'Register' button
+- Select, 'Carkit Version' to be `3`
+- For the Device Name, enter the value you wrote down from the sticky label on the main carkit unit.
+- Click 'Register'
+
+`[Need More Detail: Image of the App Registration Process]`
 
 
-### Power  
-The carkit requires a constant 12 volt supply. An increasing number of cars provide a 'managed' 12 volt supply, one where the accessor or other circuits are powered down after the car has been idle for a period of time. It is critical that the carkit **is not** subject to any such power management scheme, as it must remain continuiously powered up.The carkit should be protected with a 5A fuse.  
 
-**IMPORTANT**: Because the carkit is always powered on, it creates additional drain on the car battery. If the car is left idle for long periods there is an increased risk that the car battery could run flat. The actual dischanrge timeframe will depend on factors such as the frequency and length of use, the battery age/condition and even the temperature. Our experience is that an medium-sized car could expereince a flat battery if left unused for 3+ weeks.
-
-
-# Network Connectivity
-The Hourfleet carkit operates as a telemetry device, connecting to a 2G mobile data network so that digitally-encrypted door unlock/lock instructions can be received from the Hourfleet network, and telemetry data can be transferred to the Hourfleet network. 
-
-It will be important for you to work with your chosen carrier to ensure your carkits work correctly. Before launching your network, we suggest you confirm:
--	Your carrier has 2G coverage over the geographic areas where Hourfleet-enabled cars are expected to travel
--	You can purchase monthly data plan which supports 50Mb/month, and inbound SMS messaging. Telemetry-style data plans should cost your business less than $US4/month
--	Your carrier can supply a standard size data SIM which has an APN pre-configured. An APN is a bit like a 'carrier internal' DNS server. The mobile data network uses the APN to decide how the carkit will be allocated a real-world IP address. SIM cards may have one of more APNs pre configured. The carkit uses the APN pre-configured in PDP context #1 
-- The number printed on your SIM should be 16 digits length. 
-- If the SIM card shows 13 digits then there are three unprinted digits which prefix the 13 that are shown. You'll need to speak to your carrier as all 16 digits are required when configuring the carkit in \<yourtenancy\>.hourfleet.com.   
-- If the SIM card shows 19 digits + one alphabetic character, then the first two digits should be ignored, and the true SIM number is the following 16 digits. For example, ~~89~~1067365855460907~~6F~~. T-Mobile SIMs display their SIM number in this general form.  
-General info on this topic is [here](http://www.imei.info/faq-what-is-ICCID/).
-
-  
-### SIM Installation
-This is a 2nd generation Hourfleet carkit. While future versions will allow the SIM to be inserted simply, this carkit must be opened for the SIM to be connected to the internal cellular modem. The Hourfleet team will provide technical assistance if required. In some instances the carkit will have been shipped with its SIM card pre-installed.
+Now, that the carkit is phsycially installed and registered on your car share, borrowers of the car can now access the car keyless-ly without any physical keys. All they need is a smartphone with internet access!
