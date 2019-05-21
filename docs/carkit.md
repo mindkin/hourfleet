@@ -28,7 +28,7 @@ These carkits are devices that can be shipped to your business, and then paired 
 
 A carkit comes in two parts that fit together when installed. The main carkit unit and a separate car key unit.
 
-![Two Parts](images\OpticalCarkit_PiecesLabeled.jpg)
+![Two Parts](images\OpticalCarkit_PiecesLabeled.jpg)  
 
 The car key unit must be physically constructed by Hourfleet technicians prior to the delivery of the carkit. This physical customization makes the car key unit specific to each car. Which means that the car key unit can only be used for that car. However, the main carkit unit is general purpose and can be installed in other cars, paired with each of their car key units.
 
