@@ -34,7 +34,7 @@ The car key unit must be physically constructed by Hourfleet technicians prior t
 
 The basic process to provision a carkit for any car is as follows:
 
-1. Place an order for a carkit with Hourfleet (contact sales@hourfleet.com for pricing and availability).
+1. Place an order for a carkit with Hourfleet (contact [Hourfleet Sales](mainlto:sales@hourfleet.com) for pricing and availability).
 2. Send one of the spare (proximity) car keys for the car to Hourfleet technicians (by mail).
 3. Hourfleet technicians return a fully configured carkit, which comes in two parts: a car key unit, and the carkit unit, which fit together for that car.
 4. Install the carkit into the car
@@ -47,7 +47,7 @@ The basic process to provision a carkit for any car is as follows:
 
 The purchase price of an Hourfleet carkit includes the carkit itself, the provisioning work, and delivery of the carkit to any address accessible by DHL. 
 
-Contact sales@hourfleet.com for pricing and availability.
+Contact [Hourfleet Sales](mainlto:sales@hourfleet.com) for pricing and availability.
 
 The price **does not include** the cost of the car key itself, nor the postage delivery of that car key to our technician.
 
