@@ -20,12 +20,13 @@ Cars that have **older style twist-key ignitions** may have this carkit fitted, 
 
 [![Tap, Tap Go](http://img.youtube.com/vi/boopaYYKiSo/0.jpg)](https://www.youtube.com/watch?v=boopaYYKiSo).
 
-It's pretty simple, just like boarding an aircraft. The LED light in the windscreen indicates the car kit's state:
-1 **Blue flashing** : Ready for normal operation. 
-1 **Green pulsing**: Ready for presentation of a unlock/lock key 
-1 **Green flashing**: A valid QR key has been presented. The car doors will unlock or lock as appropriate. 
-1 **Red flashing (slow)**: Power has just been applied. The car kit is waiting for the Hourfleet host to send a set of encrypted QR keys  
-1 **Purple flashing** : The car kit is being programmed by the Hourfleet host.  
+It's pretty simple, just like boarding an aircraft. The LED light in the windscreen indicates the car kit's state:  
+1 **Blue flashing** : Ready for normal operation.   
+1 **Green pulsing**: Ready for presentation of a unlock/lock key.  
+1 **Green flashing**: A valid QR key has been presented. The car doors will unlock or lock as appropriate.  
+1 **Red flashing (slow)**: Power has just been applied. The car kit is waiting for the Hourfleet host to send a set of encrypted QR keys.    
+1 **Purple flashing** : The car kit is being programmed by the Hourfleet host.    
+
 
 
 # Obtaining a Carkit
