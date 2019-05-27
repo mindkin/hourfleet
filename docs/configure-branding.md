@@ -57,7 +57,7 @@ These settings control the look and feel of your web app, and important SEO info
 			"BusyPageUrl": "http://www.yourcompany.com/Images/loader_page.gif", // Used to display progress for whole pages
 			"BusyButtonUrl": "http://www.yourcompany.com/Images/loader_button.gif" // Used to display progress on certain buttons
 		},
-		"Mobile": { // Images used to create a native app on your iPhone/Android home screen from the progressive web app 
+		"Mobile": { // Images used to create a native app on your iPhone/Android home screen from the progressive web app. You will need to define at least the Icon192Url and Icon512Url to enable these features for your users
 			"IconUrl": "http://www.yourcompany.com/Images/mobile.png", // used by iPhone 
 			"Icon72Url": "http://www.yourcompany.com/Images/mobile72x72.png", // used by iPhone and Android
 			"Icon114Url": "http://www.yourcompany.com/Images/mobile114x114.png", // used by iPhone 
