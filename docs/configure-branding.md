@@ -69,12 +69,19 @@ These settings control the look and feel of your web app, and important SEO info
 	},
 ~~~
 
+## SEO (Search Engine Optimization)
+All web applications need to provide sufficient metadata for Search Engine Optimization (SEO) for web crawlers such as Google to help get your business found. 
+
+Also, your Hourfleet operational website needs to provide the right metadata so that and when people share their experience with social media applications (like slack, facebook and twitter), the right information is displayed in the preamble of their post by default.
+
 ## Image Sizes
 All images can be provided in higher values as long as their aspect ratios remain the same.
 
 | Seo                 | Size                                     |
 | ---------------------- | ---------------------------------------- |
 | logo.jpeg              | 200px X 200px                            |
+
+
 
 | Images                 | Size                                     |
 | ---------------------- | ---------------------------------------- |
@@ -85,12 +92,11 @@ All images can be provided in higher values as long as their aspect ratios remai
 | loader_page.gif | minimum 100px x 100px. Image must be square but if larger will be sized down |
 | loader_button.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
 
+
+
 | Mobile                 | Size                                     |
 | ---------------------- | ---------------------------------------- |
 | mobile.png             | 72px X 72px                              |
 | Other images           | (self describing)                        |
 
 > Note: You must specify both `Icon192Url` and `Icon512Url` to enable the installable app features for your mobile users
-
-## SEO
-All web applications need to provide sufficient metadata for Search Engine Optimization (SEO) for web crawlers such as Google to help get your business found. Also, your Hourfleet operational website needs to provide the right metadata so that and when people share their experience with social media applications (like facebook and twitter), the right information is displayed in their post by default.
