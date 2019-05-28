@@ -48,9 +48,16 @@ $light-grey: #dfe2e5;
         font-size: 0.85em;
         color: #6a737d;
     }
-
     .p, p {
         margin-bottom: 0.5em;
+    }
+    .table {
+        background-color: transparent;
+        border: solid black 1px;
+        margin: 20px 0px;
+    }
+    .td {
+        padding: 10px 10px 0px 10px;
     }
 }
 
