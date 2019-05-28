@@ -3,7 +3,7 @@ layout: default
 title: Configure Branding.
 ---
 # Branding
-These settings control the look and feel of your web app, and important SEO information for your customers and marketing in internet search engines like Google. 
+These settings control the look and feel of your web app, and inlcude **important SEO information** for your customers and for marketing in internet search engines like Google. 
 ~~~	
 	"Branding": {
 		"Name": {
@@ -19,14 +19,14 @@ These settings control the look and feel of your web app, and important SEO info
 			"Url": "http://www.yourcompany.com"
 		},
 		"Styles": { // The colors used to brand your app
-			"PrimaryColor": "#03e4ac",
-			"LinkColor": "#17c197",
-			"TextColor": "#232c33",
-			"BkColor": "#ecf0f1",
-			"FooterBkColor": "#ecf0f1",
+			"PrimaryColor": "#03e4ac", // The main highlight color of UI components such as buttons, menus etc
+			"LinkColor": "#17c197", // The color of hyperlinks on all pages
+			"TextColor": "#232c33", // The color of text on all pages
+			"BkColor": "#ecf0f1", // The background color of the main pages
+			"FooterBkColor": "#ecf0f1", // The color of the footer section at the bottom of each page.
 			"Navigation": {
-				"HoverColor": "#03e4ac",
-				"BkColor": "#324359"
+				"HoverColor": "#03e4ac", // The background color under the mouse in menus
+				"BkColor": "#324359" // The background color of menus
 			}
 		},
 		"Social": { // Links to your social apps
@@ -70,12 +70,19 @@ These settings control the look and feel of your web app, and important SEO info
 ~~~
 
 ## SEO (Search Engine Optimization)
+
 All web applications need to provide sufficient metadata for Search Engine Optimization (SEO) for web crawlers such as Google to help get your business found. 
 
 Also, your Hourfleet operational website needs to provide the right metadata so that and when people share their experience with social media applications (like slack, facebook and twitter), the right information is displayed in the preamble of their post by default.
 
-## Image Sizes
-All images can be provided in higher values as long as their aspect ratios remain the same.
+## Images
+
+All images must be hosted on your own web sites, and access to those images must be public (without authentication).
+Prefer links to images that are accessible over HTTPS (https://) to avoid browser imposed issues displaying non-secure images from your secure Hourfleet site.
+
+All image sizes can be provided in higher values as long as their aspect ratios remain the same.
+
+> Note: consider that your images will be presented against the colors that you choose in the 'Styles' section. Use a transparent background, and anti-aliasing for those background colors. We recommend that you test your images on the site and optimize the presentation from there.
 
 | Seo                 | Size                                     |
 | ---------------------- | ---------------------------------------- |
