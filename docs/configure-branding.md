@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Configure Branding.
+title: Configure Branding
 ---
 # Branding
 These settings control the look and feel of your web app, and inlcude **important SEO information** for your customers and for marketing in internet search engines like Google. 
