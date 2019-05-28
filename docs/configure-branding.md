@@ -50,8 +50,8 @@ These settings control the look and feel of your web app, and inlcude **importan
 			}
 		},
 		"Images": {
-			"DesktopImageUrl": "http://www.yourcompany.com/Images/logo_navbar.png", // Image at top of every page in desktop sizes
-			"MobileImageUrl": "http://www.yourcompany.com/Images/logo_navbar_mobile.png", // Image at top of every page in mobile sizes
+			"DesktopImageUrl": "http://www.yourcompany.com/Images/logo_navbar.png", // Image at top of every page in desktop sizes, and used in all email notifications. 
+			"MobileImageUrl": "http://www.yourcompany.com/Images/logo_navbar_mobile.png", // Image at top of every page in on mobile devices.
 			"FavIconUrl": "http://www.yourcompany.com/Images/favicon.ico",
 			"BusyInlineUrl": "http://www.yourcompany.com/Images/loader_inline.gif", // Used to display progress for individual actions
 			"BusyPageUrl": "http://www.yourcompany.com/Images/loader_page.gif", // Used to display progress for whole pages
@@ -79,12 +79,14 @@ Also, your Hourfleet operational website needs to provide the right metadata so 
 
 All images must be hosted on your own web sites, and access to those images must be public (without authentication).
 
-**HTTPS Access**: Prefer links to images that are accessible over HTTPS (https://) to avoid browser imposed issues displaying non-secure images from your secure Hourfleet site.
+**HTTPS Access:** Prefer links to images that are accessible over HTTPS (https://) to avoid browser imposed issues displaying non-secure images from your secure Hourfleet site.
 
 **Keep Them Small:** Images can be very large in data size (i.e. bytes). We recommend that all images are as close to their minimum sizes (listed below) otherwise they will make your users experience in the App much slower, particularly on mobile phones.
 > Note: All image sizes can be provided in higher values as long as their aspect ratios remain the same.
 
 **Contrast:** consider that your images will be presented against the colors that you choose in the 'Styles' section. Use a transparent background, and anti-aliasing for those background colors. We recommend that you test your images on the site and optimize the presentation from there.
+
+### Image Sizes
 
 | Seo                 | Size                                     |
 | ---------------------- | ---------------------------------------- |
