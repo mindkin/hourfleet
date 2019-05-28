@@ -52,6 +52,7 @@ These settings control the look and feel of your web app, and inlcude **importan
 		"Images": {
 			"DesktopImageUrl": "http://www.yourcompany.com/Images/logo_navbar.png", // Image at top of every page in desktop sizes, and used in all email notifications. 
 			"MobileImageUrl": "http://www.yourcompany.com/Images/logo_navbar_mobile.png", // Image at top of every page in on mobile devices.
+			"EmailImageUrl": "http://www.yourcompany.com/Images/logo_email.png", // Image used in the footer of email notifications. Always displayed on a white background of the email.
 			"FavIconUrl": "http://www.yourcompany.com/Images/favicon.ico",
 			"BusyInlineUrl": "http://www.yourcompany.com/Images/loader_inline.gif", // Used to display progress for individual actions
 			"BusyPageUrl": "http://www.yourcompany.com/Images/loader_page.gif", // Used to display progress for whole pages
@@ -98,7 +99,8 @@ All images must be hosted on your own web sites, and access to those images must
 | ---------------------- | ---------------------------------------- |
 | DesktopImageUrl (logo_navbar.png)        | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
 | MobileImageUrl (logo_navbar_mobile.png) | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
-| FavIconUrl (favicon.ico) | 190px X 190px
+| EmailImageUrl (logo_email.png) | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
+| FavIconUrl (favicon.ico) | 190px X 190px |
 | BusyInlineUrl (loader_inline.gif) | minimum 50px x 50px. Image must be square but if larger will be sized down |
 | BusyPageUrl (loader_page.gif) | minimum 100px x 100px. Image must be square but if larger will be sized down |
 | BusyButtonUrl (loader_button.gif) | minimum 50px x 50px. Image must be square but if larger will be sized down |
