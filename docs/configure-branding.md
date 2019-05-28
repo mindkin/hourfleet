@@ -86,24 +86,24 @@ All image sizes can be provided in higher values as long as their aspect ratios 
 
 | Seo                 | Size                                     |
 | ---------------------- | ---------------------------------------- |
-| logo.jpeg              | 200px X 200px                            |
+| ImageUrl (logo.jpeg)              | 200px X 200px                            |
 
 
 
 | Images                 | Size                                     |
 | ---------------------- | ---------------------------------------- |
-| logo_navbar.png        | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
-| logo_navbar_mobile.png | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
-| favicon.ico | 190px X 190px
-| loader_inline.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
-| loader_page.gif | minimum 100px x 100px. Image must be square but if larger will be sized down |
-| loader_button.gif | minimum 50px x 50px. Image must be square but if larger will be sized down |
+| DesktopImageUrl (logo_navbar.png)        | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
+| MobileImageUrl (logo_navbar_mobile.png) | 30px High and at least 30px wide (Image can be wider to include a rectangular logo |
+| FavIconUrl (favicon.ico) | 190px X 190px
+| BusyInlineUrl (loader_inline.gif) | minimum 50px x 50px. Image must be square but if larger will be sized down |
+| BusyPageUrl (loader_page.gif) | minimum 100px x 100px. Image must be square but if larger will be sized down |
+| BusyButtonUrl (loader_button.gif) | minimum 50px x 50px. Image must be square but if larger will be sized down |
 
 
 
 | Mobile                 | Size                                     |
 | ---------------------- | ---------------------------------------- |
-| mobile.png             | 72px X 72px                              |
-| Other images           | (self describing)                        |
+| IconUrl (mobile.png)             | 72px X 72px                              |
+| Icon???Url           | (self describing)                        |
 
 > Note: You must specify both `Icon192Url` and `Icon512Url` to enable the installable app features for your mobile users
