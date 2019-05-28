@@ -107,7 +107,8 @@ All images must be hosted on your own web sites, and access to those images must
 
 | Mobile                 | Size                                     |
 | ---------------------- | ---------------------------------------- |
-| IconUrl (mobile.png)             | 72px X 72px                              |
-| Icon???Url           | (self describing)                        |
+| IconUrl (mobile.png)   | 72px X 72px                              |
+| Icon???Url             | (self describing)                        |
+
 
 > Note: You must specify both `Icon192Url` and `Icon512Url` to enable the installable app features for your mobile users
