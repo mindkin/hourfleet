@@ -78,11 +78,13 @@ Also, your Hourfleet operational website needs to provide the right metadata so 
 ## Images
 
 All images must be hosted on your own web sites, and access to those images must be public (without authentication).
-Prefer links to images that are accessible over HTTPS (https://) to avoid browser imposed issues displaying non-secure images from your secure Hourfleet site.
 
-All image sizes can be provided in higher values as long as their aspect ratios remain the same.
+**HTTPS Access**: Prefer links to images that are accessible over HTTPS (https://) to avoid browser imposed issues displaying non-secure images from your secure Hourfleet site.
 
-> Note: consider that your images will be presented against the colors that you choose in the 'Styles' section. Use a transparent background, and anti-aliasing for those background colors. We recommend that you test your images on the site and optimize the presentation from there.
+**Keep Them Small:** Images can be very large in data size (i.e. bytes). We recommend that all images are as close to their minimum sizes (listed below) otherwise they will make your users experience in the App much slower, particularly on mobile phones.
+> Note: All image sizes can be provided in higher values as long as their aspect ratios remain the same.
+
+**Contrast:** consider that your images will be presented against the colors that you choose in the 'Styles' section. Use a transparent background, and anti-aliasing for those background colors. We recommend that you test your images on the site and optimize the presentation from there.
 
 | Seo                 | Size                                     |
 | ---------------------- | ---------------------------------------- |
