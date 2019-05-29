@@ -5,29 +5,22 @@ title: Carkit
 # Carkit Compatibility   
 This section is intended for the latest generation of Hourfleet carkits, with a smart optical unlock feature, known as **Tap, Tap Go**. 
 
-This carkit is only compatible with cars that:
+This carkit is **only** compatible with cars that:
 
 - Have a proximity key. These are the kinds of keys you can leave in your pocket while using the car  
 - Have a factory-fitted push-to-start button (usually on the dashboard of the car)
 
 ![Push To Start](https://static.wixstatic.com/media/d9b141_c7fd15ae9f164d96a6f41998402daeaf~mv2.jpg/v1/fill/w_630,h_326,al_c,q_80,usm_0.66_1.00_0.01/d9b141_c7fd15ae9f164d96a6f41998402daeaf~mv2.webp)
 
-Cars that have **older style twist-key ignitions** may have this carkit fitted, however this will provide access (unlock/lock) to the car, but not starting. In order to start the car another key must be left inside for the renter to use. While this is a similar model to most car share services operating today, we do not recommend this configuration.  
+Cars that have **older style twist-key ignitions** <u>may</u> have this carkit fitted, but the carkit will only provide access (unlock/lock) to the car. It will not facilitate starting of the car (since these cars will not have a Start button).  In order to start the car a regular key must be left inside the car for the renter to use to start the car. While this is a similar model to most car share services that operate today, we do not recommend this configuration.
+
+For twist-key ignition cars, we don't recommend installing a carkit, but instead using the Key Exchange model, where renters obtain a physical car key from the owner of the car.
 
 > Key Exchange is a feature which facilitates the car owner and renter meeting to pickup and dropoff of a physical car keys. No carkits.
 
 # How it Works - Tap Tap Go!
 
 [![Tap, Tap Go](http://img.youtube.com/vi/boopaYYKiSo/0.jpg)](https://www.youtube.com/watch?v=boopaYYKiSo).
-
-It's pretty simple, just like boarding an aircraft. The LED light in the windscreen indicates the car kit's state:  
-- **Blue flashing** : Ready for normal operation.   
-- **Green pulsing**: Ready for presentation of a unlock/lock key.  
-- **Green flashing**: A valid QR key has been presented. The car doors will unlock or lock as appropriate.  
-- **Red flashing (slow)**: Power has just been applied. The car kit is waiting for the Hourfleet host to send a set of encrypted QR keys.    
-- **Purple flashing** : The car kit is being programmed by the Hourfleet host.    
-
-
 
 # Obtaining a Carkit
 A carkit is obtained by ordering a quantity of them from Hourfleet. 
@@ -84,7 +77,7 @@ Plug the ODB Connector into the Onboard Diagnostics (OBD) connector of the car.
 
 This connector can be located in different places in different cars, usually at least one connection under the dashboard.
 
-![OBD COnnector](images\OBD2Port.png)
+![OBD Connector](images\OBD2Port.png)
 
 ### GPS Antenna
 
@@ -98,9 +91,9 @@ Then you route the Touch Sensor cable from the main unit up onto the dashboard o
 
 Finally, make a note of both the **license plate** of the car, and the **number from the sticky label on the main carkit unit**. You will both of these to complete the registration below.
 
-## Verify the Physcial Installation
+## Verify the Physical Installation
 
-Once the carkit has been physcially installed, and the OBD connector has been connected successfully, you should see a slow flashing red light on the Touch Sensor in the windowscreen (from the outside of the car). This confirms that the device is working correctly.
+Once the carkit has been physically installed, and the OBD connector has been connected successfully, you should see a slow flashing red light on the Touch Sensor in the window screen (from the outside of the car). This confirms that the device is working correctly.
 
 > If the red light is not flashing, then check your OBD connector
 
@@ -114,7 +107,18 @@ You may need to move the car to do this, or drive around for a few minutes in a 
 
 Either way, after a few minutes, you will notice that the red flashing light on the Touch Sensor will change from flashing red to flashing blue. It may, flash purple for a few seconds turning from red to blue.
 
-Once the Touch Sensor turns to flashing blue. You may stop the car. The carkit is now fully programmed and can now be registered in the Hourfleet App to be used by others (through the app) to access and drive the car, without the use of the spare proxity key you have.
+Once the Touch Sensor turns to flashing blue. You may stop the car. The carkit is now fully programmed and can now be registered in the Hourfleet App to be used by others (through the app) to access and drive the car, without the use of the spare proximity key you have.
+
+### Troubleshooting Installation
+
+The LED light in the windscreen indicates the car kit's state:  
+
+- **No light**: Tap, Tap disables. Either the device is not powered, or the car is detecting vibrations over the last 5 secs, such as during driving conditions.
+- **Red flashing (slow)**: Power has just been applied. The car kit is waiting for the Hourfleet host to send a set of encrypted QR keys.
+- **Purple flashing** : The car kit is being programmed by the Hourfleet host.
+- **Green pulsing**: Ready for presentation of a unlock/lock key, in response to a Tap, Tap on the window screen.
+- **Blue flashing** : Ready for normal lock/unlock operation.
+- **Green flashing**: A valid QR key has been presented. The car doors will unlock or lock as appropriate.
 
 # Registering the Carkit on Your Car Share
 
@@ -128,13 +132,11 @@ Once the carkit is physically installed and working as described above, then ope
 
 - From the menu of the far left, click  'Cars', and then 'Carkits'
 - Enter the license plate number of the car, and hit 'Search'
-- When the car is found, click the 'Register' button
-- Select, 'Carkit Version' to be `3`
-- For the Device Name, enter the value you wrote down from the sticky label on the main carkit unit.
-- Click 'Register'
+- When the car is found, enter the Device Id, from the value you wrote down from the sticky label on the main carkit unit.
+- Click 'Register' 
 
-`[Need More Detail: Image of the App Registration Process]`
+![CarKit Registration](images\Operations_CarkitRegistration.png)
 
 
 
-Now, that the carkit is phsycially installed and registered on your car share, borrowers of the car can now access the car keyless-ly without any physical keys. All they need is a smartphone with internet access!
+Now, that the carkit is physically installed and registered on your car share, borrowers of the car can now access the car key-lessly without any physical keys. All they need is a smartphone with internet access!
