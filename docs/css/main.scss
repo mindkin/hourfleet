@@ -2,7 +2,15 @@
 ---
 
 $primary-color: #ff9b17;
-$light-grey: #dfe2e5;
+$medium-grey: #ddd;
+
+$default-border: 1px solid $medium-grey;
+
+$background-medium: #f3f3f3;
+
+body {
+    padding-bottom: 60px;
+}
 
 .page-content {
     margin: 0 auto;
@@ -32,7 +40,7 @@ $light-grey: #dfe2e5;
         margin-top: 1.5em;
         margin-bottom: 0.5em;
         padding-bottom: .25em;
-        border-bottom: 1px solid $light-grey;
+        border-bottom: $default-border;
     }
 
     .h1, h1:first-child {
@@ -59,30 +67,9 @@ $light-grey: #dfe2e5;
 
     .p, p {
         margin-bottom: 0.5em;
-    }
-
-    table {
-        background-color: transparent;
-        border: solid black 1px;
-        margin: 20px 0px;
-    }
-    
-    th {
-        text-align: left;
-        border: solid black 1px;
-    }
-
-    td {
-        padding: 10px 10px 0px 10px;
-    }
+    }    
 }
 
-
-blockquote {
-    padding: 0 1em;
-    color: #6a737d;
-    border-left: 0.25em solid $light-grey;
-}
 
 .release-notes {
     h2 {
@@ -124,6 +111,39 @@ blockquote {
         left: 50%;
         position: absolute;
         transform: translateX(-50%);
+    }
+}
+
+blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid $medium-grey;
+}
+
+pre {
+    background-color: $background-medium;
+    border-radius: 6px;
+    border: $default-border;
+}
+
+table {
+    background-color: transparent;
+    border: $default-border;
+    border-spacing: 0;
+    margin-bottom: 30px;
+
+    th, td {
+        text-align: left;
+        border: $default-border;
+        padding: 8px;
+    }
+
+    thead>tr {
+        border-bottom: 2px solid $medium-grey;
+    }
+
+    tbody>tr:nth-of-type(odd) {
+        background-color: $background-medium;
     }
 }
 
