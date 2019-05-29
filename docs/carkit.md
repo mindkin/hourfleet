@@ -111,11 +111,13 @@ Once the Touch Sensor turns to flashing blue. You may stop the car. The carkit i
 
 ### Troubleshooting Installation
 
-The LED light in the windscreen indicates the car kit's state:  
+From the moment the carkit is first powered to the moment it is fully configured and ready for lock/unlock operation, will be about 5-10 mins. 
 
-- **No light**: Tap, Tap disables. Either the device is not powered, or the car is detecting vibrations over the last 5 secs, such as during driving conditions.
-- **Red flashing (slow)**: Power has just been applied. The car kit is waiting for the Hourfleet host to send a set of encrypted QR keys.
-- **Purple flashing** : The car kit is being programmed by the Hourfleet host.
+The LED light in the windscreen indicates the car kit's current state:  
+
+- **No light**: Tap, Tap is disabled. Either the device is not correctly powered, or the car has detected vibrations over the last 5 secs, such as vibrations from driving down the road.
+- **Red flashing (slow)**: Power is applied. The car kit is not yet configured, and is waiting to connect to Hourfleet over the internet, for which it needs cellular coverage.
+- **Purple flashing** : The car kit is configured by the Hourfleet.
 - **Green pulsing**: Ready for presentation of a unlock/lock key, in response to a Tap, Tap on the window screen.
 - **Blue flashing** : Ready for normal lock/unlock operation.
 - **Green flashing**: A valid QR key has been presented. The car doors will unlock or lock as appropriate.
