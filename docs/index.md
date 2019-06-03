@@ -5,7 +5,7 @@ title: Your Car Share
 
 # Understanding Your Car Share
 
-* [First steps](provide.html). The things that your business needs to get sorted before your car sharing business can operate properly
+* [First steps](provide.html). We cover broadly the things that your business needs to get sorted before your car sharing business can operate properly, and what you need to do first.
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing networks.  
 * [Hourfleet App Pics](screens.html). A collection of car search, booking, and dashboard images designed for mobile.  
 * [Carkits](carkit.html). All you need to know about this in-car device - compatibility, installation and app setup.     
@@ -13,7 +13,7 @@ title: Your Car Share
 * [Customizing Your Car Share](configure.html). There is lots to customize. Here is what you can configure to brand and make your car sharing network your own business.
 * [Notifications](notifications.html). Manage email and SMS notifications sent to your borrowers and car owners.
 * [Insurance](insurance.html). Supporting your insurance provider
-* [Integrations](integrations.html). Learn about the third-party platform that Hourfleet integrates with. Currently only [Stripe](http://stripe.com) is mandatory. 
+* [Integrations](integrations.html). Learn about the third-party platform that Hourfleet integrates with. [Stripe](http://stripe.com) integration is mandatory for your Car Share. 
 
 ## Establishing Your Car Share
 
