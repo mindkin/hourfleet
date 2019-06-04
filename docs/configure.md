@@ -4,13 +4,13 @@ title: What You Can Configure.
 ---
 # What You Can Configure
 
-When you join Hourfleet, you are going to get your own car sharing web app hosted for you at an address like: https://yourcompany.hourfleet.com.
+When you join Hourfleet and create a new Car Share, you are going to get with that your own car sharing web App hosted for you at an address like: `https://yourbusiness.hourfleet.com`.
 
-Your web app will need to be customized to suit your business model, and tailored to your company brand.
+Your web app will need to be customized to suit your business model, and tailored to look like your company brand.
 
 You can see an example of what your web app will look like at [What Is In The Box](inthebox.html)
 
-# What Is A Network Operator?
+# What Is a Network Operator?
 From the perspective of Hourfleet, you (and your business) are known to Hourfleet as a "Network Operator", since you operate a car sharing 'network' on the Hourfleet platform. 
 
 As a Network Operator you are very likely to have many things unique to your business, such as: your own brand, your own social media presence, and also different rules about how your price and charge your customers for renting and borrowing cars on your network.

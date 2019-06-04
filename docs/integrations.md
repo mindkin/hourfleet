@@ -2,11 +2,11 @@
 layout: default
 title: Integrations
 ---
-## Integrations
-Hourfleet depends on one mandatory third-party integration ([Stripe](http://stripe.com)), and supports a number of optional third-party integrations. In all cases, configuring this integration requires you to 
+## Supported Integrations
+Hourfleet depends on one mandatory third-party integration ([Stripe](http://stripe.com)), and supports a number of optional online services. In all cases, configuring this integration requires you to 
 1. Sign in to your account with the integraton provider
 1. Create Restricted API keys - one Publishable and the other Secret  
-1. Send those API keys to `admin@mindkin.co.nz` and then delete any reference to these keys from your computer. Remember to check your email's Sent Items too.
+1. Send those API keys to `admin@mindkin.co.nz` and then delete any reference to these keys from your computer. Remember to check your email's 'Sent Items' too.
 
 ### Stripe
 You will need a Stripe account to operate an Hourfleet Tenancy. If you don't alread have a Stripe account you'll need to [register](https://dashboard.stripe.com/register). If you need to do this, we recommend you take some time [to learn about Stripe](https://stripe.com/customers). 

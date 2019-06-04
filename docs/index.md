@@ -5,18 +5,17 @@ title: Your Car Share
 
 # Understanding Your Car Share
 
-* [First Steps First](provide.html). The things that you need to get sorted firsst before your car sharing business can operate properly.
-* [Customizing Your Car Share](configure.html). There is lots to customize. Here is what you can configure to brand and make your car sharing network your own business.
-* [Integrations](integrations.html). Learn about the third-party platform that Hourfleet integrates with. [Stripe](http://stripe.com) integration is mandatory for your Car Share. 
-* [Your own landing page(s)](yoursite.html). You need your own website landing page and some other important pages.  
+* [First Steps First](stepbystep.html). These are things that you need to get sorted first before your car sharing business can operate properly.
+* [Customizing Your Car Share](configure.html). There is lots to customize. Here is what you can configure to brand and make your car sharing business work the way you want it to.
+* [Integrations](integrations.html). Learn about the online services that Hourfleet integrates with. [Stripe](http://stripe.com) integration is mandatory for your car share to charge your customers. 
+* [Your own website](yoursite.html). You need your own companies website and landing page, and host some other important pages and images. 
 
 ## How it Works
 
-* [Hourfleet 101](howitworks.html). The basics of Hourfleet car sharing networks.  
-* [The Hourfleet App](screens.html). Get familiar with the Hourfleet App that your customers will be using either on their mobile devices or on their desktop devices.  
-* [Carkits](carkit.html). All you need to know about this in-car device - compatibility, installation and app setup.     
+* [Hourfleet 101](howitworks.html). The basics of Hourfleet car shares.  
+* [The Hourfleet App](screens.html). Get familiar with the Hourfleet App that your customers will be using, either on their mobile devices or on their desktop devices.  
+* [Carkits](carkit.html). All you need to know about this cool in-car device.     
 * [Insurance](insurance.html). Supporting your insurance provider
-* [Notifications](notifications.html). Customize email and SMS notifications that are sent to your borrowers and car owners.
 
 ## Establishing Your Car Share
 
