@@ -2,6 +2,17 @@
 layout: default
 title: Carkit
 ---
+
+# What They Do
+
+Carkits are devices fitted into selected cars in your car sharing network.
+
+They allow your customers to lock/unlock and drive cars without needing any physcial keys!
+
+As there are no keys to exchange with another human or office location, cars fitted with carkits open up economic scenarios like: multiple rentals in a single day, renting cars by the minute, and A to A dropoffs. These scenarios are not economically viable when physcial keys have to be managed.
+
+Carkits also track the location of the car and other metrics, such as: distance travleled, fuel consumed and driving styles. This kind of data makes cheaper insurance products for car sharing.
+
 # Carkit Compatibility   
 This section is intended for the latest generation of Hourfleet carkits, with a smart optical unlock feature, known as **Tap, Tap Go**. 
 
@@ -10,11 +21,11 @@ This carkit is **only** compatible with cars that:
 - Have a proximity key. These are the kinds of keys you can leave in your pocket while using the car  
 - Have a factory-fitted push-to-start button (usually on the dashboard of the car)
 
-![Push To Start](https://static.wixstatic.com/media/d9b141_c7fd15ae9f164d96a6f41998402daeaf~mv2.jpg/v1/fill/w_630,h_326,al_c,q_80,usm_0.66_1.00_0.01/d9b141_c7fd15ae9f164d96a6f41998402daeaf~mv2.webp)
+![Push To Start](https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/VFWPepf8g/graphicstock-push-to-start-modern-vehicle-engine-start-button_SUYuRJgPb_thumb.jpg)
 
 Cars that have **older style twist-key ignitions** <u>may</u> have this carkit fitted, but the carkit will only provide access (unlock/lock) to the car. It will not facilitate starting of the car (since these cars will not have a Start button).  In order to start the car a regular key must be left inside the car for the renter to use to start the car. While this is a similar model to most car share services that operate today, we do not recommend this configuration.
 
-For twist-key ignition cars, we don't recommend installing a carkit, but instead using the Key Exchange model, where renters obtain a physical car key from the owner of the car.
+For twist-key ignition cars, we do not recommend installing a carkit, but instead using the Key Exchange model, where renters obtain a physical car key from the owner of the car. This model is supported very well in Hourfleet.
 
 > Key Exchange is a feature which facilitates the car owner and renter meeting to pickup and dropoff of a physical car keys. No carkits.
 
