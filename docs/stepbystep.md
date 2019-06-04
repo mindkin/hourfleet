@@ -20,6 +20,6 @@ We're keen to see you get value for money from your Hourfleet subscription. So b
 1. **Customizing your Hourfleet Tenancy.** There are a large number of [configuration options](http://docs.hourfleet.com/configure.html) 
     * Customizations help you establish the Branding, SEO, Business Model, and other Settings which underpin how your Car Share software works and behaves.
     * You will definitely want the Hourfleet App that your customers use to look as close to your brand as possible, and for it to be easily searchable on the web.  
-1. ***Integrations** The Hourfleet App integrates with some online service providers
+1. **Integrations** The Hourfleet App integrates with some online service providers
     * The most important integration is with [Stripe.com](http://stripe.com). Setup instructions are [here](http://docs.hourfleet.com/integrations.html). Hourfleet will need to integrate with your Stripe account, to charge your customers for their subscriptions and for using cars. 
     * Hourfleet integrates with a few other online services such as: 'Google Analytics', 'Intercom', 'FreshDesk', etc, take a look at [Integrations](integrations.html) for more details
