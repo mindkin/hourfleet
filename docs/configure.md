@@ -21,15 +21,12 @@ You'll want to keep that website, and the Hourfleet web app will extend your web
 
 There is lots to configure for your specific car sharing business and how the Hourfleet web app should look and behave. Let's get started.
 
-## Your Configuration
-You will have your own configuration that you can manage.
-
-> Note: the examples of configuration below are  in a simple JSON format, which is just how we represent it today. We are working on representing for you in a different format.
+## Start Customizing
 
 Common Areas:
 
+- [Branding & SEO](configure-branding.html)
 - [Support, Live Chat and Analytics](configure-support.html)
-- [Branding](configure-branding.html)
 - [Navigation](configure-navigation.html)
 - [Business Model](configure-businessmodel.html)
 
