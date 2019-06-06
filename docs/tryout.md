@@ -4,52 +4,55 @@ title: Try Out Hourfleet
 ---
 # Lets' try out your new Car Share
 
-You started your free 14 day trial, you created your own new Car Share, and you have registered your new account. **What do you do now?**
+You started your free 14 day free trial, you've created your new Car Share, and you've registered your new account. **What do you do now?**
 
-We recognise that it is not so easy to see what experience Hourfleet gives you and your customers once you have signed up. We are working on improving that with product videos and tutorials coming soon.
+We recognise that right now it is not so easy to see what the experience looks like for your customers using Hourfleet once you have signed up. We are working on improving that with product videos and tutorials that are coming soon.
 
-This will be our first-steps tutorial, that will walk you through your new App, create some user accounts, register a new car and even rent out your car.
+This will be our first-steps tutorial, that will walk you through the Hourfleet App. We will create some user accounts, register a new car and even rent out your car in the App.
 
-You should get a good feel for how it all works, and see some of the features that Hourfleet supports for you and your customers, and understand a little more how things hang together. There is a lot here, so we will try to keep it brief, and you can explore the rest.
+You should get a good feel for how it all works, and see some of the features that Hourfleet supports for you and your customers. You should get a better understanding  of how things hang together. There is a lot in Hourfleet, so we will try to keep it brief, and leave you to  explore the rest later.
 
-If you are more interested, we do explain some of the concepts of How Things Work over [here](howitworks.html), but its time to get hands on a see it in action.
+If you are more interested in some of the concepts of how Hourfleet works [click here](howitworks.html), but otherwise its time to get hands-on a see Hourfleet in action.
 
 Here is the plan for this walkthrough:
 
-1. You have your operators account, but your customers will need their own accounts on your Car Share. So, we are going to create another account to represent one of your customers, who is going to borrow one of your cars.
+1. You have already been invited to create your operators account in the App, but your customers will need their own accounts. So, we are going to create another account to represent one of your customers, who is going to borrow one of your cars.
 2. Then we are going to register a car on your network. Don't worry, it does not have to be a _real_ car just yet. We are going to set it up for borrowing, and you can see some of the things that have to be in place for cars and their owners (you in this case).
-3. Once your car is all set up, you are going to switch to acting as one of your customers, and go find and borrow your new car. You will then see how the booking system works and how the App helps guides your customers to borrowing their cars.
-4. Finally, we are going to take the car offline, since you may or may not want others to use it on your network after this walkthrough.
+3. Once your car is all set up, you are going to switch to acting as one of your customers, and go find and borrow your new car. You will then see how the booking system works and how the App helps guides your customers to finding and borrowing cars.
+4. Finally, we are going to take the car offline, since, after this walk through you may or may not want others to book and use your fake car!
 
 So, let's get started.
 
 ## Setting up Accounts
 
-By now, after creating your new Car Share, you should have received an invitation from your App, inviting you to join your Car Share.
+By now, after creating your new Car Share, you should have already received an invitation to your App, inviting you to join your Car Share.
 
-In the email, there is a link, which if you click, sends you to the 'Create Account' page. You fill out your name, email and conviction status, declare yourself as not a robot and create your account, and you are logged into your Car Share App.
+In the email, there is a link, which if you click, sends you to the 'Create Account' page. You fill out your name, email and conviction status, declare yourself as not a robot, and create your account, and you will be signed in to your car sharing App.
 
-Now things may look a bit funny in the App because you have a special account called an 'Operator' account. An operator account has a lot of special privileges that other users in your Car Share will not have. Such as looking at financial reports and managing all the cars and users in your Car Share network.
+From here on out, we will just call it the 'App'.
 
-Click on the 'Operations' menu item and you get to see some reports for your new Car Share. Its a bit bare at the moment though.
+Now, things may look a bit funny in the App because you actually have a special account called an 'Operator' account. An operator account has a lot of special privileges that other users in your Car Share will not have. Such as looking at financial reports and managing all the cars and users in your Car Share network. The interface is a little different since operators are not _as_ interested in borrowing their own cars as your customers are.
 
-Your view of the App is quite different than a regular user of the App, but don't worry because all the things they see you can still get to in the menus and in the footer section of the App.
+In the top menu, click on the 'Operations' menu and you get to see some reports for your new Car Share. The data is a bit bare at the moment, but changes as things happen on your network.
 
-OK, so now its time to see what a regular customer of your will experience, using the App.
+Your view of the App right now is quite different than a regular user of the App, but don't worry because all the things they see you can still get to in the side menu and the menu the footer of the App (just scroll down to see it). If you are on mobile device, the same stuff is there , but moved around a little to suit device browsing.
 
-First, log out of the App, by clicking your name in the top right corner, and selecting 'Sign Out'. You will be returned to the 'Sign In' page.
+OK, so now its time to see what a regular customer of your will experience when they use the App.
 
-## Create a new Borrower
+First, logout of the App, by clicking your name in the top right corner, and selecting 'Sign Out'. You will be returned to the 'Sign In' page.
 
-Now, in the top right menu, select 'Join'. You will be presented with a page that asks for your email, and name. 
+## Create a new borrower account
 
-Now, you are going to make up a ficticious name of a person, enter it in here (First Name, Last Name) and use the email address: `hourfleet@mailinator.com`. Dont worry, this email address goes to a public email mailbox which you can use for this walkthrough. 
+Now, in the top right menu, select 'Join'. You will be presented with a page that asks for your email, and names. 
+
+Here, you are going to make up a ficticious name of a person, enter it in here (First Name, Last Name) and use this  specific email address: `hourfleet@mailinator.com`. Dont worry, this email address goes to a public email mailbox which everyone uses for this walkthrough. 
 
 Click 'Join Now'.
 
-An email gets whisked off to your ficticious person, inviting them to your Car Share. 
+An email gets whisked off to your ficticious person, inviting them to your Car Share.
 
-You can see that email arrive in the mainbox at [this website](https://www.mailinator.com/v3/index.jsp?zone=public&query=hourfleet#/#inboxpane). 
+You can now watch the email arrive in the mainbox at [the Mailinator website](https://www.mailinator.com/v3/index.jsp?zone=public&query=hourfleet#/#inboxpane). 
+
 > Again, this is a public mailbox that anyone can see, and you may even see emails in this mailbox from others following this walkthrough, but no problem. You are looking for an email that arrives from your Car Share to your ficticious person, that arrived 'Moments Ago'. It might take a minute or two, please be patient. No junk mail folder here!
 
 Ok, open the email, and you will see a big button to click saying 'Create Account'. Click it.
