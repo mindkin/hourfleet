@@ -23,7 +23,7 @@ We're keen to see you get value for money from your Hourfleet subscription. So b
 1. **Integrations** The Hourfleet App integrates with some online service providers
     * The most important integration is with [Stripe.com](http://stripe.com). Setup instructions are [here](http://docs.hourfleet.com/integrations.html). Hourfleet will need to integrate with your Stripe account, to charge your customers for their subscriptions and for using cars. 
     * Hourfleet integrates with a few other online services such as: 'Google Analytics', 'Intercom', 'FreshDesk', etc, take a look at [Integrations](integrations.html) for more details
-    1. **Try Out the App** We will walk you through what its like to setup a new car, and retn it out for yourself, to see what that experience looks like.
-    * You will get a good sense for what your customers will be going through and why
-    * You will get a good sense of what their experience of your Car Share will be like.
+1. **Try Out the App** We will walk you through what it is like to setup a new car, and then rent it out for yourself, to see what that experience looks like.
+    * You will get a good sense for what your customers will be going through to use the cars on your Car Share, and why
+    * You will get a good sense of what it takes to bring a new car online in your Car Share, and why
     * Lets get started at [Try Out](http://docs.hourfleet.com/tryout.html)
