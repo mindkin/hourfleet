@@ -21,22 +21,24 @@ title: Your Car Share
 
 [Try Out](http://docs.hourfleet.com/tryout.html) You have created your new Car Share, now lets go see how it works in the App for you and your customers.
 
-## Operations
-* [Who does what?](roles.html) - Learn about the distinct roles of network operators (you!), car owners and car borrowers
+## Operating Your Car Share
+* [Who does what, when?](roles.html) - Learn about the distinct roles of network operators (you!), car owners and car borrowers, and who needs to do what when.
 
 
 
 ## What's Coming, what's New?
 
-We're constantly improving Hourfleet. Some improvements are small and barely noticeable, while others are large, most typically adding new features that are designed to make your car sharing network the go-to in your area. 
+We're constantly improving Hourfleet. 
 
-We document all improvements and fixes in our [Changelog](https://mindkin.canny.io/admin/changelog).
+Some improvements are small and barely noticeable, while others are large, most typically adding new features that are designed to make your car sharing network the go-to in your area. 
+
+We document all improvements and fixes in our [Updates](http://feedback.hourfleet.com/changelog).
 
 ## Need an Improvement?
 
-Head over to our [feedback page](http://feedback.hourfleet.com) where you can submit new ideas and track what is coming in the platform road map.
+Head over to our [feedback page](http://feedback.hourfleet.com) where you can submit new ideas and suggestions, and track what is coming in the future of Hourfleet.
 
 ## Service Status
 
-Subscribe to service updates for all services of the platform [Service Status](http://status.hourfleet.com) page.
+We keep track of service availability of Hourfleet on our [Service Status](http://status.hourfleet.com) page.
 
