@@ -40,5 +40,5 @@ Head over to our [feedback page](http://feedback.hourfleet.com) where you can su
 
 ## Service Status
 
-We keep track of service availability of Hourfleet on our [Service Status](http://status.hourfleet.com) page.
+We keep track of service availability of Hourfleet on our [Service Status](http://status.hourfleet.com) page. Subscribe and get notified when things are affected by unexpected or planned outages.
 
