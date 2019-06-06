@@ -2,7 +2,7 @@
 layout: default
 title: Try Out Hourfleet
 ---
-# Lets' Try Out your new Car Share
+# Lets' try out your new Car Share
 
 You started your free 14 day trial, you created your own new Car Share, and you have registered your new account. **What do you do now?**
 
