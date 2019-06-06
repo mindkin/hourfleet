@@ -19,7 +19,7 @@ title: Your Car Share
 
 ## Try It Out
 
-[Try Out](http://docs.hourfleet.com/tryout.html) You have created your new Car Share, now lets go see how it works in the App for you and your customers.
+[Try Out](tryout.html) You have created your new Car Share, now lets go see how it works in the App for you and your customers.
 
 ## Operating Your Car Share
 * [Who does what, when?](roles.html) - Learn about the distinct roles of network operators (you!), car owners and car borrowers, and who needs to do what when.

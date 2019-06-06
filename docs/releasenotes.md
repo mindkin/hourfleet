@@ -242,7 +242,7 @@ Another major improvement is that users now have control over which notification
 
 ### Improvements
 
-* This release includes the automatic notification and expiring of user drivers licenses. A [new email template](http://docs.hourfleet.com/notifications.html#expiring-drivers-license-user) has been included and there has been messaging added to the user's Account Settings page to communicate when their drivers license is nearing expiry or has expired.
+* This release includes the automatic notification and expiring of user drivers licenses. A [new email template](notifications.html#expiring-drivers-license-user) has been included and there has been messaging added to the user's Account Settings page to communicate when their drivers license is nearing expiry or has expired.
 * The account settings page has been updated as part of the ongoing changes to make verifications easier to understand.
 
 ## 1.76.1 26/10/2018
@@ -340,7 +340,7 @@ Another major improvement is that users now have control over which notification
 This is a major release that introduces 'Key Exchange' to bookings. That is, bookings without a carkit fitted in the car.
 Car owners are now able to designate their vehicles as 'Key Exchange' (switch between 'Key Exchange' and 'Keyless'). 
 
-[Key Exchange](http://docs.hourfleet.com/howitworks.html#key-exchange) defines a rental model where physical car keys must be exchanged between borrowers and car owners, and the pick up and drop off of vehicles must be pre-arranged between those parties before and after renting the car. As a tool to facilitate the extra communication, the app now supports in-app conversations between the borrower and car owner during all stages of the booking process.
+[Key Exchange](howitworks.html#key-exchange) defines a rental model where physical car keys must be exchanged between borrowers and car owners, and the pick up and drop off of vehicles must be pre-arranged between those parties before and after renting the car. As a tool to facilitate the extra communication, the app now supports in-app conversations between the borrower and car owner during all stages of the booking process.
 Key Exchange is not available to cars configured for the 'Immediate' usage model.
 
 ### Improvements

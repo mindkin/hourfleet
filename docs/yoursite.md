@@ -19,7 +19,7 @@ From experience with lots of other car sharing businesses, we have learned that 
 
 For this reason, you will need to host these pages of information on your own website, and then you would configure your car share App to share that information with your customers when they need it.
 
-> Note: The Hourfleet App does provide a built-in Support page (found at: https://yourcarshare.hourfleet.com/support) that is constructed from some of the information that you provide in customizing your car Share, that we share with your customers in those desperate moments they might need quick support. However, this experience is a very limited one for that specific purpose. Furthermore, you can also choose to provide your own support page instead of that too in [Configure Support](http://docs.hourfleet.com/configure-support.html).
+> Note: The Hourfleet App does provide a built-in Support page (found at: https://yourcarshare.hourfleet.com/support) that is constructed from some of the information that you provide in customizing your car Share, that we share with your customers in those desperate moments they might need quick support. However, this experience is a very limited one for that specific purpose. Furthermore, you can also choose to provide your own support page instead of that too in [Configure Support](configure-support.html).
 
 # How it works
 

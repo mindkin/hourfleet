@@ -70,7 +70,7 @@ An example of the links in the Hourfleet web app can be seen in the footer secti
 
 ![Page Links](images/Footer.png)
 
-All of the links in the list above (except the 'Home' link) can be optionally enabled, or hidden if not required. See [Configure](http://docs.hourfleet.com/configure.html) for the technical details.
+All of the links in the list above (except the 'Home' link) can be optionally enabled, or hidden if not required. See [Configure](configure.html) for the technical details.
 
 ### Customer Support Page
 

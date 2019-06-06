@@ -17,13 +17,13 @@ We're keen to see you get value for money from your Hourfleet subscription. So b
     * These pages will then be linked from the Hourfleet App so that your customers can move between your site and the Hourfleet App seamlessly. 
 1. **Create your Account** You will need to sign up for an account with your own Car Share. 
     * As an onwer of the Car Share you will be given special permissions which gives you access to operate the Car Share. You will have exclusive access to the 'Operators Dashboard' a page where you can manage and monitor your customers, cars and carkits.
-1. **Customizing your Hourfleet Tenancy.** There are a large number of [configuration options](http://docs.hourfleet.com/configure.html) 
+1. **Customizing your Hourfleet Tenancy.** There are a large number of [configuration options](configure.html) 
     * Customizations help you establish the Branding, SEO, Business Model, and other Settings which underpin how your Car Share software works and behaves.
     * You will definitely want the Hourfleet App that your customers use to look as close to your brand as possible, and for it to be easily searchable on the web.  
 1. **Integrations** The Hourfleet App integrates with some online service providers
-    * The most important integration is with [Stripe.com](http://stripe.com). Setup instructions are [here](http://docs.hourfleet.com/integrations.html). Hourfleet will need to integrate with your Stripe account, to charge your customers for their subscriptions and for using cars. 
+    * The most important integration is with [Stripe.com](http://stripe.com). Setup instructions are [here](integrations.html). Hourfleet will need to integrate with your Stripe account, to charge your customers for their subscriptions and for using cars. 
     * Hourfleet integrates with a few other online services such as: 'Google Analytics', 'Intercom', 'FreshDesk', etc, take a look at [Integrations](integrations.html) for more details
 1. **Try Out the App** We will walk you through what it is like to setup a new car, and then rent it out for yourself, to see what that experience looks like.
     * You will get a good sense for what your customers will be going through to use the cars on your Car Share, and why
     * You will get a good sense of what it takes to bring a new car online in your Car Share, and why
-    * Lets get started at [Try Out](http://docs.hourfleet.com/tryout.html)
+    * Lets get started at [Try It Out](tryout.html)
