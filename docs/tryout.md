@@ -90,8 +90,8 @@ Once the car is created, you will be presented with some pages to configure the 
 
 Do the following in the following pages (click 'Save and Continue' at the bottom of each page):
 * Carkit Compatibility -ignore this page for now.
-* General - enter a 'Year'
-* Location - enter the 'Home Address', it must be a real street address.
+* General - enter a 'Year', and change the 'Rental Model' to 'Auto-approve Requests' to ON.
+* Location - enter the 'Home Address', it must be a real street address, in your city.
 * Pricing - enter proces for 'Hourly', 'Daily', 'Weekly'
 * Photos - upload at least one photo of the car. Try to use a photo of a real car, not a cat or your dog, this time.
 * Identity - enter a license plate, road worthiness expiry date and number. You can make these up for now.
@@ -199,6 +199,9 @@ Now that the car is fully verified, the car owner (that's you) is fully verified
 At this point, you need to swap accounts again.
 
 You need to logout of your operator account, and sign in as your ficticious friend.
+
+Now that your ficticious friend signs in they are taken directly to the 'Find a Car' page, where you should see your ficticious car on listed and placed on the map.
+
 
 
 
