@@ -25,7 +25,7 @@ Here is the **plan** for this walkthrough:
 
 OK, let's get started.
 
-## Setting up Accounts
+## Setting up accounts
 
 By now, after creating your new Car Share, you should have already received an invitation by email to your App, inviting you to join your Car Share.
 
@@ -51,7 +51,7 @@ The App experience is a little different since operators are not _as_ interested
 
 In the top menu, click on the 'Operations' menu and you get to see some reports for your new Car Share. The data is a little bare at the moment, but it does change as things happen in your Car Share.
 
-![Operators Menu](images/walkthrough/OperatorsMenu.png)
+![Operator Menu](images/walkthrough/OperatorMenu.png)
 
 Your view of the App right now is quite different than a regular user of the App, but don't worry because all the things they see you can still get to in the side menu and the menu the footer of the App (just scroll down to see it). If you are on mobile device, the same stuff is there , but it is moved around a little to suit mobile device browsing.
 
@@ -59,7 +59,7 @@ OK, so now its time to see what a regular customer of your will experience when 
 
 First, logout of the App, by clicking your name in the top right corner, and selecting 'Sign Out'. You will be returned to the 'Sign In' page.
 
-![Logout Operator](images/walkthrough/OperatorsLogout.png)
+![Logout Operator](images/walkthrough/OperatorLogout.png)
 
 ## Create a new borrower account
 
@@ -75,7 +75,7 @@ Don't worry, this email address goes to a public email mailbox which everyone us
 
 Click 'Join Now'.
 
-**"You got Mail!"**
+**"You've got Mail!"**
 
 An email gets whisked off to your fictitious person, inviting them to your Car Share.
 
@@ -109,21 +109,27 @@ OK, once that is done, you are now your fictitious person, which is cool. But ri
 
 In the top menu, click the profile image, and click 'Find a Car' 
 
-![Borrowers Menu](images/walkthrough/BorrowersMenu.png)
+![Borrower Menu](images/walkthrough/BorrowerMenu.png)
 
 You can see the map of all cars, which you can move around and search for cars. Nothing there yet.
 
 ![Find a Car](images/walkthrough/FindACar_NoCars.png)
 
-Let's go create a car to put on the map.
+Let's go create a car and put it on the map.
 
-## Create a new Car
+## Create a new car
 
-Before you go off and create a new car, we need to swap users. You are currently signed in as your fictitious friend who will be borrowing a car owned by the real you. So you need to logout of this account and sign in as yourself, like you did at the start of this walkthrough.
+Before you go off and create a new car, we need to swap users. 
 
-When you sign in as yourself, you will be taken straight to the 'Operations Dashboard'. This is cool, because its where we are going to begin.
+You are currently signed in as your fictitious friend who will be borrowing a car owned by the real you. 
 
-> Now, a word of explanation about car ownership. Even though you are an operator, you can also own cars on your network. In fact, technically most users can own cars. So, if you have another member of your staff in your business they can create an account and they can own a car too. A car must be owned by a user account. So for this walthrough, we are going to make you register the first car.
+So first, you need to logout of this account and sign in as yourself, like you did at the start of this walkthrough.
+
+![Logout Borrower](images/walkthrough/BorrowerLogout.png)
+
+When you sign in as yourself, you will be taken straight to the 'Operations Dashboard'. This is cool, because that where we are going to begin.
+
+> Now, a word of explanation about car ownership: Even though you are an operator, you can also own cars on your network. In fact, technically most users can own cars. So, if you have another member of your staff in your business they can create an account and they can own a car too. A car must be owned by a user. So, for this walkthrough we are going to make you register the first car.
 
 ### List the new car
 
@@ -239,7 +245,7 @@ You have to tick all these verifications:
 
 > If you see that the 'Registration' verification is not ticked (green) right now, you missed a step when setting up the car. Perhaps a missing photo or license plate number. You need to go back and update the car. On the left, click the 'My Cars' menu, drop down the 'Show Quick Actions' menu, and click 'View All'. Then come back here after you have finished.
 
-## Let's Borrow a car!
+## Let's borrow a car!
 
 Now that the car is fully verified, the car owner (that's you) is fully verified, and the borrower is fully verified (your ficticious friend) it is finally time to borrow the car.
 
