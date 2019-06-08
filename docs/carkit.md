@@ -19,13 +19,13 @@ This section is intended for the latest generation of Hourfleet carkits, with a 
 This carkit is **only** compatible with cars that:
 
 - Have a **proximity key**. These are the kinds of keys you can leave in your pocket while using the car  
-- Have a factory-fitted **push-to-start button** (usually on the dashboard of the car)
+- **AND** Have a factory-fitted **push-to-start button** (usually on the dashboard of the car)
 
 ![Push To Start](https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/VFWPepf8g/graphicstock-push-to-start-modern-vehicle-engine-start-button_SUYuRJgPb_thumb.jpg)
 
-Cars that have **older style twist-key ignitions** <u>may</u> have this carkit fitted, but the carkit will only provide access (unlock/lock) to the car. It will not facilitate starting of the car (since these cars will not have a Start button).  In order to start the car a regular key must be left inside the car for the renter to use to start the car. While this is a similar model to most car share services that operate today, we do not recommend this configuration.
-
-For twist-key ignition cars, we do not recommend installing a carkit, but instead using the Key Exchange model, where renters obtain a physical car key from the owner of the car. This model is supported very well in Hourfleet.
+Cars that have **older style twist-key ignitions** <u>may</u> have this carkit fitted, but the carkit will only provide access (unlock/lock) to the car. It will NOT facilitate starting of the car (since these cars will not have a Start button). Furthermore: 
+* In order to use this kind of configuration and start the car, a regular car key must be accessible inside the car for the renter to use to start the car somehow (i.e. left in the glove box). While this is a similar model to most car share services that operate today, we do not recommend this configuration for the physical security and insurance risks it carries.
+* For twist-key ignition cars, we do not recommend installing a carkit, but instead using the Key Exchange model, where renters obtain a physical car key from the owner of the car. This model is supported very well in Hourfleet.
 
 > Key Exchange is a feature which facilitates the car owner and renter meeting to pickup and dropoff of a physical car keys. No carkits.
 
