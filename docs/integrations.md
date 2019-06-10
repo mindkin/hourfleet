@@ -19,11 +19,11 @@ From your Stripe Dashboard, click `Developers`, then `API Keys`, and then `+ Cre
 
 Give the key the name `Hourfleet`. All your permissions should be showing `None`. Go through and check each  of the permissions shown as needing `Read and write` as shown below.
 
-![](images/RestrictedKeyA.png) 
+![](images/RestrictedKeyA.PNG) 
 
 .. and ..  
 
-![](images/RestrictedKeyB.png) 
+![](images/RestrictedKeyB.PNG) 
 
 
 Now click `Create key`
