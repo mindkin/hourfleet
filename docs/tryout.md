@@ -308,11 +308,11 @@ When your fictitious friend signs in, they are taken directly to the 'Find a Car
 
 Let's not forget this car probably does not physically exist yet. (as in, it won't yet exist in the physical world). But that is OK for this walk through. We are going to assume for this walk through that you know where the car is located, and you have access to the car keys. (even if you don't and the car is not real!).
 
-In Hourfleet, we call this business model "Key Exchange" which means that you (the borrower) can obtain the real car keys from you (the car owner) at any time. Since, there is no physical ["carkit"](carkit.html) installed in the car, you have no choice than to use the physical car keys to open the car, and drive it away.
+In Hourfleet, we call this rental model "Key Exchange" which means that you (the borrower) can obtain the real car keys from you (the car owner) at any time. Since, there is no physical ["carkit"](carkit.html) installed in the car, you have no choice than to use the physical car keys to open the car, and drive it away.
 
 Alright, so how do you (the borrower) use the car?
 
-When you registered the car, it was registered as being of the type of car that needs to be booked ahead of time. You also configured it to be 'Auto-Approved' and it has no "carkit" installed into it. Which makes the edit bit all too easy.
+When you registered the car, it was registered as being of the type of car that needs to be booked ahead of time. You also configured it to be 'Auto-Approved' and it has no "carkit" installed into it. Which makes the next bit all too easy.
 
 In the 'Find a Car' page, click on the car in the list on the left. 
 
@@ -322,23 +322,32 @@ OK, now. Click on the 'More Details' button. A form will open up to show you mor
 
 PICPICPICPICPIC
 
-OK, now click on the 'Book Now' button.
+OK, now click on the 'Make a Request' button.
 
-The form will expand to show you the availability of the car. Which is when you can book it.
+The form will expand to show you the current availability of the car. Which shows you when you can book the car.
 
 You should see the availability you set for the car earlier. And hopefully, the time right now is within the time is available.
 
 Now, select a time slot that starts in less than 15mins time, and goes for say an hour.
 
-Hit the 'Book Now' button.
+Hit the 'Book' button.
 
 You are now moved to a confirmation page where you are asked to confirm the booking, and sign the terms of service for this booking.
 
 Since you are already verified (earlier), and since the car is configured to be automatically approved (and is also verified), your booking is going to go through automatically, and the car is your to use!
 
+Hit the 'Confirm Booking' button.
+
 It takes a few seconds to approve the booking and then you are moved again to your 'Bookings' page. Where you should see your new booking, and its about to start soon.
 
+> Also, as the car owner, you are going to get some email, to notify that someone has successfully booked your car. 
+
 PICPICPICPICPIC
+
+OK, so now you have a confirmed booking that starts hopefully very soon. Perhaps minutes away.
+
+Click on your booking and lets have a look at some of the information provided to you before your booking starts.
+
 
 
 TO BE CONTINUED!
