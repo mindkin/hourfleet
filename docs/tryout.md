@@ -81,7 +81,7 @@ An email gets whisked off to your fictitious person, inviting them to your Car S
 
 Now lets go read that email in [this mailbox on the Mailinator.com website](https://www.mailinator.com/v3/index.jsp?zone=public&query=hourfleet#/#inboxpane). 
 
-> Remember: this is a ****public mailbox** that anyone can see, and you may even see emails in this mailbox from others following this walkthrough, but no problem. You are looking for an email that arrives from your Car Share to your fictitious person, that arrived 'Moments Ago'. It might take a minute or two, please be patient. There is no junk email folder here!
+> Remember: this is a **public mailbox** that anyone can see, and you may even see emails in this mailbox from others following this walkthrough, but no problem. You are looking for an email that arrives from your Car Share to your fictitious person, that arrived 'Moments Ago'. It might take a minute or two, please be patient. There is no junk email folder here!
 
 ![Mailinator Mailbox](images/walkthrough/MailinatorMailbox.png)
 
