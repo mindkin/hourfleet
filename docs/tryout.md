@@ -133,69 +133,63 @@ When you sign in as yourself, you will be taken straight to the 'Operations Dash
 
 ### List the new car
 
+![Operations Dashboard](images/walkthrough/OperationsDashboard.png)
+
 In the 'Operations Dashboard' page, on the left, click the 'Cars' menu.
 
 Now click the 'List Vehicle' menu.
 
-You will be brought to a page where you can click 'List Your Car'. Describe a fictional car, make and model.
+You will be brought to a page where you can click 'List Your Car'. 
 
+![List Car](images/walkthrough/OperatorListCar.png)
 
-
-PICPICPICPICPIC
-
-
+Describe a fictional car, make and model, and click 'List your car now'
 
 Once the car is created, you will be presented with some pages to configure the car.
 
 Do the following in the following pages (click 'Save and Continue' at the bottom of each page):
-* Carkit Compatibility -ignore this page for now.
-* General - enter a 'Year', and change the 'Rental Model' to 'Auto-approve Requests' to ON.
-* Location - enter the 'Home Address', it must be a real street address, in your city.
-* Pricing - enter proces for 'Hourly', 'Daily', 'Weekly'
-* Photos - upload at least one photo of the car. Try to use a photo of a real car, not a cat or your dog, this time.
-* Identity - enter a license plate, road worthiness expiry date and number. You can make these up for now.
+* Carkit Compatibility - ignore this page for now.
+* **General** - enter a 'Year', and change the 'Rental Model' to 'Auto-approve Requests' to ON.
+* **Location** - enter the 'Home Address', it must be a real street address, in your city.
+* **Pricing** - enter prices for 'Hourly', 'Daily', 'Weekly'
+* **Photos** - upload at least one photo of the car. Try to use a photo of a real car, not a cat or your dog, this time.
+* **Identity** - enter a license plate, road worthiness expiry date and number. You can make these up for now.
+
+After you complete these details, the car should be display (green) ticks for all the categories on the left side.
+
+![Configured Car](images/walkthrough/OperatorCarComplete.png)
 
 Now, on the left menu, click 'Back to My Cars'
 
 You will see your car listed there.
 
-
-
-PICPICPICPICPIC
-
-
+![Car](images/walkthrough/OperatorCar.png)
 
 ### Make the car available
 
-We are not done just yet.
+We are not done just yet!
 
-For a car to be available to rent by anyone, it must have some future availability set for it by the car owner - that's you.
+For a car to be available to be rented by anyone, it must have some future availability set for it by the car owner - that's you.
 
 Under the picture of your car, click the 'Show Quick Actions' link, and select 'Availability'.
 
-
-
-PICPICPICPICPIC
-
-
-
 You now get presented with a calendar that shows the availability of your car in the future. Right now, it has no availability.
+
+![No Availability](images/walkthrough/CarAvailabilityEmpty.png)
 
 All we need to do here is add an available time slot for a couple of hours, beginning in 15mins time.
 
-Use the 'Starting' and 'Ending' drop downs to create a time slot that starts in 15mins, and ends 3 hours later today. Then hit 'Add'. Don't worry if the time slot is longer. It is OK for now.
+Use the 'Starting' and 'Ending' drop downs to create a time slot that starts in 15mins, and ends 3 hours later today. 
 
-
-
-PICPICPICPICPIC
-
-
+Then hit 'Add'. Don't worry if the time slot is longer. It is OK for now.
 
 On the left menu, click 'Back to My Cars'
 
 ## Verify the borrower and the car owner
 
-OK, so now we have a car, and the car has some future availability. It is still not enough for people to borrow the car just yet. Remember all those pictures of cats, dogs and fake information you may have put in earlier for your fictitious friend and your fake car?
+OK, so now we have a car, it is configured with a bunch of details, and the car has some future availability. 
+
+However, it is still not enough for people to borrow the car just yet. Remember all those pictures of cats, dogs and fake information you may have put in earlier for your fictitious friend and your fake car?
 
 Well, now its time to meet _Verifications_.
 
@@ -217,39 +211,31 @@ On the top menu, click the 'Operations' menu. This brings you to the 'Operations
 
 Now, click 'Users', click 'Verifications' and you should see your fictitious  friend and yourself listed there. Remember, you are the car owner right now.
 
+![Unverified Users](images/walkthrough/UserVerificationsUnverified.png)
 
+Click on the name of your fictitious friend borrower (Jimmy Nimbus in this example), and you should see the verifications listed for the person.
 
-PICPICPICPIC
+![Unverified Borrower](images/walkthrough/UnverifiedBorrower.png)
 
+Scroll up and down to all the verifications.
 
+Right now, you should see that some of the verifications (such as: Terms of Service, Email and Conviction) are already verified (green), and some are not. 
 
-Click on the name of your fictitious friend borrower, and you should see the verifications listed for the person.
+As the operator, you get final call on what details are verified and which are not. 
 
+To decide, you get presented with the raw information the person has provided, and you get to decide if it is legitimate or not.
 
-
-PICPICPICPIC
-
-
-
-Right now, you should see that some of the verifications are already verified (green), and some are not (yellow). 
-
-As the operator, you get final call on the verifications. You get presented with the raw information the person has provided, and you get to eyeball the data, and decide if it is legitimate or not.
-
-> Some verifications are managed automatically by Hourfleet. Such as credit cards, emails addresses etc. and do not require you to manually verify them. Others are very hard to verify electronically, and require a human to apply some diligence to them.
+> Note: Some verifications are managed automatically by Hourfleet. Such as credit cards, emails addresses etc. and do not require you to manually verify them. Others are very hard to verify electronically, and require a human to apply some diligence to them.
 
 At the top is a special over-arching verification called 'Operator Verified' it rules them all. 
 
-
-
-PICPICPICPIC
-
-
+![Operator Discretion Verification](images/walkthrough/OperatorDicretionVerification.png)
 
 It is probably green right now, so don't worry about this one, focus on the blank ones further down the list.
 
 You now get to see all the *sins* that people try to get away with when giving vital information about important credentials, such as drivers licenses etc. Do you see pictures and cats and dogs? or do you see legitimate drivers licenses, and accurate credentials?
 
-For this walkthrough, we don't care so much about the legitimacy of this stuff so much right now. The idea was simply to show you the kinds of things that need to be managed.
+For this walkthrough, we don't care so much about the legitimacy of this stuff right now. The idea was simply to show you the kinds of things that need to be managed with your customers.
 
 For this person, who is going to borrow the car, you need to tick (green) the following verifications:
 * Operator Verified
@@ -259,7 +245,9 @@ For this person, who is going to borrow the car, you need to tick (green) the fo
 * Drivers License
 * Payment Method
 
-With a real person, you would be making sure these things are absolutely valid. And you may even decide to call the person or write them in an email to ensure they are a real person! For now, it is OK, to let it slide.
+Leaving only 'Bank Account' unticked.
+
+>  Note: For a real person, you would be making sure these things are absolutely valid. And you may even decide to call the person on their mobile phone or write them in an email to ensure they are a real person! For now, it is OK, to let it slide.
 
 When you are done ticking boxes and making the above verifications green for your fictitious  friend, then let's move on to your account.
 
@@ -272,7 +260,13 @@ Lets do the same exercise, but this time, you only need to tick (green) the foll
 * Criminal Conviction
 * Bank Account
 
-By the way, when you do this, you might start to see emails arrive in your inbox. Don't worry, that's intended. Hourfleet notifies people when their verifications status changes. Its important they get notified, because these things don't change that often, and when they do change, user's will appreciate the notification. Since it can stop them being able to use cars in your Car Share.
+Leaving only 'Payment Method' and 'Driver's License unticked.
+
+You can also see that you have been identified as being a car owner, and that you are 100% fully verified as a car owner.
+
+![Verified Car Owner](images/walkthrough/VerifiedCarOwner.png)
+
+By the way, when you start clicking your own verifications, you might start to see emails arriving in your inbox. Don't worry, that's intended. Hourfleet notifies people when their verifications status changes. It is important people get notified when their verifications change, because these things don't change that often, and when they do change, user's will want to know. Since it can stop them being able to use cars in your Car Share.
 
 > Note: that all users can control exactly the notifications they get in the App. You can see that on your 'Notifications' page of your profile.
 
@@ -280,47 +274,37 @@ By the way, when you do this, you might start to see emails arrive in your inbox
 
 OK, we are done verifying the people, now lets verify the car.
 
-On the left menu, click the icon of the car (to the far left!) Then, click 'Verifications'. You should see a list of all the cars you own. There should only be one right now.
+On the left menu, click the icon of the car (to the far left!) 
 
+Then, click 'Verifications'. You should see a list of all the cars you own. There should only be one right now.
 
-
-PICPICPICPIC
-
-
+![Car Verifications](images/walkthrough/CarVerificationsUnverified.png)
 
 Click on the car name, and this time you see a different list of verifications for a car.
 
-
-
-PICPICPICPIC
-
-
+![Unverified Car](images/walkthrough/UnverifiedCar.png)
 
 For a car to be borrowed by anyone, it must be fully verified.
 
 You have to tick (green) all these verifications:
 * Operator Verified
-* Registration (Can't change this!)
 * License Plate
-* Road Worthiness
+* Registration (Can't change this!)
+* Vehicle Worthiness
 
 > Note: If you see that the 'Registration' verification is not ticked (green) right now, you missed a step when setting up the car. Perhaps a missing photo or license plate number? You need to go back and update the car. On the left, click the 'My Cars' menu, drop down the 'Show Quick Actions' menu, and click 'View All'. Then come back here after you have finished.
 
 ## Let's borrow a car!
 
-Now that the car is fully verified, **and** the car owner (that's you) is fully verified, **and** the borrower is fully verified (your fictitious  friend) it is finally time to borrow the car.
+Now that the car is fully verified, **and** the car owner (that's you) is fully verified, **and** the borrower is fully verified (your fictitious  friend), it is *finally* time to borrow the car.
 
-At this point, you need to swap accounts again. sorry!
+Ooops! At this point, you need to swap accounts again. sorry!
 
-You need to logout of your operator account, and sign in as your fictitious friend's account.
+You need to logout of your operator account, and sign in as your fictitious friend's account again.
 
 Now that your fictitious friend signs in they are taken directly to the 'Find a Car' page, where you should see your fictitious  car on listed and placed on the map.
 
-
-
-PICPICPIC
-
-
+![Find a Car](images/walkthrough/FindACar_CarAvailable.png)
 
 
 TO BE CONTINUED!
