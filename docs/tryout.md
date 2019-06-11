@@ -469,10 +469,24 @@ OK, so now you have seen briefly what its like to setup and use a pre-booked "Ke
 
 You have seen what it takes to manage your Car Share users and its cars, as an operator, and what needs attention in your Car Share on a daily basis, as people register with your business and use your cars.
 
-We haven't shown you everything here in Hourfleet. There is much, much more, and many more edge cases when real people use real cars, that you also need to learn about. But, hopefully you have seen enough to see the basics.
+We haven't shown you everything here in Hourfleet. There is much, much more, especially when real people use real cars. But, hopefully you have seen enough now to grasp the basics.
 
-It is also worth saying that you have only seen the "Key Exchange" model of borrowing cars. There are other models that look and feel very different when a [Carkit](carkit.html) is fitted inside a car, that make the whole borrowing experience a lot smoother.
+It is also worth saying that you have only seen the "Key Exchange" model of borrowing cars. There are other models that look and feel very different when a [Carkit](carkit.html) is fitted inside a car, that make the whole borrowing experience a lot smoother, and easier. Carkits also open the world to multiple rentals a day of a car, and charging by the minute of actual usage.
 
 For now, we hope you have seen enough.
 
 You can stay signed in as yourself and continue looking around, playing with cars and your users, and [customizing](configure.html) your Car Share to learn more about how Hourfleet can support your business.
+
+### Housekeeping
+
+If you are worried about your fake car being used by your customers from here on out. Have no fear. 
+
+There are some simple things you can do prevent anyone booking or using the car after this walk through.
+
+Do one of the following:
+
+1. Take the car 'Offline' in the 'Show More Actions' menu of the car, and it will disappear from the search results.
+1. Delete any future availability of the car. If you only added 3hrs availability to the car in this walkthrough, then after that period of time the car will simply become unavailable to use anymore, and will disappear from the search results. You'd an delete any remaining availability from the 'Show More Actions' menu of the car. 
+1. You can explicitly remove the 'Operator Verification' from the car, in the operators dashboard. The car will become unverified. It will disappear from search results too.
+
+> Note: You wont be able to delete the car from your Car Share at this time, because it has already been used in at least one booking, so we need it to exist for financial reporting and historical reporting purposes.
