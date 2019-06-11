@@ -4,15 +4,21 @@ title: Try Out Hourfleet
 ---
 # Lets' try out your new Car Share
 
-You've started your free 14 day free trial, you've created your new Car Share, and you've registered your new account. **What do you do now?**
+You've started your free 14 day free trial, you've created your new Car Share, and you've registered your new account.
 
-We recognise that _right now_ it is not so easy to see what the experience looks like for your customers using Hourfleet once you have signed up. We are working on improving that with product videos and tutorials that are coming soon.
+**What do you do now?**
 
-For now, this will be our first-steps tutorial, that will walk you through the Hourfleet App. We will create some user accounts, register a new car and even rent out your car in the App.
+> We recognise that _right now_ it is not so easy to see what the experience looks like for your customers using Hourfleet once you have signed up. We are working on improving that with product videos and tutorials that are coming soon.
 
-You should get a good feel for how it all works, and see some of the features that Hourfleet supports for you and your customers. You should get a better understanding  of how things hang together. There is a lot in Hourfleet, so we will try to keep it brief, and leave you to  explore the rest later.
+This is our first-steps tutorial, that is designed to walk you through the Hourfleet App. 
 
-If you are more interested in some of the concepts of how Hourfleet works [click here](howitworks.html), but otherwise its time to get hands-on a see Hourfleet in action.
+We will create some user accounts, register a new car and even rent out your car in the App.
+
+After completing this, you should get a good feel for how Hourfleet works, and see some of the features that Hourfleet supports for you and your customers. 
+
+It should give you a better understanding of how things hang together. There is a lot in Hourfleet, so we will try to keep it brief, and leave you to  explore the rest later.
+
+If you are more interested in some of the concepts of how Hourfleet works, see our [How It Works](howitworks.html) page, but otherwise now it is time to get hands-on a see Hourfleet in action.
 
 Here is the **plan** for this walkthrough:
 
@@ -21,19 +27,23 @@ Here is the **plan** for this walkthrough:
 3. Once your car is all set up, you are going to switch to acting as one of your customers, and go find and borrow your new car. You will then see how the booking system works and how the App helps guides your customers to finding and borrowing cars.
 4. Finally, we are going to take the car offline, since, after this walk through you may or may not want others to book and use your fake car!
 
-> One last note: all the screenshots in this walkthrough are taken from an Apple iPad mobile device. So what you see may be slightly different depending on whether you are on a desktop, tablet or mobile phone device.
+It may take you an hour to get through.
+
+> Note: all the screenshots in this walkthrough are taken from an tablet sized mobile device (like an iPad). So what you see may be slightly different depending on whether you are on a windows or mac desktop, tablet or mobile phone device. You can do this walkthrough on any of those devices.
+
+In any case, please use the **Google Chrome** browser to follow along with us in your own Car Share. We don't guarantee that other browsers are going to work properly.
 
 OK, let's get started.
 
 ## Setting up accounts
 
-By now, after creating your new Car Share, you should have already received an invitation by email to your App, inviting you to join your Car Share.
+By now, after creating your new Car Share, you should have already received an invitation by email to join your Car Share. Check your inbox.
 
-If you have already been through the below process, **skip this next step**, you have already done it. just sign in to the App.
+If you have already been through the below process, **skip this next step**, you have already done it. just sign in to the App at your Car Share URL.
 
 #### Creating your account
 
-In that first email, there is a giant 'Create Account' button, which if you click, sends you to the 'Create an Account' page below. 
+In that first email, there is a large 'Create Account' button, which if you click, sends you to the 'Create an Account' page below. 
 
 Fill out your name, email and conviction status, declare yourself as not a robot, and create your account, and you will be signed in to your car sharing App.
 
@@ -41,13 +51,13 @@ Fill out your name, email and conviction status, declare yourself as not a robot
 
 ### Your experience as an operator
 
->  Note: From here on out, now that you are seeing and using your Hourfleet App, we are just going to call this 'App' for the rest of this walkthrough.
+>  Note: From here on out, now that you are seeing and using your Hourfleet App, we are just going to call it the 'App' for the rest of this walkthrough.
 
 Now, things may look a bit funny in the App because you actually have a special account called an 'Operator' account. 
 
 An operator account has a lot of special privileges that other users in your Car Share will not have. Such as looking at financial reports and managing all the cars and users in your Car Share network. 
 
-The App experience is a little different since operators are not _as_ interested in borrowing their own cars as your customers are, so some of the tools they need are removed for simplicity.
+The App experience is a little different since operators are not _as_ interested in borrowing their own cars as your customers are, so some of the tools they need are removed for you for simplicity.
 
 In the top menu, click on the 'Operations' menu and you get to see some reports for your new Car Share. The data is a little bare at the moment, but it does change as things happen in your Car Share.
 
