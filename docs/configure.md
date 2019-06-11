@@ -23,16 +23,17 @@ There is lots to configure for your specific car sharing business and how the Ho
 
 ## Start Customizing
 
-Common Areas:
+Essential Areas:
 
 - [Branding & SEO](configure-branding.html)
 - [Support, Live Chat and Analytics](configure-support.html)
+- [Settings](configure-settings.html)
+
+Common Areas:
+
 - [Navigation](configure-navigation.html)
 - [Business Model](configure-businessmodel.html)
 
 Other Areas:
 
-- [User Notifications](configure-notifications.html)
-- [Settings](configure-settings.html)
-
-- [Subscription](configure-subscription.html)
+- [Notifications](configure-notifications.html)
