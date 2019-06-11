@@ -79,7 +79,9 @@ In the top right menu, select 'Join'. You will be presented with a page that ask
 
 ![Invite Borrower](images/walkthrough/OperatorInviteBorrower.png)
 
-Here, you are going to make up a fictitious  name of a person, enter it in here (First Name, Last Name) and use this  specific email address: hourfleet@mailinator.com. 
+>Note: in the pictures you see here, we have chosen to call your fictitious friend 'Jimmy Nimbus', but you can call them whatever you like. Just make sure you use the same email address we give you below.
+
+Here, you are going to make up a fictitious  name of a person, enter it in here (First Name, Last Name) and use this  specific email address: `hourfleet@mailinator.com`.
 
 Don't worry, this email address goes to a public email mailbox which everyone uses for this walkthrough. 
 
@@ -158,12 +160,12 @@ Describe a fictional car, make and model, and click 'List your car now'
 Once the car is created, you will be presented with some pages to configure the car.
 
 Do the following in the following pages (click 'Save and Continue' at the bottom of each page):
-* Carkit Compatibility - ignore this page for now.
+* Carkit Compatibility - ignore this page for now. Go to 'General' 
 * **General** - enter a 'Year', and change the 'Rental Model' to 'Auto-approve Requests' to ON.
-* **Location** - enter the 'Home Address', it must be a real street address, in your city.
-* **Pricing** - enter prices for 'Hourly', 'Daily', 'Weekly'
-* **Photos** - upload at least one photo of the car. Try to use a photo of a real car, not a cat or your dog, this time.
-* **Identity** - enter a license plate, road worthiness expiry date and number. You can make these up for now.
+* **Location** - enter the 'Home Address', it must be a real street address in your city.
+* **Pricing** - enter prices for 'Hourly', 'Daily', 'Weekly' e.g. 20, 100, 500.
+* **Photos** - upload at least one photo of the car. Try to use a photo of a real car, not a photo of a cat or your dog this time!
+* **Identity** - enter a license plate, road worthiness expiry date and number. You can use any future date and any 20 digit number
 
 After you complete these details, the car should be display (green) ticks for all the categories on the left side.
 
@@ -187,11 +189,15 @@ You now get presented with a calendar that shows the availability of your car in
 
 ![No Availability](images/walkthrough/CarOwnerCarAvailability_Empty.png)
 
-All we need to do here is add an available time slot for a couple of hours, beginning in 15mins time.
+> Note: the black highlighted section in the calendar represents the selected date range you have right now.
+
+All we need to do here is add a new available time slot for a couple of hours, beginning in 15mins time.
 
 Use the 'Starting' and 'Ending' drop downs to create a time slot that starts in 15mins, and ends 3 hours later today. 
 
 Then hit 'Add'. Don't worry if the time slot is longer. It is OK for now.
+
+You need to see a new 'green' section in the calendar to finish this part.
 
 On the left menu, click 'Back to My Cars'
 
@@ -199,21 +205,21 @@ On the left menu, click 'Back to My Cars'
 
 OK, so now we have a car, it is configured with a bunch of details, and the car has some future availability. 
 
-However, it is still not enough for people to borrow the car just yet. Remember all those pictures of cats, dogs and fake information you may have put in earlier for your fictitious friend and your fake car?
+However, it is still not enough for people to borrow the car just yet. Remember all those pictures of cats, dogs and fake information you may have put in earlier for your fictitious friend and your fake car? Well, when it comes to real cars and real people, that stuff is not going to impress you as a business owner.
 
-Well, now its time to meet _Verifications_.
+So, its now time to meet _Verifications_.
 
-Verifications, are your way of managing your Car Share business, to ensure that the cars, and those borrowing them are all legitimate. After all, you don't really want to allow criminals nor fraudsters borrowing and damaging your cars and your business brand, right?
+Verifications, are your way of controlling the quality of your Car Share business. Ensuring that the cars and those borrowing them are all legitimate people and cars. After all, you don't neither want to allow criminals nor fraudsters borrowing and damaging your cars and your business brand and reputation, right?
 
-This is where **verifications** come in.
+This is where **Verifications** come in.
 
->  Everyone involved in borrowing a car, the car borrower, the car owner, as well as the car itself must all be legitimate. It's important that all parties that you manage have high trust for each other, and that your business remains compliant with important local and national guidelines for public vehicle usage.
+>  Everyone involved in borrowing a car, the car borrower, the car owner, as well as the car itself must all be legitimate. It's important that all parties that you manage have high levels of trust for each other, and that your business remains compliant with important local/national guidelines for public vehicle usage in your jurisdiction.
 
-> As the Car Share operator, its your responsibility to make sure that people and cars are legitimate, and that things are kept that way over time. For this reason, no car and no borrowers or car owners get anywhere near each other until they are fully verified, and stay that way. This is why the verifications exist, even though initially they are a little painful to setup, you will come to find they are necessary to protect your business in the future.
+> As the Car Share operator, its your responsibility to make sure that people and cars are certified and legitimate, and that things are kept that way over time. For this reason, no car and no borrowers nor car owners get anywhere near each other until they are fully verified, and they need to stay that way over time. This is why the verifications exist, even though initially they are a little painful to setup, you will come to find they are necessary to protect your business in the future.
 
-So, let's get started.
+So, let's get started with them.
 
-First we are going to verify the car owner and the fictitious  borrower friend of yours. Then we are going to verify your fake car.
+First we are going to verify the car owner and the fictitious borrower friend of yours. Then we are going to verify your fake car.
 
 On the top menu, click the 'Operations' menu. This brings you to the 'Operations Dashboard' again.
 
