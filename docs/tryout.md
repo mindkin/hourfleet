@@ -485,8 +485,8 @@ There are some simple things you can do prevent anyone booking or using the car 
 
 Do one of the following:
 
-1. Take the car 'Offline' in the 'Show Quick Actions -> Offline' menu of the car, and it will disappear from the search results.
-1. Delete any future availability of the car. If you only added 3hrs availability to the car in this walkthrough, then after that period of time the car will simply become unavailable to use anymore, and will disappear from the search results. You would delete any remaining availability from the 'Show Quick Actions -> Availability' menu of the car. 
+1. Take the car 'Offline' in the 'My Cars -> Show Quick Actions -> Offline' menu of the car, and it will disappear from the search results.
+1. Delete any future availability of the car. If you only added 3hrs availability to the car in this walkthrough, then after that period of time the car will simply become unavailable to use anymore, and will disappear from the search results. You would delete any remaining availability from the 'My Cars -> Show Quick Actions -> Availability' menu of the car. 
 1. You can explicitly remove the 'Operator Verification' from the car, in the verifications of the car, in the operators dashboard. The car will become unverified. It will disappear from search results too.
 
 > Note: You wont be able to _delete_ the car from your Car Share at this time. This is because it has already been used in at least one booking, so we need it to exist for financial reporting and historical reporting purposes.
