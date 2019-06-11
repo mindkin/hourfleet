@@ -37,7 +37,7 @@ In that first email, there is a giant 'Create Account' button, which if you clic
 
 Fill out your name, email and conviction status, declare yourself as not a robot, and create your account, and you will be signed in to your car sharing App.
 
-![Create Account](images/walkthrough/CreateAccount.png)
+![Create Account](images/walkthrough/OperatorCreateAccount.png)
 
 ### Your experience as an operator
 
@@ -67,7 +67,7 @@ Let's now create a new user account to represent a borrower on your network.
 
 In the top right menu, select 'Join'. You will be presented with a page that asks for your email, and names. 
 
-![Invite Borrower](images/walkthrough/InviteBorrower.png)
+![Invite Borrower](images/walkthrough/OperatorInviteBorrower.png)
 
 Here, you are going to make up a fictitious  name of a person, enter it in here (First Name, Last Name) and use this  specific email address: hourfleet@mailinator.com. 
 
@@ -83,11 +83,11 @@ Now lets go read that email in [this mailbox on the Mailinator.com website](http
 
 > Remember: this is a **public mailbox** that anyone can see, and you may even see emails in this mailbox from others following this walkthrough, but no problem. You are looking for an email that arrives from your Car Share to your fictitious person, that arrived 'Moments Ago'. It might take a minute or two, please be patient. There is no junk email folder here!
 
-![Mailinator Mailbox](images/walkthrough/MailinatorMailbox.png)
+![Mailinator Mailbox](images/walkthrough/OperatorMailinatorMailbox.png)
 
 OK, open the email, and you will see a big button to click saying 'Create Account'. Click it.
 
-![Invitation](images/walkthrough/BorrowerInvitation.png)
+![Invitation](images/walkthrough/BorrowerMailinatorInvitation.png)
 
 Click 'Create Account'. 
 
@@ -113,7 +113,7 @@ In the top menu, click the profile image, and click 'Find a Car'
 
 You can see the map of all cars, which you can move around and search for cars. Nothing there yet.
 
-![Find a Car](images/walkthrough/FindACar_NoCars.png)
+![Find a Car](images/walkthrough/BorrowerFindACar_NoCars.png)
 
 Let's go create a car and put it on the map.
 
@@ -175,7 +175,7 @@ Under the picture of your car, click the 'Show Quick Actions' link, and select '
 
 You now get presented with a calendar that shows the availability of your car in the future. Right now, it has no availability.
 
-![No Availability](images/walkthrough/CarAvailabilityEmpty.png)
+![No Availability](images/walkthrough/CarOwnerCarAvailability_Empty.png)
 
 All we need to do here is add an available time slot for a couple of hours, beginning in 15mins time.
 
@@ -211,11 +211,11 @@ On the top menu, click the 'Operations' menu. This brings you to the 'Operations
 
 Now, click 'Users', click 'Verifications' and you should see your fictitious  friend and yourself listed there. Remember, you are the car owner right now.
 
-![Unverified Users](images/walkthrough/UserVerificationsUnverified.png)
+![Unverified Users](images/walkthrough/OperatorUserVerifications_Unverified.png)
 
 Click on the name of your fictitious friend borrower (Jimmy Nimbus in this example), and you should see the verifications listed for the person.
 
-![Unverified Borrower](images/walkthrough/UnverifiedBorrower.png)
+![Unverified Borrower](images/walkthrough/OperatorBorrower_Unverified.png)
 
 Scroll up and down to all the verifications.
 
@@ -229,7 +229,7 @@ To decide, you get presented with the raw information the person has provided, a
 
 At the top is a special over-arching verification called 'Operator Verified' it rules them all. 
 
-![Operator Discretion Verification](images/walkthrough/OperatorDicretionVerification.png)
+![Operator Discretion Verification](images/walkthrough/DicretionaryVerification.png)
 
 It is probably green right now, so don't worry about this one, focus on the blank ones further down the list.
 
@@ -264,7 +264,7 @@ Leaving only 'Payment Method' and 'Driver's License unticked.
 
 You can also see that you have been identified as being a car owner, and that you are 100% fully verified as a car owner.
 
-![Verified Car Owner](images/walkthrough/VerifiedCarOwner.png)
+![Verified Car Owner](images/walkthrough/OperatorCarOwner_Verified.png)
 
 By the way, when you start clicking your own verifications, you might start to see emails arriving in your inbox. Don't worry, that's intended. Hourfleet notifies people when their verifications status changes. It is important people get notified when their verifications change, because these things don't change that often, and when they do change, user's will want to know. Since it can stop them being able to use cars in your Car Share.
 
@@ -278,11 +278,11 @@ On the left menu, click the icon of the car (to the far left!)
 
 Then, click 'Verifications'. You should see a list of all the cars you own. There should only be one right now.
 
-![Car Verifications](images/walkthrough/CarVerificationsUnverified.png)
+![Car Verifications](images/walkthrough/OperatorCarVerifications_Unverified.png)
 
 Click on the car name, and this time you see a different list of verifications for a car.
 
-![Unverified Car](images/walkthrough/UnverifiedCar.png)
+![Unverified Car](images/walkthrough/OperatorCar_Unverified.png)
 
 For a car to be borrowed by anyone, it must be fully verified.
 
@@ -304,7 +304,7 @@ You need to logout of your operator account, and sign in as your fictitious frie
 
 When your fictitious friend signs in, they are taken directly to the 'Find a Car' page, where you should see your fictitious car on listed and placed on the map.
 
-![Find a Car](images/walkthrough/FindACar_CarAvailable.png)
+![Find a Car](images/walkthrough/BorrowerFindACar_CarAvailable.png)
 
 Let's not forget this car probably does not physically exist yet. (as in, it won't yet exist in the physical world). But that is OK for this walk through. We are going to assume for this walk through that you know where the car is located, and you have access to the car keys. (even if you don't and the car is not real!).
 
@@ -320,15 +320,13 @@ The map will center on the car pin, and show you a preview of the car.
 
 OK, now. Click on the 'More Details' button. A popup will open up to show you more details about the car.
 
-![Car Profile](images/walkthrough/CarProfile.png)
-
-
+![Car Profile](images/walkthrough/BorrowerCarProfile.png)
 
 OK, now click on the 'Make a Request' button.
 
 The form will expand to show you the current availability of the car. Which shows you when you can book the car.
 
-![Make Request](images/walkthrough/MakeRequest.png)
+![Make Request](images/walkthrough/BorrowerNewRequest.png)
 
 You should see the availability you set for the car earlier. And hopefully, the time right now is within the time is available.
 
@@ -338,7 +336,7 @@ Hit the 'Book' button.
 
 You are now moved to a confirmation page where you are asked to confirm the booking, and agree to the terms of service for this booking.
 
-![Confirm Booking](images/walkthrough/ConfirmRequest.png)
+![Confirm Booking](images/walkthrough/BorrowerRequest_Confirm.png)
 
 Since you are already verified (earlier), and since the car is configured to be automatically approved (and is also verified), your booking is going to go through automatically, and the car is yours to use!
 
@@ -346,15 +344,15 @@ Hit the 'Confirm Booking' button.
 
 It takes a few seconds to approve the booking and then you are moved again to your 'Bookings' page. Where you should see your new booking, and its about to start soon.
 
-> Also, as the car owner, you are going to get some email, to notify that someone has successfully booked your car.!
+> Also, as the car owner, you are going to get some email, to notify that someone has successfully booked your car!
 
-![My Bookings](images/walkthrough/MyBookings.png)
+![My Bookings](images/walkthrough/BorrowerMyBookings.png)
 
 OK, so now you have a confirmed booking that starts hopefully very soon. Perhaps minutes away.
 
 Click on the 'Manage Booking' button and lets have a look at some of the information provided to you before your booking actually starts.
 
-![Approved Booking Details](images/walkthrough/ApprovedBookingDetails.png)
+![Approved Booking Details](images/walkthrough/BorrowerApprovedBooking_Details.png)
 
 You can see when the booking will start, how much it will cost you and other important information.
 
@@ -365,7 +363,7 @@ You can see when the booking will start, how much it will cost you and other imp
 
 In a few minutes (after the start time has passed) the booking will automatically start, and will start to track remaining time and cost to you the borrower.
 
-![InUse Booking](images/walkthrough/InUseBooking.png)
+![InUse Booking](images/walkthrough/BorrowerInUseBooking.png)
 
 In the real world, you would use the actual car keys, jump in the car, drive it around, do your business, and eventually return the car, and park it when you are done.
 
@@ -383,29 +381,31 @@ Should you wish to live chat with the car owner about the condition of the car, 
 
 When you are done, click the far right control, and select 'Finish Booking'.
 
-![](images/walkthrough/ManageInUseBookingPanel.png)
+![](images/walkthrough/BorrowerInUseBooking_Panel.png)
 
 You will be asked to confirm whether you want to finish the booking. 
 
-Confirm that now. You will be asked to Rate your experience.
+Confirm that now. You will be asked to rate and review your experience.
 
-![](images/walkthrough/CompleteBookingFeedback.png)
+![](images/walkthrough/BorrowerCompleteBooking_Rating.png)
 
-At this point, Hourfleet has recorded that you have returned your car within the allocated booking period, and gives you a summary of the booking.
+At this point, Hourfleet has recorded that you have returned your car within the allocated booking period, and gives you a summary of the booking. 
 
-![Booking Summary](images/walkthrough/CompleteBookingSummary.png)
+![Booking Summary](images/walkthrough/BorrowerCompleteBooking_Summary.png)
 
-In the real world, you would only do this after actually parking the car where you needed to park it.
+In the real world, you would only finish the booking after actually parking the car where you needed to park it. Also, as you may notice, the charge for this kind of booking is the whole period of the booking regardless of whether you finish the booking early or not.
 
-> Note: If you forget to 'Finish Booking' and you walk away from the car, Hourfleet will complete the booking for you when the booking is due to finish, but it will also warn the car owner that you didn't record when you finished the booking. There are a set of policies governing what happens when the car owner comes to look at the booking later, and it was not explicitly returned in the App.
+> Note: If you forget to 'Finish Booking' and you walk away from the car, Hourfleet will complete the booking for you when the booking is due to finish, but it will also warn the car owner that you didn't record when you finished the booking. There are a set of configurable policies governing what happens when the car owner comes to look at the booking later, and it was not explicitly returned in the App.
 
 Well, that is it for borrowing a car!
 
 ## Completing the booking
 
-There is a follow up step the car owner would also need to perform in the App, that is expected to happen after the borrower returns the car.
+Finally, there is a follow-up step that the car owner would also need to perform in the App, that is expected to happen sometime after the borrower returns the car.
 
-You can do this process (as the car owner) by signing out as your fictitious friend and signing in as yourself again.
+> Note: If the car owner does not perform this step, Hourfleet will perform this step automatically for them after 1 day (default). 
+
+You can perform this step (as the car owner) by signing out as your fictitious friend and signing in as yourself again.
 
 This time, click your profile, and select 'My Cars'
 
@@ -415,7 +415,9 @@ Under the picture of your car, click 'Show Quick Actions', and click 'Bookings'.
 
 ![Car Owner Car](images/walkthrough/CarOwnerCar.png)
 
-Where you are going to see all the bookings for all the cars you currently own. Remember you are the car owner here, **and** the operator. But normally, this is just for car owners.
+Here, you are going to see all the outstanding bookings for this car. 
+
+Remember you are the car owner here, **and** the operator. This is the normal experience for any car owner.
 
 ![Car Owner Bookings](images/walkthrough/CarOwnerBookings.png)
 
@@ -423,9 +425,11 @@ On the left you see all the bookings for your cars that will need processing.
 
 Click on the 'Manage' link of the booking.
 
- You now see a view of the booking where you can 'Complete the Booking'. Click this button.
+ You now see a view of the booking where you can 'Complete the Booking'.
 
 ![Manage Returned Booking](images/walkthrough/CarOwnerReturnedBooking_Manage.png)
+
+Click the 'Complete the Booking' button.
 
 The borrower returned the booking within the booking period, so you don't have to do anything there, all you have to do is make a statement about the returned condition of the car.
 
@@ -439,9 +443,9 @@ You get a chance to rate and review the borrower's use of your car, and then you
 
 > Notice: that your earnings (as a car owner) is zero in this case, because the operator of the Car Share (that's also you) gets all the profit of this rental! Which is the way Hourfleet is configured by default for a B2C Car Share. Revenue shares are also supported by Hourfleet, as are insurance fees, and late fees. But for this walkthrough those values are set to minimums. You can change these for your Car Share later.
 
-You can now click the 'Back to my Cars' link to get back to managing your own cars.
+You can now click the 'Back to my Bookings' link to get back to managing your bookings for this car.
 
-Essentially, as a car owner you are done managing the bookings of your car.
+Essentially, as a car owner you are now done.
 
 ## Wrap Up
 
@@ -455,4 +459,4 @@ It is also worth saying that you have only seen the "Key Exchange" model of borr
 
 For now, we hope you have seen enough.
 
-You can stay signed in as yourself. and continue looking around, playing with cars and your users, and [customizing](configure.html) your Car Share to learn more about how Hourfleet can support your business.
+You can stay signed in as yourself and continue looking around, playing with cars and your users, and [customizing](configure.html) your Car Share to learn more about how Hourfleet can support your business.
