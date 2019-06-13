@@ -4,7 +4,13 @@ title: Configure Support.
 ---
 # Support
 
-These settings are displayed in various places around the web app that reference support/assistance for your customers. It also includes the ability to use third party support service like Google Analytics and live chat widgets. Hourfleet generates a support page for your web app using some of these details that helps provide guidance for your users. You can choose to link to your own external support page (see [Navigation Configuration](configure.html#Navigation)).
+These settings are displayed in various places around the web app that reference support/assistance for your customers. 
+
+It also includes the ability to use third party support service like Google Analytics and live chat widgets. 
+
+By default,Hourfleet generates a built-in support page in the Car Share App using these details that helps provide guidance for your users, when things do not go to plan. 
+
+> Note: You can also choose to link to your own external custom support page (see [Navigation Configuration](configure-navigation.html)).
 
 ~~~
 	"Support": { 
@@ -67,16 +73,17 @@ These settings are displayed in various places around the web app that reference
 	},
 ~~~
 
-
-
-An example of the Support page that is generated for you can be seen here:
+An example of a generated support page can be seen here:
 
 ![Support Page](images/SupportPage.png)
 
-## LiveChat
+# LiveChat Widgets
 
-This section defines the LiveChat widgets that Hourfleet supports. Currently, FreshDesk.com or Intercom.io.
-You will need to sign-up for an account with either of these providers. 
+This section defines the LiveChat widgets that Hourfleet supports. 
+
+Currently, FreshDesk.com or Intercom.io.
+
+You will need to sign-up for an account with either of these providers to integrate a char widget
 
 You cannot configure to have LiveChat for both, chose one or the other or neither.
 
@@ -107,7 +114,7 @@ Once you have signed up and selected a plan that includes Intercom 'Acquire', yo
 * Click on the 'API Keys' menu (to the left)
 * The 'APP ID" is the value of your 'ApiKey'
 
-## Google Analytics
+# Google Analytics
 
 If you wish to track site usage using Google Analytics, you can do that by providing your 'Tracking Id' found in the 'Administration -> Property Settings' page of your Google Analytics configuration page, for your Google account.
 
