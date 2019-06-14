@@ -36,9 +36,11 @@ Now click `Create key`
 
 ![](images/RestrictedKey2.png)  
 
-Now it's time to colect the two keys that Hourfleet needs. First save the `Publishable key`. Then in the Restricted API key panel by Hourfleet, click `Reveal live key token` and the `Secret key` will be displayed. It's secret for a reason - don't leave this lying around!
+Now it's time to colect the two keys that Hourfleet needs. First save the `Publishable key`. Then in the Restricted API key panel by Hourfleet, click `Reveal live key token` and the `Restricted key` will be displayed. It's restrcted for a reason - don't leave this lying around!
 
-Email the `Publishable key` and `Secret key` to `admin@mindkin.co.nz`. If applicable delete this email from your Sent Items folder.
+The `Publishable Key` will begin `pk_live_`, and the `Restricted Key` will begin `rk_live_`  
+
+Email the `Publishable key` and `Restricted key` to `admin@mindkin.co.nz`. If applicable delete this email from your Sent Items folder.
 
 **Important**: Your relationship with Stripe is governed by your acceptance of their Terms of Service. We are unable to manage any aspect of your relationship with Stripe, or to advocate for you. Other than initiating charges to your customers as covered by our Terms of Service, we are unable to act for or on your behalf.
 
