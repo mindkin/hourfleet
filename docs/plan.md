@@ -11,7 +11,7 @@ This section details some of the material that we recommend you read, to get a b
 
 * [First steps](stepbystep.html). The things that your business needs to get sorted before your car sharing business can operate properly
 * [Your own Website](yoursite.html). The integration between your own landing pages Hourfleet tenancy.  
-* [Customizing your Car Share](configure.html). There is lots to customize. Here is what you can configure to make your car sharing network unique.  
+* [Configuring your Car Share](configure.html). Here is where you can see what you can configure to make your car sharing network unique.
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car share services.  
 * [The Hourfleet App](screens.html). A collection of car search, booking, and dashboard images designed for mobile.  
 * [The Hourfleet Carkit](carkit.html). All you need to know about this in-car device - compatibility, customization, installation and cellular network setup.     
