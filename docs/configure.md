@@ -4,9 +4,9 @@ title: What You Can Configure.
 ---
 # What you can configure
 
-When you join Hourfleet and create a new Car Share, you are going to get with that your own car sharing web App hosted for you at an address like: `https://yourbusiness.hourfleet.com`.
+When you join Hourfleet and create a new Car Share, you are going to get your own car sharing web App hosted for you at an address like: `https://yourbusiness.hourfleet.com`.
 
-Your App will still need to be customized to suit your business model, and tailored to look like your company brand.
+Your App will still need to be configured to suit your business model, and tailored to look like your company brand.
 
 You can see an example of what your web app will look like at [What Is In The Box](inthebox.html)
 
@@ -14,7 +14,7 @@ You can see an example of what your web app will look like at [What Is In The Bo
 
 From the perspective of Hourfleet, you (and your business) are known to Hourfleet as a "Network Operator", since you operate a Car Share 'network' on the Hourfleet platform. A distributed network of borrowers and cars.
 
-As an Operator you have very special priviledges to configure and operate your Car Share. You are very likely to have many things unique to your business, such as: your own brand, your own social media presence, and also different rules about how you price your services and how you charge your customers for renting and borrowing cars on your network.
+As an Operator you have very special privileges to configure and operate your Car Share. You are very likely to have many things unique to your business, such as: your own brand, your own social media presence, and also different rules about how you price your services and how you charge your customers for renting and borrowing cars on your network.
 
 You are very likely to already have your own website for your business that is focused upon capturing new customers and providing that all important front door to your business, to turn interested browsers into paying customers. 
 
@@ -24,7 +24,7 @@ There is lots to configure for your specific car sharing business and how the Ho
 
 Let's get started.
 
-## Start Customizing
+## Start Configuring
 
 Essential Areas:
 
