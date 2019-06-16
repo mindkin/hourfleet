@@ -6,7 +6,7 @@ title: Your Car Share
 # Understanding Your Car Share
 
 * [First Steps First](stepbystep.html). These are things that you need to get sorted first before your car sharing business can operate properly.
-* [Configuring Your Car Share](configure.html). There is lots to configure in your Car Share. Here is what you can configure to make Hourfleet fit to teh way your car sharing business works.
+* [Configuring Your Car Share](configure.html). There is lots to configure in your Car Share to make it your own, and match your unique business. Start here to see what you can configure.
 * [Integrations](integrations.html). Learn about the online services that Hourfleet integrates with. [Stripe](http://stripe.com) integration is mandatory for your car share to charge your customers. 
 * [Your own website](yoursite.html). You need your own companies website and landing page, and host some other important pages and images.
 
