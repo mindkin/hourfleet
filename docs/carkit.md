@@ -3,7 +3,7 @@ layout: default
 title: Carkit
 ---
 
-# What They Do
+# [What They Do](#what-they-do)
 
 Carkits are devices fitted into selected cars in your car sharing network.
 
