@@ -13,7 +13,7 @@ As there are no keys to exchange with another human or office location, cars fit
 
 Carkits also track the location of the car and other metrics, such as: distance travleled, fuel consumed and driving styles. This kind of data makes cheaper insurance products for car sharing.
 
-# Carkit Compatibility   
+# [Carkit Compatibility](#carkit-compatibility)  
 This section is intended for the latest generation of Hourfleet carkits, with a smart optical unlock feature, known as **Tap, Tap Go**. 
 
 This carkit is **only fully compatible** with cars that:
@@ -25,11 +25,11 @@ This carkit is **only fully compatible** with cars that:
 
 Cars that have **older style twist-key ignitions** <u>may</u> have this carkit fitted, but the carkit will only provide access (unlock/lock) to the car. It will not facilitate starting of the car (since these cars will not have a Start button). In order to use this kind of configuration and start the car, a regular car key must be accessible inside the car for the renter to use to start the car somehow (i.e. left in the glove box). While this is a similar model to most car share services that operate today, we do not recommend this configuration for the physical security and insurance risks it carries.
 
-# How it Works - Tap Tap Go!
+# [How it Works - Tap Tap Go!](#how-it-works)
 
 [![Tap, Tap Go](http://img.youtube.com/vi/boopaYYKiSo/0.jpg)](https://www.youtube.com/watch?v=boopaYYKiSo).
 
-# Obtaining a Carkit
+# [Obtaining a Carkit](#obtaining-a-carkit)
 A carkit is obtained by ordering a quantity of them from Hourfleet. 
 
 These carkits are devices that can be shipped to your business, and then paired with a key unit of the car before being fitted into any car.
