@@ -43,7 +43,7 @@ The car key unit must be physically constructed by Hourfleet technicians prior t
 The basic process to provision a carkit for any car is as follows:
 
 1. Place an order for a carkit with Hourfleet (contact [Hourfleet Sales](mailto:sales@hourfleet.com) for pricing and availability).
-2. Once your order has been accepted, follow this ![guidance](images\20190501CarKeyProvisioningForm-v2.pdf)
+2. Once your order has been accepted, follow this [Guidance](images\CarKeyProvisioningForm-v2.pdf)
 3. Hourfleet technicians return a fully configured carkit, which comes in two parts: a car key unit, and the carkit unit, which fit together for that car. 
 4. Install the carkit into the car. 
 5. In the Hourfleet App, registered the carkit with a registered car, which creates a secure binding in the Hourfleet App.
