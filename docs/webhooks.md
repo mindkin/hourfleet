@@ -12,6 +12,24 @@ As well as calling the various API's that Hourfleet has, Hourfleet can also noti
 
 The mechanism by which this notification occurs is called 'Webhooks'.
 
+## What Webhooks are available?
+
+The following table lists the available webhooks in Hourfleet.
+
+| Category      | Notification Name   | Description                                |
+| ------------- | ------------------- | ------------------------------------------ |
+| UserAccounts  | useraccount_create  | The account was created                    |
+| Profiles      | profile_update      | A user's profile was updated               |
+| Verifications | verification_update | A user's or car's verification was changed |
+| Feedback      | feedback_update     | A user's or car's feedback was updated     |
+|               | feedback_delete     | A user's or car's feedback was deleted     |
+| Bookings      | carbooking_approve  | A booking for a car was approved           |
+|               | carbooking_cancel   | The booking was cancelled                  |
+|               | carbooking_use      | The booking was started (car was used)     |
+|               | carbooking_extend   | The booking was extended longer or shorter |
+|               | carbooking_return   | The booking was ended (car was returned)   |
+|               | carbooking_complete | The booking was completed                  |
+
 ## How do they work?
 
 Hourfleet publishes certain events at certain times.
@@ -83,7 +101,7 @@ OK, so *conceptually*, this is what we will do (exact details omitted for brevit
 2. We will configure the Zap to receive a 'Webhook', and then send that notification as a message on a channel in a Slack workspace.
 3. We start by configuring the 'Webhook' to 'catch' a notification, and Zapier will generate a URL for you.
 4. We make a note of this URL. 
-5. Next we need to train the Zap with a sample of what kind of notification it will get. (like the one above). We will use a common tool like [PostMan]([https://www.getpostman.com](https://www.getpostman.com/)) (or other API tool) to send the request above to the URL of our webhook in Zapier, to train the Zap.
+5. Next we need to train the Zap with a sample of what kind of notification it will get. (like the one above). We will use a common tool like [PostMan]([https://www.getpostman.com](https://www.getpostman.com/)) (or other API tool like CURL) to send the request above to the URL of our webhook in Zapier, to train the Zap.
 6. Once the Zap receives the sample notification, it will decode the notification and learn about the various fields in the notification.
 7. Then its time to configure the Zap to send the notification to Slack.
 8. We now connect to our Slack workspace, and select a channel.
@@ -95,4 +113,41 @@ OK, so *conceptually*, this is what we will do (exact details omitted for brevit
 
 Now that we have Zapier setup to handle our webhook all we now need to do is subscribe to receive the webhook events from Hourfleet.
 
-TO BE CONTINUED
+For this step we will need a tool like [PostMan]([https://www.getpostman.com](https://www.getpostman.com/)) (or other API tool like CURL) in order to subscribe to webhooks in Hourfleet.
+
+We are going to use POSTMAN to subscribe to an Hourfleet webhook, using the URL we made in the previous steps, and also with the name of a notification we are interested in from the table at the top of this page.
+
+For this example, lets use `https://myapp.com/webhooks/123456789` (that we got from our Zap) for the URL and `carbooking_approve` for the notification name (from table above).
+
+In POSTMAN, we need to configure the 'Authorization' to use 'OAuth 2' to obtain a token, that we will then need to use to call Hourfleet.
+
+We configure POSTMAN to use a `Grant Type` of 'Authorization Code', and we define these properties:
+
+- AuthURL: `https://yourcarshare.hourfleet.com:4432/api/oauth/auth`
+- TokenURL: `https://yourcarshare.hourfleet.com:4432/api/oauth/token`
+- ClientID: `BD3C4D5F-867C-42B1-8155-02E0A5050CE1`
+- ClientSecret: \<you obtain this from Hourfleet Support Team>
+- Scope: `https://www.mindkin.co.nz/auth/useraccount.profile`
+
+Now, you will get a popup window asking for a login. You response with:
+
+- username: `zapier.services.appuser`
+- Password: \<you obtain this from Hourfleet Support Team>
+
+Postman now has an 'access_token' that you can use to make a request to any Hourfleet API.
+
+Now configure the following request in POSTMAN:
+
+* Verb: `POST`
+
+* URL: https://yourcarshare.hourfleet.com:4431/api/webhooks/subscriptions
+
+* Body: `raw`, 'JSON (application/json)'
+
+* Body Content: `{"name":"My Notification","events":["carbooking_approve"],"config":{"url":"https://myapp.com/webhooks/123456789",}}`
+
+Now 'Send' the request.
+
+You should get a HTTP 200 response.
+
+Your webhook is now all setup and ready to be fired by Hourfleet.
