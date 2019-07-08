@@ -12,13 +12,13 @@ As well as calling the various API's that Hourfleet has, Hourfleet can also noti
 
 The mechanism by which this notification occurs is called 'Webhooks'.
 
-## What Webhooks are available?
+## What Webhook notifications are available?
 
-The following table lists the available webhooks in Hourfleet.
+The following table lists the available webhooks notifications that Hourfleet raises today.
 
 | Category      | Notification Name   | Description                                |
 | ------------- | ------------------- | ------------------------------------------ |
-| UserAccounts  | useraccount_create  | The account was created                    |
+| UserAccounts  | useraccount_create  | A new user account was created             |
 | Profiles      | profile_update      | A user's profile was updated               |
 | Verifications | verification_update | A user's or car's verification was changed |
 | Feedback      | feedback_update     | A user's or car's feedback was updated     |
@@ -32,23 +32,23 @@ The following table lists the available webhooks in Hourfleet.
 
 ## How do they work?
 
-Hourfleet publishes certain events at certain times.
+Hourfleet publishes certain notification/events at certain times during its operation.
 
-If you are interested in these events, you **subscribe** to these events, by simply defining the event you are interested in and a **URL** to call when that event occurs. This is know as a Webhook.
+If you are interested in these events, you would **subscribe** to these events by simply defining: 1) the event you are interested in and 2) a **URL** to call when that event occurs. This is known as a Webhook (catching an event with a hook, on the web).
 
-Once you have registered a subscriber to a webhook, Hourfleet will now call your URL (**publish**) with information about the specific event your subscribed to.
+Once you have registered your subscriber URL to a webhook, Hourfleet will now call your URL (**publish**) with information about the specific event you subscribed to.
 
 ## How do you subscribe?
 
 To subscribe to a webhook, you need to call an secure API, to set up a webhook subscription.
 
-Before you do that, you will **need to know a URL** of some computer somewhere on the internet or cloud to receive that webhook notification. 
+However, before you can do that, you will **need to know a URL** of some computer somewhere on the internet or in the cloud to receive that webhook notification. 
 
-There are many of these endpoints (we call them) on the internet to receive these notifications. 
+There are many of these URL endpoints (we call them) on the internet to receive these kinds of notifications. 
 
 Some people have their own websites or web services that they can receive these notifications. Some people have built their own cloud apps that can receive these notifications for them (i.e. Azure Functions, or Amazon Lambdas, etc.).
 
-For those not technically savvy, there are services out there (like [Zapier.com](www.zapier.com) and [Automate.io](www.automate.io)) that can receive the notification from Hourfleet, and relay that notification to another app that you might use (like Slack, Intercom, or email inbox, etc.) effectively turning Hourfleet into another source of notifications you already have in your business.
+For those not technically savvy, there are services out there (like [Zapier.com](www.zapier.com) and [Automate.io](www.automate.io)) that can receive the notification from Hourfleet, and relay that notification to another app that you might already use (like Slack, Intercom, or email inbox, etc.) effectively turning Hourfleet into another source of notifications you already have in your business.
 
 Either way, once you have a public URL to some site or service, you can register that URL as a subscriber to Hourfleet to receive a webhook notification.
 
@@ -58,9 +58,9 @@ OK, some technical details now.
 
 Let's assume that you have setup a URL (using one of the methods noted above) to receive your webhook from Hourfleet and your URL looks something like this: `https://myapp.com/webhooks/123456789`
 
-AND you are interested in the event called: `carbooking_approve`
+AND you are interested in the Hourfleet event called: `carbooking_approve`
 
-Then, once you subscribe with this URL, Hourfleet will send a notification to your URL, that would look something like this:
+Then, once you subscribe with this URL, Hourfleet will send a notification to your URL. The notification would look something like this (over the web):
 
 ```
 POST https://myapp.com/webhooks/123456789 HTTP/1.1
@@ -76,7 +76,7 @@ Content-Length: 26
 Expect: 100-continue
 
 {
-	"Name":"carbooking_approve",
+    "Name":"carbooking_approve",
     "Id": "12345678-1234-1234-1234-1234-123456789012",
     "Reference": "ABCD1234",
     "CarId": "12345678-1234-1234-1234-1234-123456789012",
