@@ -17,3 +17,4 @@ These are the API's that Hourfleet provides for your Car Share:
 
 Details about each of these API's can be found at the above URL's.
 
+If you are interested in receiving notifcations from Hourfleet for key events, then you might want to subscribe to some of the webhooks that Hourfleet supports. See [Webhooks](webhooks.html) for more details.
