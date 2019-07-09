@@ -4,19 +4,17 @@ title: Webhook Integration
 ---
 # Webhook Events
 
-Hourfleet is built on a REST API.
+Hourfleet is built on a foundation of HTTP REST API's. This means that anything and everything that you and your customers can do in the Hourfleet App, can also be automated by any system on the internet by calling HTTP methods. See [API](api.html) for more details about those methods.
 
-This means that anything and everything that you and your customers can do in the App, can also be done by any system on the internet, by calling HTTP methods. See [API](api.html) for more details.
+As well as calling the various API's that Hourfleet has, Hourfleet also provides a HTTP notification mechanism that raises events when they occur during normal operation of your Car Share. For example, a notification is raised when a new user joins your Car Share.
 
-As well as calling the various API's that Hourfleet has, Hourfleet can also notify you of certain events that occur during normal operation of your Car Share. Like when a new user joins your Car Share.
+The mechanism by which this notification occurs is called 'Webhooks'. It's a simple publish/subscribe model that allows anyone to listen in on what's happening. In many cases, for the purposes of triggering some other process or notification mechanism.  
 
-The mechanism by which this notification occurs is called 'Webhooks'.
+## What notifications events are available?
 
-## What Webhook notifications are available?
+The following table lists the available webhooks notifications that Hourfleet supports today.
 
-The following table lists the available webhooks notifications that Hourfleet raises today.
-
-| Category      | Notification Name   | Description                                |
+| Resource      | Event Name          | Description                                |
 | ------------- | ------------------- | ------------------------------------------ |
 | UserAccounts  | useraccount_create  | A new user account was created             |
 | Profiles      | profile_update      | A user's profile was updated               |
@@ -34,29 +32,31 @@ The following table lists the available webhooks notifications that Hourfleet ra
 
 Hourfleet publishes certain notification/events at certain times during its operation.
 
-If you are interested in these events, you would **subscribe** to these events by simply defining: 1) the event you are interested in and 2) a **URL** to call when that event occurs. This is known as a Webhook (catching an event with a hook, on the web).
+If you are interested in these 'events'. You would first **subscribe** to these events by defining: 1) the event you are interested in, and then 2) the **URL** for Hourfleet to call when that event occurs.
 
-Once you have registered your subscriber URL to a webhook, Hourfleet will now call your URL (**publish**) with information about the specific event you subscribed to.
+This is known as a Webhook (catching an event with a hook, on the web).
+
+Once you have registered your subscriber URL to a webhook, Hourfleet will then call your URL (**publish**) with information about the specific event you subscribed to. Hooks can also be removed later.
 
 ## How do you subscribe?
 
-To subscribe to a webhook, you need to call an secure API, to set up a webhook subscription.
+To subscribe to a webhook, you need to call your secure API, to set up a webhook subscription. `POST https://yourcarshare.hourfleet.com:4431/api/webhooks/subscriptions`.
 
-However, before you can do that, you will **need to know a URL** of some computer somewhere on the internet or in the cloud to receive that webhook notification. 
+However, before you can do that, you will **need to know a URL** of some computer somewhere on the internet or in the cloud to receive that webhook notification (and do something useful with it). 
 
 There are many of these URL endpoints (we call them) on the internet to receive these kinds of notifications. 
 
-Some people have their own websites or web services that they can receive these notifications. Some people have built their own cloud apps that can receive these notifications for them (i.e. Azure Functions, or Amazon Lambdas, etc.).
+For example, some people have their own websites or web services that they can modify to receive these notifications. Some people have built their own cloud apps that can be added to to receive these notifications for them (i.e. Azure Functions, or Amazon Lambdas, etc.).
 
-For those not technically savvy, there are services out there (like [Zapier.com](www.zapier.com) and [Automate.io](www.automate.io)) that can receive the notification from Hourfleet, and relay that notification to another app that you might already use (like Slack, Intercom, or email inbox, etc.) effectively turning Hourfleet into another source of notifications you already have in your business.
+For those not technically savvy, or require that level of functionality, there are services out there (like [Zapier.com](www.zapier.com) and [Automate.io](www.automate.io)) that can receive the notification from Hourfleet, and relay that notification to another app that you might already use (like: Slack, Intercom, or email inbox, etc.) effectively turning Hourfleet into another source of notifications that you already have in your business.
 
 Either way, once you have a public URL to some site or service, you can register that URL as a subscriber to Hourfleet to receive a webhook notification.
 
-OK, some technical details now. 
+OK, some inevitable technical details now. 
 
-### What does a notification look like?
+### What does a webhook notification look like?
 
-Let's assume that you have setup a URL (using one of the methods noted above) to receive your webhook from Hourfleet and your URL looks something like this: `https://myapp.com/webhooks/123456789`
+Let's assume that you have setup a URL (using one of the methods noted above) to receive your webhook from Hourfleet, and your URL looks something like this: `https://myapp.com/webhooks/123456789`
 
 AND you are interested in the Hourfleet event called: `carbooking_approve`
 
