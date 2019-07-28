@@ -7,7 +7,7 @@ title: Zapier Integration
 Zapier.com is really powerful, online platform for integrating web apps with each other. 
 
 For example, you can use Zapier to have your emails forwarded to a Slack channel or to your Facebook account.
-But that is not all. There are 100's of apps that you can connect together! 
+But that is not all. There are 1000's of other apps that you can connect together! 
 
 ## Hourfleet and Zapier
 
