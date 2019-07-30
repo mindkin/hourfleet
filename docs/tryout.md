@@ -177,7 +177,7 @@ You will see your car listed there.
 
 ![Car](images/walkthrough/OperatorCar.png)
 
-### Make the car available
+[### Make the car available](#make-the-car-available)
 
 We are not done just yet!
 
