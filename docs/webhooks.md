@@ -111,44 +111,16 @@ OK, so *conceptually*, this is what we will do (exact details omitted for brevit
 
 > Note: You can see from the sample notification above that you can do a lot with the data in the notification. You might also decide to send an email, or create a link in the Hourfleet App with some pieces of that data too.
 
-### Let's subscribe to Hourfleet
-
-> Note: Update 29th July 19: The following experience will be much easier for you in Hourfleet shortly. For now, we have a few manual steps to follow.
+### Let's subscribe to an Hourfleet event
 
 Now that we have Zapier setup to handle our webhook all we now need to do is subscribe to receive the webhook events from Hourfleet.
 
-For this step we will need a tool like [PostMan]([https://www.getpostman.com](https://www.getpostman.com/)) (or other API tool like CURL) in order to subscribe to webhooks in Hourfleet.
+First, login to your Hourfleet app at: https://yourcarshare.hourfleet.com. 
 
-We are going to use POSTMAN to subscribe to an Hourfleet webhook, using the URL we made in the previous steps, and also with the name of a notification we are interested in from the table at the top of this page.
+Go to the Operations dashboard, and in the left menu select "Integrations". Select "Webhooks".
 
-For this example, lets use `https://myapp.com/webhooks/123456789` (that we got from our Zap) for the URL and `carbooking_approve` for the notification name (from table above).
+Now, register a new Webhook. 
 
-First, login to your Hourfleet app at: https://yourcarshare.hourfleet.com. Go to the Operations dashboard, and in the left menu select "Integrations". Now, create a new Application and make a note of the `Client Identifier` and the `Client Secret` that it creates for you.  
-
-In POSTMAN, we need to configure the 'Authorization' to use 'OAuth 2' to obtain a token, that we will then need to use to call Hourfleet.
-
-We configure POSTMAN to use a `Grant Type` of 'Client Credentials', and we define these properties:
-
-- AuthURL: `https://yourcarshare.hourfleet.com:4432/api/oauth/auth`
-- TokenURL: `https://yourcarshare.hourfleet.com:4432/api/oauth/token`
-- ClientID: `BD3C4D5F-867C-42B1-8155-02E0A5050CE1`
-- ClientSecret: \<you obtain this from Hourfleet Support Team>
-- Scope: \<leave blank>
-
-Postman now has an 'access_token' that you can use to make a request to any Hourfleet API.
-
-Now configure the following request in POSTMAN:
-
-* Verb: `POST`
-
-* URL: https://yourcarshare.hourfleet.com:4431/api/webhooks/subscriptions
-
-* Body: `raw`, 'JSON (application/json)'
-
-* Body Content: `{"name":"My Notification","events":["carbooking_approve"],"config":{"url":"https://myapp.com/webhooks/123456789",}}`
-
-Now 'Send' the request.
-
-You should get a HTTP 200 response.
+Give it a name, and use `https://myapp.com/webhooks/123456789` (that we got from our Zap) for the 'Destination URL' and `carbooking_approve` for the 'Event Name' (from the table above). Click on Register.
 
 Your webhook is now all setup and ready to be fired by Hourfleet.
