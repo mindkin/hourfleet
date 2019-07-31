@@ -21,7 +21,7 @@ Documentation about each of these API's can be found at the above URL's.
 
 To see the documentation, swap `yourcarshare` in the above URL's with the name of your Car Share (or just use `demo` if you don't have one yet).
 
-## Accessing
+## Authorized Access
 
 > You need an *access_token* to call an API
 
@@ -29,15 +29,17 @@ Most of the API's that Hourfleet exposes require the caller to be authenticated,
 
 Most *callers* (those who call API's) in Hourfleet are authenticated with credentials, such as a *username* and a *password*.
 
-Once authenticated, a caller will receive a *token* that needs to be transmitted along with the API call (typically in the 'Authorization' header of the call). 
+Once authenticated, a caller will receive a ***token*** that needs to be transmitted along with the API call (typically in the 'Authorization' header of the call). 
 
 `Authorization: Bearer AAIAAMqDamBCSU7ITHnyx.......`
 
-This token is called an Authorization token, and Hourfleet uses the OAuth2.0 authorization scheme for its tokens (called *access_token*). Its an opaque token. You cannot decode it.
+This token is called an Authorization token, and Hourfleet uses the OAuth2.0 authorization scheme for its tokens (called *access_token*). Its an opaque token. You cannot decode it to look inside it.
 
-Normally, users of the Hourfleet App (https://yourcarshare.hourfleet.com) are authenticated by giving their credentials (*username* + *password*) to the Hourfleet App. The App then presents the credentials to Hourfleet servers to authenticate user, and an authorization token is issued and returned. The token identifies the caller, and defines what the caller has access to. The token is then passed along with any call to authorize access to any API's in Hourfleet.
+Normally, users of the Hourfleet App (https://yourcarshare.hourfleet.com) are authenticated by giving their credentials (*username* + *password*) to the Hourfleet App. The App then presents the credentials to Hourfleet servers to authenticate user, and an authorization token is issued and returned. 
 
-When using an API directly from other tools (like Postman) or from other systems or services on the internet, a users' credentials are not directly available to you to use. 
+The token identifies the caller, and defines what the caller has access to. The token is then passed along with any call to authorize access to any API's in Hourfleet.
+
+When using an API directly from other tools (like Postman) or from other systems or services on the internet, a users' credentials are not directly available for you to use. 
 
 You have two choices in Hourfleet to get yourself an authorization token that will give you access to API's.
 
@@ -58,7 +60,9 @@ These tokens will not grant access to act as regular users, since a client appli
 
 These tokens cannot be used to permit participation in using or owning of cars, etc.
 
-The OAuth2.0 flow that implements this kind of authorization is called the '[Client Credentials Flow](https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85)'
+These tokens expire and cannot be renewed. (default expiry 15mins)
+
+The OAuth2.0 flow that implements this kind of authorization is called the '[Client Credentials](https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85)' grant.
 
 ### Delegated Authorization
 
@@ -78,15 +82,29 @@ This token may have access to profile, verification data, etc.
 
 This token may allow participation in using and owning cars, etc.
 
-The OAuth2.0 flow that implements this kind of authorization is called the '[Authorization Code Flow](https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85)'
+These tokens expire and can be renewed by using a `refresh_token`. (default expiry 15mins)
 
-### Calling API's
+The OAuth2.0 flow that implements this kind of authorization is called the '[Authorization Code](https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85)' grant
+
+### Obtaining Tokens
+
+Use either the 'Client Credentials' grant or the 'Authorization Code' grant to obtain tokens from these URLs:
+
+​	Authorization endpoint: `https://yourcarshare.hourfleet.com:4432/api/oauth/auth`
+
+​	Token endpoint: `https://yourcarshare.hourfleet.com:4432/api/oauth/token`
+
+> Note: Remember that tokens have a default expiry of 15mins.
+
+#### Using Tokens
 
 Once you have obtained a token using one of the methods above, you will need to include the token in every API call you make.
 
 The token must be put into the `Authorization` header of the request in this format:
 
 `Authorization: Bearer AAIAAMqDamBCSU7ITHnyx.....rest of the token......`
+
+>  Note: If you use Delegated Authorization, you don't need to ask the user for permission once the token expires, you can use the `refresh_token` to obtain a fresh token and buy some more time.
 
 ## Webhooks
 
