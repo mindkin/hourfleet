@@ -48,7 +48,7 @@ However, before you can do that, you will **need to know a URL** of some compute
 
 There are many of these URL endpoints (we call them) on the internet to receive these kinds of notifications. 
 
-For example, some people have their own websites or web services that they can modify to receive these notifications. Some people have built their own cloud apps that can be added to to receive these notifications for them (i.e. Azure Functions, or Amazon Lambdas, etc.).
+For example, some people have their own websites or web services that they can modify to receive these notifications. Some people have built their own cloud apps that can be added to to receive these notifications for them (i.e. Azure Functions, or Amazon Lambdas etc.).
 
 For those not so technically savvy that require that level of functionality, there are services out there (like [Zapier.com](www.zapier.com) and [Automate.io](www.automate.io)) that can receive the notification from Hourfleet, and relay that notification to another app that you might already use (like: Slack, Intercom, or email inbox, etc.) effectively turning Hourfleet into another source of notifications that you already have in your business.
 
@@ -87,40 +87,49 @@ Expect: 100-continue
 }
 ```
 
-> Note: Hourfleet will always send you a HTTP POST request to your URL.
+> Note: Hourfleet will always send you a HTTP **POST** request to your URL.
 
 ### Let's setup the webhook
 
-Let's assume we are not technically savvy, and we have no websites or services of our own out there on the internet, and we want to use an integration provider to handle the technical stuff for us. 
+Let's assume we are not technically savvy, and we have no websites or services of our own out there on the internet, and so we will want to use an integration provider to handle the technical stuff for us. 
 
-We decide to create an account with [Zapier.com](www.zapier.com) and we want Zapier to relay the notification to one of our channels in our companies Slack workspace. (We are assuming that you use Slack for notifications in your business for this example). 
+We decide to create an account with [Zapier.com](www.zapier.com) and we want Zapier to relay the notification to one of our channels in our companies Slack workspace. 
 
->  Note: It does not have to be Slack, you could just as easily use any email inbox or any of 100's of apps that you already have in your business for managing your comms - you can apply this process to any of those apps in roughly the same way.
+(We are assuming that you use Slack for notifications in your business for this example). 
+
+>  Note: You don't have to using Slack, you could just as easily use any email inbox or any of 100's of apps that you already have in your business for managing your communications - you can apply this process to any of those apps in roughly the same way as we detail below.
 
 OK, so *conceptually*, this is what we will do (exact details omitted for brevity):
 
 1. We will login to Zapier, and create a new Zap.
-2. We will configure the Zap to receive a 'Webhook' from Hourfleet, and configure that webhook to send a notification to one of our Slack channels.
-3. We start by configuring the 'Webhook' to 'catch' a notification, and Zapier will generate a URL for you.
-4. We make a note of this URL. 
-5. Next we need to train the Zap with a sample of what kind of notification it will get. (like the one above). We will use a common tool like [PostMan]([https://www.getpostman.com](https://www.getpostman.com/)) (or other API tool like CURL) to send the request above to the URL of our webhook in Zapier, to train the Zap.
-6. Once the Zap receives the sample notification, it will decode the notification and learn about the various fields in the notification.
-7. Then its time to configure the Zap to send the notification to Slack.
-8. We now connect to our Slack workspace, and select a channel.
-9. We configure the Zap to send a message to the channel with some content like 'Hi from Hourfleet' and we can also include any of the data in the notification that the Zap learned about. 
+2. We will configure the Zap to receive a 'Webhook' *Trigger* from Hourfleet, and configure that webhook to send a notification *Action*  to one of our Slack channels.
+3. We start by configuring the 'Webhook' to 'catch' a notification, and Zapier will generate a URL for you for your webhook.
+4. We make a note of this URL. (lets say it looks like this: `https://myapp.com/webhooks/123456789`)
+5. Next, in Zapier we will need to train the Zap with a sample of what kind of data it will get when being called. (data, like the example above). We will use a common tool like [PostMan]([https://www.getpostman.com](https://www.getpostman.com/)) (or other API tool like CURL) to send (POST) the request JSON above to the URL of our webhook in Zapier, to train the Zap.
+6. Once the Zap receives the sample notification, it will decode the notification and learn about the various fields in the notification, which you might need for the next part.
+7. Next, it is time to configure the Zap to forward the notification to a Slack channel.
+8. We now connect to our Slack workspace, and select a channel to notify.
+9. We configure the Zap to send a message to the channel with some content like 'Hi from Hourfleet' and we can also include any of the data in the notification that the Zap learned about.
 
-> Note: You can see from the sample notification above that you can do a lot with the data in the notification. You might also decide to send an email, or create a link in the Hourfleet App with some pieces of that data too.
+> Note: You can see from the sample notification above that you can do a lot with the data in the notification. You might also decide to send an email, or create a link in the Hourfleet App with some pieces of that data too, or perhaps call another API in Hourfleet to get some other data about this event.
 
 ### Let's subscribe to an Hourfleet event
 
-Now that we have Zapier setup to handle our webhook all we now need to do is subscribe to receive the webhook events from Hourfleet.
+Now that we have Zapier setup to handle our webhook, all we now need to do is register our webhook in Hourfleet to trigger the Zapier Zap.
 
-First, login to your Hourfleet app at: https://yourcarshare.hourfleet.com. 
+Login to your Hourfleet app at: https://yourcarshare.hourfleet.com. 
 
-Go to the Operations dashboard, and in the left menu select "Integrations". Select "Webhooks".
+Go to the 'Operations' dashboard, and in the left menu select "Integrations". Select "Webhooks".
 
 Now, register a new Webhook. 
 
-Give it a name, and use `https://myapp.com/webhooks/123456789` (that we got from our Zap) for the 'Destination URL' and `carbooking_approve` for the 'Event Name' (from the table above). Click on Register.
+![Webhooks](images/webhooks/List.png)
+
+Give it a name of your choice, and use `https://myapp.com/webhooks/123456789` (that we got from our Zap) for the 'Destination URL' and `carbooking_approve` for the 'Event Name' (from the table above). 
+![Register Webhook](images/webhooks/New.png)
+
+Click on 'Register' to finish.
 
 Your webhook is now all setup and ready to be fired by Hourfleet.
+
+To try it out, make a booking for a car and see the even in your Slack channel.
