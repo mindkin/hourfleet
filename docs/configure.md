@@ -26,11 +26,15 @@ Let's get started.
 
 ## Start Configuring
 
+IMPORTANT: At this time, we are still building out the self-serve experience right inside the Hourfleet App, so that operators like yourself can make these configuration changes directly yourself easily. 
+For now though, the pages below show you the things that can be changed, but dont allow you to change them.
+For all changes that you want to make, please POST your changes (text, links and images) to hourfleet support (in your dedicated slack channel) and we will make the updates for you.
+
 Essential Areas:
 
 - [Branding & SEO](configure-branding.html) its your site, make it look and smell like yours on the internet
 - [Support, Live Chat and Analytics](configure-support.html) provide your users with necessary contact and support details
-- [Settings](configure-settings.html) Some basic localisation settings
+- [Settings](configure-settings.html) basic localisation settings for your part of the world
 
 Common Areas:
 
