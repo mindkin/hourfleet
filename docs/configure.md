@@ -10,21 +10,23 @@ Your Web App will still need to be configured to work the way your business does
 
 You can see an example of what your web app will look like at [What Is In The Box](inthebox.html)
 
-# What is a network operator?
+## What is a Network Operator?
+
+Just quickly, lets deinfe a term or two.
 
 From the perspective of Hourfleet, you (and your business) are known to Hourfleet as a "Network Operator", since you operate a Car Share 'network' on the Hourfleet platform. A distributed network of borrowers and cars.
 
-As an 'Operator' you will have very special privileges to configure and operate your Car Share. You are very likely to have many things unique to your business, such as: your own brand, your own social media presence, and also different rules about how you price your services and how you charge your customers for renting and borrowing cars on your network.
+As an 'Operator' (for short) you will have very special privileges to configure and operate your Car Share. You are very likely to have many things unique to your business, such as: your own brand, your own social media presence, and also different rules about how you price your services and how you charge your customers for renting and borrowing cars on your network.
 
-You are also very likely to already have your own website for your business that is focused upon capturing new customers and providing that all important front door to your business, to turn interested browsers into paying customers. 
+You are also very likely to already have your own homepage website for your business that is focused upon capturing new customers and providing that all important front door to your business, and turn interested customers into paying customers. 
 
-You will definately want to keep that website, and the Hourfleet App will 'extend' your website to provide all the tools you and your customers need to run your car sharing business.
+You will definately want to keep that website alive, and so, as well as that the Hourfleet App will 'extend' your website to provide all the tools you and your customers need to run your car sharing business. Its essentially another Web App that will look like its yours to your customers.
 
 There is lots to configure for your specific car sharing business and how the Hourfleet App should look and behave. 
 
 Let's get started.
 
-## Start Configuring
+# Let's Configure
 
 IMPORTANT: At this time, we are still building out the self-serve experience right inside the Hourfleet App, so that operators like yourself can make these configuration changes directly yourself easily. 
 For now though, the pages below show you the things that can be changed, but dont allow you to change them.
