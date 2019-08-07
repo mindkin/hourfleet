@@ -26,7 +26,7 @@ title: Your Car Share
 
 
 
-## What's Coming, what's New?
+## Staying up to date
 
 We're constantly improving Hourfleet. 
 
@@ -34,11 +34,13 @@ Some improvements are small and barely noticeable, while others are large, most 
 
 We document all improvements and fixes in our [Updates](http://feedback.hourfleet.com/changelog).
 
-## Need an Improvement?
+#### Need an Improvement? Found a Bug?
 
 Head over to our [feedback page](http://feedback.hourfleet.com) where you can submit new ideas and suggestions, and track what is coming in the future of Hourfleet.
 
-## Service Status
+#### Service Status
 
-We keep track of service availability of Hourfleet on our [Service Status](http://status.hourfleet.com) page. Subscribe and get notified when things are affected by unexpected or planned outages.
+We keep track of service availability of Hourfleet on our [Service Status](http://status.hourfleet.com) page. 
+
+Subscribe and get notified when things are affected by unexpected or planned outages.
 
