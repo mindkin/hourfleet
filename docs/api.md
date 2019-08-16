@@ -43,8 +43,8 @@ When using an API directly from other tools (like Postman) or from other systems
 
 You have two choices in Hourfleet to get yourself an authorization token that will give you access to API's.
 
-1. **Direct Authorization**:  You create a Client Application, that gives you a new set of credentials (`client_id` and `client_secret`) that gives you access to a restricted set of API's in Hourfleet. You store those credentials safely (never in public source code), and then use those credentials (*client_id* + *client_secret*) whenever you need to get a new authorization token.
-2. **Delegated Authorization**: You ask an existing user of Hourfleet to grant you access to *their* API (as them), by having them authenticate and authorize you to obtain an authorization token, that grants you access to any API as them, to access their data.
+1. **Direct Authorization**:  You create a Client Application, that gives you a new set of credentials (`client_id` and `client_secret`) that you exchange for a token that gives you access to a restricted set of API's in Hourfleet. You store those credentials safely (never in public source code), and then use those credentials (*client_id* + *client_secret*) whenever you need to get a new authorization token.
+2. **Delegated Authorization**: You create a Client Application, that gives you a new set of credentials that you use to ask an existing user of Hourfleet to grant you access to *their* API's (as them), by having them authenticate and then explicitly authorize you to obtain a token. This token grants you access to any API, as that user to access API's as that user.
 
 ### Direct Authorization
 
@@ -97,6 +97,8 @@ Use either the 'Client Credentials' grant or the 'Authorization Code' grant to o
 *	Token endpoint: `https://yourcarshare.hourfleet.com:4432/api/oauth/token`
 
 > Note: Remember that tokens have a default expiry of 15mins.
+
+You can use any tool like [PostMan](www.getpostman.com) to fetch a token.
 
 #### Using Tokens
 
