@@ -25,23 +25,25 @@ To see the documentation, swap `yourcarshare` in the above URL's with the name o
 
 > You need an *access_token* to call an API
 
-Most of the API's that Hourfleet exposes require the caller to be authenticated, there are only a few that do not.
+Most of the API's that Hourfleet exposes require the caller to be authenticated, there are only a few that do not. You can see the security requirements of each API in the API documentation. 
 
-Most *callers* (those who call API's) in Hourfleet are authenticated with credentials, such as a *username* and a *password*.
+Most *callers* (those who call API's) in Hourfleet are authenticated with credentials, such as a *username* and a *password* or with a *client_id* and *client_secret*.
 
 Once authenticated, a caller will receive a ***token*** that needs to be transmitted along with the API call (typically in the 'Authorization' header of the call). 
 
 `Authorization: Bearer AAIAAMqDamBCSU7ITHnyx.......`
 
-This token is called an Authorization token, and Hourfleet uses the OAuth2.0 authorization scheme for its tokens (called *access_token*). Its an opaque token. You cannot decode it to look inside it.
+This token is called an Authorization token, and Hourfleet uses the OAuth2.0 authorization scheme for its tokens (called *access_token*). Its an opaque token. You cannot decode it, or look inside it like other tokens.
 
-Normally, users of the Hourfleet App (https://yourcarshare.hourfleet.com) are authenticated by giving their credentials (*username* + *password*) to the Hourfleet App. The App then presents the credentials to Hourfleet servers to authenticate user, and an authorization token is issued and returned. 
+Normally, users of the Hourfleet App (https://yourcarshare.hourfleet.com) are authenticated by giving their credentials (*username* + *password*) to the Hourfleet App. A 'Client Application' like the Hourfleet Web App itself then presents the user's credentials to Hourfleet servers (along with its credentials) to authenticate user, and an authorization token is issued and returned.
+
+> Note: In all cases, in order for a user to authenticate, you also need a trusted 'Client Application' to manage the issuance of the token.
 
 The token identifies the caller, and defines what the caller has access to. The token is then passed along with any call to authorize access to any API's in Hourfleet.
 
-When using an API directly from other tools (like Postman) or from other systems or services on the internet, a users' credentials are not directly available for you to use. 
+When using an API directly from other tools (like Postman) or from other systems or services on the internet, a users' credentials may not be directly available for you to use.
 
-You have two choices in Hourfleet to get yourself an authorization token that will give you access to API's.
+You have two standard choices in Hourfleet to get yourself an authorization token that will give you access to API's.
 
 1. **Direct Authorization**:  You create a Client Application, that gives you a new set of credentials (`client_id` and `client_secret`) that you exchange for a token that gives you access to a restricted set of API's in Hourfleet. You store those credentials safely (never in public source code), and then use those credentials (*client_id* + *client_secret*) whenever you need to get a new authorization token.
 2. **Delegated Authorization**: You create a Client Application, that gives you a new set of credentials that you use to ask an existing user of Hourfleet to grant you access to *their* API's (as them), by having them authenticate and then explicitly authorize you to obtain a token. This token grants you access to any API, as that user to access API's as that user.
