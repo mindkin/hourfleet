@@ -65,7 +65,6 @@ When provided, you can see these links appear at the bottom of page in the foote
 		"PrivacyUrl": "http://www.yourcompany.com/privacy",
 		"FeesUrl": "http://www.yourcompany.com/fees",
 		"FaqUrl": "http://www.yourcompany.com/faq",
-		"ReturnUrl": "http://www.yourcompany.com",
 		"SupportUrl": "http://www.yourcompany.com/support", // If defined (default is undefined), this URL will overide the navigation links to the support page Hourfleet automatically generates for you based on the values supplied in the Support Configuration section. 
 		"ShowMobileAppLink": true,
 		"UIElements": {
