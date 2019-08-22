@@ -5,6 +5,10 @@ title: Integrations
 # Supported Integrations
 Hourfleet depends on one mandatory third-party integration ([Stripe](http://stripe.com)), and supports a number of optional online services. 
 
+* Stripe.com - for credit card payments
+* Live Chat Widgets from [Freshdesk](#LiveChat-from-Freshdesk.com) or by [Intercom](LiveChat-from-Intercom.com)
+* [Google Analytics](#Google-Analytics)
+
 In all cases, configuring this integration requires you to: 
 1. Sign in to your account with the integraton provider
 1. Create the relevant API keys
@@ -54,7 +58,9 @@ At present, Hourfleet supports: FReshDesk and Intercom.
 
 If you wish to add LiveChat from one of these services, please register an account with those services first. Then return here and follow the guidance below to integrate it into the Hourfleet App.
 
-### LiveChat using Freshdesk.com (Optional)
+### LiveChat from Freshdesk.com
+
+This integration is optional.
 
 Once you have signed up and selected a Freshdesk plan that includes LiveChat, you will need to provide your: 'ApiKey' and 'Settings', which can be obtained from the 'Admin' console of your Freshdesk subscription.
 
@@ -72,7 +78,9 @@ Once you have signed up and selected a Freshdesk plan that includes LiveChat, yo
 
 Send that key to Hourfleet Support on your private Slack channel, or by email to `support@hourfleet.com`. If applicable delete this email from your Sent Items folder too.
 
-### LiveChat using Intercom.com (Optional)
+### LiveChat using Intercom.com
+
+This integration is optional.
 
 Once you have signed up and selected a plan that includes Intercom 'Acquire', you need to provide your 'ApiKey', which can be obtained form the 'App Settings' console of your Intercom subscription.
 
@@ -86,7 +94,9 @@ Once you have signed up and selected a plan that includes Intercom 'Acquire', yo
 
 Send that key to Hourfleet Support on your private Slack channel, or by email to `support@hourfleet.com`. If applicable delete this email from your Sent Items folder too.
 
-## Google Analytics (Optional)
+## Google Analytics
+
+This integration is optional.
 
 If you wish to track site usage using Google Analytics, you can do that by providing your 'Tracking Id' found in the 'Administration -> Property Settings' page of your Google Analytics configuration page, for your Google account.
 
