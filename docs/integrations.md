@@ -82,7 +82,7 @@ Once you have signed up and selected a plan that includes Intercom 'Acquire', yo
 * Click on the 'API Keys' menu (to the left)
 * The 'APP ID" is the value of your 'ApiKey'
 
-### Google Analytics (Optional)
+## Google Analytics (Optional)
 
 If you wish to track site usage using Google Analytics, you can do that by providing your 'Tracking Id' found in the 'Administration -> Property Settings' page of your Google Analytics configuration page, for your Google account.
 
