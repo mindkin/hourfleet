@@ -5,16 +5,16 @@ title: Integrations
 # Supported Integrations
 Hourfleet depends on one mandatory third-party integration ([Stripe](http://stripe.com)), and supports a number of optional online services. 
 
-* [Stripe.com](#Payments-from-Stripe.com) - for credit card payments
-* Live Chat Widgets from [Freshdesk](#LiveChat-from-Freshdesk.com) or from [Intercom](LiveChat-from-Intercom.com)
-* [Google Analytics](#Analytics-from-Google.com)
+* [Stripe.com](#Payments-from-Stripe) - for credit card payments
+* Live Chat Widgets from [Freshdesk](#LiveChat-from-Freshdesk) or from [Intercom](LiveChat-from-Intercom)
+* [Google Analytics](#Analytics-from-Google)
 
 In each case of each Integration, you will required to: 
 1. Sign in to the integraton provider
 1. Create the relevant keys that allow you use their service
 1. Send those keys to Hourfleet Support on your private Slack channel, or by email to `support@hourfleet.com` and then delete any reference to these keys from your computer. Remember to check your email's 'Sent Items' if you emailed them.
 
-## Payments from Stripe.com
+## Payments from Stripe
 
 This integration is mandatory. You will need a Stripe account to properly operate an Hourfleet Car Share. 
 
@@ -54,11 +54,14 @@ Send both those keys to Hourfleet Support on your private Slack channel, or by e
 ## LiveChat Widgets
 
 In the Hourfleet App you can choose to display a LiveChat widget to offer live support to your customers.
-At present, Hourfleet supports: FReshDesk and Intercom.
+
+These are the widgets that appear in the App usually at the bottom right hand corner, that you customers can message your business directly.
+
+At present, Hourfleet supports widgets from FreshDesk.com and Intercom.com
 
 If you wish to add LiveChat from one of these services, please register an account with those services first. Then return here and follow the guidance below to integrate it into the Hourfleet App.
 
-### LiveChat from Freshdesk.com
+### LiveChat from Freshdesk
 
 This integration is optional.
 
@@ -78,7 +81,7 @@ Once you have signed up and selected a Freshdesk plan that includes LiveChat, yo
 
 Send that key to Hourfleet Support on your private Slack channel, or by email to `support@hourfleet.com`. If applicable delete this email from your Sent Items folder too.
 
-### LiveChat from Intercom.com
+### LiveChat from Intercom
 
 This integration is optional.
 
@@ -94,7 +97,7 @@ Once you have signed up and selected a plan that includes Intercom 'Acquire', yo
 
 Send that key to Hourfleet Support on your private Slack channel, or by email to `support@hourfleet.com`. If applicable delete this email from your Sent Items folder too.
 
-## Analytics from Google.com
+## Analytics from Google
 
 This integration is optional.
 
