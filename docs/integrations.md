@@ -2,20 +2,23 @@
 layout: default
 title: Integrations
 ---
-## Supported Integrations
+# Supported Integrations
 Hourfleet depends on one mandatory third-party integration ([Stripe](http://stripe.com)), and supports a number of optional online services. 
 
 In all cases, configuring this integration requires you to 
 1. Sign in to your account with the integraton provider
-1. Create Restricted API keys - one Publishable and the other Secret  
-1. Send those API keys to `admin@mindkin.co.nz` and then delete any reference to these keys from your computer. Remember to check your email's 'Sent Items' too.
+1. Create API keys 
+1. Send those API keys to Hourfleet Support on your private Slack channel, or to `support@hourfleet.com` and then delete any reference to these keys from your computer. Remember to check your email's 'Sent Items' too.
 
-### Stripe
-You will need a Stripe account to properly operate an Hourfleet Car Share. If you don't alread have a Stripe account you'll need to [register](https://dashboard.stripe.com/register) one. If you need to register we recommend you take some time [to learn about Stripe](https://stripe.com/customers). 
+## Stripe
+
+You will need a Stripe account to properly operate an Hourfleet Car Share. 
+
+If you don't alread have a Stripe account you'll need to [register](https://dashboard.stripe.com/register) one. If you need to register we recommend you take some time [to learn about Stripe](https://stripe.com/customers). 
 
 The next step is to configure your Hourfleet Car Share with your Stripe API keys. 
 
-This enables your Hourfleet tenancy to bill your customers when they use your car sharing service, and it enables your customers to capture their credit card information in your Car Share.
+This enables your Car Share to bill your customers when they use your car sharing service, and it enables your customers to capture their credit card information in your Car Share. Without which, they cannot setup their credit cards.
 
 **IMPORTANT:** If you do not configure yiour Hourfleet Car Share correctly with your Stripe information, your customers will experience errors when they try to register their user accounts, and provide credit card information.
 
@@ -44,14 +47,16 @@ Email the `Publishable key` and `Restricted key` to `admin@mindkin.co.nz`. If ap
 
 **Important**: Your relationship with Stripe is governed by your acceptance of their Terms of Service. We are unable to manage any aspect of your relationship with Stripe, or to advocate for you. Other than initiating charges to your customers as covered by our Terms of Service, we are unable to act for or on your behalf.
 
+## LiveChat Widgets
 
-### Zapier (Optional)
+In the Hourfleet App you can choose to display a LiveChat widget to offer live support to your customers.
+At present, Hourfleet supports: FReshDesk and Intercom.
 
-You can now create a 'Zap' at [zapier](http://www.zapier.com) to connect your car sharing network with your favourite apps, like : Intercom, Slack, and Email. See [Zapier Integration](zapier.html) for details.
+If you wish to add LiveChat from one of these services, please register an account with those services first. Then return here and follow the guidance below to integrate it into the Hourfleet App.
 
 ### LiveChat using Freshdesk.com (Optional)
 
-Once you have signed up and selected a plan that includes LiveChat, you will need to provide your: 'ApiKey' and 'Settings', which can be obtained from the 'Admin' console of your Freshdesk subscription.
+Once you have signed up and selected a Freshdesk plan that includes LiveChat, you will need to provide your: 'ApiKey' and 'Settings', which can be obtained from the 'Admin' console of your Freshdesk subscription.
 
 * Login to your Freshdesk site: https://yourname.freshdesk.com
 * Click on the 'LiveChat' icon
