@@ -5,16 +5,16 @@ title: Integrations
 # Supported Integrations
 Hourfleet depends on one mandatory third-party integration ([Stripe](http://stripe.com)), and supports a number of optional online services. 
 
-* Stripe.com - for credit card payments
-* Live Chat Widgets from [Freshdesk](#LiveChat-from-Freshdesk.com) or by [Intercom](LiveChat-from-Intercom.com)
-* [Google Analytics](#Google-Analytics)
+* [Stripe.com](#Payments-from-Stripe.com) - for credit card payments
+* Live Chat Widgets from [Freshdesk](#LiveChat-from-Freshdesk.com) or from [Intercom](LiveChat-from-Intercom.com)
+* [Google Analytics](#Analytics-from-Google.com)
 
 In all cases, configuring this integration requires you to: 
 1. Sign in to your account with the integraton provider
 1. Create the relevant API keys
 1. Send those API keys to Hourfleet Support on your private Slack channel, or by email to `support@hourfleet.com` and then delete any reference to these keys from your computer. Remember to check your email's 'Sent Items' too.
 
-## Stripe
+## Payments from Stripe.com
 
 You will need a Stripe account to properly operate an Hourfleet Car Share. 
 
@@ -78,7 +78,7 @@ Once you have signed up and selected a Freshdesk plan that includes LiveChat, yo
 
 Send that key to Hourfleet Support on your private Slack channel, or by email to `support@hourfleet.com`. If applicable delete this email from your Sent Items folder too.
 
-### LiveChat using Intercom.com
+### LiveChat from Intercom.com
 
 This integration is optional.
 
@@ -94,7 +94,7 @@ Once you have signed up and selected a plan that includes Intercom 'Acquire', yo
 
 Send that key to Hourfleet Support on your private Slack channel, or by email to `support@hourfleet.com`. If applicable delete this email from your Sent Items folder too.
 
-## Google Analytics
+## Analytics from Google.com
 
 This integration is optional.
 
