@@ -8,7 +8,7 @@ When you join Hourfleet and create a new Car Share, you are going to get your ow
 
 The Web App will still need to be configured to work the way your business does, and tailored to look like your business.
 
-You can see an example of what your web app will look like at [What Is In The Box](inthebox.html)
+You can see an example of what your web app will look like at: [Demo Car Share](https://demo.hourfleet.com)
 
 ## What is a Network Operator?
 
@@ -30,9 +30,9 @@ Let's get started.
 
 IMPORTANT: At this time, we are still building out the self-serve configuration experience right inside the Hourfleet App, so that operators like yourself can make these configuration changes directly yourself very easily. You can configure many settings right now in the 'Operators' Dashboard already.
 
-Sign in to your Car Share, you should be taken to the operators dashbaord automatically. From the left menu select 'Your Car Share' then select 'Settings'.
+Sign in to your Car Share, you should be taken to the operators dashboard automatically. From the left menu select 'My Car Share' then select 'Settings'.
 
-In the interim, for the sections that you cannot change in the Operators Dashbaord, please send your changes (text, links and images) to Hourfleet Support in you private Slack channel or email to [support@hourfleet.com](mailto:support.hourfleet.com) and we will make the updates manually for you.
+In the interim, for the sections that you cannot change in the Operators Dashbaord, please send your changes (text, links and images) to Hourfleet Support in you private Slack channel or email to [support@hourfleet.com](mailto:support@hourfleet.com) and we will make the updates manually for you.
 
 Essential Areas:
 
