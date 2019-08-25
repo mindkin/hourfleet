@@ -5,24 +5,21 @@ title: Your Car Share
 
 # Understanding Your Car Share
 
-* [First Steps First](stepbystep.html). These are things that you need to get sorted first before your car sharing business can operate properly.
-* [Configuring Your Car Share](configure.html). There is lots to configure in your Car Share to make it your own, and match your unique business. Start here to see what you can configure.
+* [Getting Started](stepbystep.html). These are things that you need to get sorted first before your car sharing business can operate properly.
+* [Setup Your Car Share](configure.html). There is lots to setup in your Car Share to make it your own, and match your unique business. Start here to see what you need to configure.
 * [Integrations](integrations.html). Learn about the online services that Hourfleet integrates with. [Stripe](http://stripe.com) integration is mandatory for your car share to charge your customers. 
-* [Your own website](yoursite.html). You need your own companies website and landing page, and host some other important pages and images.
+* [Your own website](yoursite.html). You need your own companies website and landing page, and host some other important pages and images of your own.
 
-## How it Works
+## How Hourfleet Works
 
-* [Hourfleet 101](howitworks.html). The basics of Hourfleet car shares.  
+* [Hourfleet 101](howitworks.html). The basics of Hourfleet car shares.
 * [The Hourfleet App](screens.html). Get familiar with the Hourfleet App that your customers will be using, either on their mobile devices or on their desktop devices.  
 * [Carkits](carkit.html). All you need to know about this cool in-car device.     
 * [Insurance](insurance.html). Supporting your insurance provider
 
-## Try It Out
+## Try It Out Now
 
-[Try Out](tryout.html) You have created your new Car Share, now lets go see how it works in the App for you and your customers.
-
-## Operating Your Car Share
-* [Who does what, when?](roles.html) - Learn about the distinct roles of network operators (you!), car owners and car borrowers, and who needs to do what when.
+You have created your new Car Share, now lets go see how it works in the App for you and your customers. Try out our [Walkthrough](tryout.html) 
 
 
 
