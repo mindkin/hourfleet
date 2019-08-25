@@ -1,6 +1,6 @@
 ---
 layout: default
-title: First Steps
+title: Getting Started
 ---
 # Getting Started
 
