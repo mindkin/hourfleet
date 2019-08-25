@@ -2,7 +2,7 @@
 layout: default
 title: First Steps
 ---
-# First Steps
+# Getting Started
 
 We're very keen to see you get value for money from your Hourfleet subscription. So before you open the doors on your new Car Share and tell your customers about it, there some important things you'll need to understand, and a few things you'll need to do first. 
 
