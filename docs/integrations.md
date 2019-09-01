@@ -3,13 +3,13 @@ layout: default
 title: Integrations
 ---
 # Supported Integrations
-Hourfleet depends on one mandatory third-party integration ([Stripe](http://stripe.com)), and supports a number of optional online services. 
+Hourfleet depends on one mandatory third-party integration ([Stripe.com](http://stripe.com)), and supports a number of optional online services.
 
 * [Stripe.com](#Payments-from-Stripe) - for credit card payments
 * Live Chat Widgets from [Freshdesk](#LiveChat-from-Freshdesk) or from [Intercom](LiveChat-from-Intercom)
 * [Google Analytics](#Analytics-from-Google)
 
-In each case of each Integration, you will required to: 
+In general, in each case of each Integration, you will required to: 
 1. Sign in to the integraton provider
 1. Create the relevant keys that allow you use their service
 1. Send those keys to Hourfleet Support on your private Slack channel, or by email to `support@hourfleet.com` and then delete any reference to these keys from your computer. Remember to check your email's 'Sent Items' if you emailed them.
@@ -43,11 +43,14 @@ Now click `Create key`
 
 ![](images/RestrictedKey2.png)  
 
-Now it's time to colect the two keys that Hourfleet needs. First save the `Publishable key`. Then in the Restricted API key panel by Hourfleet, click `Reveal live key token` and the `Restricted key` will be displayed. It's restrcted for a reason - don't leave this lying around!
+Now it's time to collect the two keys that Hourfleet needs. First save the `Publishable key`. Then in the Restricted API key panel by Hourfleet, click `Reveal live key token` and the `Restricted key` will be displayed. It's restrcted for a reason - don't leave this lying around!
 
 The `Publishable Key` will begin `pk_live_`, and the `Restricted Key` will begin `rk_live_`  
 
-Send both those keys to Hourfleet Support on your private Slack channel, or by email to `support@hourfleet.com`. If applicable delete this email from your Sent Items folder too.
+Now navigate to your Car Share, login as your operator account.
+* In the 'operations' dashboard, select 'My Car Share' and then 'Settings'.
+* Expand the 'Business Model' section and look for the 'Stripe' section. 
+* Paste your keys there and hit 'Save'
 
 **Important**: Your relationship with Stripe is governed by your acceptance of their Terms of Service. We are unable to manage any aspect of your relationship with Stripe, or to advocate for you. Other than initiating charges to your customers as covered by our Terms of Service, we are unable to act for or on your behalf.
 
