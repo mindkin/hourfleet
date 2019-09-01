@@ -30,15 +30,16 @@ Let's get started.
 
 IMPORTANT: At this time, we are still building out the self-serve configuration experience right inside the Hourfleet App, so that operators like yourself can make these configuration changes directly yourself very easily. You can configure many settings right now in the 'Operators' Dashboard already.
 
-Sign in to your Car Share, you should be taken to the operators dashboard automatically. From the left menu select 'My Car Share' then select 'Settings'.
+* Sign in to your Car Share, you should be taken to the operators dashboard automatically. 
+* From the left menu select 'My Car Share' then select 'Settings'.
 
 In the interim, for the sections that you cannot change in the Operators Dashbaord, please send your changes (text, links and images) to Hourfleet Support in you private Slack channel or email to [support@hourfleet.com](mailto:support@hourfleet.com) and we will make the updates manually for you.
 
 Essential Areas:
 
 - [Branding & SEO](configure-branding.html) its your site, make it look and smell like yours on the internet. (Use Operators Dashboard)
-- [Support, Live Chat and Analytics](configure-support.html) provide your users with necessary contact and support details
-- [Settings](configure-settings.html) basic localisation settings for your part of the world
+- [Support, Live Chat and Analytics](configure-support.html) provide your users with necessary contact and support details  (Use Operators Dashboard)
+- [Settings](configure-settings.html) basic localisation settings for your part of the world  (Use Operators Dashboard)
 
 Common Areas:
 
