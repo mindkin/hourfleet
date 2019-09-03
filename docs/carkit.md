@@ -51,6 +51,10 @@ The basic process to provision a carkit for any car is as follows:
 
 **IMPORTANT**: It is important to understand that the creation of a car key unit is a destructive process to the spare car key. Which means, that you must sacrifice a spare key to your car to get keyless access for the car. You will need to have a spare car key to do this. Once a carkit is delivered back to you from Hourfleet technicians, the car key is no longer usable by a person. The car key is now permanently embedded in a carkey unit that can only be used by an Hourfleet carkit.
 
+### Cellular Connectivity  
+
+The Hourfleet car kit connected to the internet via a cellular connection. This is facilitated  by an attached external modem. You will need to organize a cellular connection SIM from your preferred mobile carrier. The connection should be on a monthly account (ie NOT pre-paid / topup), and have >1Gb of data included. You will need a [standard size SIM](https://thefutureofthings.com/12104-what-are-different-sim-sizes). This SIM is inserted in to the cellular model with the gold contacts downwards, and the cut-off corner facing outwards.  
+
 ### Pricing
 
 The purchase price of an Hourfleet carkit includes the carkit itself, the provisioning work, and delivery of the carkit to any address accessible by DHL. 
