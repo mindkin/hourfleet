@@ -53,7 +53,7 @@ The basic process to provision a carkit for any car is as follows:
 
 ### Cellular Connectivity  
 
-The Hourfleet car kit connected to the internet via a cellular connection. This is facilitated  by an attached external modem. You will need to organize a cellular connection SIM from your preferred mobile carrier. The connection should be on a monthly account (ie NOT pre-paid / topup), and have >1Gb of data included. You will need a [standard size SIM](https://thefutureofthings.com/12104-what-are-different-sim-sizes). This SIM is inserted in to the cellular model with the gold contacts downwards, and the cut-off corner facing outwards.  
+The Hourfleet car kit connects to the internet via a cellular connection. This is facilitated by an attached external modem. You will need to organize a cellular data SIM from your preferred mobile carrier. The connection should be on a monthly account (ie NOT pre-paid / topup), and have >1Gb of data included. You will need a [standard size SIM](https://thefutureofthings.com/12104-what-are-different-sim-sizes). This SIM is inserted in to the cellular model with the gold contacts downwards, and the cut-off corner facing outwards.  
 
 ### Pricing
 
