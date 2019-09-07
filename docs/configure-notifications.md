@@ -6,8 +6,6 @@ title: Configure User Notifications.
 
 At various times, the users of your network are going to get notifications sent to them via email or TXT message (or both). 
 
-You can watch these notifications in your favorite tool by setting up integration between Hourfleet and many other apps by using Zapier.com. See [Zapier Integration](zapier.html) for more details on that.
-
 If you wish, you can also customize the content of all of these messages, both the email content and the TXT message content. 
 
 You can see examples of these email notifications [here](notifications.html).
