@@ -31,23 +31,24 @@ The install experience may be different on different browsers on different devic
 
 # The App
 
-Whether you install the Hourfleet App to your device, or use it in a web browser the experience is identical.
+Whether you install the Hourfleet App to your device, or use it in a web browser on your device, the experience is identical.
 
-The Hourfleet App is intended to be used by both yourself (as an operator) and by your customers to manage their account, find cars, book them and use those cars.
+The Hourfleet App is intended to be used by both yourself (as an operator) and by your customers to manage their account, find cars, book them and use those cars. The app will appear different depending on who is using it at the time.
 
-Hourfleet is a full-featured car sharing platform. In practice this means there are a large number of screens and features, and all features are available on all/any device type - from desktop, to tablet and phone. This section captures some of the key screens that will exist* in your Car Share. 
+Hourfleet is a full-featured car sharing platform. In practice this means there are a large number of screens and features, and all features are available on all/any device type - from desktop, to tablet and phone. 
 
-We have used mobile form-factor screens, and where the screen would scrolls we've stretched the image. Feel free to check back, as we will extend this set of images over time.
+This section captures some of the key screens that will exist in your Car Share. 
 
-Table of Contents  
-- [Finding and booking a car](#finding-and-booking-a-car)
-- [Managing a booking](#managing-a-booking)
-- [Insurer dashboard](#insurer-dashboard)
+> Note: We have used the mobile versions of the screens, and where the screen would scrolls we've stretched the image. Feel free to check back, as we will extend this set of images over time.
 
 
 ### Finding and booking a car 
 
-Cars can be located by entering a location and/or date and time of pickup. Car can also be found by browsing the map and clicking on the  pins. Cars that are available have red pins, while those that are unavailable are shown with grey pins. A borrower can view the car's full details, and make a request. They are required to accept the Terms of Service and Privacy Policy each time they make a booking.
+Cars can be located by entering a location and/or date and time of pickup. 
+A Car can also be found by browsing the map and clicking on the  pins. 
+Cars that are available have red pins, while those that are unavailable are shown with grey pins. 
+
+A borrower can view the car's full details, and make a request. They are required to accept the Terms of Service and Privacy Policy each time they make a booking.
 
 ![Searching For Cars](images/app/car-search.png)| ![Search Map](images/app/car-map.png) 
 
@@ -55,7 +56,8 @@ Cars can be located by entering a location and/or date and time of pickup. Car c
 
 ### Managing a booking
 
-All bookings are managed from a single dashboard. Once a booking immediately prior to its start time, the interface provides a `start` button for the borrower to initiate their booking
+All bookings are managed from a single dashboard. 
+Once a booking immediately prior to its start time, the interface provides a `start` button for the borrower to initiate their booking
 
 ![View a Booking](images/app/dashboard-main.png)| ![View a Car Owner](images/app/dashboard-contact.png) 
 
