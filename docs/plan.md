@@ -13,7 +13,7 @@ This section details some of the material that we recommend you read, to get a b
 * [Your own Website](yoursite.html). The integration between your own landing pages Hourfleet tenancy.  
 * [Configuring your Car Share](configure.html). Here is where you can see what you can configure to make your car sharing network unique.
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car share services.  
-* [The Hourfleet App](screens.html). A collection of car search, booking, and dashboard images designed for mobile.  
+* [The Hourfleet App](app.html). Understand the responsive Hourfleet App, who uses it and see a collection of screenshots of for searching and booking cars.  
 * [The Hourfleet Carkit](carkit.html). All you need to know about this in-car device - compatibility, customization, installation and cellular network setup.     
 * [Insurance](insurance.html). Supporting your insurance provider
 * [Integrations](integrations.html). Learn about the third-party platform that Hourfleet integrates with. Currently only [Stripe](http://stripe.com) is mandatory. 
