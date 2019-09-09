@@ -28,7 +28,7 @@ This connector can be located in different places in different cars, usually at 
 
 Then, you route the GPS Antenna cable from the main unit up onto the dashboard. It can be on either the drivers side of the car or the passengers side. Ideally, you would route the GPS Antenna cable out of sight behind the dash. Place the GPS Antenna in plain sight of the windscreen, either on the dashboard, or adhered to the windowscreen near the top of the windscreen, with a clear view of the skies.
 
-### Touch Sensor
+### Touch Sensor  
 
 Then you route the Touch Sensor cable from the main unit up onto the dashboard on the drivers side. Like the GPS cable, try to route the Touch Sensor cable out of sight behind the dash. Run the Touch Sensor cable up the vertical support column that supports the side of the windscreen on the drivers side. This is the vertical column between the glass of the windscreen and the glass of the drivers side door window. Adhere the Touch Sensor to the windowscreen as low and as close the drivers side of the windscreen, so it does not obstruct the drivers view of the road. Ideally, place it at the same height as an average persons elbow. This makes it very accessible to operate for Tap Tap Go outside the car for most people.
 
