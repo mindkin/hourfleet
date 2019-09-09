@@ -15,7 +15,7 @@ title: Your Car Share
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car shares.
 * [The Hourfleet App](app.html). Get familiar with the Hourfleet App that your customers will be using, either on their mobile devices or on their desktop devices.  
 * [Car kit](carkit.html). All you need to know about this cool in-car device.  
-* [Car kit installation](carkitinstallation). Installing your first car kit, or you 100th? This is what you need to know.  
+* [Car kit installation](carkit-installation.html). Installing your first car kit, or you 100th? This is what you need to know.  
 * [Insurance](insurance.html). Supporting your insurance provider
 
 ## Try It Out Now
