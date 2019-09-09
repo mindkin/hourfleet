@@ -73,4 +73,4 @@ The price **does not include** the cost of the car key itself, nor the postage d
 
 ### Installation  
 
-Learn more about [installing your **Tap Tap Go**](..\docs\carkit-installation.html).  
+Learn more about [installing your **Tap Tap Go**](carkit-installation.html).  
