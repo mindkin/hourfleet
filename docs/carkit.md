@@ -65,7 +65,7 @@ This SIM is inserted in to the cellular model with the gold contacts downwards, 
 
 ### Pricing
 
-The purchase price of an Hourfleet carkit includes the carkit itself, the provisioning work, and delivery of the carkit to any address accessible by [FedEx](https://fedex.com). 
+The purchase price of an Hourfleet carkit includes the carkit itself, and the provisioning work. 
 
 Contact [Hourfleet Sales](mailto:sales@hourfleet.com) for pricing and availability.
 
