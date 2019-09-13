@@ -55,7 +55,7 @@ The basic process to provision a carkit for any car is as follows:
 
 The Hourfleet car kit connects to the internet via a cellular connection. This is currently facilitated by an [external modem](https://consumer.huawei.com/ie/support/dongles/k5150), something our engineers are trying to improve on. You will need to organize a cellular data SIM from your preferred mobile carrier. The connection should  
 - Be on a **monthly account** (ie NOT pre-paid / topup) 
-- Have **no SIM PIN enabled**. SIMs that are PIN protected will not work in the Tap Tap Go device   
+- Have any **SIM PIN code disabled**. SIMs that are PIN protected will not work in the Tap Tap Go device   
 - Have **>1Gb of monthly data included**. Tell your preferred mobile carrier that the connection is required for an in-car telematics device, and that only 'data' is required. No 'voice' service is needed.  
 - Be a [standard size SIM](https://thefutureofthings.com/12104-what-are-different-sim-sizes). 
 
