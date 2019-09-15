@@ -7,11 +7,11 @@ title: Carkit
 
 Carkits are devices fitted into selected cars in your car sharing network.
 
-They allow your customers to lock/unlock and drive cars without needing any physcial keys!
+They allow your customers to lock/unlock and drive cars without needing any physical keys!
 
-As there are no keys to exchange with another human or office location, cars fitted with carkits open up economic scenarios like: multiple rentals in a single day, renting cars by the minute, and A to A dropoffs. These scenarios are not economically viable when physcial keys have to be managed.
+As there are no keys to exchange with another human or office location, cars fitted with carkits open up economic scenarios like: multiple rentals in a single day, renting cars by the minute, and A to A drop offs. These scenarios are not economically viable when physical keys have to be managed.
 
-Carkits also track the location of the car and other metrics, such as: distance travleled, fuel consumed and driving styles. This kind of data makes cheaper insurance products for car sharing.
+Carkits also track the location of the car and other metrics, such as: distance travelled, fuel consumed and driving styles. This kind of data makes cheaper insurance products for car sharing.
 
 # [Carkit Compatibility](#carkit-compatibility)  
 This section is intended for the latest generation of Hourfleet carkits, with a smart optical unlock feature, known as **Tap, Tap Go**. 
@@ -36,7 +36,7 @@ These carkits are devices that can be shipped to your business, and then paired 
 
 A carkit comes in two parts that fit together when installed. The main carkit unit and a separate car key unit.
 
-![Two Parts](images\OpticalCarkit_PiecesLabeled.jpg)  
+![Two Parts](images/carkit/OpticalCarkit_PiecesLabeled.jpg)  
 
 The car key unit must be physically constructed by Hourfleet technicians prior to the delivery of the carkit. This physical customization makes the car key unit specific to each car. Which means that the car key unit can only be used for that car. However, the main carkit unit is general purpose and can be installed in other cars, paired with each of their car key units.
 
@@ -47,7 +47,7 @@ The basic process to provision a carkit for any car is as follows:
 3. Hourfleet technicians return a fully configured carkit, which comes in two parts: a car key unit, and the carkit unit, which fit together for that car. 
 4. Install the carkit into the car. 
 5. In the Hourfleet App, registered the carkit with a registered car, which creates a secure binding in the Hourfleet App.
-6. People can now start booking and using that car keylessly, using the Hourfleet App.
+6. People can now start booking and using that car key-lessly, using the Hourfleet App.
 
 **IMPORTANT**: It is important to understand that the creation of a car key unit is a destructive process to the spare car key. Which means, that you must sacrifice a spare key to your car to get keyless access for the car. You will need to have a spare car key to do this. Once a carkit is delivered back to you from Hourfleet technicians, the car key is no longer usable by a person. The car key is now permanently embedded in a carkey unit that can only be used by an Hourfleet carkit.
 
@@ -59,7 +59,7 @@ The Hourfleet car kit connects to the internet via a cellular connection. This i
 - Have **>1Gb of monthly data included**. Tell your preferred mobile carrier that the connection is required for an in-car telematics device, and that only 'data' is required. No 'voice' service is needed.  
 - Be a [standard size SIM](https://thefutureofthings.com/12104-what-are-different-sim-sizes). 
 
-**IMPORTANT**: The car kit uses this SIM to connect to a cellular mobile data network. It achieve this connectivity, we need to know the Access Point Name ('APN') that your carrier requires to be used. We must program that into the car kit firmware. Your mobile carrier may have different APNs for differerent purposes. For example, it is common for pre-pay/topup connections to have a different APN from monthly account connections. When your first organise a connection, ask your mobile carrier for the APN that could be used for a USB Mobile Broadband modem, in this instance the [Huawei K5150](https://consumer.huawei.com/ie/support/dongles/k5150) device.  
+**IMPORTANT**: The car kit uses this SIM to connect to a cellular mobile data network. It achieve this connectivity, we need to know the Access Point Name ('APN') that your carrier requires to be used. We must program that into the car kit firmware. Your mobile carrier may have different APNs for different purposes. For example, it is common for pre-pay/top-up connections to have a different APN from monthly account connections. When your first organise a connection, ask your mobile carrier for the APN that could be used for a USB Mobile Broadband modem, in this instance the [Huawei K5150](https://consumer.huawei.com/ie/support/dongles/k5150) device.  
 
 This SIM is inserted in to the cellular model with the gold contacts downwards, and the cut-off corner facing outwards.  
 
