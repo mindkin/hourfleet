@@ -18,7 +18,7 @@ This section applies to the latest generation of Hourfleet carkits, that have th
 This carkit is **only fully compatible** with cars that:
 
 - Have a **proximity key**. These are the kinds of keys you can leave in your pocket while using the car  
-- **AND** that have a factory-fitted **push-to-start button** (usually foudn on the dashboard or console of the car)
+- **AND** that have a factory-fitted **push-to-start button** (usually found on the dash or console of the car)
 
 ![Push To Start](https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/VFWPepf8g/graphicstock-push-to-start-modern-vehicle-engine-start-button_SUYuRJgPb_thumb.jpg)
 
