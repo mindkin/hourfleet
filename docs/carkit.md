@@ -11,17 +11,18 @@ As there are no keys to exchange with another human or office manager or kiosk, 
 
 Carkits also track the location of the car and other metrics, such as: distance travelled, fuel consumed and driving styles. This kind of data makes cheaper insurance products for car sharing business.
 
-# [Carkit Compatibility](#carkit-compatibility)  
-This section is intended for the latest generation of Hourfleet carkits, with a smart optical unlock feature, known as **Tap, Tap Go**. 
+# [Carkit Compatibility](#carkit-compatibility)
+
+This section applies to the latest generation of Hourfleet carkits, that have the smart optical unlock feature, known as **Tap, Tap Go**. 
 
 This carkit is **only fully compatible** with cars that:
 
 - Have a **proximity key**. These are the kinds of keys you can leave in your pocket while using the car  
-- **AND** Have a factory-fitted **push-to-start button** (usually on the dashboard of the car)
+- **AND** that have a factory-fitted **push-to-start button** (usually foudn on the dashboard or console of the car)
 
 ![Push To Start](https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/VFWPepf8g/graphicstock-push-to-start-modern-vehicle-engine-start-button_SUYuRJgPb_thumb.jpg)
 
-Cars that have **older style twist-key ignitions** <u>may</u> have this carkit fitted, but the carkit will only provide access (unlock/lock) to the car. It will not facilitate starting of the car (since these cars will not have a Start button). In order to use this kind of configuration and start the car, a regular car key must be accessible inside the car for the renter to use to start the car somehow (i.e. left in the glove box). While this is a similar model to most car share services that operate today, we do not recommend this configuration for the physical security and insurance risks it carries.
+Cars that have **older twist-key ignitions and button push unlock** <u>may</u> also have this carkit fitted, but the carkit will only provide access (unlock/lock) to the car. It will not facilitate starting of the car (since these cars will not have a Start button). In order to use this kind of configuration and be able to start the car, a regular car key must be accessible inside the car for the renter to use to start the car somehow (i.e. left in the glove box). While this is a similar model to most car share services that operate today, we do not recommend this configuration for the physical security and insurance risks it carries. (There is an additional option if you are prepared to fit an after market Start button to the car.)
 
 # [How it Works - Tap Tap Go!](#how-it-works)
 
