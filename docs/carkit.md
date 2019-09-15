@@ -5,13 +5,11 @@ title: Carkit
 
 # [What They Do](#what-they-do)
 
-Carkits are devices fitted into selected cars in your car sharing network.
+No need for car keys anymore! Carkits are the devices fitted into the cars in your car sharing network, that remove the need for you or your customers to worry about physical keys.
 
-They allow your customers to lock/unlock and drive cars without needing any physical keys!
+As there are no keys to exchange with another human or office location, cars fitted with carkits open up economic scenarios like: many rentals in a single day, renting cars by the minute, and A to A drop offs. These scenarios are not economically viable when physical keys have to be organisaed and returned.
 
-As there are no keys to exchange with another human or office location, cars fitted with carkits open up economic scenarios like: multiple rentals in a single day, renting cars by the minute, and A to A drop offs. These scenarios are not economically viable when physical keys have to be managed.
-
-Carkits also track the location of the car and other metrics, such as: distance travelled, fuel consumed and driving styles. This kind of data makes cheaper insurance products for car sharing.
+Carkits also track the location of the car and other metrics, such as: distance travelled, fuel consumed and driving styles. This kind of data makes cheaper insurance products for car sharing business.
 
 # [Carkit Compatibility](#carkit-compatibility)  
 This section is intended for the latest generation of Hourfleet carkits, with a smart optical unlock feature, known as **Tap, Tap Go**. 
@@ -30,42 +28,44 @@ Cars that have **older style twist-key ignitions** <u>may</u> have this carkit f
 [![Tap, Tap Go](http://img.youtube.com/vi/boopaYYKiSo/0.jpg)](https://www.youtube.com/watch?v=boopaYYKiSo).
 
 # [Obtaining a Carkit](#obtaining-a-carkit)
-A carkit is obtained by ordering a quantity of them from Hourfleet. 
+A carkit is obtained by ordering them directly from Hourfleet. 
 
-These carkits are devices that can be shipped to your business, and then paired with a key unit of the car before being fitted into any car.
+These carkits are physcial devices that can be shipped to your business, and then paired with a key unit of the car before being fitted into any car.
 
 A carkit comes in two parts that fit together when installed. The main carkit unit and a separate car key unit.
 
 ![Two Parts](images/carkit/OpticalCarkit_PiecesLabeled.jpg)  
 
-The car key unit must be physically constructed by Hourfleet technicians prior to the delivery of the carkit. This physical customization makes the car key unit specific to each car. Which means that the car key unit can only be used for that car. However, the main carkit unit is general purpose and can be installed in other cars, paired with each of their car key units.
+The car key unit must be physically built by Hourfleet technicians prior to the delivery of the whole carkit. This physical customization makes the car key unit specific to each car. Which means that the car key unit can only be used for that car. However, the main carkit unit is general purpose and can be paired with any car kit unit for any car.
 
 The basic process to provision a carkit for any car is as follows:
 
-1. Place an order for a carkit with Hourfleet (contact [Hourfleet Sales](mailto:sales@hourfleet.com) for pricing and availability).
-2. Once your order has been accepted, follow this [Guidance](images\CarKeyProvisioningForm-v4.pdf)
-3. Hourfleet technicians return a fully configured carkit, which comes in two parts: a car key unit, and the carkit unit, which fit together for that car. 
-4. Install the carkit into the car. 
-5. In the Hourfleet App, registered the carkit with a registered car, which creates a secure binding in the Hourfleet App.
+1. Place an order for a carkit with Hourfleet (contact [Hourfleet Sales](mailto:sales@hourfleet.com) for pricing and availability). You will need to sacrifice one of the physical car keys for the car.
+2. Once your order has been accepted, follow the [Provisioning Process](images\CarKeyProvisioningForm-v4.pdf)
+3. Hourfleet technicians will return a fully configured carkit both parts: a main unit, and the carkit unit, which fit together for that car.
+4. Install the carkit under the dash of the car, stick the sensor on the windscreen. 
+5. In the Hourfleet App, register the carkit to the registered car, now the car is key-less enabled.
 6. People can now start booking and using that car key-lessly, using the Hourfleet App.
 
-**IMPORTANT**: It is important to understand that the creation of a car key unit is a destructive process to the spare car key. Which means, that you must sacrifice a spare key to your car to get keyless access for the car. You will need to have a spare car key to do this. Once a carkit is delivered back to you from Hourfleet technicians, the car key is no longer usable by a person. The car key is now permanently embedded in a car key unit that can only be used by an Hourfleet carkit.
+**IMPORTANT**: It is important to understand that the creation of a car key unit requires that you sacrice a spare car key for that car, and this is a destructive process to the spare car key. You will need to have a spare car key to do this, dont do this if you only have one car key, you should keep that car key as a spare key. Once a carkit is delivered back to you from Hourfleet technicians, the car key is no longer usable in the traditional way. The car key is now permanently embedded in a car key unit that can only be activated by an Hourfleet carkit main unit.
 
 ### Cellular Connectivity  
 
-The Hourfleet car kit connects to the internet via a cellular connection. This is currently facilitated by an [external modem](https://consumer.huawei.com/ie/support/dongles/k5150), something our engineers are trying to improve on. You will need to organize a cellular data SIM from your preferred mobile carrier. The connection should  
-- Be on a **monthly account** (i.e NOT pre-paid / top-up) 
+The Hourfleet car kit connects to the internet via a cellular connection, just like your mobile phone does. This is currently facilitated by an [external modem](https://consumer.huawei.com/ie/support/dongles/k5150), something our engineers are trying to improve on. You will need to organize a cellular data SIM from your preferred mobile carrier. 
+
+The connection needs to be: 
+- Be on a **monthly account** (i.e NOT pre-paid NOR top-up) 
 - Have any **SIM PIN code disabled**. SIMs that are PIN protected will not work in the Tap Tap Go device   
 - Have **>1Gb of monthly data included**. Tell your preferred mobile carrier that the connection is required for an in-car telematics device, and that only 'data' is required. No 'voice' service is needed.  
 - Be a [standard size SIM](https://thefutureofthings.com/12104-what-are-different-sim-sizes). 
 
-**IMPORTANT**: The car kit uses this SIM to connect to a cellular mobile data network. It achieve this connectivity, we need to know the Access Point Name ('APN') that your carrier requires to be used. We must program that into the car kit firmware. Your mobile carrier may have different APNs for different purposes. For example, it is common for pre-pay/top-up connections to have a different APN from monthly account connections. When your first organize a connection, ask your mobile carrier for the APN that could be used for a USB Mobile Broadband modem, in this instance the [Huawei K5150](https://consumer.huawei.com/ie/support/dongles/k5150) device.  
+**IMPORTANT**: The car kit uses this SIM to connect to a cellular mobile data network. To achieve this connectivity, we need to know the Access Point Name ('APN') that your carrier requires to be used. Hourfleet must program that into the car kit software. Your mobile carrier may have different APNs for different purposes. For example, it is common for pre-pay/top-up connections to have a different APN from monthly account connections. When your first organize a SIM card, ask your mobile carrier for the APN that could be used for a USB Mobile Broadband modem, in this instance the [Huawei K5150](https://consumer.huawei.com/ie/support/dongles/k5150) device.  
 
-This SIM is inserted in to the cellular model with the gold contacts downwards, and the cut-off corner facing outwards.  
+When inserting the SIM card into the modem,  it is inserted with the gold electrical contacts facing downwards, and with the cut-off corner facing outwards.  
 
 ### Pricing
 
-The purchase price of an Hourfleet carkit includes the carkit itself, and the provisioning work. 
+The purchase price of an Hourfleet carkit includes the carkit itself, and all the provisioning work to embed your car key. 
 
 Contact [Hourfleet Sales](mailto:sales@hourfleet.com) for pricing and availability.
 
@@ -74,4 +74,4 @@ The price **does not include** the cost of the car key itself, nor the postage d
 
 ### Installation  
 
-Learn more about [installing your **Tap Tap Go**](carkit-installation.html).  
+Learn more about [installing your Tap Tap Go carkit](carkit-installation.html) when your car kit arrives.  
