@@ -49,17 +49,17 @@ The basic process to provision a carkit for any car is as follows:
 5. In the Hourfleet App, registered the carkit with a registered car, which creates a secure binding in the Hourfleet App.
 6. People can now start booking and using that car key-lessly, using the Hourfleet App.
 
-**IMPORTANT**: It is important to understand that the creation of a car key unit is a destructive process to the spare car key. Which means, that you must sacrifice a spare key to your car to get keyless access for the car. You will need to have a spare car key to do this. Once a carkit is delivered back to you from Hourfleet technicians, the car key is no longer usable by a person. The car key is now permanently embedded in a carkey unit that can only be used by an Hourfleet carkit.
+**IMPORTANT**: It is important to understand that the creation of a car key unit is a destructive process to the spare car key. Which means, that you must sacrifice a spare key to your car to get keyless access for the car. You will need to have a spare car key to do this. Once a carkit is delivered back to you from Hourfleet technicians, the car key is no longer usable by a person. The car key is now permanently embedded in a car key unit that can only be used by an Hourfleet carkit.
 
 ### Cellular Connectivity  
 
 The Hourfleet car kit connects to the internet via a cellular connection. This is currently facilitated by an [external modem](https://consumer.huawei.com/ie/support/dongles/k5150), something our engineers are trying to improve on. You will need to organize a cellular data SIM from your preferred mobile carrier. The connection should  
-- Be on a **monthly account** (ie NOT pre-paid / topup) 
+- Be on a **monthly account** (i.e NOT pre-paid / top-up) 
 - Have any **SIM PIN code disabled**. SIMs that are PIN protected will not work in the Tap Tap Go device   
 - Have **>1Gb of monthly data included**. Tell your preferred mobile carrier that the connection is required for an in-car telematics device, and that only 'data' is required. No 'voice' service is needed.  
 - Be a [standard size SIM](https://thefutureofthings.com/12104-what-are-different-sim-sizes). 
 
-**IMPORTANT**: The car kit uses this SIM to connect to a cellular mobile data network. It achieve this connectivity, we need to know the Access Point Name ('APN') that your carrier requires to be used. We must program that into the car kit firmware. Your mobile carrier may have different APNs for different purposes. For example, it is common for pre-pay/top-up connections to have a different APN from monthly account connections. When your first organise a connection, ask your mobile carrier for the APN that could be used for a USB Mobile Broadband modem, in this instance the [Huawei K5150](https://consumer.huawei.com/ie/support/dongles/k5150) device.  
+**IMPORTANT**: The car kit uses this SIM to connect to a cellular mobile data network. It achieve this connectivity, we need to know the Access Point Name ('APN') that your carrier requires to be used. We must program that into the car kit firmware. Your mobile carrier may have different APNs for different purposes. For example, it is common for pre-pay/top-up connections to have a different APN from monthly account connections. When your first organize a connection, ask your mobile carrier for the APN that could be used for a USB Mobile Broadband modem, in this instance the [Huawei K5150](https://consumer.huawei.com/ie/support/dongles/k5150) device.  
 
 This SIM is inserted in to the cellular model with the gold contacts downwards, and the cut-off corner facing outwards.  
 
