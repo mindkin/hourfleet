@@ -5,9 +5,9 @@ title: Carkit
 
 # [What They Do](#what-they-do)
 
-No need for car keys anymore! Carkits are the devices fitted into the cars in your car sharing network, that remove the need for you or your customers to worry about physical keys.
+No need for car keys anymore! Carkits are the devices fitted into the cars in your car sharing network, that remove the need for you or your customers to worry about physical car keys.
 
-As there are no keys to exchange with another human or office location, cars fitted with carkits open up economic scenarios like: many rentals in a single day, renting cars by the minute, and A to A drop offs. These scenarios are not economically viable when physical keys have to be organisaed and returned.
+As there are no keys to exchange with another human or office manager or kiosk, cars fitted with carkits open up economic scenarios like: many rentals in a single day, renting cars by the minute, and A to A drop offs. These scenarios are not economically viable when physical keys have to be organisaed and returned.
 
 Carkits also track the location of the car and other metrics, such as: distance travelled, fuel consumed and driving styles. This kind of data makes cheaper insurance products for car sharing business.
 
@@ -28,22 +28,22 @@ Cars that have **older style twist-key ignitions** <u>may</u> have this carkit f
 [![Tap, Tap Go](http://img.youtube.com/vi/boopaYYKiSo/0.jpg)](https://www.youtube.com/watch?v=boopaYYKiSo).
 
 # [Obtaining a Carkit](#obtaining-a-carkit)
-A carkit is obtained by ordering them directly from Hourfleet. 
+A carkit is obtained by ordering them directly from Hourfleet. Contact [Hourfleet Sales](mailto:sales@hourfleet.com)
 
-These carkits are physcial devices that can be shipped to your business, and then paired with a key unit of the car before being fitted into any car.
+These carkits are physcial devices that can be shipped to your business, and then paired with a key unit of the car before being fitted into a car.
 
 A carkit comes in two parts that fit together when installed. The main carkit unit and a separate car key unit.
 
 ![Two Parts](images/carkit/OpticalCarkit_PiecesLabeled.jpg)  
 
-The car key unit must be physically built by Hourfleet technicians prior to the delivery of the whole carkit. This physical customization makes the car key unit specific to each car. Which means that the car key unit can only be used for that car. However, the main carkit unit is general purpose and can be paired with any car kit unit for any car.
+The car key unit must be physically built by Hourfleet technicians prior to the delivery of the whole carkit. This physical customization makes a custom car key unit specific to each car. Which means that the car key unit can only be used for that car. However, the main carkit unit is general purpose and can be paired with any car kit unit for any car.
 
-The basic process to provision a carkit for any car is as follows:
+The basic process to provision a carkit for a car is as follows:
 
-1. Place an order for a carkit with Hourfleet (contact [Hourfleet Sales](mailto:sales@hourfleet.com) for pricing and availability). You will need to sacrifice one of the physical car keys for the car.
+1. Place an order for a carkit with Hourfleet (contact [Hourfleet Sales](mailto:sales@hourfleet.com) for pricing and availability). You will need to send Hourfleet a spare car key along with the order.
 2. Once your order has been accepted, follow the [Provisioning Process](images\CarKeyProvisioningForm-v4.pdf)
 3. Hourfleet technicians will return a fully configured carkit both parts: a main unit, and the carkit unit, which fit together for that car.
-4. Install the carkit under the dash of the car, stick the sensor on the windscreen. 
+4. Install the carkit under the dash of the car, plug it in, and stick the tap sensor in the windscreen. 
 5. In the Hourfleet App, register the carkit to the registered car, now the car is key-less enabled.
 6. People can now start booking and using that car key-lessly, using the Hourfleet App.
 
