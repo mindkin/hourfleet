@@ -20,9 +20,10 @@ We're very keen to see you get value for money from your Hourfleet subscription.
 1. **Configuring your Hourfleet Car Share.** There are a large number of [settings](configure.html) 
     * These settings help you establish the Branding, SEO, Business Model, and other things that underpin how your Car Share software will work and how it is experienced by your customers.
     * You will definitely want the Hourfleet App that your customers use to look as close to your brand as possible, and for it to be easily searchable on the web.  
-1. **Integrations** The Hourfleet App integrates with some online service providers
+1. **Integrations** The Hourfleet App integrates with online service providers, through both API's and widgets in the Hourfleet App.
     * The most important integration is with [Stripe.com](http://stripe.com). Setup instructions are [here](integrations.html). Hourfleet will need to integrate with your Stripe account, to charge your customers for their subscriptions and for using cars. 
-    * Hourfleet integrates with a few other online services such as: 'Google Analytics', 'Intercom Chat Widget', 'FreshDesk CHat Widget', etc, take a look at [Integrations](integrations.html) for more details
+    * Hourfleet integrates with a few other online services such as: 'Google Analytics', 'Intercom chat widget', 'FreshDesk chat widget', etc, take a look at [Integrations](integrations.html) for more details.
+    * You can also integrate directly with Hourfleet through our extensive [API's](api.html).
 1. **Try Out the App** We will walk you through what it is like to setup a new car, and then rent it out for yourself, to see what that experience looks like.
     * You will get a good sense for what your customers will be going through to use the cars on your Car Share, and why
     * You will get a good sense of what it takes to bring a new car online in your Car Share, and why
