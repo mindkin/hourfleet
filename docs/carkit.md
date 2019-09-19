@@ -60,9 +60,11 @@ The connection needs to be:
 - Have **>1Gb of monthly data included**. Tell your preferred mobile carrier that the connection is required for an in-car telematics device, and that only 'data' is required. No 'voice' service is needed.  
 - Be a [standard size SIM](https://thefutureofthings.com/12104-what-are-different-sim-sizes). 
 
-**IMPORTANT**: The car kit uses this SIM to connect to a cellular mobile data network. To achieve this connectivity, we need to know the Access Point Name ('APN') that your carrier requires to be used. Hourfleet must program that into the car kit software. Your mobile carrier may have different APNs for different purposes. For example, it is common for pre-pay/top-up connections to have a different APN from monthly account connections. When your first organize a SIM card, ask your mobile carrier for the APN that could be used for a USB Mobile Broadband modem, in this instance the [Huawei K5150](https://consumer.huawei.com/ie/support/dongles/k5150) device.  
+**IMPORTANT**: The car kit uses this SIM to connect to a cellular mobile data network. To achieve this connectivity, we need to know the Access Point Name (APN) that your carrier requires to be used. Hourfleet must program that into the car kit software. Your mobile carrier may have different APNs for different purposes. For example, it is common for pre-pay/top-up connections to have a different APN from monthly account connections. When your first organize a SIM card, ask your mobile carrier for the APN that could be used for a USB Mobile Broadband modem, in this instance the [Huawei K5150](https://consumer.huawei.com/ie/support/dongles/k5150) device.  
 
 When inserting the SIM card into the modem,  it is inserted with the gold electrical contacts facing downwards, and with the cut-off corner facing outwards.  
+
+![](images/carkit/ModemSIM.png)
 
 ### Pricing
 
