@@ -7,7 +7,7 @@ title: Carkit
 
 No need for car keys anymore! Carkits are the devices fitted into the cars in your car sharing network, that remove the need for you or your customers to worry about physical car keys.
 
-As there are no keys to exchange with another human or office manager or kiosk, cars fitted with carkits open up economic scenarios like: many rentals in a single day, renting cars by the minute, and A to A drop offs. These scenarios are not economically viable when physical keys have to be organisaed and returned.
+As there are no keys to exchange with another human or office manager or kiosk, cars fitted with carkits open up economic scenarios like: many rentals in a single day, renting cars by the minute, and A to A drop offs. These scenarios are not economically viable when physical keys have to be organized and returned.
 
 Carkits also track the location of the car and other metrics, such as: distance travelled, fuel consumed and driving styles. This kind of data makes cheaper insurance products for car sharing business.
 
