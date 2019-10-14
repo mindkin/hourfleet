@@ -35,7 +35,7 @@ Once authenticated, a caller will receive a ***token*** that needs to be transmi
 
 This token is called an Authorization token, and Hourfleet uses the OAuth2.0 authorization scheme for its tokens (called *access_token*). Its an opaque token. You cannot decode it, or look inside it like other tokens.
 
-Normally, users of the Hourfleet App (https://yourcarshare.hourfleet.com) are authenticated by giving their credentials (*username* + *password*) to the Hourfleet App. A 'Client Application' like the Hourfleet Web App itself then presents the user's credentials to Hourfleet servers (along with its credentials) to authenticate user, and an authorization token is issued and returned.
+Normally, users of the Hourfleet App (`https://yourcarshare.hourfleet.com`) are authenticated by giving their credentials (*username* + *password*) to the Hourfleet App. A 'Client Application' like the Hourfleet Web App itself then presents the user's credentials to Hourfleet servers (along with its credentials) to authenticate user, and an authorization token is issued and returned.
 
 > Note: In all cases, in order for a user to authenticate, you also need a trusted 'Client Application' to manage the issuance of the token.
 
