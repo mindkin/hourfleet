@@ -35,8 +35,33 @@ Once you see the Tap unit flashing slow blue, wait 15 minutes for the device to 
 1. The White/Red modem LED is off
 1. The only LED showing on the car kit is an infrequent, short flasg of the red LED
 
-With the unit asleep you can disconnect the 12v power supply. Your car kit is ready for installation in your car.
+With the unit asleep you can disconnect the 12v power supply. 
 
+Important: We ship your device with the Hourfleet server configured to send dummy QR keys to your car kit. With the steps above confirming these dummy keys are being deliver, the next step to for you to contact us and ask to enable live QR keys.
+
+## Registering the Carkit on Your Car Share
+
+At this point you will have confirmed the following:
+1. That your SIM card and cellular operator account provides cellular data access for the car kit
+1. That Hourfleet has sucessfully delivered dummy QR keys to the Tap sensor
+1. That the Hourfleet server is ready to send live QR keys to the Tap sensor
+
+The next step is to register your car kit. This creates an association between one specific car kit, and the matching car which you have  already  set up in Hourfleet.  Let's gather the information you need.
+- Make a note of  the **license plate** of the car
+- Make a note of the number on the **sticky label under the main carkit unit**. Ignore the sticky label on the key unit.
+
+You will need both of these to complete the electronic registration in the Hourfleet App next.
+
+Open the Hourfleet App at your Car Share URL ( `https://yourcompany.hourfleet.com`), login and go to the 'Operations' dashboard.
+
+- From the menu of the far left, click  'Cars', and then 'Carkits'
+- Enter the license plate number of the car, and hit 'Search'
+- When the car is found, enter the Device Id, from the value you wrote down from the sticky label on the main carkit unit.
+- Click 'Register' 
+
+![CarKit Registration](images\Operations_CarkitRegistration.png)
+
+## Physical Installation
 
 ### OBD Connector
 
@@ -54,26 +79,7 @@ Then, you route the GPS Antenna cable from the Main Unit up onto sit on the dash
 
 Then you route the Touch Sensor cable from the main unit up onto the dashboard and up the side of the windscreen. Like the GPS cable, try to route the Touch Sensor cable out of sight behind the dash. Run the Touch Sensor cable up along the vertical support column that supports the side of the windscreen on either the drivers or passengers side. This is the vertical column between the glass of the windscreen and the glass of the side door window. Adhere the Touch Sensor to the windscreen as low and as close the drivers side of the windscreen, so it does not obstruct the drivers view of the road. Ideally, place it at the same height as an average persons elbow. This makes it very accessible to operate for Tap Tap Go outside the car for most people.
 
-### Make a Note
 
-Finally, make a note of both the **license plate** of the car, and the **number from the sticky label under the main carkit unit**. You will both of these to complete the electronic registration in the Hourfleet App next.
-
-## Registering the Carkit on Your Car Share
-
-As an operator of your car share, you will need to register the carkit as being installed into one of the cars already registered in your network of cars on your car share. 
-
-This must be done before anyone in the car share can access or use the car from the Hourfleet App, and before you can verify the installation of the physical carkit.
-
->  Note: This step is also necessary any time a main carkit unit is swapped between cars, or a carkit is removed from a car. In those cases, the carkit will need to be unregistered from the first car, and if necessary re-registered with another car.
-
-Once the carkit is physically installed then open the Hourfleet App at your Car Share URL ( `https://yourcompany.hourfleet.com`), login and go to the 'Operations' dashboard.
-
-- From the menu of the far left, click  'Cars', and then 'Carkits'
-- Enter the license plate number of the car, and hit 'Search'
-- When the car is found, enter the Device Id, from the value you wrote down from the sticky label on the main carkit unit.
-- Click 'Register' 
-
-![CarKit Registration](images\Operations_CarkitRegistration.png)
 
 ## Verify the Physical Installation
 
