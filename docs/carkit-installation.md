@@ -20,7 +20,17 @@ This is so that the Touch Sensor can be mounted in the windscreen close to the d
 
 ### Verifying Car Kit Before Installation  
 
-It's a good idea to verify that the car kit has internet connectivity BEFORE installing it in your car. We have designed the car kit so that it can be powered on your desk using a regular 12v mains (100-230v) adapter, and this allows you to confirm that the [http://docs.hourfleet.com/carkit.html#cellular-connectivity](cellular modem connects to the internet using your SIM).
+It's a good idea to verify that the car kit has internet connectivity BEFORE installing it in your car. We have designed the car kit so that it can be powered on your desk using a regular 12v mains (100-230v) adapter, and this allows you to confirm that the [cellular modem connects to the internet using your SIM](http://docs.hourfleet.com/carkit.html#cellular-connectivity). Follow these steps.
+1. Insert your standard sized SIM into the cellular modem as ![shown](http://docs.hourfleet.com/images/carkit/ModemSIM.png)  
+1. Connect the modem to the 10cm black cable which is already attached to the main unit
+1. Connect the Tap sensor
+1. Connect the 'barrel' power supply to your mains power. The result will be
+   - The main unit will show a steady red LED, and a steady green LED
+   - The Tap sensor will show a flashing red LED
+   
+At this point the car kit is booting up and will will shortly request a set of encrypted QR keys from the Hourfleet server. When these keys arrive the Tap unit LED will begin flashing purple, and once all QR keys have been received the Tap unit will begin a slow blue flash sequence.
+
+
 
 ### OBD Connector
 
