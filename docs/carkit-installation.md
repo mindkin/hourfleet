@@ -59,7 +59,7 @@ Open the Hourfleet App at your Car Share URL ( `https://yourcompany.hourfleet.co
 - When the car is found, enter the Device Id, from the value you wrote down from the sticky label on the main carkit unit.
 - Click 'Register' 
 
-![CarKit Registration](images\Operations_CarkitRegistration.png)
+![CarKit Registration](images/Operations_CarkitRegistration.png)
 
 ## Physical Installation
 
