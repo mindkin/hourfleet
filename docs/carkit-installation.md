@@ -1,7 +1,5 @@
 # Installing the Carkit
-The Hourfleet carkit is simple to install in a car by any person.
-
-Normally, for most car share services, it will be the owner/operator of the car that will be responsible for arranging, overseeing or performing the installation of the carkit. The operator of the car share will register the carkit electronically with the Car Share.
+The Hourfleet carkit is simple to install. Normally, for most car share services, it will be the owner/operator of the car that will be responsible for arranging, overseeing or performing the installation of the carkit. The operator of the car share will register the carkit electronically with the Car Share.
 
 > Note: Some car share operators may choose to outsource the physical installation of the carkit in their cars to other parties, but the electronic registration of the carkit can only be done by the operator in the Hourfleet App.
 
@@ -33,6 +31,11 @@ It's a good idea to verify that the car kit has internet connectivity BEFORE ins
    
 At this point the car kit is booting up and will will shortly request a set of encrypted QR keys from the Hourfleet server. When these keys arrive the Tap unit LED will begin flashing purple, and once all QR keys have been received the Tap unit will begin a slow blue flash sequence.
 
+Once you see the Tap unit flashing slow blue, wait 15 minutes for the device to 'sleep'. You can tell the car kit is asleep when
+1. The White/Red modem LED is off
+1. The only LED showing on the car kit is an infrequent, short flasg of the red LED
+
+With the unit asleep you can disconnect the 12v power supply. Your car kit is ready for installation in your car.
 
 
 ### OBD Connector
