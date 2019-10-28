@@ -48,7 +48,7 @@ At this point you will have confirmed the following:
 
 The next step is to register your car kit. This creates an association between one specific car kit, and the matching car which you have  already  set up in Hourfleet.  Let's gather the information you need.
 - Make a note of  the **license plate** of the car
-- Make a note of the number on the **sticky label under the main carkit unit**. Ignore the sticky label on the key unit.
+- Make a note of the number on the **sticky label under the main carkit unit**. Ignore the sticky label on the key unit. This number will be 8 digits long.
 
 You will need both of these to complete the electronic registration in the Hourfleet App next.
 
@@ -56,7 +56,7 @@ Open the Hourfleet App at your Car Share URL ( `https://yourcompany.hourfleet.co
 
 - From the menu of the far left, click  'Cars', and then 'Carkits'
 - Enter the license plate number of the car, and hit 'Search'
-- When the car is found, enter the Device Id, from the value you wrote down from the sticky label on the main carkit unit.
+- When the car is found, enter the Device Id, which is the 8 digit number you noted from the sticky label on the main carkit unit. 
 - Click 'Register' 
 
 ![CarKit Registration](images/Operations_CarkitRegistration.png)
