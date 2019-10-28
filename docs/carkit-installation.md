@@ -16,7 +16,11 @@ Familiarize yourself with the following parts:
 
 Ideally, you would want to mount the Main Unit (connected to Car Key Unit) under the dashboard on the drivers side of the car, or as close to the drivers side as possible.
 
-This is so that the Touch Sensor can be mounted in teh windscreen close to the drivers side door. Since this is where drivers will want to open the doors from. It can also be mounted on the passenger side for cars that are always parked on busy streets.
+This is so that the Touch Sensor can be mounted in the windscreen close to the drivers side door, because this is where drivers will want to open the doors from. It can also be mounted on the passenger side for cars that are always parked on busy streets.  
+
+### Verifying Car Kit Before Installation  
+
+It's a good idea to verify that the car kit has internet connectivity BEFORE installing it in your car. We have designed the car kit so that it can be powered on your desk using a regular 12v mains (100-230v) adapter, and this allows you to confirm that the [http://docs.hourfleet.com/carkit.html#cellular-connectivity](cellular modem connects to the internet using your SIM).
 
 ### OBD Connector
 
