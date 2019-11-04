@@ -61,24 +61,25 @@ The recommended installation process is as follows.
 
 1. Identify where you wish to locate the main unit. We recommend installing the car kit under the dashboard (or above the footwell) on the drivers side of the car. All cars are different in how they are configured here, so you'll need to consider the physical space and proximity to the three primary peripherals.
 
-2. Leave the adhesive pads covers and locate the Touch Sensor one the windscreen as low and as close the drivers side of the windscreen, so it does not obstruct the drivers view of the road. Ideally, place it at the same height as an average persons elbow. This makes it very accessible to operate for Tap Tap Go outside the car for most people. Run the cable down behind the dashboard to into the area that you'll be afixing the main device. This is the bit that is most likely to require professional support.
-**Important**: Take care locating and confirming the placement. Once you remove the adhesive covers and place the Tap Tap Go device on the windscreen is very difficult to remove.
+2. Leave the adhesive pads covers and locate the Touch Sensor on the windscreen as low and as close the drivers side of the windscreen, so it does not obstruct the drivers view of the road. Ideally, place it at the same height as an average persons elbow. This makes it very accessible to operate for Tap Tap Go outside the car for most people. Run the cable down behind the dashboard to into the area that you'll be afixing the main device. This is the bit that is most likely to require professional support.  
+**Important**: Take care locating and confirming the placement. Once you remove the adhesive covers and place the Tap Tap Go device on the windscreen is difficult to remove.
 
-2. The GPS antenna should be placed on the dashboard towards the windscreen. The cabl is sufficiently long to allow it to be placed in either side of the car. What is important is that the antenna unit has a 'clear view' of the sky. For this reason we recommend keeping it 5+ centimeters in from the A pillar. The antenna is supplied with an adhesive mounted metal disk. The antenna inself is magnetic, and it is placed on the metal disk once it is adhered to the dashboard. Run the cable down behind the dashboard to into the area that you'll be afixing the main device. This is the bit that is most likely to require professional support.  
+2. The GPS antenna should be placed on the dashboard towards the windscreen. The cable is sufficiently long to allow it to be placed in either side of the car. What is important is that the antenna unit has a 'clear view' of the sky. For this reason we recommend keeping it 5+ centimeters in from the A pillar. The antenna is supplied with an adhesive mounted metal disk. The antenna inself is magnetic, and it is placed on the metal disk once it is adhered to the dashboard. Run the cable down behind the dashboard to into the area that you'll be afixing the main device. This is the bit that is most likely to require professional support.  
 
 3. Locate the OBD connector. This is usually near the steering column, and it may be accessed from underneath the footwell, or from a removable panel. This is the source of car telematics data, and also of power for the car kit. Connect the OBD 'flat noodle' cable to the OBD connector and run it into the area that you'll be afixing the main device.  
 
 4. At this point you should have three cables available in the area that you'll be afixing the main device. Connect the Tap Tap Go to the main device. It should be a snug fit through the case, but force should not be used lets you accidentlly damage the main device.  
 
-5. Connect the GPS antenna to the main device. Twist until finger tight. You should tighten very gently with a small spanner.  
+5. Connect the GPS antenna to the main device. Twist until finger tight. You should very gently tighten with a small spanner.  
 
 6. The last thing to connect is the ODB cable. When you do this the device will power up initially showing red and greed LEDs. Once powered up, as indicated by red and green LEDs, we recommend that you do not remove the OBD cable for any reason. If you do wish to remove the device waiting 20 minutes should have the main device showing no green LED, and a slow flashing red LED. When the device is in this state it is ok to disconnect it from its OBD power source.  
 
 7. With the device connect and powered it's time to secure it in the position that you selected earlier. The following are important considerations:  
 - The device should be secured firmly in place  
 - The cellular modem should also be secured. This can be achieved by using professional tape to afix it to the main device  
-- Any spare cable should be secured away from the footwell
-**Important**: It is critical that the safe operation of the car by drivers is in no way impeded by the placement of the main device, of by any of the cables. Your chosen installer will be able to advise you on the best practice for your car, and ensure the installation is safe, secure and asthetically pleasing.  
+- Any spare cable should be secured away from the footwell  
+
+**Important**: It is critical that the safe operation of the car by drivers is in no way impeded by the placement of the main device, or by any of the cables. Your chosen installer will be able to advise you on the best practice for your car, and ensure the installation is safe, secure and asthetically pleasing.  
 
 
 ## Tap Tap Go LEDs
@@ -92,6 +93,3 @@ Each Tap Tap Go has a single LED used to indicate its state.
 - **Green pulsing**: Ready for presentation of a unlock/lock key, in response to a Tap Tap on the window screen.
 - **Green flashing**: A valid QR key has been presented. The car doors will unlock or lock as appropriate.
 - **Red flashing (fast)**: An invalid QR key has been presented.  
-
-
-
