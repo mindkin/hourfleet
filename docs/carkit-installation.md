@@ -1,22 +1,4 @@
-# Installing the Carkit
-The Hourfleet carkit is simple to install. Normally, for most car share services, it will be the owner/operator of the car that will be responsible for arranging, overseeing or performing the installation of the carkit. The operator of the car share will register the carkit electronically with the Car Share.
-
-> Note: Some car share operators may choose to outsource the physical installation of the carkit in their cars to other parties, but the electronic registration of the carkit can only be done by the operator in the Hourfleet App.
-
-Familiarize yourself with the following parts:
-
-1. The carkit Main Unit and the Car Key Unit
-2. The GPS Antenna
-3. The Touch Sensor
-4. The OBD Connector
-
-![CarKit](images/carkit/OpticalCarkit_AccessoriesLabeled.jpg)
-
-Ideally, you would want to mount the Main Unit (connected to Car Key Unit) under the dashboard on the drivers side of the car, or as close to the drivers side as possible.
-
-This is so that the Touch Sensor can be mounted in the windscreen close to the drivers side door, because this is where drivers will want to open the doors from. It can also be mounted on the passenger side for cars that are always parked on busy streets.  
-
-### Verifying Car Kit Before Installation  
+## Verifying Car Kit Before Installation  
 
 It's a good idea to verify that the car kit has internet connectivity BEFORE installing it in your car. We have designed the car kit so that it can be powered on your desk using a regular 12v mains (100-230v) adapter, and this allows you to confirm that the [cellular modem connects to the internet using your SIM](http://docs.hourfleet.com/carkit.html#cellular-connectivity). Follow these steps.
 1. Insert your standard sized SIM into the cellular modem as shown below
@@ -61,7 +43,44 @@ Open the Hourfleet App at your Car Share URL ( `https://yourcompany.hourfleet.co
 
 ![CarKit Registration](images/Operations_CarkitRegistration.png)
 
-## Physical Installation
+## Installing the Carkit  
+
+The Hourfleet carkit is simple to install, and some customers may choose to do this themselves. Even so, we strongly recommend that this  work is undertaken by a professional. They will be able to advise you on the best practice for your car, and ensure the installation is safe, secure and asthetically pleasing. Installation should take less than 15 minutes per car.
+
+Familiarize yourself with the following parts:
+
+1. The carkit Main Unit and the Car Key Unit
+2. The GPS Antenna
+3. The Touch Sensor
+4. The OBD Connector  
+5. The red/white cellular modem (not shown)  
+
+![CarKit](images/carkit/OpticalCarkit_AccessoriesLabeled.jpg)
+
+The recommended installation process is as follows. 
+
+1. Identify where you wish to locate the main unit. We recommend installing the car kit under the dashboard (or above the footwell) on the drivers side of the car. All cars are different in how they are configured here, so you'll need to consider the physical space and proximity to the three primary peripherals.
+
+2. Leave the adhesive pads covers and locate the Touch Sensor one the windscreen as low and as close the drivers side of the windscreen, so it does not obstruct the drivers view of the road. Ideally, place it at the same height as an average persons elbow. This makes it very accessible to operate for Tap Tap Go outside the car for most people. Run the cable down behind the dashboard to into the area that you'll be afixing the main device. This is the bit that is most likely to require professional support.
+**Important**: Take care locating and confirming the placement. Once you remove the adhesive covers and place the Tap Tap Go device on the windscreen is very difficult to remove.
+
+2. The GPS antenna should be placed on the dashboard towards the windscreen. The cabl is sufficiently long to allow it to be placed in either side of the car. What is important is that the antenna unit has a 'clear view' of the sky. For this reason we recommend keeping it 5+ centimeters in from the A pillar. The antenna is supplied with an adhesive mounted metal disk. The antenna inself is magnetic, and it is placed on the metal disk once it is adhered to the dashboard. Run the cable down behind the dashboard to into the area that you'll be afixing the main device. This is the bit that is most likely to require professional support.  
+
+3. Locate the OBD connector. This is usually near the steering column, and it may be accessed from underneath the footwell, or from a removable panel. This is the source of car telematics data, and also of power for the car kit. Connect the OBD 'flat noodle' cable to the OBD connector and run it into the area that you'll be afixing the main device.  
+
+4. At this point you should have three cables available in the area that you'll be afixing the main device. Connect the Tap Tap Go to the main device. It should be a snug fit through the case, but force should not be used lets you accidentlly damage the main device.  
+
+5. Connect the GPS antenna to the main device. Twist until finger tight. You should tighten very gently with a small spanner.  
+
+6. The last thing to connect is the ODB cable. When you do this the device will power up initially showing red and greed LEDs. Once powered up, as indicated by red and green LEDs, we recommend that you do not remove the OBD cable for any reason. If you do wish to remove the device waiting 20 minutes should have the main device showing no green LED, and a slow flashing red LED. When the device is in this state it is ok to disconnect it from its OBD power source.  
+
+7. With the device connect and powered it's time to secure it in the position that you selected earlier. The following are important considerations:  
+- The device should be secured firmly in place  
+- The cellular modem should also be secured. This can be achieved by using professional tape to afix it to the main device  
+- Any spare cable should be secured away from the footwell
+**Important**: It is critical that the safe operation of the car by drivers is in no way impeded by the placement of the main device, of by any of the cables. Your chosen installer will be able to advise you on the best practice for your car, and ensure the installation is safe, secure and asthetically pleasing.  
+
+
 
 ### OBD Connector
 
