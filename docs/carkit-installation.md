@@ -9,8 +9,11 @@ It's a good idea to verify that the car kit has internet connectivity BEFORE ins
 2. Connect the Tap sensor
 2. Connect the 'barrel' power supply to your mains power. The result will be
    - The main unit will show a steady red LED, and a steady green LED
-   - The Tap sensor will show a flashing red LED
+   - The Tap sensor will show a flashing red LED  
+   - The cellular modem will show flashing green LED
    
+We are now at an important point. We need to confirm that the cellular modem connects to the internet. This can take several minutes, with connection being indicated by a steady blue, or steady purple LED. We must have an internet connection before proceeding with any of the following steps.  
+
 At this point the car kit is booting up and will will shortly request a set of encrypted QR keys from the Hourfleet server. When these keys arrive the Tap unit LED will begin flashing purple, and once all QR keys have been received the Tap unit will begin a slow blue flash sequence.
 
 Once you see the Tap unit flashing slow blue, wait 15 minutes for the device to 'sleep'. You can tell the car kit is asleep when
