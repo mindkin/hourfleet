@@ -83,7 +83,7 @@ The recommended installation process is as follows.
 
 ## Tap Tap Go LEDs
 
-Each Tap Tap Go has a single LED used to indicate its state. This section 
+Each Tap Tap Go has a single LED used to indicate its state.  
 
 - **No LED**: Tap Tap is disabled. Either the device is not correctly powered, or the car has detected vibrations over the last 5 seconds, such as vibrations from driving down the road. 
 - **Red flashing (slow)**: Power is applied. The car kit is not yet configured, and is waiting to connect to Hourfleet over the internet, for which it needs cellular coverage.
