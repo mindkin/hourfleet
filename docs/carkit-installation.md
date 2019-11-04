@@ -18,7 +18,7 @@ At this point the car kit is booting up and will will shortly request a set of e
 
 Once you see the Tap unit flashing slow blue, wait 15 minutes for the device to 'sleep'. You can tell the car kit is asleep when
 1. The White/Red modem LED is off
-1. The only LED showing on the car kit is an infrequent, short flasg of the red LED
+1. The only LED showing on the car kit is an infrequent, short flash of the red LED
 
 With the unit asleep you can disconnect the 12v power supply. 
 
