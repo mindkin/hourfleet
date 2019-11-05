@@ -17,7 +17,7 @@ We are now at an important point. We need to confirm that the cellular modem con
 At this point the car kit is booting up and will will shortly request a set of encrypted QR keys from the Hourfleet server. When these keys arrive the Tap unit LED will begin flashing purple, and once all QR keys have been received the Tap unit will begin a slow blue flash sequence.
 
 Once you see the Tap unit flashing slow blue, wait 15 minutes for the device to 'sleep'. You can tell the car kit is asleep when
-1. The White/Red modem LED is off
+1. The cellular modem LED is off
 1. The only LED showing on the car kit is an infrequent, short flash of the red LED
 
 With the unit asleep you can disconnect the 12v power supply. 
