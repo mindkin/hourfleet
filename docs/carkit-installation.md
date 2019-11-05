@@ -10,7 +10,7 @@ It's a good idea to verify that the car kit has internet connectivity BEFORE ins
 2. Connect the 'barrel' power supply to your mains power. The result will be
    - The main unit will show a steady red LED, and a steady green LED
    - The Tap sensor will show a flashing red LED  
-   - The cellular modem will show flashing green LED
+   - After a few seconds, the cellular modem will show flashing green LED
    
 We are now at an important point. We need to confirm that the cellular modem connects to the internet. This can take several minutes, with connection being indicated by a steady blue, or steady purple LED. We must have an internet connection before proceeding with any of the following steps.  
 
