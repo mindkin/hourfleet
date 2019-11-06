@@ -13,7 +13,7 @@ We are going to connect your computer to the internet using the cellular modem. 
 2. Disconnect your computer from the internet, removing any Ethernet LAN cable and switching WiFi off.  
 3. Connect the cellular modem to a USB port. This should be a 'native' USB port on your computer, not a USB hub,  
 4. The cellular modem LED will start flashing green, may then start flashing blue or purple.  
-5. After 60 seconds we expect the cellular modem LED to show steady blue or purple. If it does then this test has completed sucessfully.  
+5. After 60 seconds we expect the cellular modem LED to show steady blue or purple. If it does then use a browser to go to https://hourfleet.com. If you can browse this site then your cellular modem is correctly connecting to the internet.
 6. Remove the cellular modem, and reconnect and LAN and/or Wifi so that your computer is back to its original state.  
 
 ## Verifying Car Kit Before Installation  
