@@ -1,10 +1,25 @@
-## Verifying Car Kit Before Installation  
+## Verifying Your Cellular Connectivity  
 
-It's a good idea to verify that the car kit has internet connectivity BEFORE installing it in your car. We have designed the car kit so that it can be powered on your desk using a regular 12v mains (100-230v) adapter, and this allows you to confirm that the [cellular modem connects to the internet using your SIM](http://docs.hourfleet.com/carkit.html#cellular-connectivity). Follow these steps.
+The first test we need to conduct is designed to ensure that your SIM provides cellular data connectivity. To do this you'll need the following:
+- The red/white cellular modem  
+- Your regular sized SIM
+- A laptop/PC running Windows 10 ..OR.. a Mac runnning MacOS 10.12 or higher
+
+We are going to connect your computer to the internet using the cellular modem. The steps are:
 1. Insert your standard sized SIM into the cellular modem as shown below
 
 ![SIM](http://docs.hourfleet.com/images/carkit/ModemSIM.png)  
 
+2. Disconnect your computer from the internet, removing any Ethernet LAN cable and switching WiFi off.  
+3. Connect the cellular modem to a USB port. This should be a 'native' USB port on your computer, not a USB hub,  
+4. The cellular modem LED will start flashing green, may then start flashing blue or purple.  
+5. After 60 seconds we expect the cellular modem LED to show steady blue or purple. If it does then this test has completed sucessfully.  
+6. Remove the cellular modem, and reconnect and LAN and/or Wifi so that your computer is back to its original state.  
+
+## Verifying Car Kit Before Installation  
+
+It's a good idea to verify that the car kit has internet connectivity BEFORE installing it in your car. We have designed the car kit so that it can be powered on your desk using a regular 12v mains (100-230v) adapter, and this allows you to confirm that the [cellular modem connects to the internet using your SIM](http://docs.hourfleet.com/carkit.html#cellular-connectivity). Follow these steps.
+1. If not already done, insert your standard sized SIM into the cellular modem as shown above
 2. Connect the modem to the 10cm black cable which is already attached to the main unit
 2. Connect the Tap sensor
 2. Connect the 'barrel' power supply to your mains power. The result will be
