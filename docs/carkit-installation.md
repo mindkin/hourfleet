@@ -6,7 +6,7 @@ The first test we need to conduct is designed to ensure that your SIM provides c
 - A laptop/PC running Windows 10 ..OR.. a Mac runnning MacOS 10.12 or higher
 
 We are going to connect your computer to the internet using the cellular modem. The steps are:
-1. Insert your standard sized SIM into the cellular modem as shown below
+1. Insert your standard sized SIM into the cellular modem as shown below. It is important that the little diagonal corner is on the left, as shown.  
 
 ![SIM](http://docs.hourfleet.com/images/carkit/ModemSIM.png)  
 
