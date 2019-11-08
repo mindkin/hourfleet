@@ -2,7 +2,7 @@
 
 The first test we need to conduct is designed to ensure that your SIM provides cellular data connectivity. To do this you'll need the following:
 - The red/white cellular modem  
-- Your [Standard sized SIM](https://thefutureofthings.com/12104-what-are-different-sim-sizes)  
+- Your [Standard sized SIM](https://thefutureofthings.com/12104-what-are-different-sim-sizes). Note this is larger than the SIM you use in your phone.  
 - A laptop/PC running Windows 10 ..OR.. a Mac runnning MacOS 10.12 or higher
 
 We are going to connect your computer to the internet using the cellular modem. The steps are:
