@@ -48,6 +48,8 @@ You have two standard choices in Hourfleet to get yourself an authorization toke
 1. **Direct Authorization**:  You create a Client Application, that gives you a new set of credentials (`client_id` and `client_secret`) that you exchange for a token that gives you access to a restricted set of API's in Hourfleet. You store those credentials safely (never in public source code), and then use those credentials (*client_id* + *client_secret*) whenever you need to get a new authorization token.
 2. **Delegated Authorization**: You create a Client Application, that gives you a new set of credentials that you use to ask an existing user of Hourfleet to grant you access to *their* API's (as them), by having them authenticate and then explicitly authorize you to obtain a token. This token grants you access to any API, as that user to access API's as that user.
 
+> Note: Hourfleet support OAuth2 authorization. It supports the 'Client Credentials' grant and the 'Authorization Flow' grant. Other grant types are not available.
+
 ### Direct Authorization
 
 This kind of authorization is granted to *Client Applications* directly.
