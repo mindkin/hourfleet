@@ -10,6 +10,7 @@ title: Notifications
   - [Attempted Password Reset](#attempted-password-reset-user)
   - [Password Reset Request](#password-reset-request-user)
   - [Password Reset](#password-reset-user)
+  - [Billing Receipts](#billing-receipts)
 - [Verifications](#verifications)
   - [Verified Borrower](#verified-borrower-user)
   - [Verified Car Owner](#verified-car-owner-user)
@@ -175,6 +176,31 @@ Substitutions Available:
 
 > Your account password has just been reset.
 
+### Billing Receipts
+
+###### ID: 320 
+
+This notification is sent to the *User* when they are successfully billed for a charge to a payment method (i.e. a credit card)
+
+Substitutions Available:
+
+`user.name`
+
+`payment.date`
+
+`payment.method`
+
+`payment.amount`
+
+`payment.description`
+
+**Email**
+
+![EmailPreview](images/EmailPreviews/billingReceipts.PNG)
+
+**SMS**
+
+N/A
 
 ## Verifications
 
