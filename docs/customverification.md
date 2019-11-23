@@ -4,7 +4,20 @@ Hourfleet has a rich verification system. Car borrowers, car owners and cars eac
 
 In addition to these in-built verifications, you can configure and describe one general verification for your customers to comply with before you manually verify them. This could be directing them to upload their Driving Record (Canada), or their Insurance Cetrificate (USA). 
 
+To create a custom verification:
+1. Sign in using your master account  
+1. Navigate to My Car Share --> Settings, and expand Business Model.
 ![verification setiup](../docs/images/VerificationCustomSetup.png)
 
+1. Switch 'Auto Verify' off
+1. Add your verification heading
+1. Add the verification instructions which guide your customers. Note that you can include links as shown
+1. Scroll to the bottom of the pace and click 'Save Changes'
 
-![Two Parts](images/carkit/OpticalCarkit_PiecesLabeled.jpg)  
+That it!
+
+Your customers will now be guided to follow your verification instructions when they register.
+
+>Note: Adding a custom verification will not result in all existing customers becoming unverified
+
+ 
