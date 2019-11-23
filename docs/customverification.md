@@ -7,7 +7,7 @@ In addition to these in-built verifications, you can configure and describe one 
 To create a custom verification:
 1. Sign in using your master account  
 1. Navigate to My Car Share --> Settings, and expand Business Model.
-![verification setup](../docs/images/VerificationCustomSetup.png)
+![verification setup](images/VerificationCustomSetup.png)
 
 1. Switch 'Auto Verify' off
 1. Add your verification heading
@@ -18,7 +18,7 @@ That it!
 
 Your customers will now be guided to follow your verification instructions when they register.
 
-![verification use](../docs/images/VerificationCustomUse.png)
+![verification use](images/VerificationCustomUse.png)
 
 
 >Note: Adding a custom verification will not result in all existing customers becoming unverified
