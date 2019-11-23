@@ -17,7 +17,7 @@ title: Your Car Share
 * [Car kit](carkit.html). All you need to know about this cool in-car device.  
 * [Car kit installation](carkit-installation.html). Installing your first car kit, or you 100th? This is what you need to know.  
 * [Insurance](insurance.html). Supporting your insurance provider
-* [Custom Verifications](customverifications.html). Set up a custom verification for your customers to comply with  
+* [Custom Verification](customverification.html). Set up a custom verification for your customers to comply with  
 
 ## Try It Out Now
 
