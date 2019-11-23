@@ -23,6 +23,6 @@ Your customers will now be guided to follow your verification instructions when 
 ![verification use](/images/VerificationCustomUse.png)
 
 
->Note: Adding a custom verification will not result in all existing customers becoming unverified
+>Note: Adding a custom verification will not result in any existing customer becoming unverified
 
  
