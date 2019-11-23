@@ -6,16 +6,20 @@ In addition to these in-built verifications, you can configure and describe one 
 
 To create a custom verification:
 
-1 Sign in using your master account    
-2 Navigate to My Car Share --> Settings, and expand Business Model.    
+1. Sign in using your master account 
+
+2. Navigate to My Car Share --> Settings, and expand Business Model.    
 
 
 ![verification setup](/images/VerificationCustomSetup.png)
 
-3 Switch 'Auto Verify' off  
-4 Add your verification heading  
-5 Add the verification instructions which guide your customers. Note that you can include links as shown  
-6 Scroll to the bottom of the pace and click 'Save Changes'  
+3. Switch 'Auto Verify' off 
+
+4. Add your verification heading  
+
+5. Add the verification instructions which guide your customers. Note that you can include links as shown  
+
+6. Scroll to the bottom of the pace and click 'Save Changes'  
 
 That it!
 
