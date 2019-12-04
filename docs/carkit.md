@@ -17,8 +17,10 @@ This section applies to the latest generation of Hourfleet carkits, that have th
 
 This carkit is **only fully compatible** with cars that:
 
-- Have a **proximity key**. These are the kinds of keys you can leave in your pocket while using the car  
-- **AND** that have a factory-fitted **push-to-start button** (usually found on the dash or console of the car)
+- Have a **proximity key**. These are the keys you can leave in your pocket while using the car  
+- Have a factory-fitted **push-to-start button** (usually found on the dash or console of the car)
+- Have a Petrol/Diesel motor or is a verified EV from this list:  
+  - Nissan Leaf (all models)  
 
 ![Push To Start](https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/VFWPepf8g/graphicstock-push-to-start-modern-vehicle-engine-start-button_SUYuRJgPb_thumb.jpg)
 
