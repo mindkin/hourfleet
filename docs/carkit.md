@@ -21,6 +21,8 @@ This carkit is **only fully compatible** with cars that:
 - Have a factory-fitted **push-to-start button** (usually found on the dash or console of the car)
 - Have a Petrol/Diesel motor or is a verified EV from this list:  
   - Nissan Leaf (all models)  
+  
+If you are planning to use Hourfleet with another make/model EV, please be advised that your chosen car _may_ be compatible. To confirm this, source an OBD scan tool that is based on the STN11xx or STN21xx chipset, NOT the more common ELM372 chipset. This company makes the STN chips, and [https://www.scantool.net/scan-tools/smart-phone/](sells scan tools). With your scan tool connected, you'll need to be able to issue a "0100" PID command, and get a set of characters back.  
 
 ![Push To Start](https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/VFWPepf8g/graphicstock-push-to-start-modern-vehicle-engine-start-button_SUYuRJgPb_thumb.jpg)
 
