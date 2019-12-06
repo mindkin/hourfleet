@@ -2,7 +2,7 @@
 layout: default
 title: Notifications
 ---
-### Table of Contents
+### Notifications
 - [Email Configuration](#email-configuration)
 - [Accounts](#accounts)
   - [Invitation](#invitation-user)
@@ -40,10 +40,14 @@ title: Notifications
 
 ----
 
-# Notifications
+# What are Notifications?
 
 For key events in Hourfleet, users will receive SMS and Email notifications. For example when they join your network, or when they book a car.
-Here you can see an example of all the SMS and Email notifications that get sent and at which key events they happen.
+
+On this page you can see an example of all the SMS and Email notifications that get sent and at which key events they happen.
+
+You can also customize the contents of most of these emails, should you wish to modify links, text or language. See the [Customize Notifications](configure-notifications.html) page for more details.
+
 
 ## Email Configuration
 
@@ -53,7 +57,7 @@ Some email elements are determined by your [Network Operator configuration file]
 
 ![EmailPreview](images/EmailPreviews/emailHeaderExample.png)
 
-The colour of your email header is determined by the `primary color` attribute in the branding section of your configuration file and is used across all emails.
+The color of your email header is determined by the `primary color` attribute in the branding section of your configuration file and is used across all emails.
 
 The content in your email headers are separated onto two lines and is configured per email based on the context in which it is being sent.
 
