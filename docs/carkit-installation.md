@@ -36,7 +36,9 @@ Once you see the Tap unit flashing slow blue, wait 15 minutes for the device to 
 1. The cellular modem LED is off
 1. The only LED showing on the car kit is an infrequent, short flash of the red LED
 
-With the unit asleep you can disconnect the 12v power supply. 
+> Note: The Tap unit never sleeps. Unless you are moving it, the LED in the Tap unit will always have a flashing LED
+
+With the car kit asleep you can disconnect the 12v power supply. 
 
 Important: We ship your device with the Hourfleet server configured to send dummy QR keys to your car kit. With the steps above confirming these dummy keys are being deliver, the next step to for you to contact us and ask to enable live QR keys.
 
