@@ -18,7 +18,7 @@ To enable the Operator Verification:
 
 1. Sign in as an operator 
 1. Navigate to My Car Share -> Settings, and expand the 'Business Model' section.    
-![Verification Setup](/images/VerificationCustomSetup.png)
+![Verification Setup](images/verifications/VerificationCustomSetup.png)
 1. Switch OFF 'Auto Verify' 
 1. Add a heading to the verification 
 1. Add some instructions which guide your customers. Note that you can include Markdown, with links, bold text etc  
@@ -27,7 +27,7 @@ To enable the Operator Verification:
 That it!
 
 Your customers will now be guided to follow your verification instructions when they register.
-![Verification Display](/images/VerificationCustomUse.png)
+![Verification Display](images/verifications/VerificationCustomUse.png)
 
->Note: Enabling the Operator Verification will not result in any existing customer becoming unverified, they will already be verified, which may require you to unverify them manually, to force them to comply with your instructions.
+>Note: Enabling the Operator Verification will not result in any existing customer becoming unverified, they will already be verified, which may require you to un-verify them manually, to force them to comply with your instructions.
 
