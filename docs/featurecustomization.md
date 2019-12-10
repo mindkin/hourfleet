@@ -2,7 +2,7 @@
 
 Software is expensive stuff to write, and to maintain. It is very likely that you are using Hourfleet for this very reason, because it's simply too expensive to build and maintain the entire codebase yourself. By using Hourfleet, you share software build and maintenance costs with other Hourfleet users via your monthly subscription. This is the cornerstone value proposition of SaaS businesses.  
 
-Our team works really hard to capture improvement ideas from the Hourfleet community, and to use these to guide our product design and build processes. You can see evidence of at our [Feedback](http://feedback.hourfleet.com) site. Product improvements curated in this way are delivered to you as part of your Hourfleet subscription. There is no additional charge.
+Our team works really hard to capture improvement ideas from the Hourfleet community, and to use these to guide our product design and build processes. You can see evidence of this at our [feedback site](http://feedback.hourfleet.com). Product improvements curated in this way are delivered to you as part of your Hourfleet subscription. There is no additional charge.
 
 ## Focusing on the problem, not the solution  
 
