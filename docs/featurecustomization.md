@@ -16,6 +16,8 @@ Very ocassionally we may contemplate a unique customization for your Hourfleet c
 
 - If you want to implement a non-Hourfleet in-car technology to manage keyless unlock and/or telemetry data.  
 
+Where an external integration is planned, you will need to supply us with API documentation in English, and support us with any local language queries needed so that we are able to estimate the cost of the customization.
+
 The general principles we apply are:
 
 1. Any such work will be scoped by an exchange of emails that form the basis of the work we undertake for you. Unless explicity varied, Hourfleet's standard [Terms of Serice](https://www.wix.hourfleet.com/terms) continue to apply.
