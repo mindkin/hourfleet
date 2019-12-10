@@ -50,7 +50,8 @@ Here is an example showing the configuration for a customization of the notifica
             "Content": ["Your account must be verified in order for the owner of '-car.name-' to receive your booking request."],
             "Action": {
                 "Text": "Become Verified",
-                "Url": "https://demo.hourfleet.com/settings/account"
+                "Url": "https://demo.hourfleet.com/settings/account",
+                "IsUniversalLink" : false,
             },
         },
         "PlainText": {
