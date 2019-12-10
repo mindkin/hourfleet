@@ -6,7 +6,7 @@ Another part of the SaaS value proposition is that you get to benefit from Hourf
 
 ## Focusing on the problem, not the solution  
 
-Occasionally customers describe a need they believe is unique to them, and usually go on to describe how they see the solution implemented. Our approach here is to understand the root issue that is being adressed really, really well. And only then start to consider solutions. Our preference is to build a solution that is generically suitable for all Hourfleet customers, one that can be delivered to you as part of your existing Hourfleet subscription.
+Occasionally customers describe a need they believe is unique to them, and usually go on to describe how they see the solution implemented. Our approach here is to understand the core issue really, really well, and only then to start considering solutions. Our preference is to build a solution that is generically suitable for all Hourfleet customers, one that can be delivered to you as part of your existing Hourfleet subscription.
 
 ## Customization  
 
@@ -20,7 +20,9 @@ The general principles we apply are:
 
 - Any such work will be covered by an exchange of emails that form the basis of the work we undertake for you.
 
-- We will provide an estimate of the cost to implement your customization. This is calculated based on our standard hourly rate, and it reprtesents our best estimate based on the information available to us. The actual fee may vary, and we commit to work with you to minimize any overruns.
+- We will provide an estimate of the cost to implement your customization. This is calculated based on our standard hourly rate, and it reprtesents our best estimate based on the information available to us at the time. The actual fee may vary. We commit to work with you to minimize any overruns.
 
-- Once the work has been implemented a monthly surcharge equavalent to 1.75% of the customization fee will be added to your monthly subscription
+- Once the work has been implemented a monthly surcharge equavalent to 1.75% of the customization fee will be added to your monthly subscription. This reflects the truth that all software product creates ongoing cost for the owner.
+
+- All intellectual property rights pertaining to the customization(s) are vested in Mindkin Ltd, the owners of Hourfleet  
 
