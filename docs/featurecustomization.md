@@ -18,11 +18,11 @@ Very ocassionally we may contemplate a unique customization for your Hourfleet c
 
 The general principles we apply are:
 
-1 Any such work will be scoped by an exchange of emails that form the basis of the work we undertake for you. Unless explicity varied, Hourfleet's standard [Terms of Serice](https://www.wix.hourfleet.com/terms) continue to apply.
+1. Any such work will be scoped by an exchange of emails that form the basis of the work we undertake for you. Unless explicity varied, Hourfleet's standard [Terms of Serice](https://www.wix.hourfleet.com/terms) continue to apply.
 
-1 We will provide an estimate of the cost to implement your customization. This is calculated based on our standard hourly rate, and it reprtesents our best estimate based on the information available to us at the time. The actual fee may vary. We commit to work with you to minimize any overruns.
+1. We will provide an estimate of the cost to implement your customization. This is calculated based on our standard hourly rate, and it reprtesents our best estimate based on the information available to us at the time. The actual fee may vary. We commit to work with you to minimize any overruns.
 
-1 Once the work has been implemented a monthly surcharge equavalent to 1.75% of the customization fee will be added to your monthly subscription. This reflects the truth that all software product creates ongoing cost for the owner.
+1. Once the work has been implemented a monthly surcharge equavalent to 1.75% of the customization fee will be added to your monthly subscription. This reflects the truth that all software product creates ongoing cost for the owner.
 
-1 All intellectual property rights pertaining to the customization(s) are vested in Mindkin Ltd, the owners of Hourfleet  
+1. All intellectual property rights pertaining to the customization(s) are vested in Mindkin Ltd, the owners of Hourfleet  
 
