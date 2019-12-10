@@ -6,11 +6,11 @@ Another part of the SaaS value proposition is that you get to benefit from Hourf
 
 ## Focusing on the problem, not the solution  
 
-Occasionally customers describe a need they believe is unique to them, and usually go on to describe how they see the solution implemented. Our approach here is to understand the core issue really, really well, and only then to start considering solutions. Our preference is to build a solution that is generically suitable for all Hourfleet customers, one that can be delivered to you as part of your existing Hourfleet subscription.
+Occasionally customers will describe a new feature, one they believe should be unique to them. Our approach with this is to understand the underlying need really well, and only then start considering what the soultion options might be. Our preference is to schedule the building of a solution that is generically suitable for all Hourfleet customers, one that can be delivered to you as part of your existing Hourfleet subscription.
 
 ## Customization  
 
-Very ocassionally we may contemplate a unique customization for your Hourfleet car share. The two most common instances are: 
+Very ocassionally we may contemplate a unique customization for your Hourfleet car share service. The two most common instances are: 
 
 - If your business operating in a country that is not currently supported by [Stripe](https://stripe.com/global) then you may ask us to build support for a local payment provider.
 
