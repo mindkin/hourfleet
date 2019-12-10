@@ -22,7 +22,7 @@ The general principles we apply are:
 
 1. We will provide an estimate of the cost to implement your customization. This is calculated based on our standard hourly rate, and it reprtesents our best estimate based on the information available to us at the time. The actual fee may vary. We commit to work with you to minimize any overruns.
 
-1. Once the work has been implemented a monthly surcharge equavalent to 1.75% of the customization fee will be added to your monthly subscription. This reflects the truth that all software product creates ongoing cost for the owner.
+1. Once the work has been implemented a monthly surcharge equavalent to 1.75% of the customization fee will be added to your subscription.
 
 1. All intellectual property rights pertaining to the customization(s) are vested in Mindkin Ltd, the owners of Hourfleet  
 
