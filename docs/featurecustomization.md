@@ -1,8 +1,10 @@
 ## Software is Expensive
 
-Software is expensive stuff. To both build, and to maintain. It is very likely that you are using Hourfleet for this reason, because it's too expensive to build and maintain the entire car share software yourself. By using Hourfleet, you share the costs for building and maintaining the software with other Hourfleet users via your monthly subscription. This is the cornerstone value proposition of SaaS businesses.  
+Software is expensive stuff. Both to build, and to maintain. It is very likely that you are using Hourfleet for this reason, because it's too expensive to build and maintain the entire car share software yourself. You have better things to spend money on building and running your Car Sharing business. 
 
-Another part of the SaaS value proposition is that you get to benefit from  improvements to Hourfleet over time. Our team works really hard to capture your problems, ideas and wishes and to use these to guide our future product design and build processes. After all, you are the reason the software exists in the first place. You can see evidence of this at our [feedback site](http://feedback.hourfleet.com). Product improvements curated in this way are delivered to you as part of your Hourfleet subscription. There is no additional charge for that.
+By using Hourfleet, you share the costs for building and maintaining the software with other Hourfleet customers via your monthly subscription. This is the cornerstone value proposition of SaaS businesses.  
+
+Another part of the SaaS value proposition is that you get to benefit from improvements to Hourfleet over time. Our team works really hard to capture your problems, ideas and wishes and to use these to guide our future product design and build processes. After all, you are the reason the software exists in the first place. You can see evidence of this at our [feedback site](http://feedback.hourfleet.com). Product improvements curated in this way are delivered to you as part of your Hourfleet subscription. There is no additional charge for that.
 
 ## Focusing on the problem, not the solutions
 
