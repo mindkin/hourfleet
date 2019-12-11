@@ -6,7 +6,7 @@ Another part of the SaaS value proposition is that you get to benefit from  impr
 
 ## Focusing on the problem, not the solution  
 
-Occasionally customers will describe a new feature, one they believe should be unique to them. Our approach here is to understand the underlying need really well, and only then start considering what the soultion options might be. Our preference is to schedule the building of a solution that is generically suitable for all Hourfleet customers, one that can be delivered to you as part of your existing Hourfleet subscription.
+Occasionally customers will describe a new feature, one they believe could be unique to them, solving a problem that is uniquely theirs. Our approach here is to understand the underlying need really well, and only then start considering what the soultion options might be. Our preference is to schedule the building of a solution that is generically suitable for all Hourfleet customers, one that can be delivered to you as part of your existing Hourfleet subscription.
 
 ## Customization  
 
