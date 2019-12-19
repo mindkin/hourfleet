@@ -51,7 +51,7 @@ Here is an example showing the configuration for a customization of the notifica
             "Action": {
                 "Text": "Become Verified",
                 "Url": "https://demo.hourfleet.com/settings/account",
-                "IsUniversalLink" : false,
+                "DisableClickTracking" : false,
             },
         },
         "PlainText": {
