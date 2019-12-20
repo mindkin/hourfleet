@@ -36,5 +36,6 @@ Each Tap Tap Go has a single LED (light) used to indicate its state.
 
 Symptom | Meaning | Things to check
 --- | --- | ---
-No LED showing  | Either the Tap Tap Go unit is not powered, or the car has moved, even slightly, in the last 5 seconds | 1,2,3
-
+No LED showing  | Either the Tap Tap Go unit is not powered, or the car has moved, even slightly, in the last 5 seconds |
+Check the main car kit is connected to the OBD port
+Wait 5 seconds with the car idle and not being bumped or moved.
