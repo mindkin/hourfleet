@@ -2,7 +2,7 @@
 
 This section outlines how to start using your Tap Tap Go device. In time all this will become second nature, but for you and your customers getting accustomed to how this device operates will take a few practice runs. The purpose of this guide is to help you quickly become comfortable accessing your car using the Tap Tap Go device. We cover the how the device works, meaning of the LED light on the Tap Tap Go device, and some troubleshooting steps.
 
->Note: Remembert that when the Tap Tap Go is first installed, or after it is rebooted (hopefully infrequent!) the LED will show slow flashing red, meaning it is waiting for a set of QR keys to be delivered. Be patient. This process can take 10 minutes.  
+>Note: Remember that when the Tap Tap Go is first installed, or after it is rebooted (hopefully infrequent!) the LED will show slow flashing red, meaning it is waiting for a set of QR keys to be delivered. Be patient. This process can take 10 minutes.  
 
 ## How it works
 
@@ -12,7 +12,7 @@ Like any new gesture, and most of us remember getting to understand mobile phone
 1. Hold the phone is portrait (normal) orientation, matching the Tap Tap Go device itself
 2. Move the phone steadily towards the device camera. The device can't read closer than 2 inches (5cm), so don't place it right against the windscreen.
 3. If your phone settings allow for screen re-orientation, be sure that the app (and QR image) is in portrait orientation when being presented to the QR camera.
-4. Never tap the car winscreen with your phone. It's bad for both of them, and could result in some broken glass!  
+4. Never tap the car windscreen with your phone. It's bad for both of them, and could result in some broken glass!  
 
 The whole system relies on accurate image detection and interpretation. This means environment factors such as raid, snow and dirt can have an impact on successful operation. This is identified in the Troubleshooting section below.
 
@@ -31,7 +31,7 @@ Each Tap Tap Go has a single LED (light) used to indicate its state.
 - **Green flashing**: A valid QR key has been presented. The car doors will unlock or lock as appropriate.
 - **Red flashing (fast)**: An invalid QR key has been presented.  
 
- Take a moment to familiarize youeself with these. The 'usual' unlock or lock sequence is this:
+ Take a moment to familiarize yourself with these. The 'usual' unlock or lock sequence is this:
  - Blue Flashing
  - Tap Tap on the windscreen
  - Green Pulsing. The unit is ready to have a unlock/lock QR key presented
@@ -45,5 +45,5 @@ Here are a few tips to help you get going if you're having difficulty.
 Symptom | Meaning | Things to check
 --- | --- | ---
 No LED showing  | Either the Tap Tap Go unit is not powered, or the car has moved, even slightly, in the last 5 seconds | Check the main car kit is connected to the OBD port. Wait 5 seconds with the car idle and not being bumped or moved.
-Green plusing LED is unchanged when a valid QR key is presented | The camera is unable to 'see' the QR code on your phone screen | Esnure your phone screen is clear of rain, snow and dirt. Ensure the Tap Tap Go camera is free from rain, snow and dirt. Ensure the phone and screen have portrait orientation. Ensure the QR key is presented between 20 and 10 centimeters from the camera
+Green plusing LED is unchanged when a valid QR key is presented | The camera is unable to 'see' the QR code on your phone screen | Ensure your phone screen is clear of rain, snow and dirt. Ensure the Tap Tap Go camera is free from rain, snow and dirt. Ensure the phone and screen have portrait orientation. Ensure the QR key is presented between 20 and 10 centimetres from the camera
 Presentation of a QR key results in a flashing red LED | The Tap Tap Go device has scanned and read the QR key you have presented, but it isn't valid. | Check you're access the correct car. All QR keys are unique. if you have already presented the QR code, you will need to refresh on the app to get a new one generated.
