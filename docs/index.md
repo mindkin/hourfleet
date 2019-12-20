@@ -14,11 +14,14 @@ title: Your Car Share
 
 * [Hourfleet 101](howitworks.html). The basics of Hourfleet car shares.
 * [The Hourfleet App](app.html). Get familiar with the Hourfleet App that your customers will be using, either on their mobile devices or on their desktop devices.  
-* [Car kit](carkit.html). All you need to know about this cool in-car device.  
-* [Car kit installation](carkit-installation.html). Installing your first car kit, or you 100th? This is what you need to know.  
 * [Insurance](insurance.html). Supporting your insurance provider
 * [Custom Verification](customverification.html). Set up a custom verification for your customers to comply with  
 * [Feature Customization](featurecustomization.html). Need a custom feature designed for your Hourfleet-powered car share?  
+
+## Tap Tap Go
+* [Getting started](carkit.html). All you need to know about this cool in-car device.  
+* [Installation](carkit-installation.html). Installing your first Tap Tap Go, or you 100th? This is what you need to know.  
+* [Training](carkit-training.html). Getting to know your Tap Tap Go.  
 
 
 ## Try It Out Now
