@@ -36,7 +36,5 @@ Each Tap Tap Go has a single LED (light) used to indicate its state.
 
 Symptom | Things to check
 --- | ---
-*Still* | `renders` 
-1 | 2
-
+No LED showing. This means one of three  things. Either the Tap Tap Go unit is not connect to the main car kit | 
 
