@@ -10,6 +10,7 @@ Like any new gesture, and most of us remember getting to understand mobile phone
 1. Hold the phone is portrait (normal) orientation, matching the Tap Tap Go device itself
 2. Move the phone steadily towards the device camera. The device can't read closer than 2 inches (5cm), so don't place it right against the windscreen.
 3. If your phone settings allow for screen re-orientation, be sure that the app (and QR image) is in portrait orientation when being presented to the QR camera.
+4. Never tap the car winscreen with your phone. It's bad for both of them, and could result in some broken glass!  
 
 The whole system relies on accurate image detection and interpretation. This means environment factors such as raid, snow and dirt can have an impact on successful operation. This is identified in the Troubleshooting section below.
 
