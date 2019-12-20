@@ -36,6 +36,5 @@ Each Tap Tap Go has a single LED (light) used to indicate its state.
 
 Symptom | Meaning | Things to check
 --- | --- | ---
-No LED showing  | Either the Tap Tap Go unit is not powered, or the car has moved, even slightly, in the last 5 seconds |
-Check the main car kit is connected to the OBD port
-Wait 5 seconds with the car idle and not being bumped or moved.
+No LED showing  | Either the Tap Tap Go unit is not powered, or the car has moved, even slightly, in the last 5 seconds | Check the main car kit is connected to the OBD port. Wait 5 seconds with the car idle and not being bumped or moved.
+Green plusing LED is unchanged when a valid QR key is presented | The camera is unable to 'see' the QR code on your phone screen | Esnure your phone screen is clear of rain, snow and dirt. Ensure the Tap Tap Go camera is free from rain, snow and dirt. Ensure the phone and screen have portrait orientation. Ensure the QR key is presented between 20 and 10 centimeters from the camera
