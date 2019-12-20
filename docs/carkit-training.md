@@ -2,6 +2,8 @@
 
 This section outlines how to start using your Tap Tap Go device. In time all this will become second nature, but for you and your customers getting accustomed to how this device operates will take a few practice runs. The purpose of this guide is to help you quickly become comfortable accessing your car using the Tap Tap Go device. We cover the how the device works, meaning of the LED light on the Tap Tap Go device, and some troubleshooting steps.
 
+>Note: Remembert that when the Tap Tap Go is first installed, or after it is rebooted (hopefully infrequent!) the LED will show slow flashing red, meaning it is waiting for a set of QR keys to be delivered. Be patient. This process can take 10 minutes.  
+
 ## How it works
 
 The Tap Tap Go device has a camera designed specifically for reading QR codes. This camera is usually asleep as indicated by a blue (or red) slow flashing LED. When the device detects a double tap on the windscreen, it wakes up the camera which then starts looking for a QR code. This state is indicated by a pulsing green LED. If a valid QR key is presented, the LED starts flashing green and the car doors are unlocked or locked as appropriate.
