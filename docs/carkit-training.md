@@ -34,7 +34,7 @@ Each Tap Tap Go has a single LED (light) used to indicate its state.
 
 ## Troubleshooting
 
-Symptom | Things to check
---- | ---
-No LED showing. This means one of three  things. Either the Tap Tap Go unit is not connect to the main car kit | 
+Symptom | Meaning | Things to check
+--- | --- | ---
+No LED showing  | Either the Tap Tap Go unit is not powered, or the car has moved, even slightly, in the last 5 seconds | 1,2,3
 
