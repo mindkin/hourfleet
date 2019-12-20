@@ -11,7 +11,9 @@ Like any new gesture, and most of us remember getting to understand mobile phone
 2. Move the phone steadily towards the device camera. The device can't read closer than 2 inches (5cm), so don't place it right against the windscreen.
 3. If your phone settings allow for screen re-orientation, be sure that the app (and QR image) is in portrait orientation when being presented to the QR camera.
 
-> Note: It's good to practice, but don't request more than 20 _Unlock_ QR keys in one session. The device contains a number of unlock keys and these are refreshed periodically. If you use too many at once you may not be able to get into the car!
+The whole system relies on accurate image detection and interpretation. This means environment factors such as raid, snow and dirt can have an impact on successful operation. This is identified in the Troubleshooting section below.
+
+> Note: It's good to practice when you getting familiar with this new process, but don't request more than 20 _Unlock_ QR keys in one session. The device contains a number of _one-time use_ unlock keys, and these are refreshed periodically. If you use too many at once you may not be able to get into the car!
 
 
 ## Tap Tap Go LEDs
@@ -30,11 +32,15 @@ Each Tap Tap Go has a single LED (light) used to indicate its state.
  - Blue Flashing
  - Tap Tap on the windscreen
  - Green Pulsing. The unit is ready to have a unlock/lock QR key presented
+ - You present the QR key  
  - Green Flashing. The unlock/lock QR key has been actioned.
 
 ## Troubleshooting
+
+Here are a few tips to help you get going if you're having difficulty.
 
 Symptom | Meaning | Things to check
 --- | --- | ---
 No LED showing  | Either the Tap Tap Go unit is not powered, or the car has moved, even slightly, in the last 5 seconds | Check the main car kit is connected to the OBD port. Wait 5 seconds with the car idle and not being bumped or moved.
 Green plusing LED is unchanged when a valid QR key is presented | The camera is unable to 'see' the QR code on your phone screen | Esnure your phone screen is clear of rain, snow and dirt. Ensure the Tap Tap Go camera is free from rain, snow and dirt. Ensure the phone and screen have portrait orientation. Ensure the QR key is presented between 20 and 10 centimeters from the camera
+Presentation of a QR key results in a flashing red LED | The Tap Tap Go device has scanned and read the QR key you have presented, but it isn't valid. | Check you're access the correct car. All QR keys are unique. if you have already presented the QR code, you will need to refresh on the app to get a new one generated.
