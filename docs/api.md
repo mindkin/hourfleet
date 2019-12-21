@@ -114,6 +114,203 @@ The token must be put into the `Authorization` header of the request in this for
 
 >  Note: If you use Delegated Authorization, you don't need to ask the user for permission once the token expires, you can use the `refresh_token` to obtain a fresh token and buy some more time.
 
+
+## REST Patterns
+
+All API's follow similar patterns, here are the common ones you will encounter.
+
+### Response Formats
+
+All APIs return JSON by default. To return other formats like XML or CSV, specify the `format` property in the query, or in the `Accept` header.
+
+For example, to return the a car in XML, you would specify: `GET /cars/{Id}?format=xml`
+
+### Resource Properties
+
+All resources and all properties of resources will be returned in responses with Pascal cased property names.
+
+However, all inbound data to the API can included resources and property names in any case, in either the body of the resuest or in the query string of the request, e.g. camelCase or PascalCase or snake-case.
+
+### Resource ID's
+
+All resources will have an `Id` property. The `Id` property will always be UUID of this format: `00000000-0000-0000-0000-000000000000`
+
+### Dates and Times
+
+All APIs return dates and times in ISO8601 format, and always in UTC. 
+
+If the date has no value the date propery will be omitted from the response.
+
+For example, a car has a `CreateDateUtc`, so the response to `GET /cars/{Id}` would include this date in this format:
+
+```
+{
+    "Id": "12345678-1234-1234-1234-123456789012",
+    "CreatedDateUtc": "2019-12-31T16:45:23.000Z"
+}
+```
+
+### Error Responses
+
+All API responses will support error responses, which take the place of any other response.
+
+The error response will have a basic format like this:
+
+```
+ResponseStatus": {
+    "ErrorCode": "string",
+    "Message": "string",
+    "StackTrace": "string",
+    "Errors": [
+      {
+        "ErrorCode": "string",
+        "FieldName": "string",
+        "Message": "string",
+        "Meta": {}
+      }
+    ],
+    "Meta": {}
+  },
+```
+
+where the `Errors` collection may or may not include an array of error details. Such as validation errors of the request.
+
+### Success Responses
+
+All API responses may support either a single resource or an array of resources in the response.
+
+This part of the response is only included (multually exclusive) if there is no error in the response. 
+
+All returned resources will have a top level property describing the resource.
+
+For example, the response to fetching a car resource like `GET /cars/{Id}` will return a response like this, with a top level property called `Car`:
+
+```
+{
+    "Car": {
+        "Id":"12345678-1234-1234-1234-123456789012"
+    }
+}
+```
+
+For example, the response to fetching all car resources like `GET /cars` will return a response like this, with a top level array property called `Cars`:
+
+```
+{
+    "Cars": [{
+            "Id":"12345678-1234-1234-1234-123456789012"
+        },
+        {
+            "Id":"12345678-1234-1234-1234-123456789013"
+        }
+    ]
+}
+```
+
+### Search APIs
+
+Some search type APIs resturn lists of multiple resources in the same call. These search APIs have a bunch of things in common that are useful to know:
+
+1. Date ranges, and other options.
+1. Ranges with: filtering, sorting, distinct
+1. Pagination with: offsets and result limits
+1. Embedded resources, which is useful to minimize chatty requests for key dependent resources.
+1. Metadata that summarize the returned result set, useful for summarising results, and pagination displays.
+
+Some search APIs return different results based upon the caller or other environment conditions (like the current time).
+
+For example, if a car owner wants to see their list of bookings that are in a particular state, they can call: `GET /cars/{Id}/bookings?states=Approved,InUse`
+
+This resultset would be very different if the borrower called the same API with the same paramters.
+
+### Ranges
+
+Some search API's support ranges such as ranges in dates and times. 
+
+Ranges are always optional, and will have a default range if not specified. The default range may be different between APIs. The intention of having a default range is to keep the result set to a meaningful limit of results, as opposed to returning all resources for all time (which can be very expensive to compute and expensive to transport across HTTP).
+
+>Note: Default ranges should be included in the documentation of the individual APIs.
+ 
+### Sorting and Filtering
+
+All search APIs support sorting and filtering, by using the `Sort` and `Filter` properties.
+
+You use sorting to arrange the results in a meaningful sort order. Sorting by one of the possible fields in the individual resource.
+
+You specify one single value of the `Sort` property with an indication of which direction to sort. Different resources have different properties to sort on. Some resources will have a default sort value, depending on the calling context.
+
+>Note: Default sort orders should be included in the documentation of the individual APIs.
+
+For example, to sort the bookings for a car by `ApprovedDateUtc` in descending order (i.e. most recent first), you would specify: `GET /cars/{Id}/bookings?sort=-ApprovedDateUtc`
+
+>Note: The `-` sign is required for decending order, the `+` sign is optional for ascending order. 
+
+You use filtering to limit the properties being returned in the result set. This is one way to limit the actual data values transmitted over the wire.
+
+You specify a comma-delimited list of fields that you wish to include in the results. 
+
+For example, to return only the `ApprovedDateUtc` property of all bookings for a car, you would specify: `GET /cars/{Id}/bookings?filter=ApprovedDateUtc`. The returned results will include only the `Id` of the resource and the `ApprovedDateUtc` of the resource.
+
+> Note: If you specify no `Filter` property, then no filter is applied. 
+
+### Limiting and Pagination
+
+All search APIs support limiting results by just using the `Limit` property, or pagination of results, by using a combination of the `Offset` and `Limit` properties.
+
+>Note: You can always Limit results without Pagination. For example, you may use the  `Sort` property and  `Limit`property together to narrow a set of specific resources.
+
+For example, to simply limit the maximum number of bookings for car that you want to see, you could specify `GET /cars/{Id}/bookings?limit=10`
+
+>Note: the `offset` is not required, and default sort orders and ranges will apply.
+
+For example, to paginate results, and given 51 possible results, and a page size of 10:
+    * If you want to see page 1 you would specify `GET /cars/{Id}/bookings?limit=10&offset=0`
+    * If you want to see page 2 you would specify `GET /cars/{Id}/bookings?limit=10&offset=10`
+
+### Embedded Resources
+
+Some primary resources (such as: `Car`, `CarBooking`, `UserAccount` etc) embed within them other descendant resources. 
+
+This is done as a (case by case) optimization to assist callers in reducing the need to aggregate these descendant resources in subsequent lookup queries. This strategy aims to reduce the need for chatty API calls to build object graphs of resources and their descendants, especially in the case of API's that return multiple resources (leading to N+1 lookups).
+
+However, some clients (specifically mobile clients) will find this extra data included in the response unecessary in some cases, and/or expensive to add to the compute and transport of that resource, in their specific scenario.
+
+There are two rules that apply to all embedded resources:
+
+1. If the API is a `GET` for a single resource, then all embedded decendant resources (and their descendants) are included by default in the response. These embedded resources must be explictly omitted by the caller.
+2. If the API is a `GET` for multiple resources, then all embedded descendant resources (and their descendants) are NOT included by default in the response. If embedded resources are required, they must be explicitly requested by the caller. 
+
+Specifying the inclusion or omission of embedded resource is controlled by the `Embed` property.
+
+>Note: each resource, could embed one or more descendant resources within it. The supported embedded resources should be included in the documentation of the individual APIs.
+
+For single resource responses, you would omit the embedded resources by specifying `embed=none`.
+
+For multiple resource responses, you would include all the embedded resources by specifying `embed=*` (or `embed=all`.
+
+For either single resource or multiple resources, you could include only the specified embedded of interest by specifying `embed=resourcename.childresourcename` in a comma separated list.
+
+For example, a `Car` resource will embed a `Rating` resource, and the `Verifications` resource for a `GET /cars/{Id}` call, but not embed those resources in the call to `GET /cars`. Callers that want to remove those embeddings in the call to the single car, would specify: `GET /cars/{Id}?embed=none`. Callers that do want to embed all resources in the call to multiple cars, would specify: `GET /cars?embed=all` 
+
+
+### Result Summaries
+
+All search type APIs will return metadata describing the set of multiple resources that are returned. This metadata will include any search options in the call as well (i.e. sort, limits, pagination, etc). 
+
+This information is useful for displaying paginated results, or interpreting the original search request.
+
+For example, the call to fetch all cars `GET /cars?sort=-CreatedDateUtc` will include the metadata in the response: 
+
+```
+{
+    "Cars":[],
+    "Metadata":{
+        
+    }
+}
+```
+
+
 ## Webhooks
 
 If you are interested in receiving notifications from Hourfleet for key events while your Car Share is operating, then you might want to subscribe to some of the webhooks that Hourfleet supports. See [Webhooks](webhooks.html) for more details.
