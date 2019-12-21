@@ -5,11 +5,11 @@ title: API Reference
 
 # API Reference
 
-Hourfleet is built on a foundation of HTTP REST API’s. This means that anything and everything that you and your customers can do in the Hourfleet App, can also be automated by any system on the internet by calling HTTP methods. 
+Hourfleet is built on a broad foundation of HTTP REST API’s. This means that anything and everything that you and your customers can do in the Hourfleet Apps, can also be automated by any system on the internet, by calling HTTP methods to Hourfleet APIs. 
 
-That's exactly how Hourfleet works.
+That's exactly how Hourfleet works under the covers.
 
-These are the base URL's of the API's that Hourfleet provides for your Car Share:
+These are the base URL's of the APIs that Hourfleet provides for your Car Share:
 
 - `https://yourcarshare.hourfleet.com:4445/api` - all API's directly related to Car Sharing. (i.e. cars, bookings, driverlicenses, availabilities etc.)
 - `https://yourcarshare.hourfleet.com:4431/api` - all API's for supporting services (i.e. verifications, profiles, locations, etc.)
@@ -19,31 +19,37 @@ These are the base URL's of the API's that Hourfleet provides for your Car Share
 
 Detailed documentation about each of these API's can be found at the above URL's.
 
-To see the documentation, swap `yourcarshare` in the above URL's with the name of your Car Share (or just use `demo` if you don't have one yet).
+To see the documentation, swap `yourcarshare` in the above URL's with the name of your Car Share.
+
+>Note: If you dont yet have your own Car Share, just replace `yourcarshare` with `demo`.
 
 ## REST Patterns
 
-All API's follow similar patterns, conventions, and formats. This deliberate to increase the usability and discovery of the APIs.
+All API's follow consistent patterns, conventions, and formats. This is deliberate to increase the usability and discovery of the APIs as you learn more about the Car Sharing domain, and the Hourfleet APIs that make it.
 
-Here are some general notes about all API's in Hourfleet.
+Here are some general notes about all API's in Hourfleet:
+
+All APIs are HTTPS only. HTTP access is forbidden.
 
 Hourfleet APIs only supports the following HTTP verbs: `POST`, `PUT`, `DELETE`, and `GET`.
 
-By default, all responses are returned in JSON, although other formats are supported, and the format can be specified by clients. (see [Response Formats](/api.html#Response-Formats) below)
+By default, all responses are returned in JSON, although other formats are supported, and the format can be specified by clients. (see [Response Formats](#Response-Formats) below)
 
-All REST oeprations support both JSON and URL encoded request body data, and also request query string parameters for passing in parameters (although body data is not recommended for `GET`requests).
+All REST oeprations support both JSON and URL encoded request body data, and also URL encoded request query string parameters for passing in parameters
 
-API routes for resources are always pluralised. For example the route for fetching a specfici car is: `GET /cars/{Id}` where `{Id}` denotes a substitution of the `Id` property of the car resource in the route.
+>Note: body data in `GET` requests is not recommended.
 
-Updates to resources is always with a 'partial update strategy', using the `PUT` verb rather then supporting `PATCH` verb. Most API's will specify precisely what properties of a resource can be updated, and many of them will be optional, so that you have fine grained control over which properties you specifically want to update in a single call. Some properties of some resource are not updatedable.
+API routes for resources are always pluralised. For example the route for fetching a specfic car is: `GET /cars/{Id}` where `{Id}` denotes a substitution of the `Id` property of the car resource in the route.
+
+Updates to resources uses the 'partial update strategy', using the `PUT` verb. The `PATCH` verb is not presently supported. Most update API's will specify precisely what properties of a resource can be updated, and many of them will be optional, so that you have fine grained control over which properties you specifically want to update in a single call. Some properties of some resource are not updatedable.
 
 >Note: The optionality of parameters in any REST operation should be included in the documentation of the individual APIs.
 
-`POST` operations will always return a `Location` header including the URL to the nely created resource.
+`POST` operations will always create a new unique resource and will always return a `Location` header with the URL to the newly created resource.
 
 All API's support rate limiting. Rate limits for individual APIs will vary however, based on both the caller and the frequency. An `HTTP 429` will be returned with a `Retry-After` header specifying the time when the limit will be lifted.
 
-Many API's wil be secured, and will require authorizartion in the form of a OAuth2 `Bearer` token, which must be present in the `Authorization`header. (see [Authorized Access](/api.html#Authorized-Access) below)
+Many API's wil be secured, and will require authorization in the form of a OAuth2 `Bearer` token, which must be present in the `Authorization`header. (see [Authorized Access](#Authorized-Access) below)
 
 ### Response Formats
 
