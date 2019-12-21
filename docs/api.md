@@ -29,19 +29,21 @@ Here are some general notes about all API's in Hourfleet.
 
 Hourfleet APIs only supports the following HTTP verbs: `POST`, `PUT`, `DELETE`, and `GET`.
 
-By default, all responses are returned in JSON, although other formats are supported, and the format can be specified by clients. (see [Response Formats](#Response-Formats) below)
+By default, all responses are returned in JSON, although other formats are supported, and the format can be specified by clients. (see [Response Formats](/api.html#Response-Formats) below)
 
 All REST oeprations support both JSON and URL encoded request body data, and also request query string parameters for passing in parameters (although body data is not recommended for `GET`requests).
 
-Resources are updated with a partial update strategy, using the `PUT` verb rather then supporting `PATCH` verb. Most API's will specify precisely what properties of a resource can be updated, and many of them will be optional, so that you have fine grained control over which properties you specifically want to update in a single call.
+API routes for resources are always pluralised. For example the route for fetching a specfici car is: `GET /cars/{Id}` where `{Id}` denotes a substitution of the `Id` property of the car resource in the route.
 
->Note: The optionality of paramters in any REST operation should be included in the documentation of the individual APIs.
+Updates to resources is always with a 'partial update strategy', using the `PUT` verb rather then supporting `PATCH` verb. Most API's will specify precisely what properties of a resource can be updated, and many of them will be optional, so that you have fine grained control over which properties you specifically want to update in a single call. Some properties of some resource are not updatedable.
+
+>Note: The optionality of parameters in any REST operation should be included in the documentation of the individual APIs.
 
 `POST` operations will always return a `Location` header including the URL to the nely created resource.
 
 All API's support rate limiting. Rate limits for individual APIs will vary however, based on both the caller and the frequency. An `HTTP 429` will be returned with a `Retry-After` header specifying the time when the limit will be lifted.
 
-Many API's wil be secured, and will require authorizartion in the form of a OAuth2 `Bearer` token, which must be present in the `Authorization`header. (see [Authorized Access](#Authorized-Access) below)
+Many API's wil be secured, and will require authorizartion in the form of a OAuth2 `Bearer` token, which must be present in the `Authorization`header. (see [Authorized Access](/api.html#Authorized-Access) below)
 
 ### Response Formats
 
@@ -83,14 +85,15 @@ When specifying dates and times in any operation, always specify the date and ti
 
 ### Error Responses
 
-All API responses will support structured error responses, which take the place of any other response.
+All API responses will support structured error responses.
 
 All error responses will return an appropriate HTTP status code.
 
-The error response will have a basic body structure like this:
+An error response will have a response structure like this:
 
 ```
-ResponseStatus": {
+{
+  ResponseStatus": {
     "ErrorCode": "string",
     "Message": "string",
     "Errors": [
@@ -102,16 +105,17 @@ ResponseStatus": {
       }
     ],
     "Meta": {}
-  },
+  }
+}
 ```
 
-where the `Errors` collection may or may not include an array of error details. Such as multiple validation errors of the request.
+where the `Errors` array may or may not include an array of error details. Such as when a request has multiple validation errors describing the problem with the request.
 
 ### Success Responses
 
-All API responses will support either a single resource or an array of resources in the response (or no resource property in the response). The existance of this single resource or array of multiple resources is mutually exclusive with a error in the response (one or the other but never both). 
+All API responses will support either a single resource or an array of resources in the response (or no resource property in the response). The existance of this single resource or array of multiple resources is mutually exclusive with a `ResponseStatus` property in the response. 
 
-All returned resources will have a top level property named for the specific resource, either as a single object or as an array of resources.
+All returned resources will have a top level property named for the specific resource, either as a single resource (singularized) or as an array of resources (pluralized).
 
 For example, the response to fetching a car resource like `GET /cars/{Id}` will return a response like this, with a top level property called `Car`:
 
