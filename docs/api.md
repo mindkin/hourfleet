@@ -47,6 +47,8 @@ Updates to resources uses the 'partial update strategy', using the `PATCH` verb.
 
 `POST` operations will always create a new unique resource and will always return a `Location` header with the URL to the newly created resource.
 
+Generally speaking, `POST`, `PUT`, `PATCH`, `GET` operations will return a copy of the respective resource(s). `POST` returns a `HTTP 201` (Created). `PUT` and `PATCH` returns a `HTTP 202` (Accepted). `DELETE` returns a `HTTP 204` (No Content) with no resource in the response.
+
 All API's support rate limiting. Rate limits for individual APIs will vary however, based on both the caller and the frequency. An `HTTP 429` will be returned with a `Retry-After` header specifying the time when the limit will be lifted.
 
 Many API's wil be secured, and will require authorization in the form of a OAuth2 `Bearer` token, which must be present in the `Authorization`header. (see [Authorized Access](#Authorized-Access) below).
@@ -165,7 +167,7 @@ For example, if a car owner wants to see their list of bookings that are in a pa
 
 This resultset would be very different if the borrower called the same API with the same paramters.
 
-### Ranges
+#### Ranges
 
 Some search API's support ranges such as ranges in dates and times. 
 
@@ -173,7 +175,7 @@ Ranges are always optional, and will have a default range if not specified. The 
 
 >Note: Default ranges should be included in the documentation of the individual APIs.
  
-### Sorting and Filtering
+#### Sorting and Filtering
 
 All search APIs support sorting and filtering, by using the `Sort` and `Filter` properties.
 
@@ -195,7 +197,7 @@ For example, to return only the `ApprovedDateUtc` property of all bookings for a
 
 > Note: If you specify no `Filter` property, then no filter is applied. 
 
-### Limiting and Pagination
+#### Limiting and Pagination
 
 All search APIs support limiting results by just using the `Limit` property, or pagination of results, by using a combination of the `Offset` and `Limit` properties.
 
@@ -209,33 +211,7 @@ For example, to paginate results, and given 51 possible results, and a page size
     * If you want to see page 1 you would specify `GET /cars/{Id}/bookings?limit=10&offset=0`
     * If you want to see page 2 you would specify `GET /cars/{Id}/bookings?limit=10&offset=10`
 
-### Embedded Resources
-
-Some primary resources (such as: `Car`, `CarBooking`, `UserAccount` etc) embed within them other descendant resources. 
-
-This is done as a (case by case) optimization to assist callers in reducing the need to aggregate these descendant resources in subsequent lookup queries. This strategy aims to reduce the need for chatty API calls to build object graphs of resources and their descendants, especially in the case of API's that return multiple resources (leading to N+1 lookups).
-
-However, some clients (specifically mobile clients) will find this extra data included in the response unecessary in some cases, and/or expensive to add to the compute and transport of that resource, in their specific scenario.
-
-There are two rules that apply to all embedded resources:
-
-1. If the API is a `GET` for a single resource, then all embedded decendant resources (and their descendants) are included by default in the response. These embedded resources must be explictly omitted by the caller.
-2. If the API is a `GET` for multiple resources, then all embedded descendant resources (and their descendants) are NOT included by default in the response. If embedded resources are required, they must be explicitly requested by the caller. 
-
-Specifying the inclusion or omission of embedded resource is controlled by the `Embed` property.
-
->Note: each resource, could embed one or more descendant resources within it. The supported embedded resources should be included in the documentation of the individual APIs.
-
-For single resource responses, you would omit the embedded resources by specifying `embed=none`.
-
-For multiple resource responses, you would include all the embedded resources by specifying `embed=*` (or `embed=all`.
-
-For either single resource or multiple resources, you could include only the specified embedded of interest by specifying `embed=resourcename.childresourcename` in a comma separated list.
-
-For example, a `Car` resource will embed a `Rating` resource, and the `Verifications` resource for a `GET /cars/{Id}` call, but not embed those resources in the call to `GET /cars`. Callers that want to remove those embeddings in the call to the single car, would specify: `GET /cars/{Id}?embed=none`. Callers that do want to embed all resources in the call to multiple cars, would specify: `GET /cars?embed=all` 
-
-
-### Result Summaries
+#### Result Summaries
 
 All search APIs will return metadata describing the set of multiple resources that are returned. This metadata will include any search options in the call as well (i.e. sort, limits, pagination, etc). 
 
@@ -261,6 +237,44 @@ For example, the call to fetch all cars `GET /cars?sort=-CreatedDateUtc` will in
   }
 }
 ```
+
+### Embedded Resources
+
+Applies only to `GET`operations.
+
+Some primary resources (such as: `Car`, `CarBooking`, `UserAccount` etc) embed within them other descendant resources when featched with `GET`.
+
+This is done as a (case by case) optimization to assist callers in reducing the need to aggregate these descendant resources in subsequent lookup queries. This strategy aims to reduce the need for chatty API calls to build object graphs of resources and their descendants, especially in the case of API's that return multiple resources (leading to N+1 lookups).
+
+However, some clients (specifically mobile clients) will find this extra data included in the response unecessary in some cases, and/or expensive to add to the compute and transport of that resource, in their specific scenario.
+
+There are two rules that apply to all embedded resources:
+
+1. If the API is a `GET` for a single resource, then all embedded decendant resources (and their descendants) are included by default in the response. These embedded resources must be explictly omitted by the caller.
+2. If the API is a `GET` for multiple resources, then all embedded descendant resources (and their descendants) are NOT included by default in the response. If embedded resources are required, they must be explicitly requested by the caller. 
+
+Specifying the inclusion or omission of embedded resource is controlled by the `Embed` property.
+
+>Note: each resource, could embed one or more descendant resources within it. The supported embedded resources should be included in the documentation of the individual APIs.
+
+For single resource responses, you would omit the embedded resources by specifying `embed=none`.
+
+For multiple resource responses, you would include all the embedded resources by specifying `embed=*` (or `embed=all`.
+
+For either single resource or multiple resources, you could include only the specified embedded of interest by specifying `embed=resourcename.childresourcename` in a comma separated list.
+
+For example, a `Car` resource will embed a `Rating` resource, and the `Verifications` resource for a `GET /cars/{Id}` call, but not embed those resources in the call to `GET /cars`. Callers that want to remove those embeddings in the call to the single car, would specify: `GET /cars/{Id}?embed=none`. Callers that do want to embed all resources in the call to multiple cars, would specify: `GET /cars?embed=all` 
+
+### Response Caching
+
+All `GET` API responses are cached by the API. Since fetched representations may vary for different callers, the cached responses are built once, and cached for either all callers or for specific callers.
+
+>Note: all cached `GET`responses are cleared in the API whenever a `POST`, `PATCH`, `DELETE` operation is executed on that resource (or related resource) that could change the cached `GET` responses.
+
+Cached responses all have a TTL, that also varies depending on the API.
+
+Cached responses also are also returned with client caching headers that advise clients whether the responses should be cached by clients. The caching strategy is to use `ETag` and `If-None-Match` verification schemes. This means that clients should feel free to cache these responses for as long as the TTL advises, but whenever the resource is required again, always send the `ETag` in a `If-None-Match` header to see if the cached response has become stale in the interim. A `HTTP 304` (Not Modified) will be returned if the cached value has not changed in the interim. Otherwise a fresh value of the response will be cacluulated by the API and returned to the client, with a new `ETag`
+
 
 ## Webhooks
 
