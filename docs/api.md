@@ -23,7 +23,7 @@ To see the documentation, swap `yourcarshare` in the above URL's with the name o
 
 >Note: If you dont yet have your own Car Share, just replace `yourcarshare` with `demo`.
 
-## REST Patterns
+## API Patterns
 
 All API's follow consistent patterns, conventions, and formats. This is deliberate to increase the usability and discovery of the APIs as you learn more about the Car Sharing domain, and the Hourfleet APIs that make it.
 
@@ -31,7 +31,7 @@ Here are some general notes about all API's in Hourfleet:
 
 All APIs are HTTPS only. HTTP access is forbidden.
 
-Hourfleet APIs only supports the following HTTP verbs: `POST`, `PUT`, `DELETE`, and `GET`.
+Hourfleet APIs only supports the following HTTP verbs: `POST`, `PUT`, `PATCH`, `DELETE`, and `GET`. Although not strictly REST, there are some operations that reflect actions in the API, such as locking a car, or rating a user.
 
 By default, all responses are returned in JSON, although other formats are supported, and the format can be specified by clients. (see [Response Formats](#Response-Formats) below)
 
@@ -41,7 +41,7 @@ All REST oeprations support both JSON and URL encoded request body data, and als
 
 API routes for resources are always pluralised. For example the route for fetching a specfic car is: `GET /cars/{Id}` where `{Id}` denotes a substitution of the `Id` property of the car resource in the route.
 
-Updates to resources uses the 'partial update strategy', using the `PUT` verb. The `PATCH` verb is not presently supported. Most update API's will specify precisely what properties of a resource can be updated, and many of them will be optional, so that you have fine grained control over which properties you specifically want to update in a single call. Some properties of some resource are not updatedable.
+Updates to resources uses the 'partial update strategy', using the `PATCH` verb. Most update API's will specify precisely what properties of a resource can be updated, and many of them will be optional, so that you have fine grained control over which properties you specifically want to update in a single call. Some properties of some resource are not updatedable.
 
 >Note: The optionality of parameters in any REST operation should be included in the documentation of the individual APIs.
 
@@ -49,7 +49,9 @@ Updates to resources uses the 'partial update strategy', using the `PUT` verb. T
 
 All API's support rate limiting. Rate limits for individual APIs will vary however, based on both the caller and the frequency. An `HTTP 429` will be returned with a `Retry-After` header specifying the time when the limit will be lifted.
 
-Many API's wil be secured, and will require authorization in the form of a OAuth2 `Bearer` token, which must be present in the `Authorization`header. (see [Authorized Access](#Authorized-Access) below)
+Many API's wil be secured, and will require authorization in the form of a OAuth2 `Bearer` token, which must be present in the `Authorization`header. (see [Authorized Access](#Authorized-Access) below).
+
+Most APIs will be restricted by role (RBAC) of the caller. Common roles include: `user`, `ops` and `clientapplication`.
 
 ### Response Formats
 
@@ -61,7 +63,7 @@ For example, to return the a `Car` resource in XML, you would specify: `GET /car
 
 All resources and all properties of resources will be returned in all responses with PascalCase property resource names and PascalCase property names.
 
-However, all inbound data to the APIs (i.e. in POST, PUT, GET or DELETE requests) can include resource and property names in any case, in either the body of the request or in the query string of the request, e.g. camelCase or PascalCase or snake-case.
+However, all inbound data to the APIs (i.e. in POST, PUT, PATCH, GET or DELETE requests) can include resource and property names in any case, in either the body of the request or in the query string of the request, e.g. camelCase or PascalCase or snake-case.
 
 ### Resource ID's
 
@@ -86,14 +88,14 @@ For example, a car has a `CreateDateUtc`, so the response to `GET /cars/{Id}` wo
 
 When specifying dates and times in any operation, always specify the date and time in UTC. Only UTC dates and times will be acceptable.
 
->Note: All date peroperties in all resources will be suffixed with `Utc` as a reminder.
+>Note: All date peroperties in all resources will be suffixed with `Utc` as a reminder. For example, `CreatedDateUtc` and `LastModifiedDateUtc`
 
 
 ### Error Responses
 
 All API responses will support structured error responses.
 
-All error responses will return an appropriate HTTP status code.
+All error responses will return an appropriate HTTP status code. e.g. 200, 401, 404, 500
 
 An error response will have a response structure like this:
 
@@ -235,7 +237,7 @@ For example, a `Car` resource will embed a `Rating` resource, and the `Verificat
 
 ### Result Summaries
 
-All search type APIs will return metadata describing the set of multiple resources that are returned. This metadata will include any search options in the call as well (i.e. sort, limits, pagination, etc). 
+All search APIs will return metadata describing the set of multiple resources that are returned. This metadata will include any search options in the call as well (i.e. sort, limits, pagination, etc). 
 
 This information is useful for displaying paginated results, or interpreting the original search request.
 
@@ -244,12 +246,21 @@ For example, the call to fetch all cars `GET /cars?sort=-CreatedDateUtc` will in
 ```
 {
     "Cars":[],
-    "Metadata":{
-        
-    }
+    Metadata": {
+    "Total": 9,
+    "Limit": 0,
+    "Offset": 0,
+    "Sort": {
+      "By": "CreatedDateUtc",
+      "Direction": "Descending"
+    },
+    "Filter": {
+      "Fields": []
+    },
+    "Distinct": null
+  }
 }
 ```
-
 
 ## Webhooks
 
