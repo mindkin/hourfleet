@@ -31,35 +31,35 @@ Here are some general notes about all API's in Hourfleet:
 
 All APIs are HTTPS only. HTTP access is forbidden.
 
-Hourfleet APIs only supports the following HTTP verbs: `POST`, `PUT`, `PATCH`, `DELETE`, and `GET`. Although not strictly REST, there are some operations that reflect actions in the API, such as locking a car, or rating a user.
+Hourfleet APIs only supports the following HTTP verbs: `POST`, `PUT`, `PATCH`, `DELETE`, and `GET`. Although not strictly REST, there are some other operations that reflect RPC-tyoe 'actions' in the API, such as locking a car (`PUT /cars/{Id}/lock`), or rating a user.
 
-By default, all responses are returned in JSON, although other formats are supported, and the format can be specified by clients. (see [Response Formats](#Response-Formats) below)
+By default, all responses are returned in JSON, although other formats are supported, the client can specify the format in the request. (see [Response Formats](#Response-Formats) below)
 
-All REST oeprations support both JSON and URL encoded request body data, and also URL encoded request query string parameters for passing in parameters
+All operations support both JSON and URL encoded request body data, and also URL encoded query string parameters for passing in parameters to operations.
 
->Note: body data in `GET` requests is not recommended.
+>Note: including body data in `GET` requests is not recommended.
 
-API routes for resources are always pluralised. For example the route for fetching a specfic car is: `GET /cars/{Id}` where `{Id}` denotes a substitution of the `Id` property of the car resource in the route.
+Resources in API routes are always pluralised. For example the route for fetching a specfic car is: `GET /cars/{Id}`.
 
-Updates to resources uses the 'partial update strategy', using the `PATCH` verb. Most update API's will specify precisely what properties of a resource can be updated, and many of them will be optional, so that you have fine grained control over which properties you specifically want to update in a single call. Some properties of some resource are not updatedable.
+Updates to resources uses the 'partial update strategy', using the `PATCH` verb. Most update API's will specify precisely what properties of a resource can be updated, and many of them will be optional, so that you have fine grained control over which properties you specifically want to update in a single call. Some properties of some resource are not updatedable. Full update of resources with a `PUT` is generally not somrthing common in Hourfleet.
 
 >Note: The optionality of parameters in any REST operation should be included in the documentation of the individual APIs.
 
-`POST` operations will always create a new unique resource and will always return a `Location` header with the URL to the newly created resource.
+`POST` operations will always create a new unique resource, and will always return a `Location` header with the URL to the newly created resource.
 
-Generally speaking, `POST`, `PUT`, `PATCH`, `GET` operations will return a copy of the respective resource(s). `POST` returns a `HTTP 201` (Created). `PUT` and `PATCH` returns a `HTTP 202` (Accepted). `DELETE` returns a `HTTP 204` (No Content) with no resource in the response.
+Generally speaking, `POST`, `PUT`, `PATCH`, `GET` operations will return a copy of the respective resource(s). `POST` returns a `HTTP 201` (Created) with a copy of the created resource. `PUT` and `PATCH` returns a `HTTP 202` (Accepted) with the updated resources. `DELETE` returns a `HTTP 204` (No Content) with no resource in the response.
 
 All API's support rate limiting. Rate limits for individual APIs will vary however, based on both the caller and the frequency. An `HTTP 429` will be returned with a `Retry-After` header specifying the time when the limit will be lifted.
 
-Many API's wil be secured, and will require authorization in the form of a OAuth2 `Bearer` token, which must be present in the `Authorization`header. (see [Authorized Access](#Authorized-Access) below).
+Most API operations wil be secured, and will require authorization in the form of a OAuth2 `Bearer` token, which must be present in the `Authorization`header. (see [Authorized Access](#Authorized-Access) below).
 
 Most APIs will be restricted by role (RBAC) of the caller. Common roles include: `user`, `ops` and `clientapplication`.
 
 ### Response Formats
 
-All APIs return JSON by default. To return other formats like XML, CSV, JSV or HTML, specify the `format` property in the query, or in the `Accept` header.
+All APIs return JSON by default. To return other formats like: XML, CSV, JSV or HTML, specify the `format` property in the query, or in the `Accept` header.
 
-For example, to return the a `Car` resource in XML, you would specify: `GET /cars/{Id}?format=xml` or include the header: `Accept: application/xml`
+For example, to return the a `Car` resource in XML, you could either specify: `GET /cars/{Id}?format=xml` or include the header: `Accept: application/xml`
 
 ### Case Sensitivity
 
@@ -99,7 +99,7 @@ All API responses will support structured error responses.
 
 All error responses will return an appropriate HTTP status code. e.g. 200, 401, 404, 500
 
-An error response will have a response structure like this:
+An error response will have a `ResponseStatus` property structure like this:
 
 ```
 {
@@ -153,25 +153,25 @@ For example, the response to fetching all car resources like `GET /cars` will re
 
 ### Search APIs
 
-Some search type APIs resturn lists of multiple resources in the same call. These search APIs have a bunch of things in common that are useful to know:
+Some search type APIs resturn lists of multiple resources in one call. These search APIs have a bunch of things in common that are useful to know:
 
-1. Date ranges, and other options.
-1. Ranges with: filtering, sorting, distinct
-1. Pagination with: offsets and result limits
+1. Date ranges, and other filtering options.
+1. Filtering fields, sorting and distinct result sets
+1. Pagination with: offsets and limits
 1. Embedded resources, which is useful to minimize chatty requests for key dependent resources.
 1. Metadata that summarize the returned result set, useful for summarising results, and pagination displays.
 
-Some search APIs return different results based upon the caller or other environment conditions (like the current time).
+Some search APIs return different results based upon the caller or other environment conditions, for exmaple: the current time, or the state of the resource.
 
 For example, if a car owner wants to see their list of bookings that are in a particular state, they can call: `GET /cars/{Id}/bookings?states=Approved,InUse`
 
-This resultset would be very different if the borrower called the same API with the same paramters.
+The result set from that search would be very different if the borrower called the same API with the same parameters.
 
 #### Ranges
 
 Some search API's support ranges such as ranges in dates and times. 
 
-Ranges are always optional, and will have a default range if not specified. The default range may be different between APIs. The intention of having a default range is to keep the result set to a meaningful limit of results, as opposed to returning all resources for all time (which can be very expensive to compute and expensive to transport across HTTP).
+Date ranges are always optional, and will have a default range if not specified. The default range may be different between APIs. The intention of having a default range is to keep the result set to a meaningful limit of results, as opposed to returning all resources for all time (which can be very expensive to compute and expensive to transport across HTTP).
 
 >Note: Default ranges should be included in the documentation of the individual APIs.
  
