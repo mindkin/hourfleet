@@ -31,7 +31,7 @@ Here are some general notes about all API's in Hourfleet:
 
 All APIs are HTTPS only. HTTP access is forbidden.
 
-Hourfleet APIs only supports the following HTTP verbs: `POST`, `PUT`, `PATCH`, `DELETE`, and `GET`. Although not strictly REST, there are some other operations that reflect RPC-tyoe 'actions' in the API, such as locking a car (`PUT /cars/{Id}/lock`), or rating a user.
+Hourfleet APIs only supports the following HTTP verbs: `GET`, `POST`, `PUT`, `PATCH`, and `DELETE`. Although not strictly REST, there are some other operations that reflect more RPC-type 'actions' in the API, such as locking a car (`PUT /cars/{Id}/lock`).
 
 By default, all responses are returned in JSON, although other formats are supported, the client can specify the format in the request. (see [Response Formats](#Response-Formats) below)
 
