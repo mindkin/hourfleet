@@ -1,3 +1,8 @@
+---
+layout: default
+title: Custom Verification
+---
+
 # Custom Verification
 
 Hourfleet has a rich verification system. Verifications as used to ensure that personal details that are supplied by your customers are verified and genuine.
