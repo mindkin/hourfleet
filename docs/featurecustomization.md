@@ -1,3 +1,8 @@
+---
+layout: default
+title: Feature Customization
+---
+
 ## Software is Expensive
 
 Software is expensive stuff. Both to build, and to maintain. It is very likely that you are using Hourfleet for this reason, because it's too expensive to build and maintain the entire car share software yourself. You have better things to spend money on building and running your Car Sharing business. 
