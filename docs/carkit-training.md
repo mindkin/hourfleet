@@ -1,3 +1,8 @@
+---
+layout: default
+title: Carkit Training
+---
+
 ## Introduction
 
 This section outlines how to start using your Tap Tap Go device. In time all this will become second nature, but for you and your customers getting accustomed to how this device operates will take a few practice runs. The purpose of this guide is to help you quickly become comfortable accessing your car using the Tap Tap Go device. We cover the how the device works, meaning of the LED light on the Tap Tap Go device, and some troubleshooting steps.
