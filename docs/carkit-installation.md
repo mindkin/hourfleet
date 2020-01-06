@@ -1,3 +1,8 @@
+---
+layout: default
+title: Carkit Installation
+---
+
 ## Verifying Your Cellular Connectivity  
 
 The first test we need to conduct is designed to ensure that your SIM provides cellular data connectivity. To do this you'll need the following:
