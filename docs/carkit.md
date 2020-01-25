@@ -72,11 +72,9 @@ When inserting the SIM card into the modem,  it is inserted with the gold electr
 
 ### Pricing
 
-The purchase price of an Hourfleet carkit includes the carkit itself, and all the provisioning work to embed your car key. 
+The [purchase price](https://www.wix.hourfleet.com/carkits) of an Hourfleet carkit includes the carkit itself, and all the provisioning work to embed your car key. 
 
-Contact [Hourfleet Sales](mailto:sales@hourfleet.com) for pricing and availability.
-
-The price **does not include** the cost of the car key itself, nor the postage delivery of that car key to our technician.
+The price does not include the cost of the car key itself, nor the postage delivery of that car key to our technician.
 
 
 ### Installation  
